@@ -1,4 +1,4 @@
-Lumina\ |reg| Handbook |release|
+Lumina Handbook |release|
 ==================================
 
 Contents:
