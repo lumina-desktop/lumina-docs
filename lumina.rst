@@ -1,8 +1,5 @@
 .. _Lumina:
 
-Lumina
-*******
-
 The Lumina Desktop Environment (Lumina for short) is a lightweight, XDG-compliant, BSD-licensed desktop environment that focuses specifically on streamlining
 the ability to get work done while minimizing system overhead. It is specifically designed for PC-BSD® and FreeBSD, but has also been ported to many other
 BSD and Linux operating systems. It is based on the Qt graphical toolkit and the Fluxbox window manager, and uses a small number of X utilities for various
@@ -67,7 +64,7 @@ interact with that application directly. The current system time shown by the cl
 .. _System Dashboard:
 
 System Dashboard
-----------------
+****************
 
 The "System Dashboard" button is located at the far right of the panel and shown in Figure 6.9b. 
 
@@ -92,7 +89,7 @@ This button provides quick access to hardware-specific information or operations
 .. _Right-Click Menu:
 
 Right-Click Menu
-----------------
+****************
 
 If the user right-clicks on the desktop, a menu of quick shortcuts will appear for instant access and the title of the menu will indicate the name of the
 workspace. While this menu can be customized, here is a quick summary of the default items on the menu.
@@ -120,7 +117,7 @@ workspace. While this menu can be customized, here is a quick summary of the def
 .. _Lumina Configuration Utility:
 
 Lumina Configuration Utility
-----------------------------
+****************************
 
 The Lumina Configuration utility, shown in Figure 6.9c, allows the user to configure every aspect of the desktop and is the recommended way to make changes.
 To launch this utility, click the "User" icon then :menuselection:`Desktop Preferences --> Desktop Appearance/Plugins` or, right-click the desktop and click
@@ -256,12 +253,18 @@ the desktop settings to either system defaults or Lumina defaults.
 
 The "Window System" tab allows the user to setup various configuration options for the window manager. These options include the number of workspaces,
 where new windows are placed on the screen, when windows receive focus, and the appearance of the frame around application windows.
-  
+
+.. index:: Utilities
+.. _Utilities:
+
+Utilities
+*********
+
 .. index:: Lumina
 .. _Lumina Screenshot:
 
 Lumina Screenshot
------------------
+=================
 
 This utility can be used to take screenshots of the desktop or applications and save them as PNG image files. To launch this utility, click the icon for
 :menuselection:`System Applications --> Lumina Screenshot` or type :command:`lumina-screenshot` from an xterm.
@@ -282,7 +285,7 @@ open a window where you can specify the name and location of the saved screensho
 .. _Insight File Manager:
 
 Insight File Manager
---------------------
+====================
 
 The Insight file manager, shown in Figure 6.9k, allows the user to easily browse and modify files on the local system on a per-directory basis. To open
 Insight, right-click the desktop and select "Browse System" or type :command:`lumina-fm` from an xterm.
@@ -329,7 +332,7 @@ A few additional options may be available at the bottom of the window, depending
 .. _Lumina Open:
 
 Lumina Open
------------
+===========
 
 To open a file, directory, or URL from the command line, use :command:`lumina-open` followed by the full path to the file or the URL. This utility will look
 for an appropriate application to use to open the specified file or URL. If there is no default application registered for the input type, a small dialog will
@@ -353,7 +356,7 @@ organizes the available applications into three types:
 .. _Lumina Search:
 
 Lumina Search
--------------
+=============
 
 The :command:`lumina-search` utility provides the ability to easily search for and launch applications or to quickly search for file and directories. The "*" wildcard
 can be used in the search terms and the search will include hidden files if the search term starts with a dot ("."). Figure 6.9m shows a screenshot of this utility.
@@ -378,7 +381,7 @@ and clicking the "-" button. By default, the "Save as Defaults" option is select
 .. _Lumina Xconfig:
 
 Lumina Xconfig
---------------
+==============
 
 The :command:`lumina-xconfig` utility is a graphical front-end to the :command:`xrandr` command line utility. It provides the ability to probe and manage any number
 of attached monitors. To start this utility, right-click the desktop and select :menuselection:`Settings --> Screen Configuration`, click the "User" icon then
