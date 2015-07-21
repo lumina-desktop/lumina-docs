@@ -3,6 +3,269 @@
 Changelog
 *********
 
-**Updates in Lumina 0.8.5:**
+This section describes the major features and changes to each version of Lumina, with the most recent version of Lumina listed first.
 
-*
+.. index:: changelog
+.. _Lumina 0.8.5:
+
+Lumina 0.8.5
+============
+
+* The user button has received a significant speed boost, and can now be used for browsing files and directories within the user’s home directory.
+   
+* Desktop icons have received a large number of changes in styling, amount of visible text, and functionality. There is also a new feature to automatically generate plugins for items in the
+  user’s Desktop directory, where each plugin may be individually moved/changed rather than trapped within a container like the “desktopview” plugin.
+    
+* Added a desktop plugin for monitoring the system hardware status such as memory and CPU usage, CPU temperature, and disk I/O. This functionality requires operating system support
+  and is currently only available for PC-BSD®, FreeBSD, and Debian.
+    
+* Added a desktop plugin container for running custom QtQuick/QML scripts. While there is only a single sample plugin of this type available at the present time, it is now possible for users
+  to create their own custom interface plugins using the QML scripting language, which is similar to JavaScript or CSS.
+  
+* Lumina has been fully translated to German, Russian, and Spanish, and almost-completely translated to Catalan (89%), Chinese (61%), Estonian (53%), Indonesian (76%), Polish (89%),
+  Portuguese (89%), Portuguese-Brazilian (89%), Swedish (91%), and Turkish (88%).
+
+* The new system for desktop plugin settings requires that any desktop plugins be reset back to defaults when upgrading to this version of Lumina.
+
+* There is a known conflict between Qt 5.4+ and Fluxbox 1.3.7 which prevents the “close” button from working on unlocked desktop plugins. To work around this issue, right-click on the title
+  for the plugin and select the “close” option from the menu to remove the desktop plugin. Alternatively, you may also remove desktop plugins using the :ref:`Lumina Configuration Utility`.
+
+.. index:: changelog
+.. _Lumina 0.8.4:
+
+Lumina 0.8.4
+============
+
+* The panel has been improved to add support for mouse tracking, variable-length panels that use a percentage of the screen edge length, and the ability to pin the panel to a particular
+  location on the screen edge by either corner or centered. 
+  
+* Rescale the panel size if the monitor used in the previous session was a different screen resolution.
+  
+* For hidden panels, 1% of the panel size is visible on the screen while it is hidden, rather than using a hard-coded pixel size. This is better for high-resolution screens.
+    
+* Remove the restriction that panels be on opposite screen edges.
+
+* :ref:`Lumina Search` now supports the ability to change "Files or Directories" search preferences on a temporary basis. New command-line flags can be used to start searches instantly
+    
+* Search functionality has been integrated into the :ref:`Insight File Manager`. The :kbd:`Ctrl-F` keyboard shortcut or the “Search” menu option will start a search for a file or directory
+  with the current directory as the starting point.
+    
+* A “Search” button has been added to the  home directory browser in the user menu. This allows the user to easily start searching for a file or directory within the selected directory.
+
+* The new “Favorites” system backend is much faster and more reliable than the old system of symbolic links. Existing favorites should be automatically converted to the new format when you
+  log into the new version of Lumina.
+
+* The :command:`lumina-fileinfo` utility can be used to view basic file information, such as timestamps, owner/group information, file size, and read/write permissions. If the file is an XDG
+  desktop shortcut that the user has permission to modify, this utility provides the ability to make changes to that shortcut by right-clicking on files in the desktop view plugin or within
+  the :ref:`Insight File Manager` and selecting the “Properties” option.
+  
+* Better application recommendations for files and URLs, especially for web browsers or email clients.
+   
+* Major cleanup of XCB library usage.
+    
+* Hardware-brightness controls now used for PC-BSD® by default, if supported by the system hardware.
+    
+* Putting the system into the suspend state is now supported for PC-BSD® and Debian.
+    
+* New clock display formats.
+    
+* A large number of session cleanup and session initialization improvements, including resetting the user’s previous screen brightness and audio volume settings.
+   
+* New default keyboard shortcuts for tiling the open windows on the screen, on new user configurations only.
+
+* Better support for the URL input format when required by an application.
+   
+* The user’s “log out” window appears much faster when activated.
+
+* There is a known bug in Lumina 0.8.4 regarding “unlocked” desktop plugins. The close and maximize buttons for the plugin are unresponsive when using Qt 5.4.1, preventing the user from
+  easily removing or maximizing a desktop plugin. As a temporary workaround, right-click the titlebar for the unlocked plugin and select close or maximize from the menu.
+
+.. index:: changelog
+.. _Lumina 0.8.3:
+
+Lumina 0.8.3
+============
+
+* Add “Application Launcher” panel plugin which allows the user to pin the shortcut for an application directly to a panel.
+   
+* Add :ref:`Lumina Xconfig`, a graphical front-end to :command:`xrandr`. This utility can be used to easily enable or disable additional monitors and screens within the current desktop
+  session. Shortcuts to this utility are available in the user button plugin and the settings menu plugin.
+    
+* Fix the issue with transparent system tray icons on FreeBSD 11.
+    
+* Add support for the XDG autostart specifications.
+
+* Fix a number of bugs related to detecting and using XDG mimetypes.
+    
+* Add support for the XDG autostart specifications. More work is necessary to convert the current Lumina autostart specification.
+     
+* Add some additional fallback routines to account for possible errors in :file:`*.desktop` files.
+
+* Add support for creating new (empty) files using :ref:`Insight File Manager`.
+     
+* Add an option for enabling and disabling the use of image thumbnails. This is useful if you have massive image directories, just be sure to disable thumbnails **before** loading the
+  directory.
+     
+* Add initial drag-and-drop support for moving files and directoriess within a directory.
+     
+* Load the specific icon for any application shortcuts.
+     
+* Add the ability to view file checksums.
+     
+* Add some additional checks and excludes for copy/move operations in the background to prevent the user from performing illegal operations, such as moving a directory into itself.
+     
+* Add support for listing statistics about the current directory such as number of files, total size of files, and percent of the filesystem which is used.
+     
+* Streamline the frequency of the background directory checker so that it runs much less often.
+
+* Disable the shutdown/restart options on PC-BSD® if the system is in the middle of performing updates in order to add an extra layer of safety.
+
+* Have the shutdown/restart options use the “-o” option on FreeBSD and PC-BSD® so that the system performs the action much faster.
+     
+* Add support for thumbnails, increasing/decreasing icon sizes, removing files, and  cut/copy files to the “desktopview” desktop plugin. This plugin provides traditional desktop icons.
+     
+* Add support for increasing and decreasing the icon size for the application launcher desktop plugin.
+     
+* Update the icon used for the “favorites” system in the user button and the file manager.
+     
+* Add the ability to display alternate timezones in the system clock. This does **not** change the system time as it is just a setting for the visual clocks/plugins.
+     
+* Add a new panel plugin for pinning application shortcuts directly to the panel. This is just like the “applauncher” desktop plugin, but on the panel.
+     
+* Perform the initial search for applications on the system within the session initialization. This ensure that buttons and plugins are responsive as soon as the desktop becomes visible.
+    
+* Fix an issue with transparent system tray icons on FreeBSD 11 and convert the system tray embed/unembed routines to use the XCB library instead of XLib.
+     
+.. index:: changelog
+.. _Lumina 0.8.2:
+
+Lumina 0.8.2
+============
+
+* Added :command:`lumina-info` which can be used to display information about the Lumina desktop, such as the version, license, and link to the source repository.
+
+* Large overhaul of the theme templates and color schemes which are available out-of-box.
+
+* The :command:`lumina-config` utility has been rearranged so that its UI is more intuitive and there is a new dialog for selecting plugins. It now has the  ability to set preferred
+  time and date formats and the ability to reset default applications back to their default, non-mimetype registrations.
+  
+* The :ref:`Insight File Manager` has been improved. All file operations happen in a separate thread so that the UI does not lag any more and the detection of Qt-editable image files
+  has been fixed.
+  
+* Added support to update the vertical panel display of the clock plugin. Various desktop plugin stability issues have been fixed and the  session cleanup routine has been streamlined.
+  A second panel is now supported and the number of filesystem watchers has been reduced to one per-session instead of one per-screen.
+  
+* :ref:`Lumina Search` can now be configured to exclude directories from a "Files or Directories" search and to set an alternate start directory.
+
+.. index:: changelog
+.. _Lumina 0.8.1:
+
+Lumina 0.8.1
+============
+
+* New "Audio Player" desktop plugin to play audio files from the desktop.
+
+* New "Home Button" panel plugin to hide all windows and show the desktop and new "Start Menu" panel plugin which provides an alternative to the user button for traditional system
+  management.
+
+* Added the ability to remove or rotate image files while viewing a slideshow with :ref:`Insight File Manager`.
+
+* New backend distribution framework for setting system-wide defaults. This affects new users only as existing settings will not be changed. Also added the ability to
+  reset the desktop back to its defaults using the :ref:`Lumina Configuration Utility`.
+
+* Allow a customizable user icon which is also used in PCDM (PC-BSD® Display Manager).
+
+* Panels and desktop plugins follow the current theme by default.
+
+* The "Note Pad" desktop plugin has been converted to a file-based utilit so that all notes can be found in :file:`~/Notes` for access by other utilities. Plugins are
+  able to load a generic text file to treat like a note for watching or updating.
+  
+* Auto-hidden panels now stay visible when the mouse moves over the system tray.
+
+* The user button opens faster now as it updates the widget on-demand in the background.
+
+* Fixed a bug in :ref:`Lumina Open` for filenames containing multiple "."s not detecting the file extension.
+
+* The log-out window now opens on the current screen and the log-out window is hidden at the start of the log-out procedure.
+
+.. index:: changelog
+.. _Lumina 0.8.0:
+
+Lumina 0.8.0
+============
+
+* Converted to Qt5 with XCB.
+
+* New task manager mode which provides traditional task manager functionality.
+
+* Task manager right-click action menu has many more options that are auto-generated based on the current window state.
+
+* Better crash reporting through :ref:`Lumina Open`.
+
+* Better multimedia support using the new QMultimedia framework in Qt5.
+
+* New custom-written single-application framework with no external dependencies so it works on all operating systems.
+
+* New windows are no longer placed underneath Lumina panels, even on multi-monitor systems.
+
+* Special localized characters are now recognized when passed in from the command line.
+
+* Recursive file operations now function properly in :ref:`Insight File Manager`.
+
+* XDG "Exec" field code replacements function better, which fixes KDE application shortcuts like Okular.
+
+.. index:: changelog
+.. _Lumina 0.7.2:
+
+Lumina 0.7.2
+============
+
+* Streamlined startup process and utilities.
+
+* Enabled login and logout chimes.
+
+* Added the "Note Pad" and "Desktop View" desktop plugins.
+
+* Added the :ref:`Lumina Search` utility.
+
+* New color schemes: Green, Gold, Purple, Red, and Glass, with Glass as the default.
+
+* New backend system for registering default applications using mime-types instead of extensions. While all Lumina utilities have been updated to work with the new system,
+  previously registered defaults might not be transferred. You may need to reset your default web browser and email client using the :ref:`Lumina Configuration Utility`. 
+  
+.. index:: changelog
+.. _Lumina 0.6.2:
+
+Lumina 0.6.2
+============
+
+* A desktop plugin system has been implemented with two plugins: a calandar and an application launcher plugin.
+
+* The panel plugin system has been refined with transparency support for the panel itself and automatic plugin resizing.
+
+* Added the system dashboard panel plugin which allows control over the audio volume, screen brightness, and current workspace, while also displaying the current battery status, if
+  applicable, and containing a button to let the user log out or shutdown/restart the system.
+  
+* The user button panel plugin has been re-implemented, incorporating the functionality of the desktopbar plugin. Now the user has quick access to files and applications in the 
+  :file:`~/Desktop` folder, as well as the ability to add and remove shortcuts to system applications in the desktop folder with one click.
+  
+* New backgrounds wallpapers and a project logo.
+
+* Add the :ref:`Insight File Manager`. Its features include the ability to browse the system and bookmark favorite directories. It includes a simple multimedia player for playing and
+  previewing multimedia files, an image slideshow viewer for previewing image files, full file and directory restore functionality if ZFS snapshots are available, menu shortcuts to quickly
+  browse attached or mounted devices, tabbing support for browsing multiple directories at once, and standard file and directory management such as copy/paste/delete/create. Supported
+  multimedia and image formats are auto-detected, so if a particular file is not recognized, install the appropriate library or plugin to provide support.
+
+* Add :ref:`Lumina Screenshot`, a simple utility to create and save screenshots. It can capture the entire system or individual windows. It can delay the image capture for a few seconds as
+  necessary. This utility is automatically assigned to the “Print Screen” keyboard shortcut and is also listed in the application registry under "utilities".
+
+* Add a new implementation of the :ref:`Lumina Configuration Utility`. It can now be used to configure desktop appearance such as the background image and to add desktop plugins,
+  configure the location, color, transparency, and size of panels as well as manage their plugins, with up to two panels supported per screen, configure menu plugins, manage global keyboard
+  shortcuts, including shortcuts for adjusting audio volume or screen brightness, manage default applications for the system by categories or individually, manage session options such as 
+  enable numlock on log in or to play audio chimes, manage applications and files to be launched on log in, and to manage window system options such as appearance, mouse focus policy,
+  window placement policy, and the number of workspaces.
+
+* Update the overall appearance of the application selector window in:ref:`Lumina Open`.
+
+* Fully support registered mime-types on the system and recommend those applications as appropriate.
+
