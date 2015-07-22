@@ -28,7 +28,7 @@ Lumina 0.8.5
 * The new system for desktop plugin settings requires that any desktop plugins be reset back to defaults when upgrading to this version of Lumina.
 
 * There is a known conflict between Qt 5.4+ and Fluxbox 1.3.7 which prevents the “close” button from working on unlocked desktop plugins. To work around this issue, right-click on the title
-  for the plugin and select the “close” option from the menu to remove the desktop plugin. Alternatively, you may also remove desktop plugins using the :ref:`Lumina Configuration Utility`.
+  for the plugin and select the “close” option from the menu to remove the desktop plugin. Alternatively, you may also remove desktop plugins using the :ref:`Lumina Configuration` utility.
 
 .. index:: changelog
 .. _Lumina 0.8.4:
@@ -171,7 +171,7 @@ Lumina 0.8.1
 * Added the ability to remove or rotate image files while viewing a slideshow with :ref:`Insight File Manager`.
 
 * New backend distribution framework for setting system-wide defaults. This affects new users only as existing settings will not be changed. Also added the ability to
-  reset the desktop back to its defaults using the :ref:`Lumina Configuration Utility`.
+  reset the desktop back to its defaults using the :ref:`Lumina Configuration` utility.
 
 * Allow a customizable user icon which is also used in PCDM (PC-BSD® Display Manager).
 
@@ -231,7 +231,7 @@ Lumina 0.7.2
 * New color schemes: Green, Gold, Purple, Red, and Glass, with Glass as the default.
 
 * New backend system for registering default applications using mime-types instead of extensions. While all Lumina utilities have been updated to work with the new system,
-  previously registered defaults might not be transferred. You may need to reset your default web browser and email client using the :ref:`Lumina Configuration Utility`. 
+  previously registered defaults might not be transferred. You may need to reset your default web browser and email client using the :ref:`Lumina Configuration` utility. 
   
 .. index:: changelog
 .. _Lumina 0.6.2:
@@ -259,7 +259,7 @@ Lumina 0.6.2
 * Add :ref:`Lumina Screenshot`, a simple utility to create and save screenshots. It can capture the entire system or individual windows. It can delay the image capture for a few seconds as
   necessary. This utility is automatically assigned to the “Print Screen” keyboard shortcut and is also listed in the application registry under "utilities".
 
-* Add a new implementation of the :ref:`Lumina Configuration Utility`. It can now be used to configure desktop appearance such as the background image and to add desktop plugins,
+* Add a new implementation of the :ref:`Lumina Configuration` utility. It can now be used to configure desktop appearance such as the background image and to add desktop plugins,
   configure the location, color, transparency, and size of panels as well as manage their plugins, with up to two panels supported per screen, configure menu plugins, manage global keyboard
   shortcuts, including shortcuts for adjusting audio volume or screen brightness, manage default applications for the system by categories or individually, manage session options such as 
   enable numlock on log in or to play audio chimes, manage applications and files to be launched on log in, and to manage window system options such as appearance, mouse focus policy,
