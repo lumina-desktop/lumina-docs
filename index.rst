@@ -1,7 +1,5 @@
 Lumina Handbook |release|
-==================================
-
-Contents:
+=========================
 
 .. toctree::
    :numbered:
