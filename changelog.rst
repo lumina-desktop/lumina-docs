@@ -6,6 +6,41 @@ Changelog
 This section describes the major features and changes to each version of Lumina, with the most recent version of Lumina listed first.
 
 .. index:: changelog
+.. _Lumina 0.8.6:
+
+Lumina 0.8.6
+============
+
+* Add the ability to set system-locale overrides, used on login. This allows the user to mix locale settings for the various outputs.
+        
+* Add the ability to switch the locale of the current session on the fly, changing all locale settings for the current session only. These settings will be used when launching any
+  applications within that session.
+        
+* Fix up the translation mechanisms so that everything is instantly re-translated to the new locale.
+        
+* More languages are now fully translated. Install the x11/lumina-i18n port or pkg to install the localizations and enable these new localization features.
+    
+* Add support for the “Actions” extension to the XDG Desktop specifications. This allows applications to set a number of various actions, or alternate startup routines, within their XDG
+  desktop registration file. These actions are shown within Lumina as new sub-menus within the "Applications" menu as well as in the "User" button. Look for the down arrow next to the
+  application's icon.
+    
+* Change the Lumina On-Screen-Display to a different widget, allowing it to be shown much faster.
+    
+* Add new *_ifexists* functionality to any session options in :file:`luminaDesktop.conf`. This allows the distributor to more easily setup default applications, such as the web browser or 
+  mail client, through an intelligent tree of options.
+        
+* Apply a work-around for new users which fixes a bug in Fluxbox where the virtual desktop windows could still be changed or closed by various Fluxbox keyboard shortcuts. If an existing user
+  wants to apply this fix, replace their :file:`~/.lumina/fluxbox-keys` with :file:`/usr/local/share/Lumina-DE/fluxbox-keys`. Note that this will overwrite any custom keyboard shortcuts.
+        
+* Fix some bugs in the new window detection and adjustment routines with full-screen apps that modify the X session settings.
+        
+* Fix a couple bugs with the automatic detection and load routines for the new QtQuick plugins.
+        
+* Add in the :kbd:`Ctrl-X` keyboard shortcut for cutting items in the :ref:`Insight File Manager`.
+        
+* Fix up the active reloading of icons when the icon theme changes.
+
+.. index:: changelog
 .. _Lumina 0.8.5:
 
 Lumina 0.8.5
