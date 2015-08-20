@@ -1,8 +1,3 @@
-.. _Introduction to Lumina:
-
-Introduction to Lumina
-**********************
-
 The Lumina Desktop Environment (Lumina for short) is a lightweight, XDG-compliant, BSD-licensed desktop environment that focuses specifically on streamlining
 the ability to get work done while minimizing system overhead. It is specifically designed for PC-BSD® and FreeBSD, but has also been ported to many other
 BSD and Linux operating systems. It is based on the Qt graphical toolkit and the Fluxbox window manager, and uses a small number of X utilities for various
@@ -20,19 +15,47 @@ Lumina's features include:
 
 * Simple access to operating system-specific functionality such as screen brightness, audio volume, and battery status.
 
-.. _User Button:
+.. _How to Get Lumina:
 
-User Button
-===========
+How to Get Lumina
+*****************
 
-Figure 1.1a shows a screenshot of Lumina on a PC-BSD® system with the "User" button clicked.
+Lumina is available as a pre-built package for the following operating systems. Click the hyperlink for instructions on how to install the Lumina package on that operating system.
 
-**Figure 1.1a: Lumina Desktop**
+* `Arch Linux AUR <http://lumina-desktop.org/get-lumina/#arch>`_
 
-.. image:: images/lumina1.png
+* `Debian 8 “Jessie” <http://lumina-desktop.org/get-lumina/#debian>`_
 
-.. note:: while the PCDM login manager will automatically display Lumina in the desktop menu on a PC-BSD® system, users of other operating systems can add
-   "Lumina-DE" as the name of the binary in their :file:`.startx`, :file:`.xinitrc`, or similar startup file.
+* `Debian Testing “Stretch” and Debian Unstable “Sid” <http://lumina-desktop.org/get-lumina/#debian-testing>`_
+
+* `FreeBSD <http://lumina-desktop.org/get-lumina/#freebsd>`_
+
+* `OpenBSD <http://lumina-desktop.org/get-lumina/#openbsd>`_
+
+* `PC-BSD <http://lumina-desktop.org/get-lumina/#pcbsd>`_
+
+In addition to pre-built packages, the `Lumina source repository <https://github.com/pcbsd/lumina>`_ is available on GitHub so that developers can contribute code or create
+packages for other distributions. If you plan to compile Lumina from source, refer to `DEPENDENCIES <https://github.com/pcbsd/lumina/blob/master/DEPENDENCIES>`_ and ensure all
+dependent software is installed and to `README <https://github.com/pcbsd/lumina/blob/master/README.md>`_ for build instructions.
+
+Once installed, add "Lumina-DE" as the name of the binary in your :file:`.startx`, :file:`.xinitrc`, or similar X startup file.
+
+.. note:: no startup configuration is needed when installed on a PC-BSD® system as the PCDM login manager will automatically display Lumina in the login menu. Simply log out, select Lumina,
+   and log back in.
+   
+The rest of this Handbook describes the Lumina Configuration utility and the various utilities which are built into Lumina. It then describes how you can contribute to the Lumina Project and
+lists the changelogs for each version of Lumina.
+
+.. _Introduction to Lumina:
+
+Introduction to Lumina
+**********************
+
+Figure 2a shows a screenshot of Lumina on a PC-BSD® system with the "User" button clicked.
+
+**Figure 2a: Lumina Desktop**
+
+.. image:: images/lumina1a.png
 
 The "User" button provides quick access for user interaction with the system. The left frame of this menu contains the following 4 tabs: 
 
@@ -74,9 +97,9 @@ interact with that application directly. The current system time shown by the cl
 System Dashboard
 ================
 
-The "System Dashboard" button is located at the far right of the panel and shown in Figure 1.2a. 
+The "System Dashboard" button is located at the far right of the panel and shown in Figure 2.1a. 
 
-**Figure 1.2a: System Dashboard Menu**
+**Figure 2.1a: System Dashboard Menu**
 
 .. image:: images/lumina2.png
 
@@ -127,11 +150,11 @@ workspace. While this menu can be customized, here is a quick summary of the def
 Lumina Configuration
 ********************
 
-The Lumina Configuration utility, shown in Figure 2a, allows the user to configure every aspect of the desktop and is the recommended way to make changes.
+The Lumina Configuration utility, shown in Figure 3a, allows the user to configure every aspect of the desktop and is the recommended way to make changes.
 To launch this utility, click the "User" icon then :menuselection:`Desktop Preferences --> Desktop Appearance/Plugins` or, right-click the desktop and click
 :menuselection:`Settings --> Desktop`, or type :command:`lumina-config` from an xterm.
 
-**Figure 2a: Lumina Desktop Configuration**
+**Figure 3a: Lumina Desktop Configuration**
 
 .. image:: images/lumina3.png
 
@@ -153,10 +176,10 @@ scheme by clicking the "Edit" button next to those options and changing the sett
 scripting experience may be helpful when configuring a theme. After making your changes, you can either click the "Save" button to save the theme without closing the editor,
 or click the "Apply" button which will both save the theme and close the theme editor.
 
-**Interface:** the "Interface" tab is used to configure the desktop menu and panels. Its "Desktop" tab, shown in Figure 2b, is used to configure which items appear in the
+**Interface:** the "Interface" tab is used to configure the desktop menu and panels. Its "Desktop" tab, shown in Figure 3b, is used to configure which items appear in the
 right-click menu.
 
-**Figure 2b: Right-Click Menu Configuration**
+**Figure 3b: Right-Click Menu Configuration**
 
 .. image:: images/lumina4.png
 
@@ -164,9 +187,9 @@ To add an item to the right-click menu, click the "+" button. This will open the
 a separator, a shortcut to Settings, a terminal, or a listing of currently open applications. Alternately, click "Add Utility to Screen" and select which application to add.
 To remove an item from the right-click menu, highlight it and click the "-" button. Use the arrow buttons to change the order of the items in the right-click menu.
 
-Click the "Panels" tab to see the screen shown in Figure 2c.
+Click the "Panels" tab to see the screen shown in Figure 3c.
 
-**Figure 2c: Panel Configuration**
+**Figure 3c: Panel Configuration**
 
 .. image:: images/lumina5a.png
 
@@ -211,10 +234,10 @@ list corresponds to either the top of a vertical panel or the left side of a hor
 .. note:: each Lumina plugin automatically contains a unique settings file in :file:`~/.lumina/desktop-plugins/<plugin_name>---<screen number>.<pluginnumber>.conf`, which
    contains its location and sizing information as well as providing the possibility for each plugin to store its own customized settings as necessary.
 
-**Applications:** the "Applications" tab, shown in Figure 2d, is used to configure which applications start when you login to Lumina as well as the default
+**Applications:** the "Applications" tab, shown in Figure 3d, is used to configure which applications start when you login to Lumina as well as the default
 applications and file types.
 
-**Figure 2d: Lumina Applications Configuration**
+**Figure 3d: Lumina Applications Configuration**
 
 .. image:: images/lumina6a.png
 
@@ -223,11 +246,11 @@ To prevent an application from starting automatically, uncheck its box.
 To add an application to the auto-start configuration , click "Application" to select the application's name from a drop-down menu or click "Binary" or "File" to browse
 to the location of  the application or file to open. If you select a file name, Lumina will automatically open it in an application that is capable of reading the file type.
 
-To configure the default applications and file types, click the "File Defaults" tab. In the screen shown in Figure 2e, you can configure the default web browser,
+To configure the default applications and file types, click the "File Defaults" tab. In the screen shown in Figure 3e, you can configure the default web browser,
 email client, file manager, and virtual terminal. Either click "Click to Set" or the name of the existing application to select from a menu of available applications.
 If you wish to restore the default application, click the current application's name, then click "Restore Defaults".
 
-**Figure 2e: Lumina Defaults Configuration**
+**Figure 3e: Lumina Defaults Configuration**
 
 .. image:: images/lumina7a.png
 
@@ -239,19 +262,19 @@ of the application.
    that application to use the :command:`lumina-open` or :command:`xdg-open` utilities, it will use the default applications that are set here instead so that
    there is only a single list of default applications for the system.
 
-**Shortcuts:** the "Shortcuts" tab, shown in Figure 2f, is used to configure various keyboard shortcuts for system or window tasks. Most of these
+**Shortcuts:** the "Shortcuts" tab, shown in Figure 3f, is used to configure various keyboard shortcuts for system or window tasks. Most of these
 options relate to window and workspace management, such as moving windows between workspaces, but there are also options for changing the system audio volume
 or screen brightness. Note that a shortcut that is already in use can **not** be assigned to another action. First, that shortcut needs to be cleared and
 saved, before that key press will be detectable when creating or changing a shortcut.
 
-**Figure 2f: Lumina Shortcuts Configuration**
+**Figure 3f: Lumina Shortcuts Configuration**
 
 .. image:: images/lumina8.png
 
-**Session:** the "Session" tab, shown in Figure 2g, governs the general settings for the desktop session. These settings are usually not changed on a
+**Session:** the "Session" tab, shown in Figure 3g, governs the general settings for the desktop session. These settings are usually not changed on a
 frequent basis.
 
-**Figure 2g: Lumina Session Configuration**
+**Figure 3g: Lumina Session Configuration**
 
 .. image:: images/lumina12a.png
 
@@ -279,9 +302,9 @@ Lumina Screenshot
 This utility can be used to take screenshots of the desktop or applications and save them as PNG image files. To launch this utility, click the icon for
 :menuselection:`System Applications --> Lumina Screenshot` or type :command:`lumina-screenshot` from an xterm.
 
-To take a screenshot, click the "Snap" button in the upper-right corner of the screen shown in Figure 3.1a.
+To take a screenshot, click the "Snap" button in the upper-right corner of the screen shown in Figure 4.1a.
 
-**Figure 3.1a: Lumina Screenshot**
+**Figure 4.1a: Lumina Screenshot**
 
 .. image:: images/lumina9.png
 
@@ -297,10 +320,10 @@ open a window where you can specify the name and location of the saved screensho
 Insight File Manager
 ====================
 
-The Insight file manager, shown in Figure 3.2a, allows the user to easily browse and modify files on the local system on a per-directory basis. To open
+The Insight file manager, shown in Figure 4.2a, allows the user to easily browse and modify files on the local system on a per-directory basis. To open
 Insight, right-click the desktop and select "Browse System" or type :command:`lumina-fm` from an xterm.
 
-**Figure 3.2a: Insight File Manager**
+**Figure 4.2a: Insight File Manager**
 
 .. image:: images/lumina10.png
 
@@ -346,7 +369,7 @@ Lumina Open
 
 To open a file, directory, or URL from the command line, use :command:`lumina-open` followed by the full path to the file or the URL. This utility will look
 for an appropriate application to use to open the specified file or URL. If there is no default application registered for the input type, a small dialog will
-prompt the user to select which application to use, and optionally set it as the default application for this file type. As seen in Figure 3.3a, this dialog
+prompt the user to select which application to use, and optionally set it as the default application for this file type. As seen in Figure 4.3a, this dialog
 organizes the available applications into three types: 
 
 * **Preferred:** these applications have registered their Mime type with the system and can open that type of file. Also included are any applications that
@@ -358,7 +381,7 @@ organizes the available applications into three types:
   search the system for the binary. Whenever text is entered, a check is performed to determine whether that is a valid binary and the icon will change
   between a green checkmark or a red X as appropriate.
 
-**Figure 3.3a: Lumina Open**
+**Figure 4.3a: Lumina Open**
 
 .. image:: images/lumina11.png
 
@@ -369,17 +392,17 @@ Lumina Search
 =============
 
 The :command:`lumina-search` utility provides the ability to easily search for and launch applications or to quickly search for file and directories. The "*" wildcard
-can be used in the search terms and the search will include hidden files if the search term starts with a dot ("."). Figure 3.4a shows a screenshot of this utility.
+can be used in the search terms and the search will include hidden files if the search term starts with a dot ("."). Figure 4.4a shows a screenshot of this utility.
 
-**Figure 3.4a: Lumina Search**
+**Figure 4.4a: Lumina Search**
 
 .. image:: images/lumina13.png
 
 By default, a "Files or Directories" search is limited to the user's home directory, as indicated by the "Search: ~" at the bottom of the screen. The "Smart: Off" indicates
 that every subdirectory is included in the search; in other words, there are no excluded directories. To add additional search directories or to exclude subdirectories, click 
-the wrench icon to see the screen shown in Figure 3.4b.
+the wrench icon to see the screen shown in Figure 4.4b.
 
-**Figure 3.4b: Configuring the Search Directories**
+**Figure 4.4b: Configuring the Search Directories**
 
 .. image:: images/lumina14.png
 
@@ -396,36 +419,13 @@ Lumina Xconfig
 The :command:`lumina-xconfig` utility is a graphical front-end to the :command:`xrandr` command line utility. It provides the ability to probe and manage any number
 of attached monitors. To start this utility, right-click the desktop and select :menuselection:`Settings --> Screen Configuration`, click the "User" icon then
 :menuselection:`Desktop Preferences --> Screen Configuration`, or type :command:`lumina-xconfig` from an xterm. This will open a screen similar to the one shown in
-Figure 3.5a.
+Figure 4.5a.
 
-**Figure 3.5a: Configuring Monitors**
+**Figure 4.5a: Configuring Monitors**
 
 .. image:: images/lumina15.png
 
 In this example, two monitors are attached to the system and each is displayed along with their current screen resolution.
-
-.. _How to Get Lumina:
-
-How to Get Lumina
-*****************
-
-Lumina is available as a pre-built package for the following operating systems. Click the hyperlink for instructions on how to install the Lumina package on that operating system.
-
-* `Arch Linux AUR <http://lumina-desktop.org/get-lumina/#arch>`_
-
-* `Debian 8 “Jessie” <http://lumina-desktop.org/get-lumina/#debian>`_
-
-* `Debian Testing “Stretch” and Debian Unstable “Sid” <http://lumina-desktop.org/get-lumina/#debian-testing>`_
-
-* `FreeBSD <http://lumina-desktop.org/get-lumina/#freebsd>`_
-
-* `OpenBSD <http://lumina-desktop.org/get-lumina/#openbsd>`_
-
-* `PC-BSD <http://lumina-desktop.org/get-lumina/#pcbsd>`_
-
-In addition to pre-built packages, the `Lumina source repository <https://github.com/pcbsd/lumina>`_ is available on GitHub so that developers can contribute code or create
-packages for other distributions. If you plan to compile Lumina from source, refer to `DEPENDENCIES <https://github.com/pcbsd/lumina/blob/master/DEPENDENCIES>`_ and ensure all
-dependent software is installed and to `README <https://github.com/pcbsd/lumina/blob/master/README.md>`_ for build instructions.
 
 .. _Contributing to Lumina:
 
