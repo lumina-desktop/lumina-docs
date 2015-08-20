@@ -208,15 +208,23 @@ Interface
 =========
 
 The "Interface" tab is used to configure the desktop menu and panels. Its "Desktop" tab, shown in Figure 3.2a, is used to configure which items appear in the
-right-click menu.
+right-click menu and which items are embedded onto the desktop.
 
 **Figure 3.2a: Right-Click Menu Configuration**
 
-.. image:: images/lumina4.png
+.. image:: images/lumina4a.png
 
-To add an item to the right-click menu, click the "+" button. This will open the "Select Plugin" where you can add an application, custom app, an entry for the File Manager,
-a separator, a shortcut to Settings, a terminal, or a listing of currently open applications. Alternately, click "Add Utility to Screen" and select which application to add.
-To remove an item from the right-click menu, highlight it and click the "-" button. Use the arrow buttons to change the order of the items in the right-click menu.
+To add an item to the right-click menu, click the "+" button under the "Quick-Access Menu". This will open the "Select Plugin" screen where you can add an application, custom app, an entry
+for the File Manager, a separator, a shortcut to Settings, a terminal, or a listing of currently open applications. To remove an item from the right-click menu, highlight it and click the
+"-" button. Use the arrow buttons to change the order of the items in the right-click menu.
+
+To embed a utility onto the desktop, click the "+" button under the "Embedded Utilities" frame. Currently, the following plugins can be added as an icon on the desktop: Application Launcher
+(opens a menu listing which applications can be launched), Audio Player, Calendar, Desktop Icons View, Note Pad, Sample, and System Monitor. Once you click the "Save Changes" button, any
+utilities you added will appear on top of the desktop. To remove an embedded utility from the desktop, highlight its entry under "Embedded Utilities", click the "-" button, and click "Save
+Changes". Alternately, right-click the icon for the utility and select "Close" from the right-click menu.
+
+.. note:: at this time, it is a known bug that the "x" in the upper right corner of an embedded utility will not remove that utility from the desktop. To bypass this bug, either right-click
+   the name of the utility and select "Close" from the right-click menu or use the "-" button under "Embedded Utilities" as described above.
 
 Click the "Panels" tab to see the screen shown in Figure 3.2b.
 
