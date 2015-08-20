@@ -90,7 +90,7 @@ for a window that needs attention.
 The system tray is located in the right portion of the panel. Any applications that register a tray icon will appear in this area. Click an icon to
 interact with that application directly. The current system time shown by the clock is in the default format for the current locale.
 
-.. index:: Lumina
+.. index:: dashboard
 .. _System Dashboard:
 
 System Dashboard
@@ -117,7 +117,7 @@ This button provides quick access to hardware-specific information or operations
   The choices include: "Log Out", "Restart" (if the user has permission), "Shutdown" (if the user has permission), "Cancel" (to exit the choice menu), "Lock" (which returns
   to a login menu), and, if the operating system supports it, "Suspend" (press the system's power button to login and resume operation).
   
-.. index:: Lumina
+.. index:: right-click menu
 .. _Right-Click Menu:
 
 Right-Click Menu
@@ -145,29 +145,35 @@ workspace. While this menu can be customized, here is a quick summary of the def
 * **Log Out:** opens the system log out window, with options to shutdown/restart the system (if the user has permission), log out of the desktop session, lock
   the system, cancel the log out window, or suspend the system.
 
-.. index:: Lumina
+.. index:: configuration
 .. _Lumina Configuration:
 
 Lumina Configuration
 ********************
 
-The Lumina Configuration utility, shown in Figure 3a, allows the user to configure every aspect of the desktop and is the recommended way to make changes.
-To launch this utility, click the "User" icon then :menuselection:`Desktop Preferences --> Desktop Appearance/Plugins` or, right-click the desktop and click
+The Lumina Configuration utility, shown in Figure 3a, can be used to configure every aspect of the desktop and is the recommended way to make changes.
+To launch this utility, click the "User" icon then :menuselection:`Desktop Preferences --> Desktop Appearance/Plugins`, right-click the desktop and click
 :menuselection:`Settings --> Desktop`, or type :command:`lumina-config` from an xterm.
 
 **Figure 3a: Lumina Desktop Configuration**
 
 .. image:: images/lumina3.png
 
-Each of the tabs at the top configures a different area of the system, with the most frequently changed options on the left side. Once changes have been made,
-the "Save Changes" button at the bottom of the window will become active. This allows the user to setup multiple changes in any tab and apply them all at the
+Each of the tabs at the top configures a different area of the system, with the most frequently changed options on the left side. As changes are made,
+the "Save Changes" button at the bottom of the window becomes active. This allows the user to setup multiple changes in any tab and apply them all at the
 same time.
 
-.. note:: if you make any changes in any of the tabs, click "Save Changes" before exiting this utility in order to save them.
+.. note:: if you make any changes in any of the tabs, remember to click "Save Changes" before exiting this utility in order to save them.
 
-The following tabs are available: 
+The rest of this section describes the configurations that are available in each tab. 
 
-**Appearance:** this tab is used to change the visual appearance and functionality of the desktop on a per-screen basis. The "Wallpaper" tab can be used to add
+.. index:: appearance
+.. _Appearance:
+
+Appearance
+==========
+
+This tab is used to change the visual appearance and functionality of the desktop on a per-screen basis. The "Wallpaper" tab can be used to add
 ("+" button) or remove ("-" button) the image(s) to use for the desktop's wallpaper. By default, when you click the "+" button, the Lumina backgrounds stored in
 :file:`/usr/local/share/wallpapers/Lumina-DE/` are displayed. Click the drop-down "Look In:" menu to select an alternate wallpaper location. If multiple images
 are selected, the "Rotate Background" button can be selected as well as a specified time interval in minutes to rotate to the next image.
@@ -177,10 +183,16 @@ scheme by clicking the "Edit" button next to those options and changing the sett
 scripting experience may be helpful when configuring a theme. After making your changes, you can either click the "Save" button to save the theme without closing the editor,
 or click the "Apply" button which will both save the theme and close the theme editor.
 
-**Interface:** the "Interface" tab is used to configure the desktop menu and panels. Its "Desktop" tab, shown in Figure 3b, is used to configure which items appear in the
+.. index:: menu, panel
+.. _Interface:
+
+Interface
+=========
+
+The "Interface" tab is used to configure the desktop menu and panels. Its "Desktop" tab, shown in Figure 3.2a, is used to configure which items appear in the
 right-click menu.
 
-**Figure 3b: Right-Click Menu Configuration**
+**Figure 3.2a: Right-Click Menu Configuration**
 
 .. image:: images/lumina4.png
 
@@ -188,9 +200,9 @@ To add an item to the right-click menu, click the "+" button. This will open the
 a separator, a shortcut to Settings, a terminal, or a listing of currently open applications. Alternately, click "Add Utility to Screen" and select which application to add.
 To remove an item from the right-click menu, highlight it and click the "-" button. Use the arrow buttons to change the order of the items in the right-click menu.
 
-Click the "Panels" tab to see the screen shown in Figure 3c.
+Click the "Panels" tab to see the screen shown in Figure 3.2b.
 
-**Figure 3c: Panel Configuration**
+**Figure 3.2b: Panel Configuration**
 
 .. image:: images/lumina5a.png
 
@@ -235,10 +247,16 @@ list corresponds to either the top of a vertical panel or the left side of a hor
 .. note:: each Lumina plugin automatically contains a unique settings file in :file:`~/.lumina/desktop-plugins/<plugin_name>---<screen number>.<pluginnumber>.conf`, which
    contains its location and sizing information as well as providing the possibility for each plugin to store its own customized settings as necessary.
 
-**Applications:** the "Applications" tab, shown in Figure 3d, is used to configure which applications start when you login to Lumina as well as the default
+.. index:: application startup
+.. _Applications:
+
+Applications
+============
+
+The "Applications" tab, shown in Figure 3.3a, is used to configure which applications start when you login to Lumina as well as the default
 applications and file types.
 
-**Figure 3d: Lumina Applications Configuration**
+**Figure 3.3a: Lumina Applications Configuration**
 
 .. image:: images/lumina6a.png
 
@@ -247,11 +265,11 @@ To prevent an application from starting automatically, uncheck its box.
 To add an application to the auto-start configuration , click "Application" to select the application's name from a drop-down menu or click "Binary" or "File" to browse
 to the location of  the application or file to open. If you select a file name, Lumina will automatically open it in an application that is capable of reading the file type.
 
-To configure the default applications and file types, click the "File Defaults" tab. In the screen shown in Figure 3e, you can configure the default web browser,
+To configure the default applications and file types, click the "File Defaults" tab. In the screen shown in Figure 3.3b, you can configure the default web browser,
 email client, file manager, and virtual terminal. Either click "Click to Set" or the name of the existing application to select from a menu of available applications.
 If you wish to restore the default application, click the current application's name, then click "Restore Defaults".
 
-**Figure 3e: Lumina Defaults Configuration**
+**Figure 3.3b: Lumina Defaults Configuration**
 
 .. image:: images/lumina7a.png
 
@@ -263,19 +281,31 @@ of the application.
    that application to use the :command:`lumina-open` or :command:`xdg-open` utilities, it will use the default applications that are set here instead so that
    there is only a single list of default applications for the system.
 
-**Shortcuts:** the "Shortcuts" tab, shown in Figure 3f, is used to configure various keyboard shortcuts for system or window tasks. Most of these
+.. index:: shortcuts
+.. _Shortcuts:
+
+Shortcuts
+=========
+   
+The "Shortcuts" tab, shown in Figure 3.4a, is used to configure various keyboard shortcuts for system or window tasks. Most of these
 options relate to window and workspace management, such as moving windows between workspaces, but there are also options for changing the system audio volume
 or screen brightness. Note that a shortcut that is already in use can **not** be assigned to another action. First, that shortcut needs to be cleared and
 saved, before that key press will be detectable when creating or changing a shortcut.
 
-**Figure 3f: Lumina Shortcuts Configuration**
+**Figure 3.4a: Lumina Shortcuts Configuration**
 
 .. image:: images/lumina8.png
 
-**Session:** the "Session" tab, shown in Figure 3g, governs the general settings for the desktop session. These settings are usually not changed on a
+.. index:: session
+.. _Session:
+
+Session
+=======
+
+The "Session" tab, shown in Figure 3.5a, governs the general settings for the desktop session. These settings are usually not changed on a
 frequent basis.
 
-**Figure 3g: Lumina Session Configuration**
+**Figure 3.5a: Lumina Session Configuration**
 
 .. image:: images/lumina12a.png
 
@@ -294,7 +324,7 @@ Lumina Utilities
 
 Lumina provides many built-in utilities, which are described in this chapter.
 
-.. index:: Lumina
+.. index:: screenshot
 .. _Lumina Screenshot:
 
 Lumina Screenshot
@@ -315,7 +345,7 @@ open a window where you can specify the name and location of the saved screensho
 
 .. note:: the "Print Screen" keyboard shortcut is set to run this utility by default.
 
-.. index:: Lumina
+.. index:: file manager
 .. _Insight File Manager:
 
 Insight File Manager
@@ -362,7 +392,7 @@ A few additional options may be available at the bottom of the window, depending
   them, make sure the "Overwrite Existing Files" option is checked first. Otherwise, if a file with that name exists, the restore will append a number to the
   end of the filename. For example, the first restored version of :file:`testfile.txt` will become :file:`testfile-1.txt`.
   
-.. index:: Lumina
+.. index:: application launcher
 .. _Lumina Open:
 
 Lumina Open
@@ -386,7 +416,7 @@ organizes the available applications into three types:
 
 .. image:: images/lumina11.png
 
-.. index:: Lumina
+.. index:: search
 .. _Lumina Search:
 
 Lumina Search
@@ -411,7 +441,7 @@ Click the blue folder icon to change the starting search directory. For example,
 contents of the computer. You can also add directories to exclude from searches by clicking the "+" button. If you add any excludes, you can delete an exclude by highlighting it
 and clicking the "-" button. By default, the "Save as Defaults" option is selected. Unselect this option if you only wish to temporarily modify your search settings.
 
-.. index:: Lumina
+.. index:: Xconfig
 .. _Lumina Xconfig:
 
 Lumina Xconfig
