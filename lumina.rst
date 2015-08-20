@@ -59,23 +59,22 @@ Figure 2a shows a screenshot of Lumina on a PC-BSD® system with the "User" butt
 
 The "User" button provides quick access for user interaction with the system. The left frame of this menu contains the following 4 tabs: 
 
-* **Favorites:** the yellow star icon allows the user to quickly launch anything that was setup as a "favorite". Favorites can be applications, files, or
-  directories, and are separated into those three categories. Favorites can be removed by clicking the small button on the right side of the entry. If the
-  button icon is a red minus sign, removing the favorite does not actually delete the file as just its link is removed. If the button icon is a trash can, the
+* **Favorites:** the yellow star on a blue folder icon can be used to quickly launch anything that was setup as a "favorite". Favorites can be applications, files, or
+  directories, and are separated into those three categories. Favorites can be removed by clicking the icon on the right side of the entry. If the
+  icon is a red minus sign, removing the favorite does not actually delete the file as just its link is removed. If the button icon is a trash can, the
   file will actually get deleted permanently. Note that anything that exists in the users Desktop folder (:file:`~/Desktop`) is automatically treated as a
   favorite.
 
 * **System Applications:** the white and blue gear icon lets the user browse all the applications currently registered on the system. By default, applications
   are listed alphabetically, but the list can be narrowed down by category using the drop-down list at the top of the tab. If you are running PC-BSD® or
-  another operating system that has a pre-defined application "store", you will also have a shortcut at the top of the tab which will open up that application
-  store. On a PC-BSD® system, the shortcut is to AppCafe®. Each application has a little "star" button on the right side of the entry. This allows
-  you to mark an application as a favorite and have it appear on your personal list of quick shortcuts.
+  another operating system that has a pre-defined application store, you will also have a shortcut at the top of the tab which will open up that application
+  store. On a PC-BSD® system, the shortcut is to AppCafe®. Any application that is not currently marked as a favorite has a "star" button on the right side of the entry. This allows
+  you to add an application to "Favorites".
 
-* **Home Directory:** the blue folder icon lets the user quickly browse through all the directories in their home and open any of them in the Insight file
-  manager by clicking the "Browse" button. You also have the same little "star" on directories that can be clicked to mark that directory as a favorite if you
-  want quick access to it later.
+* **Home Directory:** the blue folder icon can be used to browse through all the directories in their home and open any of them in the :ref:`Insight File Manager`. Click the star icon
+  to the right of the directory name to add it to "Favorites".
 
-* **Desktop Preferences:** the yellow tool icon provides quick shortcuts to system and desktop configuration utilities. It also contains "About the Lumina Desktop"
+* **Desktop Preferences:** the tool icon provides quick shortcuts to system and desktop configuration utilities. It also contains "About the Lumina Desktop"
   which can be clicked to determine the installed version of Lumina. You can also determine the version by typing :command:`lumina-info`.
 
 If you are on PC-BSD®, or a supported operating system, you should have links to the operating system's control panel, the desktop configuration utility
@@ -97,24 +96,26 @@ interact with that application directly. The current system time shown by the cl
 System Dashboard
 ================
 
-The "System Dashboard" button is located at the far right of the panel and shown in Figure 2.1a. 
+The "System Dashboard" button is located at the far right of the panel. If you click this icon, you will see a menu similar to that shown in Figure 2.1a. 
 
 **Figure 2.1a: System Dashboard Menu**
 
-.. image:: images/lumina2.png
+.. image:: images/lumina2a.png
 
 This button provides quick access to hardware-specific information or operations, as supported by your operating system. The possible menu entries are: 
 
-* A slider for changing the audio volume for the system from 0% to 100%. If the operating system provides a mixer utility, an icon will also appear. Click the
+* **System Volume:** a slider for changing the system audio volume from 0% to 100%. If the operating system provides a mixer utility, an icon will also appear. Click the
   icon to launch that mixer utility for advanced control of the audio system.
 
-* The current status of the battery, if your system has one, and the estimated time remaining if that battery is discharging.
+* **Screen Brightness:** a slider for changing the screen brightness from 0% to 100%.
 
-* A listing of the number of virtual workspaces that are in use, with arrows to switch between the different workspaces. 
+* **Battery Status:** the current status of the battery, if your system has one, and the estimated time remaining if that battery is discharging.
 
-* The "Log Out" button for ending the desktop session. When the "Log Out" button is clicked, a window of choices will be displayed in the middle of the screen.
+* **Workspace:** a listing of the number of virtual workspaces that are in use, with arrows to switch between the different workspaces. 
+
+* **Log Out:** when this button is clicked, a window of choices will be displayed in the middle of the screen.
   The choices include: "Log Out", "Restart" (if the user has permission), "Shutdown" (if the user has permission), "Cancel" (to exit the choice menu), "Lock" (which returns
-  to a login menu), and "Suspend" (press the system's power button to login and resume operation).
+  to a login menu), and, if the operating system supports it, "Suspend" (press the system's power button to login and resume operation).
   
 .. index:: Lumina
 .. _Right-Click Menu:
@@ -122,14 +123,18 @@ This button provides quick access to hardware-specific information or operations
 Right-Click Menu
 ================
 
-If the user right-clicks on the desktop, a menu of quick shortcuts will appear for instant access and the title of the menu will indicate the name of the
-workspace. While this menu can be customized, here is a quick summary of the default items on the menu.
+If the user right-clicks on the desktop, a menu of quick shortcuts will appear and the title of the menu will indicate the name of the
+workspace. While this menu can be customized, here is a quick summary of the default items on the menu:
 
 * **Terminal:** used to launch a system terminal. The default is :command:`xterm`, but this can be customized.
 
 * **Browse System:** launches the file manager. The default file manager, Insight, is recommended but this can be customized.
 
-* **Settings:** contains configuration shortcuts for the screensaver, desktop, and screen, as well as a shortcut to Control Panel and for determining the version of Lumina.
+* **Applications:** provides shortcuts to the user's home directory, the operating system's graphical software management utility (if available), the control panel (if the operating
+  system provides one), and the applications currently registered on the system, arranged by system category.
+
+* **Settings:** contains configuration shortcuts for the screensaver, desktop, and screen, as well as a shortcut to the operating system's control panel and for determining the version of
+  Lumina.
 
 * **Unlock/Lock Desktop:** used to lock or unlock the desktop plugins. When unlocked, desktop plugins become "active" and can be moved, resized, or removed
   from the desktop. It is recommended to leave the desktop locked during normal operations.
@@ -137,12 +142,8 @@ workspace. While this menu can be customized, here is a quick summary of the def
 * **Snap Plugins to Grid:** this option only appears when the desktop is unlocked. Used to align and resize all the desktop plugins on an invisible 32x32
   pixel grid, with special adjustments to align on the bottom and right screen edges if necessary, in order to provide a uniform appearance.
 
-* **Tile Plugins:** this option only appears when the desktop is unlocked. Used to 
-
-* **Cascade Plugins:** this option only appears when the desktop is unlocked. Used to
-
 * **Log Out:** opens the system log out window, with options to shutdown/restart the system (if the user has permission), log out of the desktop session, lock
-  the system, or cancel the log out window.
+  the system, cancel the log out window, or suspend the system.
 
 .. index:: Lumina
 .. _Lumina Configuration:
