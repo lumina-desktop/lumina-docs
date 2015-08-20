@@ -167,21 +167,39 @@ same time.
 
 The rest of this section describes the configurations that are available in each tab. 
 
-.. index:: appearance
+.. index:: appearance, wallpaper
 .. _Appearance:
 
 Appearance
 ==========
 
-This tab is used to change the visual appearance and functionality of the desktop on a per-screen basis. The "Wallpaper" tab can be used to add
-("+" button) or remove ("-" button) the image(s) to use for the desktop's wallpaper. By default, when you click the "+" button, the Lumina backgrounds stored in
+This tab is used to change the visual appearance and functionality of the desktop on a per-screen basis. The "Wallpaper" tab, shown in Figure 3a, can be used to add a wallpaper
+("+" button), create a color to use as a wallpaper (paint button), or remove ("-" button) a wallpaper. By default, when you click the "+" button, the Lumina backgrounds stored in
 :file:`/usr/local/share/wallpapers/Lumina-DE/` are displayed. Click the drop-down "Look In:" menu to select an alternate wallpaper location. If multiple images
-are selected, the "Rotate Background" button can be selected as well as a specified time interval in minutes to rotate to the next image.
+are selected, the "Rotate Background" button can be selected as well as a specified time interval in minutes to rotate to the next image. 
 
-Click the "Theme" tab to change the default font, font size, theme template, color scheme, and icon pack. It is possible to create your own theme template or color
-scheme by clicking the "Edit" button next to those options and changing the settings as necessary. Note that the theme templates are written as Qt stylesheets, so some
-scripting experience may be helpful when configuring a theme. After making your changes, you can either click the "Save" button to save the theme without closing the editor,
-or click the "Apply" button which will both save the theme and close the theme editor.
+The options that are available when you click the paint icon are shown in Figure 3.1a. If you select a color and click "OK", it will be added as a solid color background to the wallpaper
+selection drop-down menu.
+
+**Figure 3.1a: Modifying the Wallpaper**
+
+.. image:: images/lumina16.png
+
+The "Theme" tab, shown in Figure 3.1b, can be used to change the default font, font size, theme template, color scheme, and icon pack. 
+
+**Figure 3.1b: Modifying the Theme**
+
+.. image:: images/lumina17.png
+
+It is possible to create your own "Theme Template" or "Color Scheme" by clicking the "Edit" button next to those options and changing the settings as necessary. Figure 3.1c shows an example
+of clicking the "Edit" button with the "Lumina-default (System)" theme template selected. This action opened the "Theme Editor" and the user has clicked the color selector icon (dropper) in
+the upper right corner. After selecting an item in this menu, the template controlling that selection can be edited by changing the values in the theme editor box. Note that the theme
+templates are written as `Qt stylesheets <http://doc.qt.io/qt-5/stylesheet.html>`_, so some scripting experience may be helpful when configuring a theme. After making your changes,
+you can either click the "Save" button to save the theme without closing the editor, or click the "Apply" button which will both save the theme and close the theme editor.
+
+**Figure 3.1c: Using the Theme Editor**
+
+.. image:: images/lumina18.png
 
 .. index:: menu, panel
 .. _Interface:
