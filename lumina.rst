@@ -485,7 +485,7 @@ Lumina Open
 
 To open a file, directory, or URL from the command line, use :command:`lumina-open` followed by the full path to the file or the URL. This utility will look
 for an appropriate application to use to open the specified file or URL. If there is no default application registered for the input type, a small dialog will
-prompt the user to select which application to use, and optionally set it as the default application for this file type. As seen in Figure 4.3a, this dialog
+prompt the user to select which application to use, and optionally set it as the default application for this file type. As seen in the example shown in Figure 4.3a, this dialog
 organizes the available applications into three types: 
 
 * **Preferred:** these applications have registered their Mime type with the system and can open that type of file. Also included are any applications that
@@ -499,7 +499,7 @@ organizes the available applications into three types:
 
 **Figure 4.3a: Lumina Open**
 
-.. image:: images/lumina11.png
+.. image:: images/lumina11a.png
 
 .. index:: search
 .. _Lumina Search:
@@ -510,15 +510,24 @@ Lumina Search
 The :command:`lumina-search` utility provides the ability to easily search for and launch applications or to quickly search for file and directories. The "*" wildcard
 can be used in the search terms and the search will include hidden files if the search term starts with a dot ("."). Figure 4.4a shows a screenshot of this utility.
 
-**Figure 4.4a: Lumina Search**
+**Figure 4.4a: Search for Applications**
+
+.. image:: images/lumina13a.png
+
+To open an application, begin to enter its name and the box below the selected "Applications" button will display any matching application names. Select the desired application and click
+the "Launch Item" button to open it.
+
+If you click the "Files or Directories" button, the screen changes slightly, as seen in Figure 4.4b.
+
+**Figure 4.4b: Search for Files**
 
 .. image:: images/lumina13.png
 
 By default, a "Files or Directories" search is limited to the user's home directory, as indicated by the "Search: ~" at the bottom of the screen. The "Smart: Off" indicates
 that every subdirectory is included in the search; in other words, there are no excluded directories. To add additional search directories or to exclude subdirectories, click 
-the wrench icon to see the screen shown in Figure 4.4b.
+the wrench icon to see the screen shown in Figure 4.4c.
 
-**Figure 4.4b: Configuring the Search Directories**
+**Figure 4.4c: Configuring the Search Directories**
 
 .. image:: images/lumina14.png
 
