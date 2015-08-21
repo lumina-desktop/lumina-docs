@@ -226,49 +226,73 @@ Changes". Alternately, right-click the icon for the utility and select "Close" f
 .. note:: at this time, it is a known bug that the "x" in the upper right corner of an embedded utility will not remove that utility from the desktop. To bypass this bug, either right-click
    the name of the utility and select "Close" from the right-click menu or use the "-" button under "Embedded Utilities" as described above.
 
-Click the "Panels" tab to see the screen shown in Figure 3.2b.
+The "Generate Desktop Links" option is used to display each item stored in :file:`~/Desktop` as an icon on the desktop. By default, this option is selected as its box is black. If you
+de-select this option and click "Save Changes", the icons for the contents of :file:`~/Desktop` will be removed from the desktop.
+   
+To configure the panel, click the "Panels" tab which will open the screen shown in Figure 3.2b.
 
-**Figure 3.2b: Panel Configuration**
+**Figure 3.2b: Panel Location Tab**
 
-.. image:: images/lumina5a.png
+.. image:: images/lumina5b.png
 
-This screen can be used to customize the location, size, alignment, and theme of an existing panel and to add ("+") or delete ("-") additional panels. Panels must
-be aligned along a screen edge, opposite screen edges in the case of two panels, and may have any width, color, or transparency. Use the "Location" drop-down menu
-to set the location of the panel which can be "Top", "Bottom", "Left", or "Right". The "Alignment" drop-down menu can be used to center the panel on the edge or pin it
-to one of the corners. The "Size" can be used to specify the panel width in pixels and the length as a percentage. If you would like the panel to be hidden unless
-the mouse is hovered over it, click "Appearance" then check the "Auto-hide Panel" box. The "Custom Color" option in the "Appearance" screen can be used to fine-tune the
-panel color. 
+This screen can be used to customize the location, alignment, size, theme, and plugins for an existing panel, as well as to add ("+"), customize, or delete ("-") additional panels. Panels
+must be aligned along a screen edge, opposite screen edges in the case of two panels, and may have any width, color, or transparency. 
 
-Once a panel's appearance has been configured, plugins can be added by clicking "Plugins" then the "+" button and selecting a plugin from the list that appears. Similarly,
-clicking the "-" button will remove the selected plugin, and the arrow buttons can be used to move the location of the plugin on the panel. The top of the
-list corresponds to either the top of a vertical panel or the left side of a horizontal panel. Some of the available plugins include:
+The "Location" tab contains the following items:
 
-* Application Launcher: when you select this plugin, it will prompt you to select the application to launch. This will add a shortcut for launching the selected application
+* **Edge:** this drop-down menu can be used to set the location of the panel which can be "Top", "Bottom", "Left", or "Right". 
+
+* **Alignment:** this drop-down menu can be used to center the panel on the edge or pin it to one of the corners. 
+
+* **Size:** can be used to specify the panel width in pixels. 
+
+The "Appearance" tab is shown in Figure 3.2c.
+
+**Figure 3.2c: Panel Appearance Tab**
+
+.. image:: images/lumina19.png
+
+If you would like the panel to be hidden unless the mouse is hovered over it, check the "Auto-hide Panel" box. The "Custom Color" option can be used to fine-tune the
+panel color. Click its box, then the paint icon to select the panel color.
+
+The "Plugins" tab is shown in Figure 3.2d.
+
+**Figure 3.2c: Panel Plugins Tab**
+
+.. image:: images/lumina20.png
+
+To add a plugin as an icon to the panel, click the "+" button and select a plugin from the list that appears. To remove a plugin, highlight it and
+click the "-" button. The arrow buttons can be used to move the location of the plugin on the panel. The top of the list corresponds to either the top of a vertical panel or the left side
+of a horizontal panel. The available plugins include:
+
+* **Application Launcher:** when you select this plugin, it will prompt you to select the application to launch. This will add a shortcut for launching the selected application
   to the panel.
 
-* Battery Monitor: hover over this icon to view the current charge status of the battery. When the charge reaches 15% or below, the low battery icon will flash intermittently
+* **Battery Monitor:** hover over this icon to view the current charge status of the battery. When the charge reaches 15% or below, the low battery icon will flash intermittently
   and will change to a low battery icon when there is less than 5% charge left.
 
-* Desktop Bar: adds a "star" button for automatically displaying entries for anything in the :file:`~/Desktop` folder and alternately launching the selected entry.
+* **Desktop Bar:** adds a "star" button for automatically displaying entries for anything in the :file:`~/Desktop` folder and alternately launching the selected entry.
 
-* Desktop Switcher: used to switch between virtual desktops.
+* **Desktop Switcher:** used to switch between virtual desktops.
 
-* Home Button: this button will hide all open windows so that only the desktop is visible. This is useful for touch screens or small devices.
+* **Home Button:** this button will hide all open windows so that only the desktop is visible. This is useful for touch screens or small devices.
 
-* Start Menu: adds a classic start menu as seen on other operating systems.
+* **Spacer:** adds a blank area to the panel.
 
-* System Dashboard: used to view/modify audio volume, screen brightness, batterly life, and virtual desktops.
+* **Start Menu:** adds a classic start menu as seen on other operating systems.
 
-* System Tray: provides a display area for dockable applications.
+* **System Dashboard:** used to view/modify audio volume, screen brightness, batterly life, and virtual desktops.
 
-* Task Manager: is added by default. Its behavior is to group windows by application.
+* **System Tray:** provides a display area for dockable applications.
 
-* Task Manager (No Groups): ensures that every window gets its own button. This uses a lot more space on the panel since it needs to put part of the window title on
+* **Task Manager (No Groups):** ensures that every window gets its own button. This uses a lot more space on the panel since it needs to put part of the window title on
   each button.
+  
+* **Task Manager:** is added by default. Its behavior is to group windows by application.
 
-* Time/Date: displays the current time and date.
+* **Time/Date:** displays the current time and date.
 
-* User Button: main button for accessing applications, directories, settings, and log out.
+* **User Button:** main button for accessing applications, directories, settings, and log out.
 
 .. note:: each Lumina plugin automatically contains a unique settings file in :file:`~/.lumina/desktop-plugins/<plugin_name>---<screen number>.<pluginnumber>.conf`, which
    contains its location and sizing information as well as providing the possibility for each plugin to store its own customized settings as necessary.
