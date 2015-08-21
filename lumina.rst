@@ -357,16 +357,49 @@ Session
 The "Session" tab, shown in Figure 3.5a, governs the general settings for the desktop session. These settings are usually not changed on a
 frequent basis.
 
-**Figure 3.5a: Lumina Session Configuration**
+**Figure 3.5a: Session General Options Tab**
 
-.. image:: images/lumina12a.png
+.. image:: images/lumina12b.png
 
-The "General Options" tab contains the following options: "Enable numlock on startup", "Play chimes on startup", and "Play chimes on exit". It can also
-be used to change the user's icon which appears in the login menu and to set the time format, date format, and time zone. It can also be used to reset
-the desktop settings to either system defaults or Lumina defaults.
+The "General Options" tab can be used to automatically enable numlock, to play chimes when Lumina starts or exits, and to change the icon that appears  in the login menu and the "User"
+button. It also has options to set the time format, date format, time zone, and time display. Buttons are available to reset these options
+to either system defaults or Lumina defaults.
 
-The "Window System" tab allows the user to setup various configuration options for the window manager. These options include the number of workspaces,
-where new windows are placed on the screen, when windows receive focus, and the appearance of the frame around application windows.
+The "Locale" tab is shown in Figure 3.5b.
+
+**Figure 3.5b: Session Locale Tab**
+
+.. image:: images/lumina21.png
+
+The lumina-i18n package provides localization files. Once installed, this allows you to customize which locale is used for the various items listed in Figure 3.5b. To install this package
+on a PC-BSD or FreeBSD system, use :command:`sudo pkg install lumina-i18n`. On other operating systems, use the software management tool that comes with the operating system. If the
+Lumina Configuration utility was open before the installation, restart it so that the list of localizations can be loaded into the drop-down menus of this screen. Since each setting has its
+own drop-down menu, you have the flexibility to select different locales for each item shown in this screen. Note that if you make any changes in the "Locale" tab, click the "Save Changes"
+button and restart Lumina so that the configured locales can be loaded.
+
+Installing the lumina-i18n package will also add a drop-down menu to the system dashboard menu shown in Figure 2.1a. Note that you need to restart Lumina after the package installation in
+order for this option to be added to the dashboard menu. This drop-down menu can be used to temporarily change the locale for this session only. This will immediately change the localization
+of any translated menu items on the fly so that you do not have to log back into the Lumina session.
+
+.. note:: any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
+   instructions in :ref:`Localization and Translations`.
+
+The "Window System" tab, shown in Figure 3.5c, contains various configuration options for the window manager. 
+
+**Figure 3.5c: Session Window System Tab**
+
+.. image:: images/lumina22.png
+
+Drop-down menus are provided for configuring the following:
+
+* **Number of Workspaces:** up to *10* workspaces can be defined, with a default of
+  *2*.
+
+* **New Window Placement:** indicates where new windows are placed on the screen. Choices are "Align in a Row", "Align in a Column", "Cascade", or "Underneath Mouse".
+
+* **Focus Policy:** indicates when windows receive focus. Choices are "Click to Focus", "Active Mouse Focus", or "Strict Mouse Focus".
+
+* **Window Theme:** controls the appearance of the frame around application windows. The "Window Theme Preview" screen can be used to preview the selected theme.
 
 .. index:: Utilities
 .. _Lumina Utilities:
