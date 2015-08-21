@@ -316,12 +316,14 @@ To add an application to the auto-start configuration , click "Application" to s
 to the location of  the application or file to open. If you select a file name, Lumina will automatically open it in an application that is capable of reading the file type.
 
 To configure the default applications and file types, click the "File Defaults" tab. In the screen shown in Figure 3.3b, you can configure the default web browser,
-email client, file manager, and virtual terminal. Either click "Click to Set" or the name of the existing application to select from a menu of available applications.
-If you wish to restore the default application, click the current application's name, then click "Restore Defaults".
+email client, file manager, and virtual terminal. 
 
 **Figure 3.3b: Lumina Defaults Configuration**
 
-.. image:: images/lumina7a.png
+.. image:: images/lumina7b.png
+
+Click the gear icon or the name of the existing application to select the desired application from a menu of available applications.
+If you wish to go back to the default application, click the current application's name, then click "Restore Defaults".
 
 This screen can also be used to set the default application for several categories of file types. To add an application, select the file type and either
 click "Set App", which will open a drop-down menu of common applications, or "Set Binary", which will open a file browser so that you can browse to the path
