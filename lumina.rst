@@ -382,7 +382,7 @@ order for this option to be added to the dashboard menu. This drop-down menu can
 of any translated menu items on the fly so that you do not have to log back into the Lumina session.
 
 .. note:: any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
-   instructions in :ref:`Localization and Translations`.
+   instructions in :ref:`Interface Translation`.
 
 The "Window System" tab, shown in Figure 3.5c, contains various configuration options for the window manager. 
 
@@ -560,10 +560,10 @@ Contributing to Lumina
 Lumina is an open source project which relies on involvement from its users and supporters to assist in development, documentation, and localization. This section describes how you can
 assist the Lumina Project
 
-.. _Reporting Bugs:
+.. _Report a Bug:
 
-Reporting Bugs
-==============
+Report a Bug
+============
 
 If you like playing around with your desktop environment and have a bit of spare time, one of the most effective ways you can assist the Lumina Project is by
 reporting problems you encounter while using Lumina. Subscribing to the `PC-BSD® blog <http://blog.pcbsd.org/>`_ is a good way to keep
@@ -594,10 +594,10 @@ Anyone can report a Lumina bug. Follow these tips so that you can accurately des
 
 .. image:: images/bug.png
 
-.. _Localization and Translations:
+.. _Become a Translator:
 
-Localization and Translations
-=============================
+Become a Translator
+===================
 
 If you are interested in translating Lumina into your native language, there are two translation areas that you can choose to become involved in: 
 
@@ -663,3 +663,149 @@ If you need help with a translation or using the Pootle system, you can ask for 
 
 Documentation Translation
 -------------------------
+
+.. _Become a Developer:
+
+Become a Developer
+==================
+
+Developers who want to help improve the Lumina codebase are always welcome! If you would like to participate in core development, subscribe to the
+`developers mailing list <http://lists.pcbsd.org/mailman/listinfo/dev>`_. 
+
+All of the Lumina utilities are developed in C++ using the Qt Libraries, but other Qt-based languages are used for various parts of the project as well. For example, the
+`Qt Stylesheet language <http://doc.qt.io/qt-4.8/stylesheet.html>`_, which is similar to CSS, is used for theme templates and
+`QML <http://doc.qt.io/qt-5/qtqml-index.html>`_, which is similar to JavaScript, may optionally be used for desktop interface plugins.
+
+.. index:: development
+.. _Getting the Source Code:
+
+Getting the Source Code
+-----------------------
+
+The Lumina source code is available from github and :command:`git` needs to be installed in order to download the source code. When using PC-BSD®,
+:command:`git` is included in the base install.
+
+To download the source code, :command:`cd` to the directory to store the source and type::
+
+ git clone git://github.com/lumina/lumina.git
+
+This will create a directory named :file:`lumina/` which contains the local copy of the repository. To keep the local copy in sync with the official
+repository, run :command:`git pull` within the :file:`lumina` directory.
+
+In order to compile the source, make sure that the following `list of required software <https://github.com/pcbsd/lumina/blob/master/DEPENDENCIES>`_ is installed. If you are on a PC-BSD®
+system, the required software is contained in the "PC-BSD Build Toolchain" PBI which can be installed using AppCafe® or by typing :command:`pkg install pcbsd-toolchain`. On other
+operating systems, install any missing software using the operating system's package management utility.
+
+To compile the source, first run :command:`qmake` to generate the necessary :file:`Makefile`, then run :command:`make`. The following example is for a  PC-BSD® system and the binary
+paths may differ on your operating system::
+
+ cd lumina
+
+ /usr/local/lib/qt5/bin/qmake
+
+ make
+
+.. note:: if you encounter an issue trying to compile source on a non-PC-BSD® system, refer to the "How to build from source" section of the
+   `README <https://github.com/pcbsd/lumina/blob/master/README.md>`_ for some additional tips.
+ 
+If you wish to also install the compiled applications, run this command which requires superuser privileges::
+
+ sudo make install
+ 
+For development purposes, several Qt IDEs are available. On a PC-BSD® system they can be installed using AppCafe® and these open source applications should also be available using the
+software management utility of other operating systems. `QtCreator <http://wiki.qt.io/Category:Tools::QtCreator>`_ is a full-featured IDE designed to help new Qt users get up and running
+faster while boosting the productivity of experienced Qt developers. `Qt Designer <http://doc.qt.io/qt-4.8/designer-manual.html>`_ is lighter weight as it is only a :file:`.ui` file editor
+and does not provide any other IDE functionality.
+
+If you plan to submit changes so that they can be included in Lumina, fork the repository using the instructions in
+`fork a repo <https://help.github.com/articles/fork-a-repo>`_. Make your changes to the fork, then submit them by issuing a
+`git pull request <https://help.github.com/articles/using-pull-requests>`_. Once your changes have been reviewed, they will be committed or sent back with
+suggestions.
+
+.. index:: development
+.. _Design Guidelines:
+
+Design Guidelines
+-----------------
+
+Lumina is a community driven project that relies on the support of developers in the community to help in the design and implementation of new utilities and tools. The Project aims to
+present a unified design so that programs feel familiar to users. As an example, while programs could have "File", "Main", or "System" as their first entry in a menu bar, "File" is used
+as the accepted norm for the first category on the menu bar. This section describes a small list of guidelines for menu and program design in Lumina.
+
+Any graphical program that is a full-featured utility, such as :ref:`Insight File Manager`, should have a "File" menu. However, file menus are not
+necessary for small widget programs or dialogue boxes. When making a file menu, a good rule of thumb is keep it simple. Most Lumina utilities do not need
+more than two or three items on the file menu.
+
+"Configure" is our adopted standard for the category that contains settings or configuration-related settings. If additional categories are needed, check to
+see what other Lumina utilities are using.
+
+File menu icons are taken from the installed icon theme. Table 5.3a lists some commonly used icons and their default file names.
+
+
+**Table 5.3a: Commonly Used File Menu Icons** 
+
++-----------+-----------------+--------------------+
+| Function  | File Menu Icon  | File Name          |
++===========+=================+====================+
+| Quit      | row 1, cell 2   | window-close.png   |
++-----------+-----------------+--------------------+
+| Settings  | row 2, cell 2   | configure.png      |
++-----------+-----------------+--------------------+
+
+
+Lumina utilities use these buttons as follows: 
+
+* **Apply:** applies settings and leaves the window open.
+
+* **Close:** closes program without applying settings.
+
+* **OK:** closes dialogue window and saves settings.
+
+* **Cancel:** closes dialog window without applying settings.
+
+* **Save:** saves settings and closes window. 
+
+Many users benefit from keyboard shortcuts and we aim to make them available in every Lumina utility. Qt makes it easy to assign keyboard shortcuts. For
+instance, to configure keyboard shortcuts that browse the "File" menu, put *&File* in the text slot for the menu entry when making the application.
+Whichever letter has the *&* symbol in front of it will become the hot key. You can also make a shortcut key by clicking the menu or submenu entry and
+assigning a shortcut key. Be careful not to duplicate hot keys or shortcut keys. Every key in a menu and submenu should have a key assigned for ease of use
+and accessibility. Tables 5.3b and 5.3c summarize the commonly used shortcut and hot keys.
+
+**Table 5.3b: Shortcut Keys** 
+
++---------------+---------+
+| Shortcut Key  | Action  |
++===============+=========+
+| CTRL + Q      | Quit    |
++---------------+---------+
+| F1            | Help    |
++---------------+---------+
+
+**Table 5.3c: Hot Keys** 
+
++-----------+-----------------+
+| Hot Key   | Action          |
++===========+=================+
+| Alt + Q   | Quit            |
++-----------+-----------------+
+| Alt + S   | Settings        |
++-----------+-----------------+
+| Alt + I   | Import          |
++-----------+-----------------+
+| Alt + E   | Export          |
++-----------+-----------------+
+| ALT + F   | File Menu       |
++-----------+-----------------+
+| ALT + C   | Configure Menu  |
++-----------+-----------------+
+| ALT + H   | Help Menu       |
++-----------+-----------------+
+
+
+Developers will also find the following resources helpful: 
+
+* `Commits Mailing List <http://lists.pcbsd.org/mailman/listinfo/commits>`_
+
+* `Qt 5.4 Documentation <http://doc.qt.io/qt-5/index.html>`_
+
+* `C++ Tutorials <http://www.cplusplus.com/doc/tutorial/>`_
