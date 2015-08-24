@@ -599,4 +599,67 @@ Anyone can report a Lumina bug. Follow these tips so that you can accurately des
 Localization and Translations
 =============================
 
+If you are interested in translating Lumina into your native language, there are two translation areas that you can choose to become involved in: 
 
+1. Translate the graphical menus within Lumina.
+
+2. Translate the Lumina Handbook (this document). 
+
+This section describes each of these translation areas in more detail and how to get started as a translator.
+
+Regardless of the type of translation you are interested in, you should first join the
+`translations mailing list <http://lists.pcbsd.org/mailman/listinfo/translations>`_. When you join, send an email to introduce yourself and indicate which
+language(s) and which type(s) of translations you can assist with. This will allow you to meet other volunteers as well as keep abreast of any notices or
+updates that affect translators.
+
+.. index:: translations
+.. _Interface Translation:
+
+Interface Translation
+---------------------
+
+Lumina uses `Pootle <https://en.wikipedia.org/wiki/Pootle>`_ for managing localization of the menu screens seen in Lumina.
+Pootle makes it easy to find out if your native language has been fully localized for Lumina. Pootle also makes it easy for users to check and submit
+translated text as it provides a web editor and commenting system. This means that translators can spend their time making and reviewing translations rather
+than learning how to use a translation tool.
+
+To see the status of a localization, open up the `Lumina translation website <http://translate.pcbsd.org/projects/lumina/>`_ in a web browser, as seen in Figure 5.2a. 
+
+**Figure 5.2a: The Lumina Pootle Translation System** 
+
+.. image:: images/translate1.png
+
+The localizations Lumina users have requested are listed alphabetically on the left. If your language is missing and you would like to help in its
+translation, send an email to the `translations mailing list <http://lists.pcbsd.org/mailman/listinfo/translations>`_ so it can be added.
+
+The green bar in the "Progress" column indicates the percentage of Lumina menus that have been localized. If a language is not at 100%, it means that the
+menus that currently are not translated will appear in English instead of in that language.
+
+If you click on a language name, you will see each menu item that is available for translation.
+The example shown in Figure 11.2b is for the Greek localization. In this example, the menu for "lumina-search" is almost complete, but the translation for "lumina-config"
+has not been started yet.
+
+**Figure 11.2b: Viewing a Language's Available Menus** 
+
+.. image:: images/translate2.png
+
+In order to edit a translation, you need to first create a Pootle login account. Once you are logged in to Pootle, navigate to the menu item that you wish to
+translate. In Figure 11.2c, the translator has clicked on "lumina-config.ts" then clicked the "Continue translation" link.
+
+**Figure 11.2c: Using the Pootle Interface to Edit a Translation String**
+
+.. image:: images/translate3.png
+
+In this example, the first string, the phrase "Select Application" has not yet been translated. To add the translation, type the translated text into the
+white text field and click the "Submit" button. To translate another text field, click on the hyperlink associated with its name, or use the "Next" and
+"Previous" links to navigate between text fields. Sometimes, as seen in this example, a text field exists in another screen and already has a translation. In this case,
+you can click the link for a "Similar translations" and it will be added to the field for you so that you can "Submit" it.
+
+If you need help with a translation or using the Pootle system, you can ask for help on the translations mailing list or in the
+`translations forum <https://forums.pcbsd.org/forum-40.html>`_. 
+
+.. index:: translations
+.. _Documentation Translation:
+
+Documentation Translation
+-------------------------
