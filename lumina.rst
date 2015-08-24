@@ -557,10 +557,42 @@ In this example, two monitors are attached to the system and each is displayed a
 Contributing to Lumina
 **********************
 
+Lumina is an open source project which relies on involvement from its users and supporters to assist in development, documentation, and localization. This section describes how you can
+assist the Lumina Project
+
 .. _Reporting Bugs:
 
 Reporting Bugs
 ==============
+
+If you like playing around with your desktop environment and have a bit of spare time, one of the most effective ways you can assist the Lumina Project is by
+reporting problems you encounter while using Lumina. Subscribing to the `PC-BSD® blog <http://blog.pcbsd.org/>`_ is a good way to keep
+up-to-date on the availability of new Lumina versions.
+
+Anyone can report a Lumina bug. Follow these tips so that you can accurately describe your findings so they can be fixed as soon as possible: 
+
+* Lumina is part of the PC-BSD® Project and Lumina bugs are reported to the PC-BSD® bug tracker. If you haven't already, click the "Register" link at
+  `bugs.pcbsd.org <https://bugs.pcbsd.org>`_ and reply to the automatic email to confirm your user account.
+
+* Use the "Search" bar at `bugs.pcbsd.org <https://bugs.pcbsd.org>`_ to see if anyone else has reported a similar problem. If a similar bug exists which has not been resolved yet,
+  you can add a comment if you have additional information to aid the developers in fixing the bug. Note that you do not need to be logged in to perform a search, but you will have
+  to login using the Sign in" link in order to add a comment to an existing bug or to create a new bug report.
+  
+* To create a new bug report, make sure you are signed in, then go to `<https://bugs.pcbsd.org/projects/pcbsd/issues/new>`_. In the screen shown in Figure 5.1a, click the "Category"
+  drop-down menu and select "Lumina Desktop".
+
+* Input a descriptive "Subject" that includes the error and the version of Lumina. Ideally, the subject is short (8 words or less) and contains key words about the error so that other
+  users with similar issues will find the bug report when they perform a search.
+
+* In the "Description", give a short (2-3 sentences) description of how to recreate the error. If there is an error message, include its complete text. You can also attach a screenshot
+  if it can help the developer in visualizing the problem.
+  
+* When finished, click "Create" to save the report. It will automatically be assigned a number and you will receive an email at the email address you used to register whenever a comment
+  is added to the report or its status changes.
+  
+**Figure 5.1a: Creating a Bug Report**
+
+.. image:: images/bug.png
 
 .. _Localization and Translations:
 
