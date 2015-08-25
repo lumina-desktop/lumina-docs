@@ -300,7 +300,7 @@ Lumina 0.6.2
   enable numlock on log in or to play audio chimes, manage applications and files to be launched on log in, and to manage window system options such as appearance, mouse focus policy,
   window placement policy, and the number of workspaces.
 
-* Update the overall appearance of the application selector window in:ref:`Lumina Open`.
+* Update the overall appearance of the application selector window in :ref:`Lumina Open`.
 
 * Fully support registered mime-types on the system and recommend those applications as appropriate.
 
