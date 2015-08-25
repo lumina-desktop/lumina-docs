@@ -284,7 +284,7 @@ of a horizontal panel. The available plugins include:
 
 * **Start Menu:** adds a classic start menu as seen on other operating systems.
 
-* **System Dashboard:** used to view/modify audio volume, screen brightness, batterly life, and virtual desktops.
+* **System Dashboard:** used to view/modify audio volume, screen brightness, battery life, and virtual desktops.
 
 * **System Tray:** provides a display area for dockable applications.
 

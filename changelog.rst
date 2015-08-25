@@ -141,7 +141,7 @@ Lumina 0.8.3
 * Add an option for enabling and disabling the use of image thumbnails. This is useful if you have massive image directories, just be sure to disable thumbnails **before** loading the
   directory.
      
-* Add initial drag-and-drop support for moving files and directoriess within a directory.
+* Add initial drag-and-drop support for moving files and directories within a directory.
      
 * Load the specific icon for any application shortcuts.
      
@@ -212,7 +212,7 @@ Lumina 0.8.1
 
 * Panels and desktop plugins follow the current theme by default.
 
-* The "Note Pad" desktop plugin has been converted to a file-based utilit so that all notes can be found in :file:`~/Notes` for access by other utilities. Plugins are
+* The "Note Pad" desktop plugin has been converted to a file-based utility so that all notes can be found in :file:`~/Notes` for access by other utilities. Plugins are
   able to load a generic text file to treat like a note for watching or updating.
   
 * Auto-hidden panels now stay visible when the mouse moves over the system tray.
@@ -274,7 +274,7 @@ Lumina 0.7.2
 Lumina 0.6.2
 ============
 
-* A desktop plugin system has been implemented with two plugins: a calandar and an application launcher plugin.
+* A desktop plugin system has been implemented with two plugins: a calendar and an application launcher plugin.
 
 * The panel plugin system has been refined with transparency support for the panel itself and automatic plugin resizing.
 
