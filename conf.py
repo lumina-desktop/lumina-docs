@@ -36,9 +36,7 @@ extensions = [
 
 # -- Options for automatic Figure numbering
 numfig = True
-numfig_figure_caption_prefix = "Figure"
-numfig_format = {'figure': 'Figure %s'}
-numfig_secnum_depth = (1)
+numfig_secnum_depth = (2)
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
