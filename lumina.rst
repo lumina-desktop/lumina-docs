@@ -40,7 +40,7 @@ dependent software is installed and to `README <https://github.com/pcbsd/lumina/
 
 Once installed, add "Lumina-DE" as the name of the binary in your :file:`.startx`, :file:`.xinitrc`, or similar X startup file.
 
-.. note:: no startup configuration is needed when installed on a PC-BSD® system as the PCDM login manager will automatically display Lumina in the login menu. Simply log out, select Lumina,
+.. note:: No startup configuration is needed when installed on a PC-BSD® system as the PCDM login manager will automatically display Lumina in the login menu. Simply log out, select Lumina,
    and log back in.
    
 The rest of this Handbook describes the Lumina Configuration utility and the various utilities which are built into Lumina. It then describes how you can contribute to the Lumina Project and
@@ -164,7 +164,7 @@ Each of the tabs at the top configures a different area of the system, with the 
 the "Save Changes" button at the bottom of the window becomes active. This allows the user to setup multiple changes in any tab and apply them all at the
 same time.
 
-.. note:: if you make any changes in any of the tabs, remember to click "Save Changes" before exiting this utility in order to save them.
+.. note:: If you make any changes in any of the tabs, remember to click "Save Changes" before exiting this utility in order to save them.
 
 The rest of this section describes the configurations that are available in each tab. 
 
@@ -226,7 +226,7 @@ To embed a utility onto the desktop, click the "+" button under the "Embedded Ut
 utilities you added will appear on top of the desktop. To remove an embedded utility from the desktop, highlight its entry under "Embedded Utilities", click the "-" button, and click "Save
 Changes". Alternately, right-click the icon for the utility and select "Close" from the right-click menu.
 
-.. note:: at this time, it is a known bug that the "x" in the upper right corner of an embedded utility will not remove that utility from the desktop. To bypass this bug, either right-click
+.. note:: At this time, it is a known bug that the "x" in the upper right corner of an embedded utility will not remove that utility from the desktop. To bypass this bug, either right-click
    the name of the utility and select "Close" from the right-click menu or use the "-" button under "Embedded Utilities" as described above.
 
 The "Generate Desktop Links" option is used to display each item stored in :file:`~/Desktop` as an icon on the desktop. By default, this option is selected as its box is black. If you
@@ -297,7 +297,7 @@ of a horizontal panel. The available plugins include:
 
 * **User Button:** main button for accessing applications, directories, settings, and log out.
 
-.. note:: each Lumina plugin automatically contains a unique settings file in :file:`~/.lumina/desktop-plugins/<plugin_name>---<screen number>.<pluginnumber>.conf`, which
+.. note:: Each Lumina plugin automatically contains a unique settings file in :file:`~/.lumina/desktop-plugins/<plugin_name>---<screen number>.<pluginnumber>.conf`, which
    contains its location and sizing information as well as providing the possibility for each plugin to store its own customized settings as necessary.
 
 .. index:: application startup
@@ -332,7 +332,7 @@ This screen can also be used to set the default application for several categori
 click "Set App", which will open a drop-down menu of common applications, or "Set Binary", which will open a file browser so that you can browse to the path
 of the application.
 
-.. note:: some applications, such as web browsers, keep their own internal lists of default applications for opening particular types of files. If you set
+.. note:: Some applications, such as web browsers, keep their own internal lists of default applications for opening particular types of files. If you set
    that application to use the :command:`lumina-open` or :command:`xdg-open` utilities, it will use the default applications that are set here instead so that
    there is only a single list of default applications for the system.
 
@@ -384,7 +384,7 @@ Installing the lumina-i18n package will also add a drop-down menu to the system 
 Lumina after the package installation in order for this option to be added to the dashboard menu. This drop-down menu can be used to temporarily change the locale for this session only. This
 will immediately change the localization of any translated menu items on the fly so that you do not have to log back into the Lumina session.
 
-.. note:: any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
+.. note:: Any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
    instructions in :ref:`Interface Translation`.
 
 The "Window System" tab, shown in :numref:`Figure %s: Session Window System Tab <lumina22>`, contains various configuration options for the window manager. 
@@ -431,7 +431,7 @@ The settings at the bottom of the window can be used to select the "Entire Scree
 configured in order to give time to setup the screenshot. If you like the look of the taken screenshot, as shown in the preview, click the "Save" button to
 open a window where you can specify the name and location of the saved screenshot.
 
-.. note:: the "Print Screen" keyboard shortcut is set to run this utility by default.
+.. note:: The "Print Screen" keyboard shortcut is set to run this utility by default.
 
 .. index:: file manager
 .. _Insight File Manager:
@@ -711,7 +711,7 @@ paths may differ on your operating system::
 
  make
 
-.. note:: if you encounter an issue trying to compile source on a non-PC-BSD® system, refer to the "How to build from source" section of the
+.. note:: If you encounter an issue trying to compile source on a non-PC-BSD® system, refer to the "How to build from source" section of the
    `README <https://github.com/pcbsd/lumina/blob/master/README.md>`_ for some additional tips.
  
 If you wish to also install the compiled applications, run this command which requires superuser privileges::
