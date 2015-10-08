@@ -693,7 +693,8 @@ The Lumina source code is available from github and :command:`git` needs to be i
 
 To download the source code, :command:`cd` to the directory to store the source and type::
 
- git clone git://github.com/lumina/lumina.git
+ git clone git://github.com/pcbsd/lumina.git
+ git pull
 
 This will create a directory named :file:`lumina/` which contains the local copy of the repository. To keep the local copy in sync with the official
 repository, run :command:`git pull` within the :file:`lumina` directory.
@@ -702,7 +703,7 @@ In order to compile the source, make sure that the following `list of required s
 system, the required software is contained in the "PC-BSD Build Toolchain" PBI which can be installed using AppCafe® or by typing :command:`pkg install pcbsd-toolchain`. On other
 operating systems, install any missing software using the operating system's package management utility.
 
-To compile the source, first run :command:`qmake` to generate the necessary :file:`Makefile`, then run :command:`make`. The following example is for a  PC-BSD® system and the binary
+To compile the source, first run :command:`qmake` to generate the necessary :file:`Makefile`, then run :command:`make`. The following example is for a PC-BSD® system and the binary
 paths may differ on your operating system::
 
  cd lumina
