@@ -51,11 +51,11 @@ lists the changelogs for each version of Lumina.
 Introduction to Lumina
 **********************
 
-:numref:`Figure %s: Lumina Desktop <lumina1a>` shows a screenshot of Lumina on a PC-BSD® system with the "User" button clicked.
+:numref:`Figure %s: Lumina Desktop <lumina1b>` shows a screenshot of Lumina on a PC-BSD® system with the "User" button clicked.
 
-.. _lumina1a:
+.. _lumina1b:
 
-.. figure:: images/lumina1a.png
+.. figure:: images/lumina1b.png
 
 The "User" button provides quick access for user interaction with the system. The left frame of this menu contains the following 4 tabs: 
 
@@ -65,7 +65,7 @@ The "User" button provides quick access for user interaction with the system. Th
   file will actually get deleted permanently. Note that anything that exists in the users Desktop folder (:file:`~/Desktop`) is automatically treated as a
   favorite.
 
-* **System Applications:** the white and blue gear icon lets the user browse all the applications currently registered on the system. By default, applications
+* **Applications:** the white and blue gear icon lets the user browse all the applications currently registered on the system. By default, applications
   are listed alphabetically, but the list can be narrowed down by category using the drop-down list at the top of the tab. If you are running PC-BSD® or
   another operating system that has a pre-defined application store, you will also have a shortcut at the top of the tab which will open up that application
   store. On a PC-BSD® system, the shortcut is to AppCafe®. Any application that is not currently marked as a favorite has a "star" button on the right side of the entry. This allows
@@ -137,12 +137,6 @@ workspace. While this menu can be customized, here is a quick summary of the def
 * **Settings:** contains configuration shortcuts for the screensaver, desktop, and screen, as well as a shortcut to the operating system's control panel and for determining the version of
   Lumina.
 
-* **Unlock/Lock Desktop:** used to lock or unlock the desktop plugins. When unlocked, desktop plugins become "active" and can be moved, resized, or removed
-  from the desktop. It is recommended to leave the desktop locked during normal operations.
-
-* **Snap Plugins to Grid:** this option only appears when the desktop is unlocked. Used to align and resize all the desktop plugins on an invisible 32x32
-  pixel grid, with special adjustments to align on the bottom and right screen edges if necessary, in order to provide a uniform appearance.
-
 * **Log Out:** opens the system log out window, with options to shutdown/restart the system (if the user has permission), log out of the desktop session, lock
   the system, cancel the log out window, or suspend the system.
 
@@ -152,13 +146,13 @@ workspace. While this menu can be customized, here is a quick summary of the def
 Lumina Configuration
 ********************
 
-The Lumina Configuration utility, shown in :numref:`Figure %s: Lumina Desktop Configuration <lumina2>`, can be used to configure every aspect of the desktop and is the recommended way to
+The Lumina Configuration utility, shown in :numref:`Figure %s: Lumina Desktop Configuration <lumina3a>`, can be used to configure every aspect of the desktop and is the recommended way to
 make changes. To launch this utility, click the "User" icon then :menuselection:`Desktop Preferences --> Desktop Appearance/Plugins`, right-click the desktop and click
 :menuselection:`Settings --> Desktop`, or type :command:`lumina-config` from an xterm.
 
-.. _lumina2:
+.. _lumina3a:
 
-.. figure:: images/lumina3.png
+.. figure:: images/lumina3a.png
 
 Each of the tabs at the top configures a different area of the system, with the most frequently changed options on the left side. As changes are made,
 the "Save Changes" button at the bottom of the window becomes active. This allows the user to setup multiple changes in any tab and apply them all at the
@@ -175,7 +169,7 @@ Appearance
 ==========
 
 This tab is used to change the visual appearance and functionality of the desktop on a per-screen basis. The "Wallpaper" tab, shown in
-:numref:`Figure %s: Lumina Desktop Configuration <lumina2>`, can be used to add a wallpaper ("+" button), create a color to use as a wallpaper (paint button), or remove ("-" button) a
+:numref:`Figure %s: Lumina Desktop Configuration <lumina3a>`, can be used to add a wallpaper ("+" button), create a color to use as a wallpaper (paint button), or remove ("-" button) a
 wallpaper. By default, when you click the "+" button, the Lumina backgrounds stored in :file:`/usr/local/share/wallpapers/Lumina-DE/` are displayed. Click the drop-down "Look In:" menu to
 select an alternate wallpaper location. If multiple images are selected, the "Rotate Background" button can be selected as well as a specified time interval in minutes to rotate to the next
 image. 
@@ -187,11 +181,11 @@ solid color background to the wallpaper selection drop-down menu.
 
 .. figure:: images/lumina16.png
 
-The "Theme" tab, shown in :numref:`Figure %s: Modifying the Theme <lumina17>`, can be used to change the default font, font size, theme template, color scheme, and icon pack. 
+The "Theme" tab, shown in :numref:`Figure %s: Modifying the Theme <lumina17a>`, can be used to change the default font, font size, theme template, color scheme, and icon pack. 
 
-.. _lumina17:
+.. _lumina17a:
 
-.. figure:: images/lumina17.png
+.. figure:: images/lumina17a.png
 
 It is possible to create your own "Theme Template" or "Color Scheme" by clicking the "Edit" button next to those options and changing the settings as necessary.
 :numref:`Figure %s: Using the Theme Editor <lumina18>` shows an example of clicking the "Edit" button with the "Lumina-default (System)" theme template selected. This action opened the
@@ -210,12 +204,12 @@ will both save the theme and close the theme editor.
 Interface
 =========
 
-The "Interface" tab is used to configure the desktop menu and panels. Its "Desktop" tab, shown in :numref:`Figure %s: Right-Click Menu Configuration <lumina4a>`, is used to configure which
+The "Interface" tab is used to configure the desktop menu and panels. Its "Desktop" tab, shown in :numref:`Figure %s: Right-Click Menu Configuration <lumina4b>`, is used to configure which
 items appear in the right-click menu and which items are embedded onto the desktop.
 
-.. _lumina4a:
+.. _lumina4b:
 
-.. figure:: images/lumina4a.png
+.. figure:: images/lumina4b.png
 
 To add an item to the right-click menu, click the "+" button under the "Quick-Access Menu". This will open the "Select Plugin" screen where you can add an application, custom app, an entry
 for the File Manager, a separator, a shortcut to Settings, a terminal, or a listing of currently open applications. To remove an item from the right-click menu, highlight it and click the
@@ -270,15 +264,15 @@ of a horizontal panel. The available plugins include:
 
 * **Application Launcher:** when you select this plugin, it will prompt you to select the application to launch. This will add a shortcut for launching the selected application
   to the panel.
+  
+* **Application Menu:**
 
 * **Battery Monitor:** hover over this icon to view the current charge status of the battery. When the charge reaches 15% or below, the low battery icon will flash intermittently
   and will change to a low battery icon when there is less than 5% charge left.
 
 * **Desktop Bar:** adds a "star" button for automatically displaying entries for anything in the :file:`~/Desktop` folder and alternately launching the selected entry.
 
-* **Desktop Switcher:** used to switch between virtual desktops.
-
-* **Home Button:** this button will hide all open windows so that only the desktop is visible. This is useful for touch screens or small devices.
+* **Show Desktop:** 
 
 * **Spacer:** adds a blank area to the panel.
 
@@ -296,6 +290,8 @@ of a horizontal panel. The available plugins include:
 * **Time/Date:** displays the current time and date.
 
 * **User Button:** main button for accessing applications, directories, settings, and log out.
+
+* **Workspace Switcher:**
 
 .. note:: Each Lumina plugin automatically contains a unique settings file in :file:`~/.lumina/desktop-plugins/<plugin_name>---<screen number>.<pluginnumber>.conf`, which
    contains its location and sizing information as well as providing the possibility for each plugin to store its own customized settings as necessary.
@@ -357,12 +353,12 @@ saved, before that key press will be detectable when creating or changing a shor
 Session
 =======
 
-The "Session" tab, shown in :numref:`Figure %s: Session General Options Tab <lumina12b>`, governs the general settings for the desktop session. These settings are usually not changed on a
+The "Session" tab, shown in :numref:`Figure %s: Session General Options Tab <lumina12c>`, governs the general settings for the desktop session. These settings are usually not changed on a
 frequent basis.
 
-.. _lumina12b:
+.. _lumina12c:
 
-.. figure:: images/lumina12b.png
+.. figure:: images/lumina12c.png
 
 The "General Options" tab can be used to automatically enable numlock, to play chimes when Lumina starts or exits, and to change the icon that appears  in the login menu and the "User"
 button. It also has options to set the time format, date format, time zone, and time display. Buttons are available to reset these options
@@ -419,13 +415,13 @@ Lumina Screenshot
 =================
 
 This utility can be used to take screenshots of the desktop or applications and save them as PNG image files. To launch this utility, click the icon for
-:menuselection:`System Applications --> Lumina Screenshot` or type :command:`lumina-screenshot` from an xterm.
+:menuselection:`Applications --> Lumina Screenshot` or type :command:`lumina-screenshot` from an xterm.
 
-To take a screenshot, click the "Snap" button in the upper-right corner of the screen shown in :numref:`Figure %s: Lumina Screenshot <lumina9>`.
+To take a screenshot, click the "Snap" button in the upper-right corner of the screen shown in :numref:`Figure %s: Lumina Screenshot <lumina9a>`.
 
-.. _lumina9:
+.. _lumina9a:
 
-.. figure:: images/lumina9.png
+.. figure:: images/lumina9a.png
 
 The settings at the bottom of the window can be used to select the "Entire Screen" or to "Select Window". The delay, in number of seconds, can also be
 configured in order to give time to setup the screenshot. If you like the look of the taken screenshot, as shown in the preview, click the "Save" button to
