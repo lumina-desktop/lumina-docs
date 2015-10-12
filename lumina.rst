@@ -696,8 +696,8 @@ This will create a directory named :file:`lumina/` which contains the local copy
 repository, run :command:`git pull` within the :file:`lumina` directory.
 
 In order to compile the source, make sure that the following `list of required software <https://github.com/pcbsd/lumina/blob/master/DEPENDENCIES>`_ is installed. If you are on a PC-BSD®
-system, the required software is contained in the "PC-BSD Build Toolchain" PBI which can be installed using AppCafe® or by typing :command:`pkg install pcbsd-toolchain`. On other
-operating systems, install any missing software using the operating system's package management utility.
+system, the required software is contained in the "PC-BSD Build Toolchain" PBI which can be installed using AppCafe® or by typing :command:`pkg install pcbsd-toolchain`. You will also need
+to run :command:`pkg install devel/qt5-concurrent` On other operating systems, install any missing software using the operating system's package management utility.
 
 To compile the source, first run :command:`qmake` to generate the necessary :file:`Makefile`, then run :command:`make`. The following example is for a PC-BSD® system and the binary
 paths may differ on your operating system::
