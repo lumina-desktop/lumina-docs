@@ -249,9 +249,6 @@ To embed a utility onto the desktop, click the "+" button under the "Embedded Ut
 utilities you added will appear on top of the desktop. To remove an embedded utility from the desktop, highlight its entry under "Embedded Utilities", click the "-" button, and click "Save
 Changes". Alternately, right-click the icon for the utility and select "Close" from the right-click menu.
 
-.. note:: At this time, it is a known bug that the "x" in the upper right corner of an embedded utility will not remove that utility from the desktop. To bypass this bug, either right-click
-   the name of the utility and select "Close" from the right-click menu or use the "-" button under "Embedded Utilities" as described above.
-
 The "Generate Desktop Links" option is used to display each item stored in :file:`~/Desktop` as an icon on the desktop. By default, this option is selected as its box is black. If you
 de-select this option and click "Save Changes", the icons for the contents of :file:`~/Desktop` will be removed from the desktop.
    
@@ -452,9 +449,18 @@ To take a screenshot, click the "Snap" button in the upper-right corner of the s
 
 .. figure:: images/lumina9a.png
 
-The settings at the bottom of the window can be used to select the "Entire Screen" or to "Select Window". The delay, in number of seconds, can also be
-configured in order to give time to setup the screenshot. If you like the look of the taken screenshot, as shown in the preview, click the "Save" button to
-open a window where you can specify the name and location of the saved screenshot.
+The following settings can be used to fine-tune the screenshot:
+
+* **Delay:** in seconds. This can be used to give you time to setup the screenshot.
+
+* **Entire Session:** will take a screenshot of the entire screen.
+
+* **Single Screen:** in a multi-monitor setup, you can select which screen number to use for the screenshot.
+
+* **Single Window:** will take a screenshot of the window which has focus. The "Include Borders" checkbox can be used to determine whether or not the screenshot of the window is
+  surrounded by a black border.
+
+If you like the look of the taken screenshot, as shown in the preview, click the "Save" button to open a window where you can specify the name and location of the saved screenshot.
 
 .. note:: The "Print Screen" keyboard shortcut is set to run this utility by default.
 
@@ -595,7 +601,7 @@ Report a Bug
 ============
 
 If you like playing around with your desktop environment and have a bit of spare time, one of the most effective ways you can assist the Lumina Project is by
-reporting problems you encounter while using Lumina. Subscribing to the `PC-BSD® blog <http://blog.pcbsd.org/>`_ is a good way to keep
+reporting problems you encounter while using Lumina. Subscribing to the `Lumina News <http://lumina-desktop.org/news/>`_ is a good way to keep
 up-to-date on the availability of new Lumina versions.
 
 Anyone can report a Lumina bug. Follow these tips so that you can accurately describe your findings so they can be fixed as soon as possible: 
