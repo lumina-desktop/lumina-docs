@@ -28,11 +28,17 @@ Lumina is available as a pre-built package for the following operating systems. 
 
 * `Debian Testing “Stretch” and Debian Unstable “Sid” <http://lumina-desktop.org/get-lumina/#debian-testing>`_
 
+* `Fedora 22 <http://lumina-desktop.org/get-lumina/#fedora>`_
+
 * `FreeBSD <http://lumina-desktop.org/get-lumina/#freebsd>`_
+
+* `Manjaro Linux <http://lumina-desktop.org/get-lumina/#manjaro>`_
 
 * `OpenBSD <http://lumina-desktop.org/get-lumina/#openbsd>`_
 
 * `PC-BSD <http://lumina-desktop.org/get-lumina/#pcbsd>`_
+
+* `Slackware <http://lumina-desktop.org/get-lumina/#slackware>`_
 
 In addition to pre-built packages, the `Lumina source repository <https://github.com/pcbsd/lumina>`_ is available on GitHub so that developers can contribute code or create
 packages for other distributions. If you plan to compile Lumina from source, refer to `DEPENDENCIES <https://github.com/pcbsd/lumina/blob/master/DEPENDENCIES>`_ and ensure all
@@ -272,7 +278,7 @@ of a horizontal panel. The available plugins include:
 
 * **Desktop Bar:** adds a "star" button for automatically displaying entries for anything in the :file:`~/Desktop` folder and alternately launching the selected entry.
 
-* **Show Desktop:** 
+* **Show Desktop:** this button will hide all open windows so that only the desktop is visible. This is useful for touch screens or small devices.
 
 * **Spacer:** adds a blank area to the panel.
 
@@ -291,7 +297,7 @@ of a horizontal panel. The available plugins include:
 
 * **User Button:** main button for accessing applications, directories, settings, and log out.
 
-* **Workspace Switcher:**
+* **Workspace Switcher:** used to switch between virtual desktops.
 
 .. note:: Each Lumina plugin automatically contains a unique settings file in :file:`~/.lumina/desktop-plugins/<plugin_name>---<screen number>.<pluginnumber>.conf`, which
    contains its location and sizing information as well as providing the possibility for each plugin to store its own customized settings as necessary.
