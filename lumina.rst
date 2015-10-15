@@ -80,11 +80,10 @@ The "User" button provides quick access for user interaction with the system. Th
 * **Home Directory:** the blue folder icon can be used to browse through all the directories in their home and open any of them in the :ref:`Insight File Manager`. Click the star icon
   to the right of the directory name to add it to "Favorites".
 
-* **Desktop Preferences:** the tool icon provides quick shortcuts to system and desktop configuration utilities. It also contains "About the Lumina Desktop"
-  which can be clicked to determine the installed version of Lumina. You can also determine the version by typing :command:`lumina-info`.
-
-If you are on PC-BSD®, or a supported operating system, you should have links to the operating system's control panel, the desktop configuration utility
-(:command:`lumina-config`), :command:`qt-config` (if it is installed), the screen configuration utility (:command:`lumina-xconfig`), and the screensaver configuration utility.
+* **Desktop Preferences:** the tool icon provides quick shortcuts to system and desktop configuration utilities. It also contains "About the Lumina Desktop" which can be clicked to
+  determine the installed version of Lumina. You can also determine the version by typing :command:`lumina-info`. If you are on PC-BSD®, or an operating system which provides the following
+  features, this section will contain links to the operating system's control panel, the desktop configuration utility (:command:`lumina-config`), :command:`qt-config` (if it is installed),
+  the screen configuration utility (:command:`lumina-xconfig`), and the screensaver configuration utility.
 
 Any open windows or applications will have a button appear in the section of the panel near the "User" button. If the application provides an icon, the button
 will appear as that icon and if you mouse over it, the tooltip will show the name of the application. If you have multiple copies of an application running,
@@ -107,7 +106,7 @@ The "System Dashboard" button is located at the far right of the panel. If you c
 
 .. _lumina2a:
 
-.. figure:: images/lumina2a.png
+.. figure:: images/lumina2b.png
 
 This button provides quick access to hardware-specific information or operations, as supported by your operating system. The possible menu entries are: 
 
@@ -119,6 +118,9 @@ This button provides quick access to hardware-specific information or operations
 * **Battery Status:** the current status of the battery, if your system has one, and the estimated time remaining if that battery is discharging.
 
 * **Workspace:** a listing of the number of virtual workspaces that are in use, with arrows to switch between the different workspaces. 
+
+* **Locale:** this will only appear if the lumina-i18n package is installed. The current locale will be displayed as the title of the drop-down menu. Click the drop-down menu to select
+  another locale for this session. Refer to :ref:`Session` for more information on fine-tuning the locale settings.
 
 * **Log Out:** when this button is clicked, a window of choices will be displayed in the middle of the screen.
   The choices include: "Log Out", "Restart" (if the user has permission), "Shutdown" (if the user has permission), "Cancel" (to exit the choice menu), "Lock" (which returns
@@ -140,11 +142,11 @@ workspace. While this menu can be customized, here is a quick summary of the def
 * **Applications:** provides shortcuts to the user's home directory, the operating system's graphical software management utility (if available), the control panel (if the operating
   system provides one), and the applications currently registered on the system, arranged by system category.
 
-* **Settings:** contains configuration shortcuts for the screensaver, desktop, and screen, as well as a shortcut to the operating system's control panel and for determining the version of
-  Lumina.
+* **Settings:** contains shortcuts to the screensaver preferences, :ref:`Lumina Configuration` utility, screen configuration (:ref:`Lumina Xconfig`), the operating
+  system's control panel, and for determining the version of Lumina.
 
 * **Log Out:** opens the system log out window, with options to shutdown/restart the system (if the user has permission), log out of the desktop session, lock
-  the system, cancel the log out window, or suspend the system.
+  the system, cancel the log out window, or suspend the system (if the operating system supports suspend mode).
 
 .. index:: configuration
 .. _Lumina Configuration:
