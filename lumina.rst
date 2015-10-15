@@ -7,13 +7,32 @@ Lumina's features include:
 
 * Very little system overhead.
 
+* Does not require any of desktop implementation frameworks such as DBUS, policykit, consolekit, systemd, or HALD.
+
+* Does not come bundled with any applications such as web browsers, email clients, multimedia software, or office suites. Instead, it provides utilities for configuring the desktop
+  environment.
+
+* Uses a simple, `text-based configuration file for setting system-wide defaults <https://github.com/pcbsd/lumina/blob/master/lumina-desktop/defaults/luminaDesktop.conf>`_. This allows
+  Lumina distributors to easily pre-set the Lumina defaults and interface for their distribution.
+
+* Provides a plugin-based interface design. This allows the user to make the desktop as light or heavy as desired by choosing which plugins to have running on their desktop and panels.
+  This plugin-based system is similar to Android or other modern operating systems.
+  
+* Sincle, easy-to-use :ref:`Lumina Configuration` utility controls all the different configuration options for the desktop in one location.
+
 * Intelligent "favorites" system for creating quick shortcuts to applications, files, and directories.
 
 * ZFS file restore functionality through the :ref:`Insight File Manager`.
 
-* Desktop system is plugin-based, which is similar to Android or other modern operating systems.
-
 * Simple access to operating system-specific functionality such as screen brightness, audio volume, and battery status.
+
+* Multi-monitor support includes the :ref:`Lumina Xconfig` graphical utility for adding or removing monitors from the Lumina session.
+
+* Simple system controls through the :ref:`System Dashboard` for configuring audio volume, screen brightness, battery status/notifications, and workspace switching.
+
+* Total system search capabilities through :ref:`Lumina Search`, without a daemon eating memory in the background.
+
+* Screenshot functionality through :ref:`Lumina Screenshot` which is also tied to the “Print Screen” key by default.
 
 .. _How to Get Lumina:
 
@@ -90,10 +109,12 @@ will appear as that icon and if you mouse over it, the tooltip will show the nam
 it will combine all those entries into a single button and list the number of windows after the icon. If you click on a button, it will automatically make
 that window active. If there are multiple windows, you can select the particular window you want from a drop-down menu. The color of the button will change
 depending on the state of the window: grey for a hidden or minimized window, white for a visible but inactive window, yellow for the active window, and orange
-for a window that needs attention.
+for a window that needs attention. If you right-click the title of a window, a menu of options will appear so that you can shade, stick, maximize, iconify, raise, lower, set the window
+title, send the window to a workspace, layer/dock the window, set the window's transparency, remember a specified setting, or close the window.
 
 The system tray is located in the right portion of the panel. Any applications that register a tray icon will appear in this area. Click an icon to
-interact with that application directly. The current system time shown by the clock is in the default format for the current locale.
+interact with that application directly. The current system time shown by the clock is in the default format for the current locale. If you click the clock icon and then click "Time Zone",
+a menu will open where you can select to either "Use System Time" or click a country name in order to select a city to change to that city's time zone.
 
 .. index:: dashboard
 .. _System Dashboard:
@@ -741,7 +762,10 @@ Design Guidelines
 
 Lumina is a community driven project that relies on the support of developers in the community to help in the design and implementation of new utilities and tools. The Project aims to
 present a unified design so that programs feel familiar to users. As an example, while programs could have "File", "Main", or "System" as their first entry in a menu bar, "File" is used
-as the accepted norm for the first category on the menu bar. This section describes a small list of guidelines for menu and program design in Lumina.
+as the accepted norm for the first category on the menu bar. 
+
+The `Developer Guidelines <https://github.com/pcbsd/lumina/blob/5beb2730a9e8230d2377ea89e9728504ea88de9c/DeveloperGuidelines.txt>`_ contain some coding practices for getting
+started with submitting updates or utilities. This section describes a small list of guidelines for menu and program design in Lumina.
 
 Any graphical program that is a full-featured utility, such as :ref:`Insight File Manager`, should have a "File" menu. However, file menus are not
 necessary for small widget programs or dialogue boxes. When making a file menu, a good rule of thumb is keep it simple. Most Lumina utilities do not need
