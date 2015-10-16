@@ -1,3 +1,8 @@
+.. _Introduction to Lumina:
+
+Introduction to Lumina
+**********************
+
 The Lumina Desktop Environment (Lumina for short) is a lightweight, XDG-compliant, BSD-licensed desktop environment that focuses specifically on streamlining
 the ability to get work done while minimizing system overhead. It is specifically designed for PC-BSD® and FreeBSD, but has also been ported to many other
 BSD and Linux operating systems. It is based on the Qt graphical toolkit and the Fluxbox window manager, and uses a small number of X utilities for various
@@ -28,7 +33,7 @@ Lumina's features include:
 
 * Multi-monitor support includes the :ref:`Lumina Xconfig` graphical utility for adding or removing monitors from the Lumina session.
 
-* Simple system controls through the :ref:`System Dashboard` for configuring audio volume, screen brightness, battery status/notifications, and workspace switching.
+* Simple system controls through the system menu for configuring audio volume, screen brightness, battery status/notifications, and workspace switching.
 
 * Total system search capabilities through :ref:`Lumina Search`, without a daemon eating memory in the background.
 
@@ -71,87 +76,87 @@ Once installed, add "Lumina-DE" as the name of the binary in your :file:`.startx
 The rest of this Handbook describes the Lumina Configuration utility and the various utilities which are built into Lumina. It then describes how you can contribute to the Lumina Project and
 lists the changelogs for each version of Lumina.
 
-.. _Introduction to Lumina:
+.. _Start Menu:
 
-Introduction to Lumina
-**********************
+Start Menu
+**********
 
-:numref:`Figure %s: Lumina Desktop <lumina1b>` shows a screenshot of Lumina on a PC-BSD® system with the "User" button clicked.
+:numref:`Figure %s: Lumina Desktop <lumina1b>` shows a screenshot of Lumina on a PC-BSD® system. The user has clicked the "fireball" icon in order to open the start menu.
 
 .. _lumina1b:
 
 .. figure:: images/lumina1b.png
 
-The "User" button provides quick access for user interaction with the system. The left frame of this menu contains the following 4 tabs: 
+The start menu provides quick access for user interaction with the system. The top frame indicates which user is logged in. Hover over the battery icon to display the current status of
+the battery, if your system has one, and the estimated time remaining if that battery is discharging.
 
-* **Favorites:** the yellow star on a blue folder icon can be used to quickly launch anything that was setup as a "favorite". Favorites can be applications, files, or
-  directories, and are separated into those three categories. Favorites can be removed by clicking the icon on the right side of the entry. If the
-  icon is a red minus sign, removing the favorite does not actually delete the file as just its link is removed. If the button icon is a trash can, the
-  file will actually get deleted permanently. Note that anything that exists in the users Desktop folder (:file:`~/Desktop`) is automatically treated as a
-  favorite.
+The next frame contains a list of "Favorites". Click an entry to launch that application. Right-click an entry to "Remove from Favorites" or to "Add to Quicklaunch". In Lumina, "Favorites"
+appear in this section of the start menu and "QuickLaunch" adds a button for the application to the panel that is next to the start menu button.
 
-* **Applications:** the white and blue gear icon lets the user browse all the applications currently registered on the system. By default, applications
-  are listed alphabetically, but the list can be narrowed down by category using the drop-down list at the top of the tab. If you are running PC-BSD® or
-  another operating system that has a pre-defined application store, you will also have a shortcut at the top of the tab which will open up that application
-  store. On a PC-BSD® system, the shortcut is to AppCafe®. Any application that is not currently marked as a favorite has a "star" button on the right side of the entry. This allows
-  you to add an application to "Favorites".
+The remainder of the start menu contains the following:
 
-* **Home Directory:** the blue folder icon can be used to browse through all the directories in their home and open any of them in the :ref:`Insight File Manager`. Click the star icon
-  to the right of the directory name to add it to "Favorites".
+**Browse Files:** used to browse for files and directories using the :ref:`Insight File Manager`. One of the actions available in this file manager is the ability to add a file or directory
+to the list of Favorites. Simply select the file or directory and click the star icon in Insight.
 
-* **Desktop Preferences:** the tool icon provides quick shortcuts to system and desktop configuration utilities. It also contains "About the Lumina Desktop" which can be clicked to
-  determine the installed version of Lumina. You can also determine the version by typing :command:`lumina-info`. If you are on PC-BSD®, or an operating system which provides the following
-  features, this section will contain links to the operating system's control panel, the desktop configuration utility (:command:`lumina-config`), :command:`qt-config` (if it is installed),
-  the screen configuration utility (:command:`lumina-xconfig`), and the screensaver configuration utility.
+**Browse Applications:** click this entry to browse all the applications currently registered on the system. Applications are listed alphabetically by category. Click an application's
+name to start that application. If you right-click an application's name, you can "Pin to Desktop", "Add to Favorites", or "Add to Quicklaunch". If you are running PC-BSD® or another
+operating system that has a pre-defined application store, click "Manage Applications" at the top of the list of applications in order to open that application store. For example, on a
+PC-BSD® system, "Manage Applications" opens AppCafe®. Click the "Back" button to return to the start menu.
 
-Any open windows or applications will have a button appear in the section of the panel near the "User" button. If the application provides an icon, the button
-will appear as that icon and if you mouse over it, the tooltip will show the name of the application. If you have multiple copies of an application running,
-it will combine all those entries into a single button and list the number of windows after the icon. If you click on a button, it will automatically make
-that window active. If there are multiple windows, you can select the particular window you want from a drop-down menu. The color of the button will change
-depending on the state of the window: grey for a hidden or minimized window, white for a visible but inactive window, yellow for the active window, and orange
-for a window that needs attention. If you right-click the title of a window, a menu of options will appear so that you can shade, stick, maximize, iconify, raise, lower, set the window
-title, send the window to a workspace, layer/dock the window, set the window's transparency, remember a specified setting, or close the window.
+**Control Panel:** if you are on PC-BSD®, or an operating system which provides a control panel, click this entry to open that operating system's control panel.
 
-The system tray is located in the right portion of the panel. Any applications that register a tray icon will appear in this area. Click an icon to
-interact with that application directly. The current system time shown by the clock is in the default format for the current locale. If you click the clock icon and then click "Time Zone",
-a menu will open where you can select to either "Use System Time" or click a country name in order to select a city to change to that city's time zone.
+**Quick Settings:** click this entry to access the following:
 
-.. index:: dashboard
-.. _System Dashboard:
+* **Configure Desktop:** click this entry to open the :ref:`Lumina Configuration` utility.
 
-System Dashboard
-================
+* **Lumina Desktop Information:** click the "?" icon to determine the installed version of Lumina. You can also determine the version by typing :command:`lumina-info`. 
 
-The "System Dashboard" button is located at the far right of the panel. If you click this icon, you will see a menu similar to that shown in
-:numref:`Figure %s: System Dashboard Menu <lumina2a>`.
-
-.. _lumina2a:
-
-.. figure:: images/lumina2b.png
-
-This button provides quick access to hardware-specific information or operations, as supported by your operating system. The possible menu entries are: 
-
-* **System Volume:** a slider for changing the system audio volume from 0% to 100%. If the operating system provides a mixer utility, an icon will also appear. Click the
+* **System Volume:** use your mouse to move the volume control slider to change the system audio volume from 0% to 100%. If the operating system provides a mixer utility, click the speaker
   icon to launch that mixer utility for advanced control of the audio system.
 
-* **Screen Brightness:** a slider for changing the screen brightness from 0% to 100%.
+* **Screen Brightness:** use your mouse to move the brightness control slider from 10% to 100%.
 
-* **Battery Status:** the current status of the battery, if your system has one, and the estimated time remaining if that battery is discharging.
-
-* **Workspace:** a listing of the number of virtual workspaces that are in use, with arrows to switch between the different workspaces. 
+* **Workspace:** the number of available virtual workspaces are listed. Click the right or left arrow to switch between workspaces.
 
 * **Locale:** this will only appear if the lumina-i18n package is installed. The current locale will be displayed as the title of the drop-down menu. Click the drop-down menu to select
   another locale for this session. Refer to :ref:`Session` for more information on fine-tuning the locale settings.
 
-* **Log Out:** when this button is clicked, a window of choices will be displayed in the middle of the screen.
-  The choices include: "Log Out", "Restart" (if the user has permission), "Shutdown" (if the user has permission), "Cancel" (to exit the choice menu), "Lock" (which returns
-  to a login menu), and, if the operating system supports it, "Suspend" (press the system's power button to login and resume operation).
+* **Back:** click to return to the start menu.
+
+**Leave:** click this entry in order to "Suspend" (if the operating system supports it, press the system's power button to login and resume operation) "Restart System" (if the user has
+permission), "Power Off system" (if the user has permission), "Sign Out User", or to go "Back" to the system menu. Alternately, click the "lock" icon next to "Leave" to lock the system and
+return it to a login prompt.
+
+.. note:: On a PC-BSD system which is in the middle of applying updates, the shutdown and restart options will be disabled and a note will indicate that updates are in progress.
+
+.. _Panel and System Tray:
+
+Panel and System Tray
+*********************
+
+By default, Lumina provides a panel at the bottom of the screen with a system tray at the far right of the panel. This section describes the default layout. For instructions on how to
+configure the panel to suit your needs, refer to the "Panels" tab :ref:`Interface` section.
+  
+As you open windows or applications, a button will be added to the section of the panel near the system menu. If the application provides an icon, the button
+will appear as that icon and if you mouse over it, the tooltip will show the name of the application. If you have multiple copies of an application running,
+it will combine all those entries into a single button and list the number of windows after the icon. If you click on a button, it will automatically make
+that window active. If there are multiple windows, you can select the particular window you want from a drop-down menu. The color of the button will change
+depending on the state of the window: grey for a hidden or minimized window, white for a visible but inactive window, yellow for the active window, and orange
+for a window that needs attention. 
+
+If you right-click the title of an open window, a menu of options will appear so that you can shade, stick, maximize, iconify, raise, lower, set the window
+title, send the window to a workspace, layer/dock the window, set the window's transparency, remember a specified setting, or close the window.
+
+The system tray is located in the right portion of the panel. Any applications that register a tray icon will appear in this area. For example, on a PC-BSD system, icons will appear for
+Life Preserver, Mount Tray, and Update Manager. Click or right-click an icon to interact with that application directly. The current system time shown by the clock is in the default format
+for the current locale. If you click the clock icon and then click "Time Zone", a menu will open where you can select to either "Use System Time" or click a country name in order to select a
+city to change to that city's time zone.
   
 .. index:: right-click menu
 .. _Right-Click Menu:
 
 Right-Click Menu
-================
+****************
 
 If the user right-clicks on the desktop, a menu of quick shortcuts will appear and the title of the menu will indicate the name of the
 workspace. While this menu can be customized, here is a quick summary of the default items on the menu:
@@ -402,8 +407,8 @@ software management tool that comes with the operating system. If the Lumina Con
 loaded into the drop-down menus of this screen. Since each setting has its own drop-down menu, you have the flexibility to select different locales for each item shown in this screen. Note
 that if you make any changes in the "Locale" tab, click the "Save Changes" button and restart Lumina so that the configured locales can be loaded.
 
-Installing the lumina-i18n package will also add a drop-down menu to the system dashboard menu shown in :numref:`Figure %s: System Dashboard Menu <lumina2a>`. Note that you need to restart
-Lumina after the package installation in order for this option to be added to the dashboard menu. This drop-down menu can be used to temporarily change the locale for this session only. This
+Installing the lumina-i18n package will also add a drop-down menu to the "Quick Settings" of the start menu. Note that you need to restart
+Lumina after the package installation in order for this option to be added to "Quick Settings. This drop-down menu can be used to temporarily change the locale for this session only. This
 will immediately change the localization of any translated menu items on the fly so that you do not have to log back into the Lumina session.
 
 .. note:: Any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
