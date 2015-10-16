@@ -273,8 +273,11 @@ To configure the panel, click the "Panels" tab which will open the screen shown 
 
 .. figure:: images/lumina5c.png
 
-This screen can be used to customize the location, alignment, size, theme, and plugins for an existing panel, as well as to add ("+"), customize, or delete ("-") additional panels. Panels
-must be aligned along a screen edge, opposite screen edges in the case of two panels, and may have any width, color, or transparency. 
+This screen can be used to customize the location, alignment, size, theme, and plugins for an existing panel. The "+" and "-" icons towards the top, next to "Panel 1" can be used to add
+or remove additional panels. Panels must be aligned along a screen edge, opposite screen edges in the case of two panels, and may have any width, color, or transparency. 
+
+.. note:: If you add additional panels, a frame, similar to "Panel 1", will be created for each panel, and will be labelled "Panel 2", "Panel 3", and so on. This allows you to configure
+   each panel separately. The configuration tabs available for a panel are described below. Be sure to select the tab in the panel that you wish to customize.
 
 The "Location" tab (4 arrow icon) contains the following items:
 
@@ -284,7 +287,7 @@ The "Location" tab (4 arrow icon) contains the following items:
 
 * **Size:** can be used to specify the panel width in pixels and the panel length. 
 
-The "Appearance" tab (monitor icon) is shown in :numref:`Figure %s: Panel Appearance Tab <lumina19a>`.
+The "Appearance" tab (monitor icon) is shown in :numref:`Figure %s: Panels Appearance Tab <lumina19a>`.
 
 .. _lumina19a:
 
@@ -293,25 +296,26 @@ The "Appearance" tab (monitor icon) is shown in :numref:`Figure %s: Panel Appear
 If you would like the panel to be hidden unless the mouse is hovered over it, check the "Auto-hide Panel" box. The "Custom Color" option can be used to fine-tune the
 panel color. Click its box, then the paint icon to select the panel color.
 
-The "Plugins" tab (puzzle icon) is shown in :numref:`Figure %s: Panel Plugins Tab <lumina20a>`.
+The "Plugins" tab (puzzle icon) is shown in :numref:`Figure %s: Panels Plugins Tab <lumina20a>`.
 
 .. _lumina20a:
 
 .. figure:: images/lumina20a.png
 
-To add a plugin as an icon to the panel, click the "+" button and select a plugin from the list that appears. To remove a plugin, highlight it and
-click the "-" button. The arrow buttons can be used to move the location of the plugin on the panel. The top of the list corresponds to either the top of a vertical panel or the left side
-of a horizontal panel. The available plugins include:
+To add a plugin as an icon to the panel, click the "+" button below the listed plugins and select a plugin from the list that appears. The available plugins include:
 
 * **Application Launcher:** when you select this plugin, it will prompt you to select the application to launch. This will add a shortcut for launching the selected application
   to the panel.
   
-* **Application Menu:**
+* **Application Menu:** adds an application menu that contains a shortcut to your home directory, a shortcut to the operating system's graphical software management utility (if there is one),
+  a shortcut to the operating system's Control Panel (if it provides one), and a list of installed software sorted by categories.
 
 * **Battery Monitor:** hover over this icon to view the current charge status of the battery. When the charge reaches 15% or below, the low battery icon will flash intermittently
   and will change to a low battery icon when there is less than 5% charge left.
 
 * **Desktop Bar:** adds a "star" button for automatically displaying entries for anything in the :file:`~/Desktop` folder and alternately launching the selected entry.
+
+* **Line:** adds a separator line to the panel.
 
 * **Show Desktop:** this button will hide all open windows so that only the desktop is visible. This is useful for touch screens or small devices.
 
@@ -334,8 +338,8 @@ of a horizontal panel. The available plugins include:
 
 * **Workspace Switcher:** used to switch between virtual desktops.
 
-.. note:: Each Lumina plugin automatically contains a unique settings file in :file:`~/.lumina/desktop-plugins/<plugin_name>---<screen number>.<pluginnumber>.conf`, which
-   contains its location and sizing information as well as providing the possibility for each plugin to store its own customized settings as necessary.
+To remove a plugin, highlight it and click the "-" button below the listed plugins. The arrow buttons can be used to move the location of the plugin on the panel. The top of an ordered list
+corresponds to either the top of a vertical panel or the left side of a horizontal panel. 
 
 .. index:: application startup
 .. _Applications:
@@ -370,7 +374,7 @@ click "Set App", which will open a drop-down menu of common applications, or "Se
 of the application.
 
 .. note:: Some applications, such as web browsers, keep their own internal lists of default applications for opening particular types of files. If you set
-   that application to use the :command:`lumina-open` or :command:`xdg-open` utilities, it will use the default applications that are set here instead so that
+   that application to use the :command:`lumina-open` or :command:`xdg-open` utilities, it will use the default applications that are set here so that
    there is only a single list of default applications for the system.
 
 .. index:: shortcuts
@@ -381,8 +385,10 @@ Shortcuts
    
 The "Shortcuts" tab, shown in :numref:`Figure %s: Lumina Shortcuts Configuration <lumina8>`, is used to configure various keyboard shortcuts for system or window tasks. Most of these
 options relate to window and workspace management, such as moving windows between workspaces, but there are also options for changing the system audio volume
-or screen brightness. Note that a shortcut that is already in use can **not** be assigned to another action. First, that shortcut needs to be cleared and
-saved, before that key press will be detectable when creating or changing a shortcut.
+or screen brightness. 
+
+To create a shortcut, click the desired entry, then "Change Shortcut", then the key combination you wish to set. Note that any entry that already has a defined shortcut showing in the
+"Keyboard Shortcut" column  can **not** be assigned to another action. First, highlight that shortcut, click "Clear Shortcut", then "Save Changes". You can now create a new shortcut.
 
 .. _lumina8:
 
@@ -401,9 +407,8 @@ frequent basis.
 
 .. figure:: images/lumina12c.png
 
-The "General Options" tab can be used to automatically enable numlock, to play chimes when Lumina starts or exits, and to change the icon that appears  in the login menu and the "User"
-button. It also has options to set the time format, date format, time zone, and time display. Buttons are available to reset these options
-to either system defaults or Lumina defaults.
+The "General Options" tab can be used to automatically enable numlock, to play chimes when Lumina starts or exits, and to change the icon that appears  in the login menu and the start
+menu button. It also has options to set the time format, date format, and time display format. Buttons are available to reset these options to either the system defaults or Lumina defaults.
 
 The "Locale" tab is shown in :numref:`Figure %s: Session Locale Tab <lumina21>`.
 
@@ -417,9 +422,9 @@ software management tool that comes with the operating system. If the Lumina Con
 loaded into the drop-down menus of this screen. Since each setting has its own drop-down menu, you have the flexibility to select different locales for each item shown in this screen. Note
 that if you make any changes in the "Locale" tab, click the "Save Changes" button and restart Lumina so that the configured locales can be loaded.
 
-Installing the lumina-i18n package will also add a drop-down menu to the "Quick Settings" of the start menu. Note that you need to restart
-Lumina after the package installation in order for this option to be added to "Quick Settings. This drop-down menu can be used to temporarily change the locale for this session only. This
-will immediately change the localization of any translated menu items on the fly so that you do not have to log back into the Lumina session.
+Installing the lumina-i18n package will also add a drop-down menu to the "Quick Settings" of the start menu, though you will need to restart Lumina after the package installation in order
+for the locale menu to appear in "Quick Settings". This drop-down menu can be used to temporarily change the locale for this session only. This will immediately change the
+localization of any translated menu items on the fly so that you do not have to log back into the Lumina session.
 
 .. note:: Any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
    instructions in :ref:`Interface Translation`.
