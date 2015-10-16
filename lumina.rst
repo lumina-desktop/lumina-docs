@@ -158,12 +158,14 @@ city to change to that city's time zone.
 Right-Click Menu
 ****************
 
-If the user right-clicks on the desktop, a menu of quick shortcuts will appear and the title of the menu will indicate the name of the
-workspace. While this menu can be customized, here is a quick summary of the default items on the menu:
+If the user right-clicks on the desktop, a menu of quick shortcuts will appear and the title of the menu will indicate the name of the current workspace. This section describes the default
+menu items. For instructions on how to configure the right-click panel to suit your needs, refer to the "Desktop" tab :ref:`Interface` section.
+
+By default, the right-click menu contains the following items:
 
 * **Terminal:** used to launch a system terminal. The default is :command:`xterm`, but this can be customized.
 
-* **Browse System:** launches the file manager. The default file manager, Insight, is recommended but this can be customized.
+* **Browse System:** launches the default, and recommended, file manager, the :ref:`Insight File Manager`.
 
 * **Applications:** provides shortcuts to the user's home directory, the operating system's graphical software management utility (if available), the control panel (if the operating
   system provides one), and the applications currently registered on the system, arranged by system category.
@@ -181,7 +183,7 @@ Lumina Configuration
 ********************
 
 The Lumina Configuration utility, shown in :numref:`Figure %s: Lumina Desktop Configuration <lumina3a>`, can be used to configure every aspect of the desktop and is the recommended way to
-make changes. To launch this utility, click the "User" icon then :menuselection:`Desktop Preferences --> Desktop Appearance/Plugins`, right-click the desktop and click
+make changes. To launch this utility, click the start menu then :menuselection:`Quick Settings --> Configure Desktop`, right-click the desktop and click
 :menuselection:`Settings --> Desktop`, or type :command:`lumina-config` from an xterm.
 
 .. _lumina3a:
@@ -208,6 +210,8 @@ wallpaper. By default, when you click the "+" button, the Lumina backgrounds sto
 select an alternate wallpaper location. If multiple images are selected, the "Rotate Background" button can be selected as well as a specified time interval in minutes to rotate to the next
 image. 
 
+Click the "Layout" drop-down menu to change the default layout of "Automatic" to one of the following options: "Tile", "Center", "Top Left", "Top Right", "Bottom Left", or "Bottom Right".
+
 The options that are available when you click the paint icon are shown in :numref:`Figure %s: Modifying the Wallpaper <lumina16>`. If you select a color and click "OK", it will be added as a
 solid color background to the wallpaper selection drop-down menu.
 
@@ -215,22 +219,23 @@ solid color background to the wallpaper selection drop-down menu.
 
 .. figure:: images/lumina16.png
 
-The "Theme" tab, shown in :numref:`Figure %s: Modifying the Theme <lumina17a>`, can be used to change the default font, font size, theme template, color scheme, and icon pack. 
+The "Theme" tab, shown in :numref:`Figure %s: Modifying the Theme <lumina17a>`, can be used to change the default font, font size, theme template, color scheme, icon pack, and mouse
+cursors. 
 
 .. _lumina17a:
 
 .. figure:: images/lumina17a.png
 
 It is possible to create your own "Theme Template" or "Color Scheme" by clicking the "Edit" button next to those options and changing the settings as necessary.
-:numref:`Figure %s: Using the Theme Editor <lumina18>` shows an example of clicking the "Edit" button with the "Lumina-default (System)" theme template selected. This action opened the
-"Theme Editor" and the user has clicked the color selector icon (dropper) in the upper right corner. After selecting an item in this menu, the template controlling that selection can be
+:numref:`Figure %s: Using the Theme Editor <lumina18a>` shows an example of clicking the "Edit" button with the "Lumina-default (System)" theme template selected. This action opened the
+"Theme Editor" and the user has clicked the color selector (dropper icon) in the upper right corner. After selecting an item in this menu, the template controlling that selection can be
 edited by changing the values in the theme editor box. Note that the theme templates are written as `Qt stylesheets <http://doc.qt.io/qt-5/stylesheet.html>`_, so some scripting experience
 may be helpful when configuring a theme. After making your changes, you can either click the "Save" button to save the theme without closing the editor, or click the "Apply" button which
 will both save the theme and close the theme editor.
 
-.. _lumina18:
+.. _lumina18a:
 
-.. figure:: images/lumina18.png
+.. figure:: images/lumina18a.png
 
 .. index:: menu, panel
 .. _Interface:
@@ -238,56 +243,61 @@ will both save the theme and close the theme editor.
 Interface
 =========
 
-The "Interface" tab is used to configure the desktop menu and panels. Its "Desktop" tab, shown in :numref:`Figure %s: Right-Click Menu Configuration <lumina4b>`, is used to configure which
-items appear in the right-click menu and which items are embedded onto the desktop.
+The "Interface" tab is used to configure the desktop right-click menu and panel. Its "Desktop" tab, shown in :numref:`Figure %s: Right-Click Menu Configuration <lumina4b>`, is used to
+configure which items appear in the right-click menu and which items are embedded onto the desktop.
 
 .. _lumina4b:
 
 .. figure:: images/lumina4b.png
 
-To add an item to the right-click menu, click the "+" button under the "Quick-Access Menu". This will open the "Select Plugin" screen where you can add an application, custom app, an entry
-for the File Manager, a separator, a shortcut to Settings, a terminal, or a listing of currently open applications. To remove an item from the right-click menu, highlight it and click the
-"-" button. Use the arrow buttons to change the order of the items in the right-click menu.
+To add an item to the right-click menu, click the "+" button under the "Quick-Access Menu". This will open the "Select a Plugin" screen where you can add an application, custom app, an entry
+for the :ref:`Insight File Manager`, a separator, a shortcut to Settings, a terminal, or a listing of currently open applications. To remove an item from the right-click menu, highlight it
+and click the "-" button. Use the arrow buttons to change the order of the items in the right-click menu.
 
-To embed a utility onto the desktop, click the "+" button under the "Embedded Utilities" frame. Currently, the following plugins can be added as an icon on the desktop: Application Launcher
-(opens a menu listing which applications can be launched), Audio Player, Calendar, Desktop Icons View, Note Pad, Sample, and System Monitor. Once you click the "Save Changes" button, any
-utilities you added will appear on top of the desktop. To remove an embedded utility from the desktop, highlight its entry under "Embedded Utilities", click the "-" button, and click "Save
-Changes". Alternately, right-click the icon for the utility and select "Close" from the right-click menu.
+To embed a utility onto the desktop, click the "+" button under the "Embedded Utilities" frame. The following plugins can be added as an icon on the desktop: Application Launcher
+(opens a menu that lists which applications can be launched), Audio Player, Calendar, Desktop Icons View, Note Pad, Sample (an example of a QtQuick/QML plugin), and System Monitor (displays
+CPU temperature/usage, memory usage, and disk I/O). Once you click the "Save Changes" button, any utilities you added will appear on top of the desktop. To remove an embedded utility from
+the desktop, highlight its entry under "Embedded Utilities", click the "-" button, and click "Save Changes". Alternately, right-click the icon for the utility and select "Remove Item" from
+the right-click menu. 
 
-The "Generate Desktop Links" option is used to display each item stored in :file:`~/Desktop` as an icon on the desktop. By default, this option is selected as its box is black. If you
-de-select this option and click "Save Changes", the icons for the contents of :file:`~/Desktop` will be removed from the desktop.
+The following options are also available when you right-click an icon on the desktop, allowing you to customize the location and appearance of desktop icons: "Start Moving Item" (click the
+icon to lock it in place once you have moved it to the desired location), "Start Resizing Item" (use the mouse to increase/decrease size and click when you are finished), "Increase Desktop
+Icon Sizes" (increases all desktop icons, repeat as necessary), and "Decrease Desktop Icon Sizes" (decreases all desktop icons, repeat as necessary).
+
+The "Display Desktop Folder Contents" option is used to display each item stored in :file:`~/Desktop` as an icon on the desktop. By default, this option is selected as its box is black. If
+you de-select this option and click "Save Changes", the icons for the contents of :file:`~/Desktop` will be removed from the desktop.
    
-To configure the panel, click the "Panels" tab which will open the screen shown in :numref:`Figure %s: Panel Location Tab <lumina5b>`.
+To configure the panel, click the "Panels" tab which will open the screen shown in :numref:`Figure %s: Panels Tab <lumina5c>`.
 
-.. _lumina5b:
+.. _lumina5c:
 
-.. figure:: images/lumina5b.png
+.. figure:: images/lumina5c.png
 
 This screen can be used to customize the location, alignment, size, theme, and plugins for an existing panel, as well as to add ("+"), customize, or delete ("-") additional panels. Panels
 must be aligned along a screen edge, opposite screen edges in the case of two panels, and may have any width, color, or transparency. 
 
-The "Location" tab contains the following items:
+The "Location" tab (4 arrow icon) contains the following items:
 
 * **Edge:** this drop-down menu can be used to set the location of the panel which can be "Top", "Bottom", "Left", or "Right". 
 
 * **Alignment:** this drop-down menu can be used to center the panel on the edge or pin it to one of the corners. 
 
-* **Size:** can be used to specify the panel width in pixels. 
+* **Size:** can be used to specify the panel width in pixels and the panel length. 
 
-The "Appearance" tab is shown in :numref:`Figure %s: Panel Appearance Tab <lumina19>`.
+The "Appearance" tab (monitor icon) is shown in :numref:`Figure %s: Panel Appearance Tab <lumina19a>`.
 
-.. _lumina19:
+.. _lumina19a:
 
-.. figure:: images/lumina19.png
+.. figure:: images/lumina19a.png
 
 If you would like the panel to be hidden unless the mouse is hovered over it, check the "Auto-hide Panel" box. The "Custom Color" option can be used to fine-tune the
 panel color. Click its box, then the paint icon to select the panel color.
 
-The "Plugins" tab is shown in :numref:`Figure %s: Panel Plugins Tab <lumina20>`.
+The "Plugins" tab (puzzle icon) is shown in :numref:`Figure %s: Panel Plugins Tab <lumina20a>`.
 
-.. _lumina20:
+.. _lumina20a:
 
-.. figure:: images/lumina20.png
+.. figure:: images/lumina20a.png
 
 To add a plugin as an icon to the panel, click the "+" button and select a plugin from the list that appears. To remove a plugin, highlight it and
 click the "-" button. The arrow buttons can be used to move the location of the plugin on the panel. The top of the list corresponds to either the top of a vertical panel or the left side
