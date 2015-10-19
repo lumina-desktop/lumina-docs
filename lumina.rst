@@ -109,7 +109,7 @@ PC-BSD® system, "Manage Applications" opens AppCafe®. Click the "Back" button 
 
 * **Configure Desktop:** click this entry to open the :ref:`Lumina Configuration` utility.
 
-* **Lumina Desktop Information:** click the "?" icon to determine the installed version of Lumina. You can also determine the version by typing :command:`lumina-info`. 
+* **Lumina Desktop Information:** click the "?" icon to determine the installed version of Lumina.
 
 * **System Volume:** use your mouse to move the volume control slider to change the system audio volume from 0% to 100%. If the operating system provides a mixer utility, click the speaker
   icon to launch that mixer utility for advanced control of the audio system.
@@ -602,6 +602,45 @@ file information of their :file:`~/Downloads` directory.
 .. _file1:
 
 .. figure:: images/file1.png
+
+.. index:: Lumina Information
+.. _Lumina Information:
+
+Lumina Information
+=======================
+
+This utility provides information about the version of Lumina, as well as the license, acknowledgements, and Project links. To launch this utility, right-click the desktop and select
+:menuselection:`Settings --> About Lumina`, click the start menu then the question mark icon in "Quick Settings", or type :command:`lumina-info` in a terminal window. An example is shown
+in :numref:`Figure %s: About Lumina <about1>`.
+
+.. _about1:
+
+.. figure:: images/about1.png
+
+The "General" tab contains the following information:
+
+* **Desktop Version:** indicates the version of Lumina.
+
+* **OS Build:** indicates the operating system that was used to build this version of Lumina.
+
+* **Qt Version:** click the "View Information" button to display the QT version and its license.
+
+* **Lumina Website:** click the "Open in web browser" link to open `<http://lumina-desktop.org/>`_ in the default web browser.
+
+* **Source Repository:** click the "Open in web browser" link to open `<https://github.com/pcbsd/lumina>`_ in the default web browser.
+
+* **Report a Bug:** click the "Open in web browser" link to open `<https://bugs.pcbsd.org/projects/pcbsd>`_ in the default web browser. Refer to :ref:`Report a Bug` for instructions on how
+  to submit a bug report.
+  
+The "License" tab contains the license text for Lumina. Lumina is licensed under a `3-clause BSD license <http://opensource.org/licenses/BSD-3-Clause>`_.
+
+The "Acknowledgements" tab contains the following:
+
+* **Project Lead:** the name of the Project's lead developer. Click the name to open his profile on GitHub in the default web browser.
+
+* **Contributors:** click the "Open in web browser" link to open `<https://github.com/pcbsd/lumina/graphs/contributors>`_.
+
+* **Sponsors:** lists the project and corporate sponsors of the Lumina Project.
 
 .. index:: Xconfig
 .. _Lumina Xconfig:
