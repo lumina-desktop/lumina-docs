@@ -6,6 +6,12 @@ Changelog
 This section describes the major features and changes to each version of Lumina, with the most recent version of Lumina listed first.
 
 .. index:: changelog
+.. _Lumina 0.8.7:
+
+Lumina 0.8.7
+============
+
+.. index:: changelog
 .. _Lumina 0.8.6:
 
 Lumina 0.8.6
