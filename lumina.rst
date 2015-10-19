@@ -619,7 +619,7 @@ Report a Bug
 ============
 
 If you like playing around with your desktop environment and have a bit of spare time, one of the most effective ways you can assist the Lumina Project is by
-reporting problems you encounter while using Lumina. Subscribing to the `Lumina News <http://lumina-desktop.org/news/>`_ is a good way to keep
+reporting problems you encounter while using Lumina. Subscribing to `Lumina News <http://lumina-desktop.org/news/>`_ is a good way to keep
 up-to-date on the availability of new Lumina versions.
 
 Anyone can report a Lumina bug. Follow these tips so that you can accurately describe your findings so they can be fixed as soon as possible: 
@@ -629,7 +629,7 @@ Anyone can report a Lumina bug. Follow these tips so that you can accurately des
 
 * Use the "Search" bar at `bugs.pcbsd.org <https://bugs.pcbsd.org>`_ to see if anyone else has reported a similar problem. If a similar bug exists which has not been resolved yet,
   you can add a comment if you have additional information to aid the developers in fixing the bug. Note that you do not need to be logged in to perform a search, but you will have
-  to login using the Sign in" link in order to add a comment to an existing bug or to create a new bug report.
+  to login using the "Sign in" link in order to add a comment to an existing bug or to create a new bug report.
   
 * To create a new bug report, make sure you are signed in, then go to `<https://bugs.pcbsd.org/projects/pcbsd/issues/new>`_. In the screen shown in
   :numref:`Figure %s: Creating a Bug Report <bug>`, click the "Category" drop-down menu and select "Lumina Desktop".
@@ -718,6 +718,8 @@ If you need help with a translation or using the Pootle system, you can ask for 
 
 Documentation Translation
 -------------------------
+
+At this time, the Lumina Handbook has not yet been added to the translation system. Once it has, instructions for translating the Handbook will be added here.
 
 .. _Become a Developer:
 
