@@ -460,10 +460,9 @@ Lumina provides many built-in utilities, which are described in this chapter.
 Lumina Screenshot
 =================
 
-This utility can be used to take screenshots of the desktop or applications and save them as PNG image files. To launch this utility, click the icon for
-:menuselection:`Applications --> Lumina Screenshot` or type :command:`lumina-screenshot` from an xterm.
-
-To take a screenshot, click the "Snap" button in the upper-right corner of the screen shown in :numref:`Figure %s: Lumina Screenshot <lumina9a>`.
+This utility can be used to take screenshots of the desktop or selected window and save them as PNG image files. To launch this utility, click the start menu and select
+:menuselection:`Browse Applications --> Utility --> Lumina Screenshot`, right-click the desktop and select :menuselection:`Applications --> Utility --> Lumina Screenshot`, type
+:command:`lumina-screenshot` from a terminal window, or press the :kbd:`Print Screen` button.
 
 .. _lumina9a:
 
@@ -480,9 +479,8 @@ The following settings can be used to fine-tune the screenshot:
 * **Single Window:** will take a screenshot of the window which has focus. The "Include Borders" checkbox can be used to determine whether or not the screenshot of the window is
   surrounded by a black border.
 
-If you like the look of the taken screenshot, as shown in the preview, click the "Save" button to open a window where you can specify the name and location of the saved screenshot.
-
-.. note:: The "Print Screen" keyboard shortcut is set to run this utility by default.
+To take a screenshot, click the "Snap" button in the upper-right corner of Lumina Screenshot. If you like the look of the screenshot, as shown in the preview, click the "Save" button to
+open a window where you can specify the filename and location for saving the screenshot.
 
 .. index:: file manager
 .. _Insight File Manager:
@@ -491,25 +489,24 @@ Insight File Manager
 ====================
 
 The Insight file manager, shown in :numref:`Figure %s: Insight File Manager <lumina10>`, allows the user to easily browse and modify files on the local system on a per-directory basis. To
-open Insight, right-click the desktop and select "Browse System" or type :command:`lumina-fm` from an xterm.
+open Insight, click the start menu and select "Browse Files", right-click the desktop and select "Browse System", or type :command:`lumina-fm` from an xterm.
 
 .. _lumina10:
 
 .. figure:: images/lumina10.png
 
-It is possible to open up additional directories through the tab system using :kbd:`Ctrl-T` or click :menuselection:`File --> New Tab`, allowing the user to
-easily manage multiple locations on the system. Insight also features the ability to "bookmark" locations on the system for instant access via the "star"
-button. Once a location has been bookmarked, it will be available via the "Bookmarks" menu at the top of the window. Any removable devices that are available
-on the system will show up in the "External Devices" menu, if supported by the operating system. When an item is selected, the options on the left side of the
-screen will show the possible actions that may be taken with regards to that item. Possible actions include: "open", "open with" (will prompt for the
-application to use), "add to favorites", "rename", "cut", "copy", "paste", and "delete". By default, the actions buttons are visible. They can be made
-invisible by clicking :menuselection:`View --> Show Action Buttons`. To disable thumbnails, uncheck :menuselection:`View --> Load Thumbnails`. Note that
-this option does not retroactively remove thumbnails that have already been loaded, it only prevents loading thumbnails in new directories. Hidden files are
-not shown by default; this can be changed by checking :menuselection:`View --> Show Hidden Files`.
+It is possible to open up additional directories through the tab system using :kbd:`Ctrl-T` or by clicking :menuselection:`File --> New Browser`, allowing the user to easily manage multiple
+locations on the system. Insight also features the ability to "bookmark" locations on the system for instant access via the "star" button. Once a location has been bookmarked, it will be
+available via the "Bookmarks" menu at the top of the window. Any removable devices that are available on the system will show up in the "External Devices" menu, if supported by the operating
+system. When an item is selected, the icons on the left side of the screen provide the possible actions that may be taken with regards to that item. Possible actions include: "open item",
+"open item" (will prompt to select the application to use), "add item to personal favorites", "rename item", "cut items (add to the clipboard)", "copy items to the clipboard", "paste items
+from clipboard", and "delete items". By default, the action buttons are visible. They can be made invisible by clicking :menuselection:`View --> Show Action Buttons`. To disable thumbnails,
+uncheck :menuselection:`View --> Load Thumbnails`. Note that this option does not remove thumbnails that have already been loaded, it only prevents loading thumbnails in new directories.
+Hidden files are not shown by default; this can be changed by checking :menuselection:`View --> Show Hidden Files`.
 
 If you select a file or directory and right-click it, the following options become available: "Open", "Open With" (where you select the application to use), "Rename",
-"View Checksums" (shows the MD5 checksum), "Cut Selection", "Copy Selection", "Paste", "Delete Selection", or "File Properties" (such as file type, size,
-permissions, and creation date).
+"View Checksums" (shows the MD5 checksum), "Cut Selection", "Copy Selection", "Paste", "Delete Selection", "File Properties" (such as file type, size,
+permissions, and creation date), or "Open Terminal here".
 
 A few additional options may be available at the bottom of the window, depending on the directory being viewed and the types of files that are in it:
 
@@ -547,7 +544,7 @@ prompt the user to select which application to use, and optionally set it as the
 
 * **Available:** displays all the applications installed on the system, organized by category and name.
 
-* **Custom:** lets the user manually type in the binary name or path of the application to use. It also provides a small button to let the user graphically
+* **Custom:** lets the user manually type in the binary name or path of the application to use. It also provides a search button to let the user graphically
   search the system for the binary. Whenever text is entered, a check is performed to determine whether that is a valid binary and the icon will change
   between a green checkmark or a red X as appropriate.
 
@@ -561,15 +558,17 @@ prompt the user to select which application to use, and optionally set it as the
 Lumina Search
 =============
 
-The :command:`lumina-search` utility provides the ability to easily search for and launch applications or to quickly search for file and directories. The "*" wildcard
-can be used in the search terms and the search will include hidden files if the search term starts with a dot ("."). :numref:`Figure %s: Search for Applications <lumina13a>` shows a
-screenshot of this utility.
+Lumina Search provides the ability to easily search for and launch applications or to quickly search for file and directories. The "*" wildcard
+can be used in the search terms and the search will include hidden files if the search term starts with a dot ("."). 
+
+To start this utility, type :command:`lumina-search` or go to the start menu :menuselection:`Browse Applications --> Utility --> Lumina Search`.
+:numref:`Figure %s: Search for Applications <lumina13a>` shows a screenshot of this utility.
 
 .. _lumina13a:
 
 .. figure:: images/lumina13a.png
 
-To open an application, begin to enter its name and the box below the selected "Applications" button will display any matching application names. Select the desired application and click
+To open an application, begin to enter its name. The box below the selected "Applications" button will display any matching application names. Select the desired application and click
 the "Launch Item" button to open it.
 
 If you click the "Files or Directories" button, the screen changes slightly, as seen in :numref:`Figure %s: Search for Files <lumina13>`.
@@ -596,10 +595,9 @@ and clicking the "-" button. By default, the "Save as Defaults" option is select
 Lumina Xconfig
 ==============
 
-The :command:`lumina-xconfig` utility is a graphical front-end to the :command:`xrandr` command line utility. It provides the ability to probe and manage any number
-of attached monitors. To start this utility, right-click the desktop and select :menuselection:`Settings --> Screen Configuration`, click the "User" icon then
-:menuselection:`Desktop Preferences --> Screen Configuration`, or type :command:`lumina-xconfig` from an xterm. This will open a screen similar to the one shown in
-:numref:`Figure %s: Configuring Monitors <lumina15>`.
+The :command:`lumina-xconfig` utility is a graphical front-end to the :command:`xrandr` command line utility. It provides the ability to probe and manage any number of attached monitors. To
+start this utility, right-click the desktop and select :menuselection:`Settings --> Screen Configuration` or type :command:`lumina-xconfig` from a terminal window. This will open a screen
+similar to the one shown in :numref:`Figure %s: Configuring Monitors <lumina15>`.
 
 .. _lumina15:
 
