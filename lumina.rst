@@ -589,6 +589,20 @@ Click the blue folder icon to change the starting search directory. For example,
 contents of the computer. You can also add directories to exclude from searches by clicking the "+" button. If you add any excludes, you can delete an exclude by highlighting it
 and clicking the "-" button. By default, the "Save as Defaults" option is selected. Unselect this option if you only wish to temporarily modify your search settings.
 
+.. index:: Lumina File Information
+.. _Lumina File Information:
+
+Lumina File Information
+=======================
+
+The :command:`lumina-fileinfo` utility can be used to open a graphical window summarizing the size, permissions and ownership, creation time, and last modification time of the specified
+file or directory. In the example shown in in :numref:`Figure %s: Sample File Information <file1>`, the user has typed :command:`lumina-fileinfo Downloads` from a terminal window to view the
+file information of their :file:`~/Downloads` directory.
+
+.. _file1:
+
+.. figure:: images/file1.png
+
 .. index:: Xconfig
 .. _Lumina Xconfig:
 
