@@ -11,6 +11,101 @@ This section describes the major features and changes to each version of Lumina,
 Lumina 0.8.7
 ============
 
+* Convert everything to XCB and remove XLib dependencies.
+
+* Update DragonFlyBSD support.
+
+* Adjust build procedures to better support multiple concurrent threads using the "-j<#threads>" :command:`make` option.
+
+* Add better relative path support for launching applications in the mimetype database.
+
+* Add support for a new instance of a LuminaSingleInstance application using the "-new-instance" CLI flag.
+
+* Add better fallback methodology for detecting and fixing stale single-instance flags.
+
+* Now uses the Qt5-Concurrent build module for additional multi-threading support in various utilities.
+
+* Add support for selecting a mouse cursor theme (requires session restart).
+
+* Add new color schemes: Grey-Dark, Solarized-Light, Solarized-Dark, and Blue-Light.
+
+* Customize the Lumina-default theme.
+
+* Add inheritance to theme files and convert the Lumina-default to inherit the "None" theme.
+
+* Add support to :ref:`Lumina Screenshot` for multi-screen arrangements and for including and excluding window borders for single window snapshots.
+
+* Add support for various background image scaling and placement options.
+
+* Add a number of new desktop shortcuts for the session. This requires existing users to remove their :file:`~/.lumina/fluxbox-keys` before logging in to get the new settings.
+
+* Clean up the panel activation and detection routines to better respond to mouse-over events, particularly for auto-hidden panels.
+
+* Completely overhaul the desktop plugin container system. Now it is completely drag and drop based with an intelligent grid of items and locations. Right-click, or click and hold, an item
+  to open a menu of additional plugin configuration options. Note that any previous plugin locations will be reset to their defaults during the update to this new system.
+
+* Add support for dropping files and directories from other applications onto the desktop, creating a symlink to the desktop folder when appropriate.
+
+* Add font outlining to all desktop items so that the text is visible even if the font color blends into the background image.
+
+* ZFS snapshot browsing is now seemlessly embedded within the directory viewer of :ref:`Insight File Manager`.
+
+* Add support for either tabs or columns when viewing multiple directories at once.
+
+* Replace the "Icon View" mode with the ability to adjust the icon sizes as desired.
+
+* Add support for running the slideshow viewer and multimedia player in the background as separate tabs. Add the ability to zoom in/out on a slideshow image as desired.
+
+* Add full drag and drop implementation to Insight File Manager. Can drag files and directories to external applications that support the standard "text/urilist" Mimetype for drag and drop
+  operations.
+
+* Directory and thumbnail loading is now a couple orders of magnitude faster than before. The thumbnail loading routine is now a completely separate background thread, preventing any delays
+  in application functionality while loading.
+
+* Add support for the "back" mouse button when viewing a directory.
+
+* Completely overhaul the :ref:`Lumina File Information` utility. Now it is an almost complete front-end for the Qt/Lumina file information and XDG entry structures.
+
+* Add support for detecting and allowing user-local Fluxbox themes in addition to system-local themes.
+
+* Decrease initial loading time of :ref:`Lumina Configuration` by making it load all the background image thumbnails on demand instead of up-front.
+
+* Update the :ref:`Interface` used for panel configuration so that it is much easier to read and use.
+
+* Update the application selection in the fileopen dialog of :ref:`Lumina Open`, making it much easier to find the proper application to open the specified file.
+
+* Overhaul the "Clock" panel plugin. Now it provides a menu with a calendar as well as an option for the user to instantly switch the time zone.
+
+* New "Start Menu" panel plugin is a Windows-esque system menu which incorporates the functionality of both the user button and the system dashboard in one place. This plugin also supports
+  creating and removing desktop links for applications, as well as "quick-launch" buttons for adding applications to the panel.
+  
+* Update the "Workspace Switcher" panel plugin so it stays in sync with external changes to the current workspace.
+
+* New "Line" panel plugin provides a simple visual line to provide separation between plugins.
+
+* Fix or bypass some Fluxbox window placement bugs.
+
+* Fix some bugs in the user button regarding file and directory removals.
+
+* Clean up a number of built-in text strings for clarity and consistency.
+
+* Ensure that graphical sliders for adjusting screen brightness only go down to 10% to prevent the user from blacking out their screen entirely.
+
+* Update the support for non-xterm terminal emulators to be opened within a particular directory.
+
+* Update URL syntax handling in :ref:`Lumina Open`.
+
+* Update support for sticky windows to appear in the task manager on all workspaces.
+
+* Clean up a number of possible bugs with regards to how external application might be launched or used. This fixes the random race condition where a process finished but the thread in
+  Lumina which called it still thinks it is running.
+
+* Ensure that all calendar widgets on the desktop or panel update as necessary to ensure the correct date is shown during multiple-day sessions.
+
+* Add a small CLI flag to :ref:`Lumina Open` for testing the crash handler ("-testcrash").
+
+* Ensure that on FreeBSD, the disk I/O information uses instantaneous values instead of system averages.
+
 .. index:: changelog
 .. _Lumina 0.8.6:
 
