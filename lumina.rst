@@ -105,7 +105,7 @@ PC-BSD® system, "Manage Applications" opens AppCafe®. Click the "Back" button 
 
 **Control Panel:** if you are on PC-BSD®, or an operating system which provides a control panel, click this entry to open that operating system's control panel.
 
-**Quick Settings:** click this entry to access the following:
+**Preferences:** click this entry to access the following:
 
 * **Configure Desktop:** click this entry to open the :ref:`Lumina Configuration` utility.
 
@@ -183,7 +183,7 @@ Lumina Configuration
 ********************
 
 The Lumina Configuration utility, shown in :numref:`Figure %s: Lumina Desktop Configuration <lumina3a>`, can be used to configure every aspect of the desktop and is the recommended way to
-make changes. To launch this utility, click the start menu then :menuselection:`Quick Settings --> Configure Desktop`, right-click the desktop and click
+make changes. To launch this utility, click the start menu then :menuselection:`Preferences --> Configure Desktop`, right-click the desktop and click
 :menuselection:`Settings --> Desktop`, or type :command:`lumina-config` from an xterm.
 
 .. _lumina3a:
@@ -422,8 +422,8 @@ software management tool that comes with the operating system. If the Lumina Con
 loaded into the drop-down menus of this screen. Since each setting has its own drop-down menu, you have the flexibility to select different locales for each item shown in this screen. Note
 that if you make any changes in the "Locale" tab, click the "Save Changes" button and restart Lumina so that the configured locales can be loaded.
 
-Installing the lumina-i18n package will also add a drop-down menu to the "Quick Settings" of the start menu, though you will need to restart Lumina after the package installation in order
-for the locale menu to appear in "Quick Settings". This drop-down menu can be used to temporarily change the locale for this session only. This will immediately change the
+Installing the lumina-i18n package will also add a drop-down menu to the "Preferences" of the start menu, though you will need to restart Lumina after the package installation in order
+for the locale menu to appear in "Preferences". This drop-down menu can be used to temporarily change the locale for this session only. This will immediately change the
 localization of any translated menu items on the fly so that you do not have to log back into the Lumina session.
 
 .. note:: Any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
@@ -610,7 +610,7 @@ Lumina Information
 =======================
 
 This utility provides information about the version of Lumina, as well as the license, acknowledgements, and Project links. To launch this utility, right-click the desktop and select
-:menuselection:`Settings --> About Lumina`, click the start menu then the question mark icon in "Quick Settings", or type :command:`lumina-info` in a terminal window. An example is shown
+:menuselection:`Settings --> About Lumina`, click the start menu then the question mark icon in "Preferences", or type :command:`lumina-info` in a terminal window. An example is shown
 in :numref:`Figure %s: About Lumina <about1>`.
 
 .. _about1:
