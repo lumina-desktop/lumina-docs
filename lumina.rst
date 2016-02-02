@@ -23,7 +23,7 @@ Lumina's features include:
 * Provides a plugin-based interface design. This allows the user to make the desktop as light or heavy as desired by choosing which plugins to have running on their desktop and panels.
   This plugin-based system is similar to Android or other modern operating systems.
   
-* Sincle, easy-to-use :ref:`Lumina Configuration` utility controls all the different configuration options for the desktop in one location.
+* Single, easy-to-use :ref:`Lumina Configuration` utility controls all the different configuration options for the desktop in one location.
 
 * Intelligent "favorites" system for creating quick shortcuts to applications, files, and directories.
 
@@ -279,7 +279,7 @@ To configure the panel, click the "Panels" tab which will open the screen shown 
 This screen can be used to customize the location, alignment, size, theme, and plugins for an existing panel. The "+" and "-" icons towards the top, next to "Panel 1" can be used to add
 or remove additional panels. Panels must be aligned along a screen edge, opposite screen edges in the case of two panels, and may have any width, color, or transparency. 
 
-.. note:: If you add additional panels, a frame, similar to "Panel 1", will be created for each panel, and will be labelled "Panel 2", "Panel 3", and so on. This allows you to configure
+.. note:: If you add additional panels, a frame, similar to "Panel 1", will be created for each panel, and will be labeled "Panel 2", "Panel 3", and so on. This allows you to configure
    each panel separately. The configuration tabs available for a panel are described below. Be sure to select the tab in the panel that you wish to customize.
 
 The "Location" tab (4 arrow icon) contains the following items:
