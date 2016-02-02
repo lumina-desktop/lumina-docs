@@ -185,13 +185,13 @@ By default, the right-click menu contains the following items:
 Lumina Configuration
 ********************
 
-The Lumina Configuration utility, shown in :numref:`Figure %s: Lumina Desktop Configuration <lumina3a>`, can be used to configure every aspect of the desktop and is the recommended way to
+The Lumina Configuration utility, shown in :numref:`Figure %s: Lumina Desktop Configuration <lumina3b>`, can be used to configure every aspect of the desktop and is the recommended way to
 make changes. To launch this utility, click the start menu then :menuselection:`Preferences --> Configure Desktop`, right-click the desktop and click
-:menuselection:`Settings --> Desktop`, or type :command:`lumina-config` from an xterm.
+:menuselection:`Preferences --> Desktop`, or type :command:`lumina-config` from an xterm.
 
-.. _lumina3a:
+.. _lumina3b:
 
-.. figure:: images/lumina3a.png
+.. figure:: images/lumina3b.png
 
 Each of the tabs at the top configures a different area of the system, with the most frequently changed options on the left side. As changes are made,
 the "Save Changes" button at the bottom of the window becomes active. This allows the user to setup multiple changes in any tab and apply them all at the
@@ -208,26 +208,26 @@ Appearance
 ==========
 
 This tab is used to change the visual appearance and functionality of the desktop on a per-screen basis. The "Wallpaper" tab, shown in
-:numref:`Figure %s: Lumina Desktop Configuration <lumina3a>`, can be used to add a wallpaper ("+" button), create a color to use as a wallpaper (paint button), or remove ("-" button) a
+:numref:`Figure %s: Lumina Desktop Configuration <lumina3b>`, can be used to add a wallpaper ("+" button), create a color to use as a wallpaper (paint button), or remove ("-" button) a
 wallpaper. By default, when you click the "+" button, the Lumina backgrounds stored in :file:`/usr/local/share/wallpapers/Lumina-DE/` are displayed. Click the drop-down "Look In:" menu to
 select an alternate wallpaper location. If multiple images are selected, the "Rotate Background" button can be selected as well as a specified time interval in minutes to rotate to the next
 image. 
 
 Click the "Layout" drop-down menu to change the default layout of "Automatic" to one of the following options: "Tile", "Center", "Top Left", "Top Right", "Bottom Left", or "Bottom Right".
 
-The options that are available when you click the paint icon are shown in :numref:`Figure %s: Modifying the Wallpaper <lumina16>`. If you select a color and click "OK", it will be added as a
+The options that are available when you click the paint icon are shown in :numref:`Figure %s: Modifying the Wallpaper <lumina16a>`. If you select a color and click "OK", it will be added as a
 solid color background to the wallpaper selection drop-down menu.
 
-.. _lumina16:
+.. _lumina16a:
 
-.. figure:: images/lumina16.png
+.. figure:: images/lumina16a.png
 
-The "Theme" tab, shown in :numref:`Figure %s: Modifying the Theme <lumina17a>`, can be used to change the default font, font size, theme template, color scheme, icon pack, and mouse
+The "Theme" tab, shown in :numref:`Figure %s: Modifying the Theme <lumina17b>`, can be used to change the default font, font size, theme template, color scheme, icon pack, and mouse
 cursors. 
 
-.. _lumina17a:
+.. _lumina17b:
 
-.. figure:: images/lumina17a.png
+.. figure:: images/lumina17b.png
 
 It is possible to create your own "Theme Template" or "Color Scheme" by clicking the "Edit" button next to those options and changing the settings as necessary.
 :numref:`Figure %s: Using the Theme Editor <lumina18a>` shows an example of clicking the "Edit" button with the "Lumina-default (System)" theme template selected. This action opened the
@@ -246,12 +246,12 @@ will both save the theme and close the theme editor.
 Interface
 =========
 
-The "Interface" tab is used to configure the desktop right-click menu and panel. Its "Desktop" tab, shown in :numref:`Figure %s: Right-Click Menu Configuration <lumina4b>`, is used to
+The "Interface" tab is used to configure the desktop right-click menu and panel. Its "Desktop" tab, shown in :numref:`Figure %s: Right-Click Menu Configuration <lumina4c>`, is used to
 configure which items appear in the right-click menu and which items are embedded onto the desktop.
 
-.. _lumina4b:
+.. _lumina4c:
 
-.. figure:: images/lumina4b.png
+.. figure:: images/lumina4c.png
 
 To add an item to the right-click menu, click the "+" button under the "Quick-Access Menu". This will open the "Select a Plugin" screen where you can add an application, custom app, an entry
 for the :ref:`Insight File Manager`, a separator, a shortcut to Settings, a terminal, or a listing of currently open applications. To remove an item from the right-click menu, highlight it
@@ -270,11 +270,11 @@ Icon Sizes" (increases all desktop icons, repeat as necessary), and "Decrease De
 The "Display Desktop Folder Contents" option is used to display each item stored in :file:`~/Desktop` as an icon on the desktop. By default, this option is selected as its box is black. If
 you de-select this option and click "Save Changes", the icons for the contents of :file:`~/Desktop` will be removed from the desktop.
    
-To configure the panel, click the "Panels" tab which will open the screen shown in :numref:`Figure %s: Panels Tab <lumina5c>`.
+To configure the panel, click the "Panels" tab which will open the screen shown in :numref:`Figure %s: Panels Tab <lumina5d>`.
 
-.. _lumina5c:
+.. _lumina5d:
 
-.. figure:: images/lumina5c.png
+.. figure:: images/lumina5d.png
 
 This screen can be used to customize the location, alignment, size, theme, and plugins for an existing panel. The "+" and "-" icons towards the top, next to "Panel 1" can be used to add
 or remove additional panels. Panels must be aligned along a screen edge, opposite screen edges in the case of two panels, and may have any width, color, or transparency. 
@@ -290,20 +290,20 @@ The "Location" tab (4 arrow icon) contains the following items:
 
 * **Size:** can be used to specify the panel width in pixels and the panel length. 
 
-The "Appearance" tab (monitor icon) is shown in :numref:`Figure %s: Panels Appearance Tab <lumina19a>`.
+The "Appearance" tab (monitor icon) is shown in :numref:`Figure %s: Panels Appearance Tab <lumina19b>`.
 
-.. _lumina19a:
+.. _lumina19b:
 
-.. figure:: images/lumina19a.png
+.. figure:: images/lumina19b.png
 
 If you would like the panel to be hidden unless the mouse is hovered over it, check the "Auto-hide Panel" box. The "Custom Color" option can be used to fine-tune the
 panel color. Click its box, then the paint icon to select the panel color.
 
-The "Plugins" tab (puzzle icon) is shown in :numref:`Figure %s: Panels Plugins Tab <lumina20a>`.
+The "Plugins" tab (puzzle icon) is shown in :numref:`Figure %s: Panels Plugins Tab <lumina20b>`.
 
-.. _lumina20a:
+.. _lumina20b:
 
-.. figure:: images/lumina20a.png
+.. figure:: images/lumina20b.png
 
 To add a plugin as an icon to the panel, click the "+" button below the listed plugins and select a plugin from the list that appears. The available plugins include:
 
@@ -350,24 +350,24 @@ corresponds to either the top of a vertical panel or the left side of a horizont
 Applications
 ============
 
-The "Applications" tab, shown in :numref:`Figure %s: Lumina Applications Configuration <lumina6a>`, is used to configure which applications start when you login to Lumina as well as the
+The "Applications" tab, shown in :numref:`Figure %s: Lumina Applications Configuration <lumina6b>`, is used to configure which applications start when you login to Lumina as well as the
 default applications and file types.
 
-.. _lumina6a:
+.. _lumina6b:
 
-.. figure:: images/lumina6a.png
+.. figure:: images/lumina6b.png
 
 To prevent an application from starting automatically, uncheck its box.
 
 To add an application to the auto-start configuration , click "Application" to select the application's name from a drop-down menu or click "Binary" or "File" to browse
 to the location of  the application or file to open. If you select a file name, Lumina will automatically open it in an application that is capable of reading the file type.
 
-To configure the default applications and file types, click the "File Defaults" tab. In the screen shown in :numref:`Figure %s: Lumina Defaults Configuration <lumina7b>`, you can configure
+To configure the default applications and file types, click the "File Defaults" tab. In the screen shown in :numref:`Figure %s: Lumina Defaults Configuration <lumina7c>`, you can configure
 the default web browser, email client, file manager, and virtual terminal. 
 
-.. _lumina7b:
+.. _lumina7c:
 
-.. figure:: images/lumina7b.png
+.. figure:: images/lumina7c.png
 
 Click the gear icon or the name of the existing application to select the desired application from a menu of available applications.
 If you wish to go back to the default application, click the current application's name, then click "Restore Defaults".
@@ -386,16 +386,16 @@ of the application.
 Shortcuts
 =========
    
-The "Shortcuts" tab, shown in :numref:`Figure %s: Lumina Shortcuts Configuration <lumina8>`, is used to configure various keyboard shortcuts for system or window tasks. Most of these
+The "Shortcuts" tab, shown in :numref:`Figure %s: Lumina Shortcuts Configuration <lumina8a>`, is used to configure various keyboard shortcuts for system or window tasks. Most of these
 options relate to window and workspace management, such as moving windows between workspaces, but there are also options for changing the system audio volume
 or screen brightness. 
 
 To create a shortcut, click the desired entry, then "Change Shortcut", then the key combination you wish to set. Note that any entry that already has a defined shortcut showing in the
 "Keyboard Shortcut" column  can **not** be assigned to another action. First, highlight that shortcut, click "Clear Shortcut", then "Save Changes". You can now create a new shortcut.
 
-.. _lumina8:
+.. _lumina8a:
 
-.. figure:: images/lumina8.png
+.. figure:: images/lumina8a.png
 
 .. index:: session
 .. _Session:
@@ -403,21 +403,21 @@ To create a shortcut, click the desired entry, then "Change Shortcut", then the 
 Session
 =======
 
-The "Session" tab, shown in :numref:`Figure %s: Session General Options Tab <lumina12c>`, governs the general settings for the desktop session. These settings are usually not changed on a
+The "Session" tab, shown in :numref:`Figure %s: Session General Options Tab <lumina12d>`, governs the general settings for the desktop session. These settings are usually not changed on a
 frequent basis.
 
-.. _lumina12c:
+.. _lumina12d:
 
-.. figure:: images/lumina12c.png
+.. figure:: images/lumina12d.png
 
 The "General Options" tab can be used to automatically enable numlock, to play chimes when Lumina starts or exits, and to change the icon that appears  in the login menu and the start
 menu button. It also has options to set the time format, date format, and time display format. Buttons are available to reset these options to either the system defaults or Lumina defaults.
 
-The "Locale" tab is shown in :numref:`Figure %s: Session Locale Tab <lumina21>`.
+The "Locale" tab is shown in :numref:`Figure %s: Session Locale Tab <lumina21a>`.
 
-.. _lumina21:
+.. _lumina21a:
 
-.. figure:: images/lumina21.png
+.. figure:: images/lumina21a.png
 
 The lumina-i18n package provides localization files. Once installed, this allows you to customize which locale is used for the various items listed in
 :numref:`Figure %s: Session Locale Tab <lumina21>`. To install this package on a PC-BSD or FreeBSD system, use :command:`sudo pkg install lumina-i18n`. On other operating systems, use the
@@ -432,11 +432,11 @@ localization of any translated menu items on the fly so that you do not have to 
 .. note:: Any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
    instructions in :ref:`Interface Translation`.
 
-The "Window System" tab, shown in :numref:`Figure %s: Session Window System Tab <lumina22>`, contains various configuration options for the window manager. 
+The "Window System" tab, shown in :numref:`Figure %s: Session Window System Tab <lumina22a>`, contains various configuration options for the window manager. 
 
-.. _lumina22:
+.. _lumina22a:
 
-.. figure:: images/lumina22.png
+.. figure:: images/lumina22a.png
 
 Drop-down menus are provided for configuring the following:
 
