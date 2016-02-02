@@ -85,11 +85,11 @@ lists the changelogs for each version of Lumina.
 Start Menu
 **********
 
-:numref:`Figure %s: Lumina Desktop <lumina1b>` shows a screenshot of Lumina on a PC-BSD® system. The user has clicked the "fireball" icon in order to open the start menu.
+:numref:`Figure %s: Lumina Desktop <lumina1c>` shows a screenshot of Lumina on a PC-BSD® system. The user has clicked the "fireball" icon in order to open the start menu.
 
-.. _lumina1b:
+.. _lumina1c:
 
-.. figure:: images/lumina1b.png
+.. figure:: images/lumina1c.png
 
 The start menu provides quick access for user interaction with the system. The top frame indicates which user is logged in. Hover over the battery icon to display the current status of
 the battery, if your system has one, and the estimated time remaining if that battery is discharging.
@@ -127,11 +127,12 @@ PC-BSD® system, "Manage Applications" opens AppCafe®. Click the "Back" button 
 
 * **Back:** click to return to the start menu.
 
-**Leave:** click this entry in order to "Suspend" (if the operating system supports it, press the system's power button to login and resume operation) "Restart System" (if the user has
-permission), "Power Off system" (if the user has permission), "Sign Out User", or to go "Back" to the system menu. Alternately, click the "lock" icon next to "Leave" to lock the system and
-return it to a login prompt.
+**Leave:** click this entry in order to "Suspend System" (if the operating system supports it, press the system's power button to login and resume operation) "Restart System" (if the user
+has permission), "Power Off system" (if the user has permission), "Sign Out User", or to go "Back" to the system menu. Alternately, click the "lock" icon next to "Leave" to lock the system
+and return it to a login prompt.
 
-.. note:: On a PC-BSD system which is in the middle of applying updates, the shutdown and restart options will be disabled and a note will indicate that updates are in progress.
+.. note:: On a PC-BSD system which is in the middle of applying updates, the shutdown and restart options will be disabled until the updates are complete and a note will indicate that
+updates are in progress.
 
 .. _Panel and System Tray:
 
