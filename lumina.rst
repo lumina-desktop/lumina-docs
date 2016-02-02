@@ -132,7 +132,7 @@ has permission), "Power Off system" (if the user has permission), "Sign Out User
 and return it to a login prompt.
 
 .. note:: On a PC-BSD system which is in the middle of applying updates, the shutdown and restart options will be disabled until the updates are complete and a note will indicate that
-updates are in progress.
+   updates are in progress.
 
 .. _Panel and System Tray:
 
@@ -144,10 +144,8 @@ configure the panel to suit your needs, refer to the "Panels" tab :ref:`Interfac
   
 As you open windows or applications, a button will be added to the section of the panel near the system menu. If the application provides an icon, the button
 will appear as that icon and if you mouse over it, the tooltip will show the name of the application. If you have multiple copies of an application running,
-it will combine all those entries into a single button and list the number of windows after the icon. If you click on a button, it will automatically make
-that window active. If there are multiple windows, you can select the particular window you want from a drop-down menu. The color of the button will change
-depending on the state of the window: grey for a hidden or minimized window, white for a visible but inactive window, yellow for the active window, and orange
-for a window that needs attention. 
+it will combine all those entries into a single button and list the number of windows after the icon. If you click on a button, it will automatically make that window active and if you
+click it again, it will automatically minimize it. If there are multiple windows, you can select the particular window you want to activate from a drop-down menu.
 
 If you right-click the title of an open window, a menu of options will appear so that you can shade, stick, maximize, iconify, raise, lower, set the window
 title, send the window to a workspace, layer/dock the window, set the window's transparency, remember a specified setting, or close the window.
@@ -163,23 +161,23 @@ city to change to that city's time zone.
 Right-Click Menu
 ****************
 
-If the user right-clicks on the desktop, a menu of quick shortcuts will appear and the title of the menu will indicate the name of the current workspace. This section describes the default
+If you right-click the desktop, a menu of quick shortcuts will appear and the title of the menu will indicate the name of the current workspace. This section describes the default
 menu items. For instructions on how to configure the right-click panel to suit your needs, refer to the "Desktop" tab :ref:`Interface` section.
 
 By default, the right-click menu contains the following items:
 
 * **Terminal:** used to launch a system terminal. The default is :command:`xterm`, but this can be customized.
 
-* **Browse System:** launches the default, and recommended, file manager, the :ref:`Insight File Manager`.
+* **Browse Files:** launches the default, and recommended, file manager, the :ref:`Insight File Manager`.
 
-* **Applications:** provides shortcuts to the user's home directory, the operating system's graphical software management utility (if available), the control panel (if the operating
+* **Applications:** provides shortcuts to the operating system's graphical software management utility (if available), the control panel (if the operating
   system provides one), and the applications currently registered on the system, arranged by system category.
 
-* **Settings:** contains shortcuts to the screensaver preferences, :ref:`Lumina Configuration` utility, screen configuration (:ref:`Lumina Xconfig`), the operating
+* **Preferences:** contains shortcuts to the screensaver preferences, :ref:`Lumina Configuration` utility, display configuration (:ref:`Lumina Xconfig`), the operating
   system's control panel, and for determining the version of Lumina.
 
-* **Log Out:** opens the system log out window, with options to shutdown/restart the system (if the user has permission), log out of the desktop session, lock
-  the system, cancel the log out window, or suspend the system (if the operating system supports suspend mode).
+* **Leave:** opens the system log out window, with options to log out of the desktop session, restart the system (if the user has permission), shutdown the system (if the user has
+  permission), cancel the log out window, lock the system, or suspend the system (if the operating system supports suspend mode).
 
 .. index:: configuration
 .. _Lumina Configuration:
