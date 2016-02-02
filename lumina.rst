@@ -420,7 +420,7 @@ The "Locale" tab is shown in :numref:`Figure %s: Session Locale Tab <lumina21a>`
 .. figure:: images/lumina21a.png
 
 The lumina-i18n package provides localization files. Once installed, this allows you to customize which locale is used for the various items listed in
-:numref:`Figure %s: Session Locale Tab <lumina21>`. To install this package on a PC-BSD or FreeBSD system, use :command:`sudo pkg install lumina-i18n`. On other operating systems, use the
+:numref:`Figure %s: Session Locale Tab <lumina21a>`. To install this package on a PC-BSD or FreeBSD system, use :command:`sudo pkg install lumina-i18n`. On other operating systems, use the
 software management tool that comes with the operating system. If the Lumina Configuration utility was open before the installation, restart it so that the list of localizations can be
 loaded into the drop-down menus of this screen. Since each setting has its own drop-down menu, you have the flexibility to select different locales for each item shown in this screen. Note
 that if you make any changes in the "Locale" tab, click the "Save Changes" button and restart Lumina so that the configured locales can be loaded.
@@ -492,7 +492,7 @@ Insight File Manager
 ====================
 
 The Insight file manager, shown in :numref:`Figure %s: Insight File Manager <lumina10>`, allows the user to easily browse and modify files on the local system on a per-directory basis. To
-open Insight, click the start menu and select "Browse Files", right-click the desktop and select "Browse System", or type :command:`lumina-fm` from an xterm.
+open Insight, click the start menu and select "Browse Files", right-click the desktop and select "Browse Files", or type :command:`lumina-fm` from an xterm.
 
 .. _lumina10:
 
@@ -613,12 +613,12 @@ Lumina Information
 =======================
 
 This utility provides information about the version of Lumina, as well as the license, acknowledgements, and Project links. To launch this utility, right-click the desktop and select
-:menuselection:`Settings --> About Lumina`, click the start menu then the question mark icon in "Preferences", or type :command:`lumina-info` in a terminal window. An example is shown
-in :numref:`Figure %s: About Lumina <about1>`.
+:menuselection:`Preferences --> About Lumina`, click the start menu then the question mark icon in "Preferences", or type :command:`lumina-info` in a terminal window. An example is shown
+in :numref:`Figure %s: About Lumina <about1a>`.
 
-.. _about1:
+.. _about1a:
 
-.. figure:: images/about1.png
+.. figure:: images/about1a.png
 
 The "General" tab contains the following information:
 
@@ -652,14 +652,17 @@ Lumina Xconfig
 ==============
 
 The :command:`lumina-xconfig` utility is a graphical front-end to the :command:`xrandr` command line utility. It provides the ability to probe and manage any number of attached monitors. To
-start this utility, right-click the desktop and select :menuselection:`Settings --> Screen Configuration` or type :command:`lumina-xconfig` from a terminal window. This will open a screen
-similar to the one shown in :numref:`Figure %s: Configuring Monitors <lumina15>`.
+start this utility, right-click the desktop and select :menuselection:`Preferences --> Display` or type :command:`lumina-xconfig` from a terminal window. This will open a screen
+similar to the one shown in :numref:`Figure %s: Configuring Monitors <lumina15a>`.
 
-.. _lumina15:
+.. _lumina15a:
 
-.. figure:: images/lumina15.png
+.. figure:: images/lumina15a.png
 
-In this example, two monitors are attached to the system and each is displayed along with their current screen resolution.
+In this example, one display input is attached to the system and its current screen resolution is displayed. If the display input supports multiple resolutions, they will appear in the
+"Resolution" drop-down menu so that you can select a different resolution. 
+
+If you attach another display input, the "Add Screen" tab is activated so that you can configure the new input's resolution and whether or not it should be the default input.
 
 .. _Contributing to Lumina:
 
