@@ -52,7 +52,7 @@ Lumina is available as a pre-built package for the following operating systems. 
 
 * `Debian Testing “Stretch” and Debian Unstable “Sid” <http://lumina-desktop.org/get-lumina/#debian-testing>`_
 
-* `Fedora 22 <http://lumina-desktop.org/get-lumina/#fedora>`_
+* `Fedora 22 and 23 <http://lumina-desktop.org/get-lumina/#fedora>`_
 
 * `FreeBSD <http://lumina-desktop.org/get-lumina/#freebsd>`_
 
@@ -60,9 +60,13 @@ Lumina is available as a pre-built package for the following operating systems. 
 
 * `OpenBSD <http://lumina-desktop.org/get-lumina/#openbsd>`_
 
+* `OpenSUSE <http://lumina-desktop.org/get-lumina/#opensuse>`_
+
 * `PC-BSD <http://lumina-desktop.org/get-lumina/#pcbsd>`_
 
 * `Slackware <http://lumina-desktop.org/get-lumina/#slackware>`_
+
+* `Ubuntu 15.10 <http://lumina-desktop.org/get-lumina/#ubuntu>`_
 
 In addition to pre-built packages, the `Lumina source repository <https://github.com/pcbsd/lumina>`_ is available on GitHub so that developers can contribute code or create
 packages for other distributions. If you plan to compile Lumina from source, refer to `DEPENDENCIES <https://github.com/pcbsd/lumina/blob/master/DEPENDENCIES>`_ and ensure all
