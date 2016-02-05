@@ -11,6 +11,43 @@ This section describes the major features and changes to each version of Lumina,
 Lumina 0.8.8
 ============
 
+* Add 3 different view modes for applications in the start menu: Alphabetical (no categories), Partial Categories, or Categories (need to click the category to go into it and see the
+  applications).
+    
+* Make the symlink icon overlays a bit smaller at 1/3 icon size instead of 1/2.
+
+* Add a new button for the audio controls to the left side of the  :menuselection:`Start --> Preferences` menu for muting and unmuting audio.
+    
+* The RPM spec for Fedora/CentOS has been refactored.  Within the limits of supporting both Fedora and CentOS 7, 32-bit and 64-bit builds can be done from the same spec, so that it complies
+  with Fedora's guidelines on how a package should be structured. 
+    
+* Improvements to the notepad desktop plugin.
+    
+* Redo the "App Menu" panel plugin so that it uses a self-contained menu and lists the logout options at the bottom.
+    
+* Fix sorting of "favorites" items in the "Start" menu to be sorted by display name instead of file name.
+    
+* Add new options for loading new wallpaper files in :command:`lumina-config`: Single Directory (all images within the directory) and Recursive Directory (all images in the selected
+  directory and all sub-directories).
+    
+* Add support for selecting a ZFS snapshot by name, in addition to the current time-slider.
+
+* NetBSD is now a supported build target.
+    
+* Add the ability to change monitor resolutions in :command:`lumina-xconfig`.
+    
+* Add support for the Intel backlight, if available, on FreeBSD systems.
+
+* Fixed a translation bug for the Portuguese language.
+   
+* Fix a crash on FreeBSD 11.x when removing a desktop icon.
+    
+* Fix a multi-threading issue randomly causing :command:`lumina-fm` to crash when opening a directory.
+    
+* Fix some resize bugs with the custom resizeMenu class which is used by the "Start" menu.
+   
+* Multiple fixes for resolution detection as well as graphical glitches that were causing menus to behave unpredictably.
+
 .. index:: changelog
 .. _Lumina 0.8.7:
 
