@@ -102,10 +102,11 @@ The remainder of the start menu contains the following:
 **Browse Files:** used to browse for files and directories using the :ref:`Insight File Manager`. One of the actions available in this file manager is the ability to add a file or directory
 to the list of Favorites. Simply select the file or directory and click the star icon in Insight.
 
-**Browse Applications:** click this entry to browse all the applications currently registered on the system. Applications are listed alphabetically by category. Click an application's
-name to start that application. If you right-click an application's name, you can "Pin to Desktop", "Add to Favorites", or "Add to Quicklaunch". If you are running PC-BSD® or another
-operating system that has a pre-defined application store, click "Manage Applications" at the top of the list of applications in order to open that application store. For example, on a
-PC-BSD® system, "Manage Applications" opens AppCafe®. Click the "Back" button to return to the start menu.
+**Browse Applications:** click this entry to browse all the applications currently registered on the system. Applications are listed alphabetically by category and the "Show Categories"
+button has three modes. Click "Show Categories" to toggle between showing just the category names (black box icon), just the contents of the categories (white box icon), or the categories
+and their contents (1/2 black 1/2 white icon). Click an application's name to start that application. If you right-click an application's name, you can "Pin to Desktop", "Add to Favorites",
+or "Add to Quicklaunch". If you are running PC-BSD® or another operating system that has a pre-defined application store, click "Manage Applications" at the top of the list of applications
+in order to open that application store. For example, on a PC-BSD® system, "Manage Applications" opens AppCafe®. Click the "Back" button to return to the start menu.
 
 **Control Panel:** if you are on PC-BSD®, or an operating system which provides a control panel, click this entry to open that operating system's control panel.
 
@@ -115,8 +116,8 @@ PC-BSD® system, "Manage Applications" opens AppCafe®. Click the "Back" button 
 
 * **Lumina Desktop Information:** click the "?" icon to determine the installed version of Lumina.
 
-* **System Volume:** use your mouse to move the volume control slider to change the system audio volume from 0% to 100%. If the operating system provides a mixer utility, click the speaker
-  icon to launch that mixer utility for advanced control of the audio system.
+* **System Volume:** use your mouse to move the volume control slider to change the system audio volume from 0% to 100%. Click the sound icon on the left to mute or unmute the speaker. If
+  the operating system provides a mixer utility, click the speaker icon on the right to launch that mixer utility for advanced control of the audio system.
 
 * **Screen Brightness:** use your mouse to move the brightness control slider from 10% to 100%.
 
@@ -208,15 +209,14 @@ Appearance
 ==========
 
 This tab is used to change the visual appearance and functionality of the desktop on a per-screen basis. The "Wallpaper" tab, shown in
-:numref:`Figure %s: Lumina Desktop Configuration <lumina3b>`, can be used to add a wallpaper ("+" button), create a color to use as a wallpaper (paint button), or remove ("-" button) a
-wallpaper. By default, when you click the "+" button, the Lumina backgrounds stored in :file:`/usr/local/share/wallpapers/Lumina-DE/` are displayed. Click the drop-down "Look In:" menu to
-select an alternate wallpaper location. If multiple images are selected, the "Rotate Background" button can be selected as well as a specified time interval in minutes to rotate to the next
-image. 
+:numref:`Figure %s: Lumina Desktop Configuration <lumina3b>`, can be used to add a wallpaper ("+" button) or remove ("-" button) a wallpaper. When you click the "+" button, the drop-down
+menu can be used to select the file(s), a single directory, a directory and all of its subdirectories, or a solid color to use as the wallpaper. If multiple images are selected, the "Rotate
+Background" button can be selected as well as a specified time interval in minutes to rotate to the next image. 
 
 Click the "Layout" drop-down menu to change the default layout of "Automatic" to one of the following options: "Tile", "Center", "Top Left", "Top Right", "Bottom Left", or "Bottom Right".
 
-The options that are available when you click the paint icon are shown in :numref:`Figure %s: Modifying the Wallpaper <lumina16a>`. If you select a color and click "OK", it will be added as a
-solid color background to the wallpaper selection drop-down menu.
+The options that are available when you click :menuselection:`+ --> Solid Color` are shown in :numref:`Figure %s: Modifying the Wallpaper <lumina16a>`. If you select a color and click "OK",
+it will be added as a solid color background to the wallpaper selection drop-down menu.
 
 .. _lumina16a:
 
