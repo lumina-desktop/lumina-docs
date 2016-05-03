@@ -182,14 +182,6 @@ same time.
 
 The rest of this section describes the configurations that are available in each tab. 
 
-.. _lumina3b:
-
-.. figure:: images/lumina3b.png
-   :width: 596px
-   :height: 494px
-   :scale: 80%
-   :align: left
-
 .. index:: appearance, wallpaper
 .. _Appearance:
 
@@ -206,16 +198,30 @@ Click the "Layout" drop-down menu to change the default layout of "Automatic" to
 The options that are available when you click :menuselection:`+ --> Solid Color` are shown in :numref:`Figure %s: Modifying the Wallpaper <lumina16a>`. If you select a color and click "OK",
 it will be added as a solid color background to the wallpaper selection drop-down menu.
 
+.. _lumina3b:
+
+.. figure:: images/lumina3b.png
+   :width: 596px
+   :height: 494px
+   :scale: 80%
+   :align: left
+
 .. _lumina16a:
 
 .. figure:: images/lumina16a.png
    :width: 580px
    :height: 484px
    :scale: 82%
-   :align: left
 
 The "Theme" tab, shown in :numref:`Figure %s: Modifying the Theme <lumina17b>`, can be used to change the default font, font size, theme template, color scheme, icon pack, and mouse
 cursors. 
+
+It is possible to create your own "Theme Template" or "Color Scheme" by clicking the "Edit" button next to those options and changing the settings as necessary.
+:numref:`Figure %s: Using the Theme Editor <lumina18a>` shows an example of clicking the "Edit" button with the "Lumina-default (System)" theme template selected. This action opened the
+"Theme Editor" and the user has clicked the color selector (dropper icon) in the upper right corner. After selecting an item in this menu, the template controlling that selection can be
+edited by changing the values in the theme editor box. Note that the theme templates are written as `Qt stylesheets <http://doc.qt.io/qt-5/stylesheet.html>`_, so some scripting experience
+may be helpful when configuring a theme. After making your changes, you can either click the "Save" button to save the theme without closing the editor, or click the "Apply" button which
+will both save the theme and close the theme editor.
 
 .. _lumina17b:
 
@@ -225,21 +231,13 @@ cursors.
    :scale: 65%
    :align: left
 
-It is possible to create your own "Theme Template" or "Color Scheme" by clicking the "Edit" button next to those options and changing the settings as necessary.
-:numref:`Figure %s: Using the Theme Editor <lumina18a>` shows an example of clicking the "Edit" button with the "Lumina-default (System)" theme template selected. This action opened the
-"Theme Editor" and the user has clicked the color selector (dropper icon) in the upper right corner. After selecting an item in this menu, the template controlling that selection can be
-edited by changing the values in the theme editor box. Note that the theme templates are written as `Qt stylesheets <http://doc.qt.io/qt-5/stylesheet.html>`_, so some scripting experience
-may be helpful when configuring a theme. After making your changes, you can either click the "Save" button to save the theme without closing the editor, or click the "Apply" button which
-will both save the theme and close the theme editor.
-
 .. _lumina18a:
 
 .. figure:: images/lumina18a.png
    :width: 806px
    :height: 421px
-   :scale: 60%
-   :align: left
-   
+   :scale: 75%
+
 .. index:: menu, panel
 .. _Interface:
 
@@ -252,6 +250,9 @@ configure which items appear in the right-click menu and which items are embedde
 .. _lumina4c:
 
 .. figure:: images/lumina4c.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
    :align: left
 
 To add an item to the right-click menu, click the "+" button under the "Quick-Access Menu". This will open the "Select a Plugin" screen where you can add an application, custom app, an entry
@@ -276,12 +277,15 @@ To configure the panel, click the "Panels" tab which will open the screen shown 
 .. _lumina5d:
 
 .. figure:: images/lumina5d.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
    :align: left
 
 This screen can be used to customize the location, alignment, size, theme, and plugins for an existing panel. The "+" and "-" icons towards the top, next to "Panel 1" can be used to add
 or remove additional panels. Panels must be aligned along a screen edge, opposite screen edges in the case of two panels, and may have any width, color, or transparency. 
 
-**Note:** If you add additional panels, a frame, similar to "Panel 1", will be created for each panel, and will be labeled "Panel 2", "Panel 3", and so on. This allows you to configure
+.. note:: If you add additional panels, a frame, similar to "Panel 1", will be created for each panel, and will be labeled "Panel 2", "Panel 3", and so on. This allows you to configure
    each panel separately. The configuration tabs available for a panel are described below. Be sure to select the tab in the panel that you wish to customize.
 
 The "Location" tab (4 arrow icon) contains the following items:
@@ -297,6 +301,9 @@ The "Appearance" tab (monitor icon) is shown in :numref:`Figure %s: Panels Appea
 .. _lumina19b:
 
 .. figure:: images/lumina19b.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
    :align: left
 
 If you would like the panel to be hidden unless the mouse is hovered over it, check the "Auto-hide Panel" box. The "Custom Color" option can be used to fine-tune the
@@ -307,6 +314,9 @@ The "Plugins" tab (puzzle icon) is shown in :numref:`Figure %s: Panels Plugins T
 .. _lumina20b:
 
 .. figure:: images/lumina20b.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
    :align: left
 
 To add a plugin as an icon to the panel, click the "+" button below the listed plugins and select a plugin from the list that appears. The available plugins include:
@@ -357,11 +367,6 @@ Applications
 The "Applications" tab, shown in :numref:`Figure %s: Lumina Applications Configuration <lumina6b>`, is used to configure which applications start when you login to Lumina as well as the
 default applications and file types.
 
-.. _lumina6b:
-
-.. figure:: images/lumina6b.png
-   :align: left
-
 To prevent an application from starting automatically, uncheck its box.
 
 To add an application to the auto-start configuration , click "Application" to select the application's name from a drop-down menu or click "Binary" or "File" to browse
@@ -370,11 +375,6 @@ to the location of  the application or file to open. If you select a file name, 
 To configure the default applications and file types, click the "File Defaults" tab. In the screen shown in :numref:`Figure %s: Lumina Defaults Configuration <lumina7c>`, you can configure
 the default web browser, email client, file manager, and virtual terminal. 
 
-.. _lumina7c:
-
-.. figure:: images/lumina7c.png
-   :align: left
-
 Click the gear icon or the name of the existing application to select the desired application from a menu of available applications.
 If you wish to go back to the default application, click the current application's name, then click "Restore Defaults".
 
@@ -382,7 +382,22 @@ This screen can also be used to set the default application for several categori
 click "Set App", which will open a drop-down menu of common applications, or "Set Binary", which will open a file browser so that you can browse to the path
 of the application.
 
-**Note:** Some applications, such as web browsers, keep their own internal lists of default applications for opening particular types of files. If you set
+.. _lumina6b:
+
+.. figure:: images/lumina6b.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
+   :align: left
+   
+.. _lumina7c:
+
+.. figure:: images/lumina7c.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
+   
+.. note:: Some applications, such as web browsers, keep their own internal lists of default applications for opening particular types of files. If you set
    that application to use the :command:`lumina-open` or :command:`xdg-open` utilities, it will use the default applications that are set here so that
    there is only a single list of default applications for the system.
 
@@ -392,17 +407,20 @@ of the application.
 Shortcuts
 =========
    
+.. _lumina8a:
+
+.. figure:: images/lumina8a.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
+   :align: left
+   
 The "Shortcuts" tab, shown in :numref:`Figure %s: Lumina Shortcuts Configuration <lumina8a>`, is used to configure various keyboard shortcuts for system or window tasks. Most of these
 options relate to window and workspace management, such as moving windows between workspaces, but there are also options for changing the system audio volume
 or screen brightness. 
 
 To create a shortcut, click the desired entry, then "Change Shortcut", then the key combination you wish to set. Note that any entry that already has a defined shortcut showing in the
 "Keyboard Shortcut" column  can **not** be assigned to another action. First, highlight that shortcut, click "Clear Shortcut", then "Save Changes". You can now create a new shortcut.
-
-.. _lumina8a:
-
-.. figure:: images/lumina8a.png
-   :align: left
 
 .. index:: session
 .. _Session:
@@ -416,17 +434,15 @@ frequent basis.
 .. _lumina12d:
 
 .. figure:: images/lumina12d.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
    :align: left
 
 The "General Options" tab can be used to automatically enable numlock, to play chimes when Lumina starts or exits, and to change the icon that appears  in the login menu and the start
 menu button. It also has options to set the time format, date format, and time display format. Buttons are available to reset these options to either the system defaults or Lumina defaults.
 
 The "Locale" tab is shown in :numref:`Figure %s: Session Locale Tab <lumina21a>`.
-
-.. _lumina21a:
-
-.. figure:: images/lumina21a.png
-   :align: left
 
 The lumina-i18n package provides localization files. Once installed, this allows you to customize which locale is used for the various items listed in
 :numref:`Figure %s: Session Locale Tab <lumina21a>`. To install this package on a PC-BSD or FreeBSD system, use :command:`sudo pkg install lumina-i18n`. On other operating systems, use the
@@ -438,15 +454,10 @@ Installing the lumina-i18n package will also add a drop-down menu to the "Prefer
 for the locale menu to appear in "Preferences". This drop-down menu can be used to temporarily change the locale for this session only. This will immediately change the
 localization of any translated menu items on the fly so that you do not have to log back into the Lumina session.
 
-**Note:** Any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
+.. note:: Any menu items that continue to be displayed in English have not been translated to the selected language yet. You can assist the Lumina Project in translating menu items using the
    instructions in :ref:`Interface Translation`.
 
 The "Window System" tab, shown in :numref:`Figure %s: Session Window System Tab <lumina22a>`, contains various configuration options for the window manager. 
-
-.. _lumina22a:
-
-.. figure:: images/lumina22a.png
-   :align: left
 
 Drop-down menus are provided for configuring the following:
 
@@ -458,6 +469,21 @@ Drop-down menus are provided for configuring the following:
 * **Focus Policy:** indicates when windows receive focus. Choices are "Click to Focus", "Active Mouse Focus", or "Strict Mouse Focus".
 
 * **Window Theme:** controls the appearance of the frame around application windows. The "Window Theme Preview" screen can be used to preview the selected theme.
+
+.. _lumina21a:
+
+.. figure:: images/lumina21a.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
+   :align: left
+   
+.. _lumina22a:
+
+.. figure:: images/lumina22a.png
+   :width: 738px
+   :height: 494px
+   :scale: 70%
 
 .. index:: Utilities
 .. _Lumina Utilities:
@@ -473,14 +499,17 @@ Lumina provides many built-in utilities, which are described in this chapter.
 Lumina Screenshot
 =================
 
-This utility can be used to take screenshots of the desktop or selected window and save them as PNG image files. To launch this utility, click the start menu and select
-:menuselection:`Browse Applications --> Utility --> Lumina Screenshot`, right-click the desktop and select :menuselection:`Applications --> Utility --> Lumina Screenshot`, type
-:command:`lumina-screenshot` from a terminal window, or press the :kbd:`Print Screen` button.
-
 .. _lumina9a:
 
 .. figure:: images/lumina9a.png
+   :width: 351px
+   :height: 311px
+   :scale: 99%
    :align: left
+   
+This utility can be used to take screenshots of the desktop or selected window and save them as PNG image files. To launch this utility, click the start menu and select
+:menuselection:`Browse Applications --> Utility --> Lumina Screenshot`, right-click the desktop and select :menuselection:`Applications --> Utility --> Lumina Screenshot`, type
+:command:`lumina-screenshot` from a terminal window, or press the :kbd:`Print Screen` button.
 
 The following settings can be used to fine-tune the screenshot:
 
@@ -502,13 +531,16 @@ open a window where you can specify the filename and location for saving the scr
 Insight File Manager
 ====================
 
-The Insight file manager, shown in :numref:`Figure %s: Insight File Manager <lumina10>`, allows the user to easily browse and modify files on the local system on a per-directory basis. To
-open Insight, click the start menu and select "Browse Files", right-click the desktop and select "Browse Files", or type :command:`lumina-fm` from an xterm.
-
 .. _lumina10:
 
 .. figure:: images/lumina10.png
+   :width: 567px
+   :height: 441px
+   :scale: 100%
    :align: left
+   
+The Insight file manager, shown in :numref:`Figure %s: Insight File Manager <lumina10>`, allows the user to easily browse and modify files on the local system on a per-directory basis. To
+open Insight, click the start menu and select "Browse Files", right-click the desktop and select "Browse Files", or type :command:`lumina-fm` from an xterm.
 
 It is possible to open up additional directories through the tab system using :kbd:`Ctrl-T` or by clicking :menuselection:`File --> New Browser`, allowing the user to easily manage multiple
 locations on the system. Insight also features the ability to "bookmark" locations on the system for instant access via the "star" button. Once a location has been bookmarked, it will be
@@ -549,6 +581,14 @@ A few additional options may be available at the bottom of the window, depending
 Lumina Open
 ===========
 
+.. _lumina11a:
+
+.. figure:: images/lumina11a.png
+   :width: 396px
+   :height: 303px
+   :scale: 100%
+   :align: left
+   
 To open a file, directory, or URL from the command line, use :command:`lumina-open` followed by the full path to the file or the URL. This utility will look
 for an appropriate application to use to open the specified file or URL. If there is no default application registered for the input type, a small dialog will
 prompt the user to select which application to use, and optionally set it as the default application for this file type. As seen in the example shown in
@@ -563,51 +603,54 @@ prompt the user to select which application to use, and optionally set it as the
   search the system for the binary. Whenever text is entered, a check is performed to determine whether that is a valid binary and the icon will change
   between a green checkmark or a red X as appropriate.
 
-.. _lumina11a:
-
-.. figure:: images/lumina11a.png
-   :align: left
-
 .. index:: search
 .. _Lumina Search:
 
 Lumina Search
 =============
 
+.. _lumina13a:
+
+.. figure:: images/lumina13a.png
+   :width: 329px
+   :height: 273px
+   :scale: 100%
+   :align: left
+   
 Lumina Search provides the ability to easily search for and launch applications or to quickly search for file and directories. The "*" wildcard
 can be used in the search terms and the search will include hidden files if the search term starts with a dot ("."). 
 
 To start this utility, type :command:`lumina-search` or go to the start menu :menuselection:`Browse Applications --> Utility --> Lumina Search`.
 :numref:`Figure %s: Search for Applications <lumina13a>` shows a screenshot of this utility.
 
-.. _lumina13a:
-
-.. figure:: images/lumina13a.png
-   :align: left
-
 To open an application, begin to enter its name. The box below the selected "Applications" button will display any matching application names. Select the desired application and click
 the "Launch Item" button to open it.
 
 If you click the "Files or Directories" button, the screen changes slightly, as seen in :numref:`Figure %s: Search for Files <lumina13>`.
 
-.. _lumina13:
-
-.. figure:: images/lumina13.png
-   :align: left
-
 By default, a "Files or Directories" search is limited to the user's home directory, as indicated by the "Search: ~" at the bottom of the screen. The "Smart: Off" indicates
 that every subdirectory is included in the search; in other words, there are no excluded directories. To add additional search directories or to exclude subdirectories, click 
 the wrench icon to see the screen shown in :numref:`Figure %s: Configuring the Search Directories <lumina14>`.
-
-.. _lumina14:
-
-.. figure:: images/lumina14.png
-   :align: left
 
 Click the blue folder icon to change the starting search directory. For example, you can select "Computer" then "/" from the "Select Search Directory" screen to search the entire
 contents of the computer. You can also add directories to exclude from searches by clicking the "+" button. If you add any excludes, you can delete an exclude by highlighting it
 and clicking the "-" button. By default, the "Save as Defaults" option is selected. Unselect this option if you only wish to temporarily modify your search settings.
 
+.. _lumina13:
+
+.. figure:: images/lumina13.png
+   :width: 288px
+   :height: 273px
+   :scale: 100%
+   :align: left
+   
+.. _lumina14:
+
+.. figure:: images/lumina14.png
+   :width: 350px
+   :height: 263px
+   :scale: 100%
+   
 .. index:: Lumina File Information
 .. _Lumina File Information:
 
@@ -621,7 +664,9 @@ file information of their :file:`~/Downloads` directory.
 .. _file1:
 
 .. figure:: images/file1.png
-   :align: left
+   :width: 521px
+   :height: 426px
+   :scale: 100%
 
 .. index:: Lumina Information
 .. _Lumina Information:
@@ -629,14 +674,17 @@ file information of their :file:`~/Downloads` directory.
 Lumina Information
 =======================
 
-This utility provides information about the version of Lumina, as well as the license, acknowledgements, and Project links. To launch this utility, right-click the desktop and select
-:menuselection:`Preferences --> About Lumina`, click the start menu then the question mark icon in "Preferences", or type :command:`lumina-info` in a terminal window. An example is shown
-in :numref:`Figure %s: About Lumina <about1a>`.
-
 .. _about1a:
 
 .. figure:: images/about1a.png
+   :width: 502px
+   :height: 540px
+   :scale: 100%
    :align: left
+   
+This utility provides information about the version of Lumina, as well as the license, acknowledgements, and Project links. To launch this utility, right-click the desktop and select
+:menuselection:`Preferences --> About Lumina`, click the start menu then the question mark icon in "Preferences", or type :command:`lumina-info` in a terminal window. An example is shown
+in :numref:`Figure %s: About Lumina <about1a>`.
 
 The "General" tab contains the following information:
 
@@ -669,14 +717,17 @@ The "Acknowledgements" tab contains the following:
 Lumina Xconfig
 ==============
 
-The :command:`lumina-xconfig` utility is a graphical front-end to the :command:`xrandr` command line utility. It provides the ability to probe and manage any number of attached monitors. To
-start this utility, right-click the desktop and select :menuselection:`Preferences --> Display` or type :command:`lumina-xconfig` from a terminal window. This will open a screen
-similar to the one shown in :numref:`Figure %s: Configuring Monitors <lumina15a>`.
-
 .. _lumina15a:
 
 .. figure:: images/lumina15a.png
+   :width: 412px
+   :height: 351px
+   :scale: 100%
    :align: left
+   
+The :command:`lumina-xconfig` utility is a graphical front-end to the :command:`xrandr` command line utility. It provides the ability to probe and manage any number of attached monitors. To
+start this utility, right-click the desktop and select :menuselection:`Preferences --> Display` or type :command:`lumina-xconfig` from a terminal window. This will open a screen
+similar to the one shown in :numref:`Figure %s: Configuring Monitors <lumina15a>`.
 
 In this example, one display input is attached to the system and its current screen resolution is displayed. If the display input supports multiple resolutions, they will appear in the
 "Resolution" drop-down menu so that you can select a different resolution. 
@@ -696,6 +747,14 @@ assist the Lumina Project
 Report a Bug
 ============
 
+.. _bug:
+
+.. figure:: images/bug.png
+   :width: 981px
+   :height: 458px
+   :scale: 90%
+   :align: left
+   
 If you like playing around with your desktop environment and have a bit of spare time, one of the most effective ways you can assist the Lumina Project is by
 reporting problems you encounter while using Lumina. Subscribing to `Lumina News <http://lumina-desktop.org/news/>`_ is a good way to keep
 up-to-date on the availability of new Lumina versions.
@@ -721,11 +780,6 @@ Anyone can report a Lumina bug. Follow these tips so that you can accurately des
 * When finished, click "Create" to save the report. It will automatically be assigned a number and you will receive an email at the email address you used to register whenever a comment
   is added to the report or its status changes.
   
-.. _bug:
-
-.. figure:: images/bug.png
-   :align: left
-
 .. _Become a Translator:
 
 Become a Translator
@@ -761,6 +815,9 @@ To see the status of a localization, open up the `Lumina translation website <ht
 .. _translate1:
 
 .. figure:: images/translate1.png
+   :width: 981px
+   :height: 453px
+   :scale: 100%
    :align: left
 
 The localizations Lumina users have requested are listed alphabetically on the left. If your language is missing and you would like to help in its
@@ -776,6 +833,9 @@ but the translation for "lumina-config" has not been started yet.
 .. _translate2: 
 
 .. figure:: images/translate2.png
+   :width: 981px
+   :height: 453px
+   :scale: 100%
    :align: left
 
 In order to edit a translation, you need to first create a Pootle login account. Once you are logged in to Pootle, navigate to the menu item that you wish to
@@ -785,6 +845,9 @@ translation" link.
 .. _translate3:
 
 .. figure:: images/translate3.png
+   :width: 981px
+   :height: 453px
+   :scale: 100%
    :align: left
 
 In this example, the first string, the phrase "Select Application" has not yet been translated. To add the translation, type the translated text into the
