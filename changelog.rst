@@ -6,6 +6,56 @@ Changelog
 This section describes the major features and changes to each version of Lumina, with the most recent version of Lumina listed first.
 
 .. index:: changelog
+.. _Lumina 0.9.0:
+
+Lumina 0.9.0
+============
+
+* Changed the default wallpapers for Lumina/PC-BSD and added some more 4K Lumina wallpapers.
+
+* Updated lumina-screenshot: Added a new quicksave option and launch editor button for opening a full editor, windows to be snapshot may now be clicked on 
+  for selection rather than using the list of open windows, and screenshots may be cropped as needed within the utility before saving them to a file.
+ 
+* Added new Utility: lumina-textedit. This is a simple plaintext editor with syntax highlighting, find/replace support, line numbers, and bracket highlighting.
+
+* Updated the Lumina theme engine to no longer use stylesheets to modify non-desktop applications (including the Lumina tools/utilities). 
+  This opens the door for a full Qt5 theme plugin to be used for non-desktop utilities instead.
+
+* Updated which XDG mime-types are used for the default web browser and file manager. 
+  This should make it align a bit better with what applications expect (if they try to read/use the database directly - such as some popular web browsers do).
+
+* Updated Linux harddrive device detection ("nvme" devices).
+
+* Added Gentoo Linux support and an "ebuild" file.
+
+* Cleanup of some minor source syntax issues with Qt 5.6
+
+* Fixed a number of multi-monitor issues. Screen resizes/changes will now be properly detected on the fly (on any system - including VM's), and panels will be placed properly on monitors not aligned with the y=0 axis.
+
+* Ensured the current system volume gets saved on logout so it can be reloaded on next login (in case the volume was changed by some external tool during the session).
+
+* Added new startup binary: "start-lumina-desktop". This will be used as the primary "entry point" for launching the desktop as opposed to the "Lumina-DE" binary (please adjust your .xinitrc files and wrapper scripts as needed). 
+  The xsession desktop entry that Lumina installs was already changed to run this tool, so graphical desktop managers should be unaffected by this change. 
+  This tool will eventually be used to perform the X session setup/configuration (so CLI users will not need to run xinit or startx directly anymore), but the X integration has not been implemented yet.
+
+* Updated the FreeBSD appstore shortcut to point to the new appcafe.desktop file from PC-BSD.
+
+* Cleaned many old shell scripts from the source tree (not needed for builds any more).
+
+* Streamlined the build procedures slightly.
+
+* Reorganized the source tree. Now all the Lumina tools/utilities are kept separate from the general build scripts/files within a src-qt5 directory, and additionally organized into categories (core, core-utils, desktop-utils).
+  Automated build systems should not be impacted by this change, as the main project file (lumina.pro) has been left in the same place within the repository and just had all the internal paths adjusted accordingly.
+ 
+* Updated all the installed desktop entries to use relative paths for the icons (better cross-OS support).
+
+* Fixed the detection of "sloppy" URL's given to lumina-open.
+
+* Adjusted one of the include files for the Lumina library so external applications can now link against the lib without the availability of the Lumina source tree (although still not recommended).
+
+* Stability fix for the desktop when an invalid desktop plugin is set/registered.
+
+.. index:: changelog
 .. _Lumina 0.8.8:
 
 Lumina 0.8.8

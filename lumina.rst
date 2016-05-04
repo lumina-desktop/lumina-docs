@@ -503,27 +503,45 @@ Lumina Screenshot
 
 .. figure:: images/lumina9a.png
    :width: 351px
-   :height: 311px
-   :scale: 99%
+   :height: 310px
+   :scale: 100%
+   :align: left
+   
+.. _lumina9b:
+
+.. figure:: images/lumina9b.png
+   :width: 351px
+   :height: 310px
+   :scale: 100%
    :align: left
    
 This utility can be used to take screenshots of the desktop or selected window and save them as PNG image files. To launch this utility, click the start menu and select
 :menuselection:`Browse Applications --> Utility --> Lumina Screenshot`, right-click the desktop and select :menuselection:`Applications --> Utility --> Lumina Screenshot`, type
 :command:`lumina-screenshot` from a terminal window, or press the :kbd:`Print Screen` button.
 
-The following settings can be used to fine-tune the screenshot:
-
-* **Delay:** in seconds. This can be used to give you time to setup the screenshot.
+On the "New Screenshot" tab, the following settings can be used to fine-tune the screenshot:
 
 * **Entire Session:** will take a screenshot of the entire screen.
 
 * **Single Screen:** in a multi-monitor setup, you can select which screen number to use for the screenshot.
 
-* **Single Window:** will take a screenshot of the window which has focus. The "Include Borders" checkbox can be used to determine whether or not the screenshot of the window is
-  surrounded by a black border.
+* **Single Window:** will screenshot a selected window. Simply choose "Single Window," then the "Take Screenshot" button, and click on the desired window.
+  The "Include Borders" checkbox can be used to determine whether or not the screenshot of the window is surrounded by a black border.
+  
+* **Delay:** in seconds. This can be used to give you time to setup the screenshot.
 
-To take a screenshot, click the "Snap" button in the upper-right corner of Lumina Screenshot. If you like the look of the screenshot, as shown in the preview, click the "Save" button to
-open a window where you can specify the filename and location for saving the screenshot.
+There are three options for taking a screenshot: clicking the "Take Screenshot" button in the lower-right corner of Lumina Screenshot, pressing :kbd:`Ctrl+N`, or clicking :menuselection:`File --> Take Screenshot`. 
+
+After capturing a screenshot, the "View/Edit" tab provides additional options for manipulating the screenshot:
+
+* **Image Preview:** displays the captured screenshot. Right clicking the image will provide options for zooming in or out. Left click and dragging across the image will highlight an area which
+  can be cropped by pressing the "Crop" button in the lower-right corner.
+  
+* **"Save As":** button to open a window where you can specify the filename and location for saving the screenshot.
+
+* **Launch Editor:** button to launch a selectable image manipulation program.
+
+Additionally, clicking :menuselection:`File --> Quick Save` will automatically save the screenshot to the default "Pictures" directory and open a window to select an image manipulation program.
 
 .. index:: file manager
 .. _Insight File Manager:
@@ -720,8 +738,8 @@ Lumina Xconfig
 .. _lumina15a:
 
 .. figure:: images/lumina15a.png
-   :width: 412px
-   :height: 351px
+   :width: 410px
+   :height: 343px
    :scale: 100%
    :align: left
    
@@ -729,10 +747,26 @@ The :command:`lumina-xconfig` utility is a graphical front-end to the :command:`
 start this utility, right-click the desktop and select :menuselection:`Preferences --> Display` or type :command:`lumina-xconfig` from a terminal window. This will open a screen
 similar to the one shown in :numref:`Figure %s: Configuring Monitors <lumina15a>`.
 
-In this example, one display input is attached to the system and its current screen resolution is displayed. If the display input supports multiple resolutions, they will appear in the
+In this example, two display inputs are attached to the system and their current screen resolutions are displayed. If the display input supports multiple resolutions, they will appear in the
 "Resolution" drop-down menu so that you can select a different resolution. 
 
 If you attach another display input, the "Add Screen" tab is activated so that you can configure the new input's resolution and whether or not it should be the default input.
+
+.. index:: textedit
+.. _Lumina Text Editor:
+
+Lumina Text Editor
+==================
+ 
+This utility is a simple plaintext editor which features four primary elements: optional syntax highlighting, find/replace functionality, line numbering, and bracket highlighting.
+Additionally, colors can be customized by selecting :menuselection:`View --> Customize Colors`.
+
+.. _lumina23:
+
+.. figure:: images/lumina23.png
+   :width: 412px
+   :height: 351px
+   :scale: 100%
 
 .. _Contributing to Lumina:
 
