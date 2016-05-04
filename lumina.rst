@@ -758,7 +758,7 @@ If you attach another display input, the "Add Screen" tab is activated so that y
 Lumina Text Editor
 ==================
  
-This utility is a simple plaintext editor which features four primary elements: optional syntax highlighting, find/replace functionality, line numbering, and bracket highlighting.
+The :command:`lumina-textedit` utility is a simple plaintext editor which features four primary elements: optional syntax highlighting, find/replace functionality, line numbering, and bracket highlighting.
 Additionally, colors can be customized by selecting :menuselection:`View --> Customize Colors`.
 
 .. _lumina23:
