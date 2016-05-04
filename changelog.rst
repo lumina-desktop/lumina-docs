@@ -13,10 +13,10 @@ Lumina 0.9.0
 
 * Changed the default wallpapers for Lumina/PC-BSD and added some more 4K Lumina wallpapers.
 
-* Updated lumina-screenshot: Added a new quicksave option and launch editor button for opening a full editor, windows to be snapshot may now be clicked on 
+* Updated :command:`lumina-screenshot`: Added a new quicksave option and launch editor button for opening a full editor, windows to be snapshot may now be clicked on 
   for selection rather than using the list of open windows, and screenshots may be cropped as needed within the utility before saving them to a file.
  
-* Added new Utility: lumina-textedit. This is a simple plaintext editor with syntax highlighting, find/replace support, line numbers, and bracket highlighting.
+* Added new Utility: :command:`lumina-textedit`. This is a simple plaintext editor with syntax highlighting, find/replace support, line numbers, and bracket highlighting.
 
 * Updated the Lumina theme engine to no longer use stylesheets to modify non-desktop applications (including the Lumina tools/utilities). 
   This opens the door for a full Qt5 theme plugin to be used for non-desktop utilities instead.
@@ -34,9 +34,9 @@ Lumina 0.9.0
 
 * Ensured the current system volume gets saved on logout so it can be reloaded on next login (in case the volume was changed by some external tool during the session).
 
-* Added new startup binary: "start-lumina-desktop". This will be used as the primary "entry point" for launching the desktop as opposed to the "Lumina-DE" binary (please adjust your .xinitrc files and wrapper scripts as needed). 
+* Added new startup binary: :command:`start-lumina-desktop`. This will be used as the primary "entry point" for launching the desktop as opposed to the "Lumina-DE" binary (please adjust your .xinitrc files and wrapper scripts as needed). 
   The xsession desktop entry that Lumina installs was already changed to run this tool, so graphical desktop managers should be unaffected by this change. 
-  This tool will eventually be used to perform the X session setup/configuration (so CLI users will not need to run xinit or startx directly anymore), but the X integration has not been implemented yet.
+  This tool will eventually be used to perform the X session setup/configuration (so CLI users will not need to run :command:`xinit` or :command:`startx` directly anymore), but the X integration has not been implemented yet.
 
 * Updated the FreeBSD appstore shortcut to point to the new appcafe.desktop file from PC-BSD.
 
@@ -44,7 +44,7 @@ Lumina 0.9.0
 
 * Streamlined the build procedures slightly.
 
-* Reorganized the source tree. Now all the Lumina tools/utilities are kept separate from the general build scripts/files within a src-qt5 directory, and additionally organized into categories (core, core-utils, desktop-utils).
+* Reorganized the source tree. Now all the Lumina tools/utilities are kept separate from the general build scripts/files within a :file:`src-qt5` directory, and additionally organized into categories (core, core-utils, desktop-utils).
   Automated build systems should not be impacted by this change, as the main project file (lumina.pro) has been left in the same place within the repository and just had all the internal paths adjusted accordingly.
  
 * Updated all the installed desktop entries to use relative paths for the icons (better cross-OS support).
