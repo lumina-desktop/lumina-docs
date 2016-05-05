@@ -11,7 +11,7 @@ This section describes the major features and changes to each version of Lumina,
 Lumina 0.9.0
 ============
 
-* Created a "Common Applications" tab in the Lumina Configuration Utility/"Applications" section and moved common applications settings from the "File Defaults" tab.
+* Created a "Common Applications" tab in the :menuselection:`Lumina Configuration Utility --> "Applications"` section and moved common applications settings from the "File Defaults" tab.
 
 * Changed the default wallpapers for Lumina/PC-BSD and added some more 4K Lumina wallpapers.
 

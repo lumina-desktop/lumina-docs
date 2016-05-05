@@ -18,7 +18,7 @@ Lumina's features include:
   environment.
 
 * Uses a simple, `text-based configuration file for setting system-wide defaults <https://github.com/pcbsd/lumina/blob/master/src-qt5/core/lumina-desktop/defaults/luminaDesktop.conf>`_. This allows
-  Lumina distributors to easily pre-set the Lumina defaults and interface for their distribution.
+  Lumina distributors to easily preset the Lumina defaults and interface for their distribution.
 
 * Provides a plugin-based interface design. This allows the user to make the desktop as light or heavy as desired by choosing which plugins to have running on their desktop and panels.
   This plugin-based system is similar to Android or other modern operating systems.
