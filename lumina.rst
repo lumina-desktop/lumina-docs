@@ -50,7 +50,7 @@ In addition to pre-built packages, the `Lumina source repository <https://github
 packages for other distributions. If you plan to compile Lumina from source, refer to `DEPENDENCIES <https://github.com/pcbsd/lumina/blob/master/DEPENDENCIES>`_ and ensure all
 dependent software is installed and to `README <https://github.com/pcbsd/lumina/blob/master/README.md>`_ for build instructions.
 
-Once installed, add "Lumina-DE" as the name of the binary in your :file:`.startx`, :file:`.xinitrc`, or similar X startup file.
+Once installed, add :command:`start-lumina-desktop` as the name of the binary in your :file:`.startx`, :file:`.xinitrc`, or similar X startup file.
 
 .. note:: No startup configuration is needed when installed on a PC-BSD® system as the PCDM login manager will automatically display Lumina in the login menu. Simply log out, select Lumina,
    and log back in.
@@ -235,8 +235,6 @@ It is possible to create your own "Theme Template" or "Color Scheme" by clicking
 edited by changing the values in the theme editor box. Note that the theme templates are written as `Qt stylesheets <http://doc.qt.io/qt-5/stylesheet.html>`_, so some scripting experience
 may be helpful when configuring a theme. After making your changes, you can either click the "Save" button to save the theme without closing the editor, or click the "Apply" button which
 will both save the theme and close the theme editor.
-
-
 
 .. index:: menu, panel
 .. _Interface:
