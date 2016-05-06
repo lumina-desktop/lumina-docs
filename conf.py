@@ -107,25 +107,12 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
-html_theme_path = ["."]
+html_theme_path = ["_themes",]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {
-#  "rightsidebar" : "true",
-#  "sidebarwidth" : "17em"
-#agogo theme options
-#  "pagewidth" : "85em",
-#  "sidebarwidth" : "15em",
-#  "documentwidth" : "70em",
-#  "headerbg" : "linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7),rgba(0,0,0,0.9))",
-#  "footerbg" : "linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7),rgba(0,0,0,0.8))",
-#  "bgcolor" : "rgb(200,200,200)",
-#  "headercolor1" : "#19476b",
-#  "headercolor2" : "#236396",
-#  "linkcolor" : "#328ED7"
-}
+html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
@@ -149,7 +136,7 @@ html_favicon = "lumina.ico"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
