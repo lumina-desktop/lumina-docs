@@ -1,6 +1,6 @@
 Lumina Handbook |release|
 =========================
-
+ 
 .. toctree::
    :numbered:
    :maxdepth: 4

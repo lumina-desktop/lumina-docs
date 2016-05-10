@@ -18,7 +18,9 @@ import os
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.insert(0, os.path.abspath('.'))
+# sys.path.append(os.path.abspath('/extensions'))
+
+sys.path.insert(0, os.path.abspath('./extensions'))
 
 # -- General configuration ------------------------------------------------
 
@@ -29,6 +31,7 @@ import os
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'globalindex',
     'sphinx.ext.ifconfig',
     'sphinxcontrib.httpdomain',
     'sphinx.ext.numfig'
@@ -165,7 +168,7 @@ html_use_smartypants = True
 #html_use_index = True
 
 # If true, the index is split into individual pages for each letter.
-#html_split_index = False
+# html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
 #html_show_sourcelink = True

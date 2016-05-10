@@ -1,3 +1,6 @@
+.. globalindex::
+   :maxdepth: 4
+
 .. _Introduction to Lumina:
 
 Introduction to Lumina
@@ -73,13 +76,11 @@ Start Menu
    :scale: 50%
    
 
-The start menu provides quick access for user interaction with the system. The top frame indicates which user is logged in. If the system has a battery, you can hover over the battery icon (not pictured) 
-to display the current status of the battery and the estimated time remaining if that battery is discharging. 
+* **Start menu:** provides quick access for user interaction with the system. The top frame indicates which user is logged in. If the system has a battery, you can hover over the battery icon (not pictured) 
+  to display the current status of the battery and the estimated time remaining if that battery is discharging.
 
-The favorites element is the largest section of the menu. Click an entry to launch that application. Right-click an entry to "Remove from Favorites" or to "Add to Quicklaunch". In Lumina, "Favorites"
-appear in this section of the start menu and "QuickLaunch" adds a button for the application to the panel that is next to the start menu button.
-
-The remainder of the start menu contains the following:
+* **Favorites:** this element is the largest section of the menu. Click an entry to launch that application. Right-click an entry to "Remove from Favorites" or to "Add to Quicklaunch". In Lumina, "Favorites"
+  appear in this section of the start menu and "QuickLaunch" adds a button for the application to the panel that is next to the start menu button.
 
 * **Browse Files:** used to browse for files and directories using the :ref:`Insight File Manager`. One of the actions available in this file manager is the ability to add a file or directory
   to the list of Favorites. Simply select the file or directory and click the star icon in Insight.
