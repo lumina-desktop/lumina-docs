@@ -2927,7 +2927,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', end
     top: 0;
     bottom: 0;
     left: 0;
-    padding-bottom: 2em;
+    padding-bottom: .1em;
     width: 300px;
     overflow-x: hidden;
     overflow-y: hidden;
