@@ -5,8 +5,9 @@ Lumina Handbook |release|
    :numbered:
    :maxdepth: 4
 
-   lumina
+   luminaintro
    luminaconfig
+   luminaplugins
    luminautl
    luminactbt
    changelog
