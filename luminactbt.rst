@@ -21,34 +21,40 @@ good way to keep up-to-date on the availability of new Lumina versions.
 Anyone can report a Lumina bug. However, bug reporting should follow a 
 few guidelines to ensure a speedy response:
 
-* Lumina is part of the TrueOS® Project, with Lumina bugs reported to 
-  the TrueOS® bug tracker. To get begin reporting bugs, navigate to 
-  `bugs.pcbsd.org <https://bugs.pcbsd.org>`_, click :guilabel:`Register`,
-  fill in the required fields, and reply to the automatic email to 
-  confirm creating a new account.
+* Lumina uses its `GitHub repository <https://github.com/trueos/lumina>`_,
+  seen in :numref:`Figure %s: Lumina Issues Tracker <buga>`, to manage
+  bugs. A GitHub account is required before bugs can be reported.
+  Navigate to https://github.com, fill in the required fields, and click
+  :guilabel:`Sign up for GitHub` to create a new github account.
   
-.. important:: Use a valid email address when registering, or the new 
-			   account will be unable to be confirmed.
+.. _buga:
 
-* Use the "Search" bar at `bugs.pcbsd.org <https://bugs.pcbsd.org>`_ to 
-  see if a similar bug report has already been reported. If a similar 
-  report exists, add any additional information to the report via a 
-  comment. While it is not required to log in to search existing bugs, 
-  adding a comment or creating a new report does require signing into 
-  the website.
-  
-* To create a new bug report, log into the website, then navigate to 
-  `<http://bugs.pcbsd.org/projects/pcbsd/issues/new>`_. In the screen 
-  shown in :numref:`Figure %s: Creating a Bug Report <bug>`, click the 
-  :guilabel:`Category` drop-down menu and select :guilabel:`Lumina Desktop`.
-
-.. _bug:
-
-.. figure:: images/bug.png
+.. figure:: images/buga.png
    :scale: 100%
   
-* Write a brief but descriptive "Subject" that includes the error and 
-  the version of Lumina. Ideally, the subject is short (8 words or less)
+.. important:: The GitHub issues tracker uses email to update 
+   contributors on the status of bugs. Please use a valid and frequently
+   used email address when creating a GitHub account for the efficient
+   resolution of issues.
+
+* Use the "Search" bar on the `"Issues"` <https://github.com/trueos/lumina/issues>`_
+  page to confirm no similar bug report exists. If a similar report does
+  exist, add any additional information to the report via a comment.
+  While it is not required to log in to search existing bugs, adding a
+  comment or creating a new report does require signing into the
+  website.
+  
+* To create a new bug report, log into the website, then navigate to 
+  `<https://github.com/trueos/lumina/issues>`_. Click :guilabel:`New Issue`
+  to open the window shown in :numref:`Figure %s: Creating a Bug Report <bug1>`.
+
+.. _bug1:
+
+.. figure:: images/bug1.png
+   :scale: 100%
+
+* Write a brief but descriptive "Title" that includes the error and 
+  the version of Lumina. Ideally, the title is short (8 words or less)
   and contains key words about the error so the bug report is easily 
   found with the search tool.
 
@@ -57,11 +63,11 @@ few guidelines to ensure a speedy response:
   generated, reproduce the error in its entirety. Also, attaching a 
   screenshot to the report can greatly aid the developer in visualizing 
   the problem.
-  
-* When finished, click :guilabel:`Create` to save the report. The bug 
-  tracker will attach a unique number to the report and send update 
-  messages to the creator's registered email address whenever activity 
-  occurs with the bug report.
+
+* After describing the issue, click :guilabel:`Submit new issue` to
+  create the issue. The bug tracker will attach a unique number to the
+  report and send update messages to the creator's registered email
+  address whenever activity occurs with the bug report.
   
 .. _Become a Translator:
 
@@ -102,11 +108,11 @@ reviewing translations rather than learning how to use a complicated
 tool set.
 
 To see the status of a localization, open the `Lumina translation website <http://translate.pcbsd.org/projects/lumina/>`_
-in a web browser, as seen in :numref:`Figure %s: The Lumina Pootle Translation System <translate1>`. 
+in a web browser, as seen in :numref:`Figure %s: The Lumina Pootle Translation System <translate1a>`. 
 
-.. _translate1:
+.. _translate1a:
 
-.. figure:: images/translate1.png
+.. figure:: images/translate1a.png
    :scale: 100%
 
 Requested localizations are listed alphabetically on the left. If the 
@@ -119,25 +125,25 @@ Lumina menus that have been localized. Any language not at 100%
 translation will display the incomplete menus in English.
 
 Click on a language name to see each available menu item for translation
-. :numref:`Figure %s: Viewing a Language's Available Menus <translate2>`
+. :numref:`Figure %s: Viewing a Language's Available Menus <translate2a>`
 shows the Greek localization. In this example, the menu for 
 "lumina-search" is almost complete, but the translation for 
 "lumina-config" has not been started yet.
 
-.. _translate2: 
+.. _translate2a: 
 
-.. figure:: images/translate2.png
+.. figure:: images/translate2a.png
    :scale: 100%
 
 A Pootle login account is necessary to edit a translation. Log in to 
 Pootle and navigate to the desired menu item in need of translation. In 
-:numref:`Figure %s: Using the Pootle Interface to Edit a Translation String <translate3>`,
+:numref:`Figure %s: Using the Pootle Interface to Edit a Translation String <translate3a>`,
 the translator has clicked on "lumina-config.ts" then clicked the 
 "Continue translation" link.
 
-.. _translate3:
+.. _translate3a:
 
-.. figure:: images/translate3.png
+.. figure:: images/translate3a.png
    :scale: 100%
 
 In this example, the phrase "Select Application" needs to be translated. 
