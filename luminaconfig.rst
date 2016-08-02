@@ -225,13 +225,14 @@ by unchecking "View Syntax Codes".
 .. figure:: images/lumina30.png
    :scale: 100%
 
-The "Startup Services and Applications" option, displayed in 
-:numref:`Figure %s: Lumina Startup Services <lumina6d>`, allows you to 
-adjust what is automatically started upon logging into Lumina.
+The "Startup Services and Applications" option, displayed in
+:numref:`Figure %s: Lumina Startup Services <lumina6e>`, provides
+adjustment options for what is automatically started when logging into
+Lumina.
 
-.. _lumina6d:
+.. _lumina6e:
 
-.. figure:: images/lumina6d.png
+.. figure:: images/lumina6e.png
    :scale: 100%
    
 To prevent an application from starting automatically, uncheck its box.

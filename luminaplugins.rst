@@ -444,8 +444,8 @@ Desktop Bar
 
 .. figure:: images/luminapanelplugin3.png
 
-:numref:`Figure %s: Desktop Bar <luminapanelplugin3>` :guilabel:`Favorite Applications` 
-is pressed.
+:numref:`Figure %s: Desktop Bar <luminapanelplugin3>`: :guilabel:`Favorite Applications` 
+("Star" icon) is pressed.
 
 This plugin adds shortcuts to the panel for applications or files 
 contained within the ~/Desktop folder or favorited by the user. The 
