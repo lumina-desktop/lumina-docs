@@ -1,11 +1,11 @@
-.. index:: plugins   
+.. index:: plugins
 .. _Lumina Plugins:
 
 Lumina Plugins
 **************
 
-Lumina offers a wide variety of plugins which allow the user to 
-customize their desktop experience. Plugins are divided between context 
+Lumina offers a wide variety of plugins which allow the user to
+customize their desktop experience. Plugins are divided between context
 menu, desktop, and floating panel plugins.
 
 .. index:: contextmenu plugins
@@ -14,33 +14,35 @@ menu, desktop, and floating panel plugins.
 Context Menu Plugins
 ====================
 
-Menu plugins are the options which appear when the user right-clicks on 
-the desktop screen in Lumina. You can customize these options by 
-clicking on the Start Menu, then 
+Menu plugins are the options which appear when the user right-clicks on
+the desktop screen in Lumina. You can customize these options by
+clicking on the Start Menu, then
 :menuselection:`Preferences --> Configure Desktop --> Interface Configuration --> Context Menu and Plugins`.
 
 .. _luminamenupluginmenu1:
 
 .. figure:: images/luminamenupluginmenu1.png
+   :scale: 100%
 
 :numref:`Figure %s: Lumina Menu Plugins <luminamenupluginmenu1>`
 
-Add or remove plugins by clicking the green "plus" or red "minus" 
-buttons in the bottom left corner of the window. The arrow buttons in 
-the bottom right allow the user to move plugins up or down in the 
-Quick-Access Menu field, which will alter their display order when the 
-desktop is right-clicked. Click the Save button to immediately implement 
+Add or remove plugins by clicking the green "plus" or red "minus"
+buttons in the bottom left corner of the window. The arrow buttons in
+the bottom right allow the user to move plugins up or down in the
+Quick-Access Menu field, which will alter their display order when the
+desktop is right-clicked. Click the Save button to immediately implement
 any changes to the menu.
 
-Two elements the right-click menu will always display are the name of 
-the current virtual desktop at the top of the menu and the shutdown 
+Two elements the right-click menu will always display are the name of
+the current virtual desktop at the top of the menu and the shutdown
 options on the bottom, as pictured in :numref:`Figure %s: Default Menu <luminamenuplugin1>`.
 
 .. _luminamenuplugin1:
 
 .. figure:: images/luminamenuplugin1.png
+   :scale: 100%
 
-The user can customize what appears between these two elements of the 
+The user can customize what appears between these two elements of the
 menu however they wish.
 
 .. _Menu Applications:
@@ -51,12 +53,13 @@ Applications
 .. _luminamenuplugin2:
 
 .. figure:: images/luminamenuplugin2.png
+   :scale: 100%
 
 :numref:`Figure %s: Applications <luminamenuplugin2>`
 
-This plugin adds an application menu which can be navigated to open any 
-installed application. The Control Panel and Application Management 
-options will always be shown at the top, while the categories of 
+This plugin adds an application menu which can be navigated to open any
+installed application. The Control Panel and Application Management
+options will always be shown at the top, while the categories of
 applications are shown underneath.
 
 .. _Custom App:
@@ -70,8 +73,8 @@ Custom App
 
 :numref:`Figure %s: Custom Application <luminamenuplugin3>`
 
-Adds a specific quickstart icon for a single application to the 
-right-click menu. Pictured is the icon for the "About" application, 
+Adds a specific quickstart icon for a single application to the
+right-click menu. Pictured is the icon for the "About" application,
 which is displaying current TrueOS® system information.
 
 .. _File Manager:
@@ -82,6 +85,7 @@ File Manager
 .. _luminamenuplugin4:
 
 .. figure:: images/luminamenuplugin4.png
+   :scale: 100%
 
 :numref:`Figure %s: File Manager <luminamenuplugin4>`
 
@@ -93,29 +97,32 @@ JSON Menu
 ---------
 
 The JSON Menu plugin give a more advanced user the flexibility to create
-their own entries into the right-click menu. Selecting the JSON Menu 
-plugin immediately brings up the menu configuration window, seen in 
+their own entries into the right-click menu. Selecting the JSON Menu
+plugin immediately brings up the menu configuration window, seen in
 :numref:`Figure %s: JSON Menu Configuration Window <luminamenuplugin5>`.
 
 .. _luminamenuplugin5:
 
 .. figure:: images/luminamenuplugin5.png
+   :scale: 100%
 
-This window has three fields: Visible Name, Executable, and Icon. The 
-Visible Name field will define the name of the right-click menu entry. 
-Executable is the path to the custom script that is to be run for the 
-entry. The Icon field is optional, but is used to assign a specific 
+This window has three fields: Visible Name, Executable, and Icon. The
+Visible Name field will define the name of the right-click menu entry.
+Executable is the path to the custom script that is to be run for the
+entry. The Icon field is optional, but is used to assign a specific
 icon to the custom script.
 
 .. _luminamenuplugin6:
 
 .. figure:: images/luminamenuplugin6.png
+   :scale: 100%
 
 :numref:`Figure %s: JSON Menu Example <luminamenuplugin6>`
 
-After completing the configuration window, the resultant display shows 
-the custom script in action. The Visible Name appears under "Workspace 2",
-while the executable script has generated the menu of files and folders.
+After completing the configuration window, the resultant display shows
+the custom script in action. The Visible Name appears under "Workspace
+2", while the executable script has generated the menu of files and
+folders.
 
 .. _Separator:
 
@@ -124,9 +131,9 @@ Separator
 
 :numref:`Figure %s: Separator <luminamenuplugin1>`
 
-A Separator is simply a horizontal line which can be used to divide 
+A Separator is simply a horizontal line which can be used to divide
 entries in the right-click menu. When added to the menu, use the up and
-down arrows in the plugin selection menu to place the Separator plugin 
+down arrows in the plugin selection menu to place the Separator plugin
 between the plugins you wish to place a line between.
 
 .. _Settings:
@@ -137,10 +144,11 @@ Preferences
 .. _luminamenuplugin7:
 
 .. figure:: images/luminamenuplugin7.png
+   :scale: 100%
 
 :numref:`Figure %s: Preferences <luminamenuplugin7>`
 
-This plugin adds a shortcut to the right-click menu which opens a new 
+This plugin adds a shortcut to the right-click menu which opens a new
 menu of configuration quicklinks.
 
 .. _Terminal:
@@ -151,6 +159,7 @@ Terminal
 .. _luminamenuplugin8:
 
 .. figure:: images/luminamenuplugin8.png
+   :scale: 100%
 
 :numref:`Figure %s: Terminal <luminamenuplugin8>`
 
@@ -164,11 +173,12 @@ Window List
 .. _luminamenuplugin9:
 
 .. figure:: images/luminamenuplugin9.png
+   :scale: 100%
 
 :numref:`Figure %s: Window List <luminamenuplugin9>`
 
-This plugin adds an entry to the right-click menu which, when hovered 
-over with the mouse, will list all open application windows. This plugin 
+This plugin adds an entry to the right-click menu which, when hovered
+over with the mouse, will list all open application windows. This plugin
 is comparable to a task manager plugin for panels.
 
 .. index:: desktop plugins
@@ -178,32 +188,32 @@ Desktop Plugins
 ===============
 
 Desktop plugins will add icons or widgets for display on the main screen
-of the Lumina Desktop Environment. Click on default start menu in the 
-lower left of the main desktop screen, then click 
+of the Lumina Desktop Environment. Click on default start menu in the
+lower left of the main desktop screen, then click
 :menuselection:`Preferences --> Configure Desktop --> Interface Configuration --> Desktop Icons and Plugins`.
 
 .. _luminadesktoppluginmenu1:
 
 .. figure:: images/luminadesktoppluginmenu1.png
 
-:numref:`Figure %s: Desktop Plugin Menu <luminadesktoppluginmenu1>` This 
-is the primary menu for configuring desktop plugins. Clicking the green 
-"plus" button will open a "Select Plugin" window. The user can choose 
+:numref:`Figure %s: Desktop Plugin Menu <luminadesktoppluginmenu1>` This
+is the primary menu for configuring desktop plugins. Clicking the green
+"plus" button will open a "Select Plugin" window. The user can choose
 between the available plugins by opening the drop-down menu and clicking
-the desired plugin. Once a plugin has been selected, your choice will 
-appear in the "Embedded Utilities" window. 
+the desired plugin. Once a plugin has been selected, your choice will
+appear in the "Embedded Utilities" window.
 
-The “Display Desktop Folder Contents” option is used to display each 
-item stored in ~/Desktop as an icon on the desktop. By default, this 
+The “Display Desktop Folder Contents” option is used to display each
+item stored in ~/Desktop as an icon on the desktop. By default, this
 option is selected as its box is black. If you de-select this option and
-click “Save Changes”, the icons for the contents of ~/Desktop will be 
-removed from the desktop. To define a smaller area on the desktop for 
+click “Save Changes”, the icons for the contents of ~/Desktop will be
+removed from the desktop. To define a smaller area on the desktop for
 displaying icons, use the :ref:`Desktop Icons View` plugin.
 
-Once all the desired plugins have been added, click the "Save" button 
-that appears in the upper right section. The menu will automatically 
+Once all the desired plugins have been added, click the "Save" button
+that appears in the upper right section. The menu will automatically
 save and implement any changes to the desktop plugins.
- 
+
 There are numerous plugins in the desktop category, listed in
 alphabetical order.
 
@@ -215,10 +225,11 @@ Application Launcher
 .. _luminadesktopplugin1:
 
 .. figure:: images/luminadesktopplugin1.png
+   :scale: 100%
 
-Choosing the Application Launcher plugin opens the window seen in 
-:numref:`Figure %s: Application Launcher <luminadesktopplugin1>`. This 
-drop down menu allows the user to choose a specific application to add 
+Choosing the Application Launcher plugin opens the window seen in
+:numref:`Figure %s: Application Launcher <luminadesktopplugin1>`. This
+drop down menu allows the user to choose a specific application to add
 to the desktop.
 
 .. _Audio Player:
@@ -229,17 +240,18 @@ Audio Player
 .. _luminadesktopplugin2:
 
 .. figure:: images/luminadesktopplugin2.png
+   :scale: 100%
 
-:numref:`Figure %s: Audio Player <luminadesktopplugin2>` 
+:numref:`Figure %s: Audio Player <luminadesktopplugin2>`
 
-The Audio Player plugin will play user added lists of audio files. 
-Pressing the wrench icon in the upper left corner will open an options 
-menu to clear or shuffle the playlist. 
+The Audio Player plugin will play user added lists of audio files.
+Pressing the wrench icon in the upper left corner will open an options
+menu to clear or shuffle the playlist.
 
 The green plus icon gives the user options to add files, a directory, or
-URL to the playlist. Toggle the play button in the lower left corner of 
-the plugin in order to start/stop an audio file. The forward and back 
-buttons in the upper right corner allow the user to skip to the next 
+URL to the playlist. Toggle the play button in the lower left corner of
+the plugin in order to start/stop an audio file. The forward and back
+buttons in the upper right corner allow the user to skip to the next
 song or return to the previous one. Click the currently playing file to
 open a drop down menu of all added audio files.
 
@@ -251,13 +263,14 @@ Calendar
 .. _luminadesktopplugin3:
 
 .. figure:: images/luminadesktopplugin3.png
+   :scale: 100%
 
-:numref:`Figure %s: Calendar <luminadesktopplugin3>` 
+:numref:`Figure %s: Calendar <luminadesktopplugin3>`
 
-This is a calendar plugin which will display a calendar set to the 
-current month and day. The arrows in the upper left and right of the 
+This is a calendar plugin which will display a calendar set to the
+current month and day. The arrows in the upper left and right of the
 plugin allow the user to view previous or upcoming months. If available,
-the user can also use their mouse to hover over the calendar and then 
+the user can also use their mouse to hover over the calendar and then
 scroll up or down through the calendar.
 
 .. _Desktop Icons View:
@@ -268,11 +281,12 @@ Desktop Icons View
 .. _luminadesktopplugin4:
 
 .. figure:: images/luminadesktopplugin4.png
+   :scale: 100%
 
-:numref:`Figure %s: Desktop Icons <luminadesktopplugin4>` 
+:numref:`Figure %s: Desktop Icons <luminadesktopplugin4>`
 
-This plugin will define an area on the desktop to display icons. If 
-enough icons are added to the plugin, a scroll bar will appear for the 
+This plugin will define an area on the desktop to display icons. If
+enough icons are added to the plugin, a scroll bar will appear for the
 user to scroll through all available icons.
 
 .. _Note Pad:
@@ -283,20 +297,21 @@ Note Pad
 .. _luminadesktopplugin5:
 
 .. figure:: images/luminadesktopplugin5.png
+   :scale: 100%
 
-:numref:`Figure %s: Note Pad <luminadesktopplugin5>` 
+:numref:`Figure %s: Note Pad <luminadesktopplugin5>`
 
-A plugin which adds a simple text editor widget to the desktop. The 
-user needs to create or open a note before they can type a message. 
-Notes default to the .note text format and are saved in 
-/usr/home/<username>/Notes. Clicking the down arrow in the upper-right 
+A plugin which adds a simple text editor widget to the desktop. The
+user needs to create or open a note before they can type a message.
+Notes default to the .note text format and are saved in
+/usr/home/<username>/Notes. Clicking the down arrow in the upper-right
 corner displays a number of options:
 
-	* **Open Text File** - Allows the user to browse through their 
-	  directories to open a .note or other text file.
-	* **Create a Note** - Creates a new note; a unique name is required.
-	* **Rename Note** - Renames the currently open note.
-	* **Delete Note** - Immediately deletes the displayed note.
+* **Open Text File:** Allows the user to browse through their
+  directories to open a .note or other text file.
+* **Create a Note:** Creates a new note; a unique name is required.
+* **Rename Note:** Renames the currently open note.
+* **Delete Note:** Immediately deletes the displayed note.
 
 .. _RSS Reader:
 
@@ -306,31 +321,34 @@ RSS Reader
 .. _luminadesktopplugin6:
 
 .. figure:: images/luminadesktopplugin6.png
+   :scale: 100%
 
-:numref:`Figure %s: RSS Reader <luminadesktopplugin6>` 
+:numref:`Figure %s: RSS Reader <luminadesktopplugin6>`
 
-Displays connected RSS feeds. The user can add their own custom RSS 
-feeds to the plugin, but the default feed displayed is the Lumina 
-Desktop Environment blog. Click the dropdown menu to choose which RSS 
-feed to display. The down arrow in the upper right corner opens a list 
+Displays connected RSS feeds. The user can add their own custom RSS
+feeds to the plugin, but the default feed displayed is the Lumina
+Desktop Environment blog. Click the dropdown menu to choose which RSS
+feed to display. The down arrow in the upper right corner opens a list
 of options:
 
-	* **Add RSS Feed** - An option to allow the user to type in their 
-	  own RSS URL or load a preset RSS Feed.
-	* **View Feed Details** - Displays current feed data, including URL, 
-	  feed description and website address, and the previous build date
-	  and synchronization settings. Also included is an option to remove
-	  the feed.
-	* **Settings** - Options for syncing the feed. You can choose to 
-	  synchronize manually, or instead define the sync interval. 
-	  Remember to save any changes in feed settings.
-	* **Update Feeds Now** - Click to immediately update all feeds.
-	
-.. note:: An active Internet connection is required for the RSS Reader 
-          plugin to function properly.
-          
-Click the blue globe to open the default web browser at the feed's 
-associated website. 
+* **Add RSS Feed:** An option to allow the user to type in their
+  own RSS URL or load a preset RSS Feed.
+* **View Feed Details:** Displays current feed data, including URL,
+  feed description and website address, and the previous build date
+  and synchronization settings. Also included is an option to remove
+  the feed.
+* **Settings:** Options for syncing the feed. You can choose to
+  synchronize manually, or instead define the sync interval.
+  Remember to save any changes in feed settings.
+* **Update Feeds Now:** Click to immediately update all feeds.
+
+.. note:: An active Internet connection is required for the RSS Reader
+   plugin to function properly.
+
+Click the blue globe to open the default web browser at the feed's
+associated website.
+
+.. continue whitespace edit and :scale: 100% additions below------------
 
 .. _System Monitor:
 
@@ -340,6 +358,7 @@ System Monitor
 .. _luminadesktopplugin7:
 
 .. figure:: images/luminadesktopplugin7.png
+   :scale: 100%
 
 :numref:`Figure %s: System Monitor Display <luminadesktopplugin7>` 
 
