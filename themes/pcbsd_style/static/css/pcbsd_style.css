@@ -3658,10 +3658,11 @@ code.file,
 .file {
     background-color: #D5DDE2; /* saturate from ecf0f3 to be more visible/blue on screen. */
     display: inline-block;
-    font-size: 88%!important;
-    vertical-align: -2px!important;
-    padding: 1px!important;
-    line-height: 80%!important;
+    font-size: 88%;
+    vertical-align: -.5px;
+    padding: 1px;
+    line-height: 80%;
+	overflow: hidden;
 }
 code.kbd, .kbd {
     border: thin solid rgb(45, 45,255);

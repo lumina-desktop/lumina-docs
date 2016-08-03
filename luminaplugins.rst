@@ -348,8 +348,6 @@ of options:
 Click the blue globe to open the default web browser at the feed's
 associated website.
 
-.. continue whitespace edit and :scale: 100% additions below------------
-
 .. _System Monitor:
 
 System Monitor
@@ -360,22 +358,23 @@ System Monitor
 .. figure:: images/luminadesktopplugin7.png
    :scale: 100%
 
-:numref:`Figure %s: System Monitor Display <luminadesktopplugin7>` 
+:numref:`Figure %s: System Monitor Display <luminadesktopplugin7>`
 
-The "Summary" tab of the System Monitor plugin. CPU Temperature (in 
-Celsius), CPU Usage, and Memory Usage are displayed. Currently, there 
-are no other options to display in the system monitor aside from these 
+The "Summary" tab of the System Monitor plugin. CPU Temperature (in
+Celsius), CPU Usage, and Memory Usage are displayed. Currently, there
+are no other options to display in the system monitor aside from these
 statistics and the read/write speed monitor, shown next.
 
 .. _luminadesktopplugin8:
 
 .. figure:: images/luminadesktopplugin8.png
+   :scale: 100%
 
-:numref:`Figure %s: System Monitor I/O <luminadesktopplugin8>` 
+:numref:`Figure %s: System Monitor I/O <luminadesktopplugin8>`
 
-The "Disk I/O" tab of the System Monitor plugin. Displayed are the 
-current read and write speeds of the connected hardware, which in this 
-case is a hard drive and cd player. 
+The "Disk I/O" tab of the System Monitor plugin. Displayed are the
+current read and write speeds of the connected hardware, which in this
+case is a hard drive and cd player.
 
 .. index:: float panel plugins
 .. _floating panel plugins:
@@ -384,31 +383,33 @@ Floating Panel Plugins
 ======================
 
 Panels are a completely customizable option for Lumina users. By default,
-Lumina users will have one panel stretched across the bottom of the 
-primary screen and one smaller pop-up panel in the top middle of the 
-primary screen. To adjust the default panels and add plugins, click the 
+Lumina users will have one panel stretched across the bottom of the
+primary screen and one smaller pop-up panel in the top middle of the
+primary screen. To adjust the default panels and add plugins, click the
 start menu and navigate :menuselection:`Preferences --> Configure Desktop --> Interface Configuration --> Floating Panels and Plugins`.
-For demonstration purposes, a simple panel centered at the top of a 
+For demonstration purposes, a simple panel centered at the top of a
 secondary screen was utilized to show the various plugins listed below.
 The settings for this panel are pictured in :numref:`Figure %s: Panel Settings <luminapanelpluginmenu1>`.
 
 .. _luminapanelpluginmenu1:
 
 .. figure:: images/luminapanelpluginmenu1.png
+   :scale: 100%
 
-As you can see, Panel 1 is configured to the top center of Monitor 1 
-(plugged into DVI-I-0). To add or adjust plugins for this panel, click 
+As you can see, Panel 1 is configured to the top center of Monitor 1
+(plugged into DVI-I-0). To add or adjust plugins for this panel, click
 on the green puzzle piece icon to open the :numref:`Figure %s: Panel Plugins Menu <luminapanelpluginmenu2>`.
 
 .. _luminapanelpluginmenu2:
 
 .. figure:: images/luminapanelpluginmenu2.png
+   :scale: 100%
 
-The large field shows currently active plugins. Click the red minus or 
-green plus buttons to add or remove plugins to the panel. Use the arrow 
+The large field shows currently active plugins. Click the red minus or
+green plus buttons to add or remove plugins to the panel. Use the arrow
 keys to alter the display order of attached plugins. By default, plugins
-will populate horizontal panels from left to right, and vertical panels 
-from top to bottom. All the plugins available for panel plugins are 
+will populate horizontal panels from left to right, and vertical panels
+from top to bottom. All the plugins available for panel plugins are
 listed below.
 
 .. _panel application launcher:
@@ -419,11 +420,12 @@ Panel Application Launcher
 .. _luminapanelplugin1:
 
 .. figure:: images/luminapanelplugin1.png
+   :scale: 100%
 
 :numref:`Figure %s: Panel Application Launcher <luminapanelplugin1>`
 
-When you select this plugin, it will prompt you to select the 
-application to launch. This will add a shortcut for launching the 
+When you select this plugin, it will prompt you to select the
+application to launch. This will add a shortcut for launching the
 selected application to the panel.
 
 .. _Application Menu:
@@ -434,14 +436,15 @@ Application Menu
 .. _luminapanelplugin2:
 
 .. figure:: images/luminapanelplugin2.png
+   :scale: 100%
 
 :numref:`Figure %s: Application Menu <luminapanelplugin2>`
 
 Adds an application menu that contains a shortcut to your home directory,
-a shortcut to the operating system’s graphical software management 
-utility (if there is one), a shortcut to the operating system’s Control 
-Panel (if it provides one), and a list of installed software sorted by 
-categories. This plugin is also considered a primary menu, like the 
+a shortcut to the operating system’s graphical software management
+utility (if there is one), a shortcut to the operating system’s Control
+Panel (if it provides one), and a list of installed software sorted by
+categories. This plugin is also considered a primary menu, like the
 start button, and will open when the :kbd:`Windows` key is pressed.
 
 .. _Battery Monitor:
@@ -450,8 +453,8 @@ Battery Monitor
 ---------------
 
 Hover over this icon (not pictured) to view the current charge status of
-the battery. When the charge reaches 15% or below, the low battery icon 
-will flash intermittently and will change to a low battery icon when 
+the battery. When the charge reaches 15% or below, the low battery icon
+will flash intermittently and will change to a low battery icon when
 there is less than 5% charge left.
 
 .. _Desktop Bar:
@@ -462,13 +465,14 @@ Desktop Bar
 .. _luminapanelplugin3:
 
 .. figure:: images/luminapanelplugin3.png
+   :scale: 100%
 
-:numref:`Figure %s: Desktop Bar <luminapanelplugin3>`: :guilabel:`Favorite Applications` 
+:numref:`Figure %s: Desktop Bar <luminapanelplugin3>`: :guilabel:`Favorite Applications`
 ("Star" icon) is pressed.
 
-This plugin adds shortcuts to the panel for applications or files 
-contained within the ~/Desktop folder or favorited by the user. The 
-“star” button displays applications, the "folder" button displays 
+This plugin adds shortcuts to the panel for applications or files
+contained within the ~/Desktop folder or favorited by the user. The
+“star” button displays applications, the "folder" button displays
 folders, and the "file" button shows favorite files.
 
 .. _Line:
@@ -479,14 +483,15 @@ Line
 .. _luminapanelplugin4:
 
 .. figure:: images/luminapanelplugin4.png
+   :scale: 100%
 
-:numref:`Figure %s: Line <luminapanelplugin4>` The line is highlighted 
+:numref:`Figure %s: Line <luminapanelplugin4>` The line is highlighted
 in red.
 
-Adds a separator line to the panel to provide visual separation between 
+Adds a separator line to the panel to provide visual separation between
 plugins. When adding a line plugin in the :numref:`Figure %s: Panel Plugins Menu <luminapanelpluginmenu2>`,
-be sure to use the arrow buttons in the bottom-right corner of the 
-window to place the line entry between the two other plugins you wish to 
+be sure to use the arrow buttons in the bottom-right corner of the
+window to place the line entry between the two other plugins you wish to
 separate.
 
 .. _Show Desktop:
@@ -497,12 +502,13 @@ Show Desktop
 .. _luminapanelplugin5:
 
 .. figure:: images/luminapanelplugin5.png
+   :scale: 100%
 
 :numref:`Figure %s: Show Desktop Button <luminapanelplugin5>`
 
-This button will immediately hide all open windows on all active 
-monitors so that only the desktop is visible. This is useful for touch 
-screens or small devices. 
+This button will immediately hide all open windows on all active
+monitors so that only the desktop is visible. This is useful for touch
+screens or small devices.
 
 .. _Spacer:
 
@@ -512,10 +518,11 @@ Spacer
 .. _luminapanelplugin6:
 
 .. figure:: images/luminapanelplugin6.png
+   :scale: 100%
 
 :numref:`Figure %s: Spacer <luminapanelplugin6>`
 
-Adds a blank area to the panel. Similar to lines, spacers need to be 
+Adds a blank area to the panel. Similar to lines, spacers need to be
 positioned between plugins in the :numref:`Figure %s: Panel Plugins Menu <luminapanelpluginmenu2>`
 in order to achieve the desired separation.
 
@@ -530,7 +537,7 @@ Start Menu
 
 :numref:`Figure %s: Start Menu <luminapanelplugin7>`
 
-Adds a classic start menu as seen on other operating systems. This is 
+Adds a classic start menu as seen on other operating systems. This is
 added by default to the primary desktop panel in the lower left corner.
 
 .. _System Dashboard:
@@ -541,19 +548,20 @@ System Dashboard
 .. _luminapanelplugin8:
 
 .. figure:: images/luminapanelplugin8.png
+   :scale: 100%
 
-:numref:`Figure %s: System Dashboard <luminapanelplugin8>` with the 
+:numref:`Figure %s: System Dashboard <luminapanelplugin8>` with the
 button pressed.
 
-The System Dashboard plugin is a convenient shortcut to view or modify 
-a number of basic settings. The system volume and screen brightness can 
-be manually adjusted higher or lower, and you can also toggle between 
-virtual workspaces with the left and right arrows. A "Log Out" button 
-has also been added for additional convenience. If your system has a 
+The System Dashboard plugin is a convenient shortcut to view or modify
+a number of basic settings. The system volume and screen brightness can
+be manually adjusted higher or lower, and you can also toggle between
+virtual workspaces with the left and right arrows. A "Log Out" button
+has also been added for additional convenience. If your system has a
 battery, its current charge will also be displayed.
 
-.. note:: Adjusting the screen brightness on a multi-monitor system will 
-          affect both monitors.
+.. note:: Adjusting the screen brightness on a multi-monitor system will
+   affect both monitors.
 
 .. _System Tray:
 
@@ -563,18 +571,19 @@ System Tray
 .. _luminapanelplugin9:
 
 .. figure:: images/luminapanelplugin9.png
+   :scale: 100%
 
-:numref:`Figure %s: System Tray <luminapanelplugin9>` with several 
-docked applications (Quassel IRC, PC Mixer, etc.). 
+:numref:`Figure %s: System Tray <luminapanelplugin9>` with several
+docked applications (Quassel IRC, PC Mixer, etc.).
 
-Provides an area on the panel for dockable applications. Applications 
+Provides an area on the panel for dockable applications. Applications
 can be sent to this area on a per-application basis, but only one system
-tray plugin can be active at a time. By default, the active system tray 
+tray plugin can be active at a time. By default, the active system tray
 will be the one on the **lowest number** monitor and panel. For example,
-when adding the system tray plugin to monitor zero, panel one and again 
-to monitor one, panel one, only the system tray on monitor zero will 
-be active. Disabling the system tray on monitor zero will activate the 
-tray on monitor one, automatically migrating any docked applications to 
+when adding the system tray plugin to monitor zero, panel one and again
+to monitor one, panel one, only the system tray on monitor zero will
+be active. Disabling the system tray on monitor zero will activate the
+tray on monitor one, automatically migrating any docked applications to
 the other panel.
 
 .. _Task Manager (No Groups):
@@ -585,11 +594,12 @@ Task Manager (No Groups)
 .. _luminapanelplugin10:
 
 .. figure:: images/luminapanelplugin10.png
+   :scale: 100%
 
 :numref:`Figure %s: Task Manager (No Groups) <luminapanelplugin10>`
 
-Ensures that every window gets its own button on the panel. This plugin 
-will use a large amount of space on the panel, as every window will 
+Ensures that every window gets its own button on the panel. This plugin
+will use a large amount of space on the panel, as every window will
 need to display a part of its title. This plugin is added to the default
 panel for Lumina.
 
@@ -601,13 +611,14 @@ Task Manager
 .. _luminapanelplugin11:
 
 .. figure:: images/luminapanelplugin11.png
+   :scale: 100%
 
-:numref:`Figure %s: Task Manager <luminapanelplugin11>` Pictured are 
-three open terminal windows grouped into one minimal panel entry with 
-"(3)" displayed next to the terminal icon. 
+:numref:`Figure %s: Task Manager <luminapanelplugin11>` Pictured are
+three open terminal windows grouped into one minimal panel entry with
+"(3)" displayed next to the terminal icon.
 
-The grouping task manager displays windows in the panel as well. Its 
-primary function is to group windows by application, saving more space 
+The grouping task manager displays windows in the panel as well. Its
+primary function is to group windows by application, saving more space
 on the panel. This manager also does not typically display window titles
 on the panel, a further space savings.
 
@@ -619,32 +630,33 @@ Time/Date
 .. _luminapanelplugin12:
 
 .. figure:: images/luminapanelplugin12.png
+   :scale: 100%
 
-:numref:`Figure %s: Time/Date <luminapanelplugin12>` The clock has been 
+:numref:`Figure %s: Time/Date <luminapanelplugin12>` The clock has been
 selected, opening the larger calendar and time zone settings.
 
-Displays the current time and date. A basic clock is added to the panel; 
-clicking it will open the calendar, which will highlight the current 
-date. Clicking the arrows in the top corners will allow you to look back 
-or ahead in the calendar, while clicking the "Time Zone" will allow you 
-to adjust the displayed time.
+Displays the current time and date. A basic clock is added to the panel;
+clicking it will open the calendar, which will highlight the current
+date. Click the arrows in the top corners to look back or ahead in the
+calendar. Click :guilabel:`Time Zone` to adjust the displayed time.
 
 .. _User Button:
 
 User Menu
 ---------
 
-The User Menu is a more complicated plugin that provides an array of 
-shortcuts to files and applications on the system, essentially as an 
+The User Menu is a more complicated plugin that provides an array of
+shortcuts to files and applications on the system, essentially as an
 alternative to the Start Menu.
 
 .. _luminapanelplugin13:
 
 .. figure:: images/luminapanelplugin13.png
+   :scale: 100%
 
 :numref:`Figure %s: User Favorites <luminapanelplugin13>` Shows the
-default view after clicking the user button. On the sidebar, the 
-"Favorites" folder is highlighted, with the top tab showing 
+default view after clicking the user button. On the sidebar, the
+"Favorites" folder is highlighted, with the top tab showing
 "Applications". You can also view favorite folders and files by clicking
 the "Places" and "Files" tabs, respectively.
 
@@ -654,33 +666,37 @@ section of the menu, seen in :numref:`Figure %s: User Applications <luminapanelp
 .. _luminapanelplugin14:
 
 .. figure:: images/luminapanelplugin14.png
+   :scale: 100%
 
-This section displays all applications by default, with the drop down 
-menu at the top allowing you to view applications by category. The 
-"AppCafe" button in the top right will open the SysAdm AppCafe®, allowing
-you to quickly search for and download more applications.
+This section displays all applications by default, with the drop down
+menu at the top allowing you to view applications by category. The
+:guilabel:`AppCafe` button in the top right will open the SysAdm
+AppCafe®, allowing you to quickly search for and download more
+applications.
 
 .. _luminapanelplugin15:
 
 .. figure:: images/luminapanelplugin15.png
+   :scale: 100%
 
 :numref:`Figure %s: Home Directory <luminapanelplugin15>`
 
-The "folder" icon on the left sidebar opens the Home directory, giving 
-you the option to quickly browse through system directories. Clicking 
-the file/folder button in the upper right launches the Insight File 
-Manager at the home directory. Clicking the binoculars and gear icon 
-will launch the search utility. 
+The "folder" icon on the left sidebar opens the Home directory, giving
+you the option to quickly browse through system directories. Clicking
+the file/folder button in the upper right launches the Insight File
+Manager at the home directory. Clicking the binoculars and gear icon
+will launch the search utility.
 
-Finally, selecting the screwdriver and wrench icon on the sidebar will 
+Finally, selecting the screwdriver and wrench icon on the sidebar will
 open the "Desktop Preferences" section, seen in :numref:`Figure %s: Desktop Preferences <luminapanelplugin16>`
 
 .. _luminapanelplugin16:
 
 .. figure:: images/luminapanelplugin16.png
+   :scale: 100%
 
-This panel displays shortcuts to all the settings and configuration 
-utilities, as well as the system information window. 
+This panel displays shortcuts to all the settings and configuration
+utilities, as well as the system information window.
 
 .. _Workspace Switcher:
 
@@ -690,9 +706,10 @@ Workspace Switcher
 .. _luminapanelplugin17:
 
 .. figure:: images/luminapanelplugin17.png
+   :scale: 100%
 
 :numref:`Figure %s: Workspace Switcher <luminapanelplugin17>`
 
-Used to switch between virtual desktops. Click the monitor icon to show 
-a drop down menu of all workspaces. The active workspace will have 
+Used to switch between virtual desktops. Click the monitor icon to show
+a drop down menu of all workspaces. The active workspace will have
 asterisks (*) before and after its name.
