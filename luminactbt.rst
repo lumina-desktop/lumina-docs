@@ -91,7 +91,7 @@ and which type(s) of translations you can assist with. Participating in
 the mailing list will keep you up to date with important changes to
 Lumina and help coordinate with the other volunteers.
 
-.. index:: translations
+.. index:: interface translations
 .. _Interface Translation:
 
 Interface Translation
