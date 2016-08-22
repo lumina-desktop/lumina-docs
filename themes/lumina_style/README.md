@@ -1,14 +1,14 @@
-#PC-BSD Style 
+#Lumina Style 
 
-###A new style for _Our_ docs so as to avoid upstream theme changes.
+###A similar style to trueos_style with some unique theming for Lumina.
 
-**In order to use the pcbsd_style theme, there are some adjustments to make to the _src-qt/docs/conf.py_ file:**
+**In order to use the lumina_style theme, there are some adjustments to make to the _src-qt/docs/conf.py_ file:**
 
-* Revise this value from 'classic' or something else, to 'pcbsd_style' prior to generating docs:
+* Revise this value from 'classic' or something else, to 'lumina_style' prior to generating docs:
 ```
-  html_theme = 'pcbsd_style'
+  html_theme = 'lumina_style'
 ```
-* Comment out these lines because the build may fail since these don't exist and/or aren't used right now:
+* Comment out any html_options lines as the options don't exist and/or aren't used right now:
 ```
    #    "stickysidebar": "true",
    #    "rightsidebar": "false",

@@ -2691,7 +2691,7 @@ div[class^='highlight'] pre {
     margin-left: -1.2em;
     font-size: 0.8em;
     line-height: 1.6em;
-    color: #4d4d4d
+    color: #28343b
 }
 .wy-menu-vertical li.on a,
 .wy-menu-vertical li.current>a {
@@ -2711,12 +2711,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', end
 }
 .wy-menu-vertical li.on a:hover,
 .wy-menu-vertical li.current>a:hover {
-    background: #5d6369!important;
 	color:#f5f5f5
 }
 .wy-menu-vertical li.on a:hover span.toctree-expand,
 .wy-menu-vertical li.current>a:hover span.toctree-expand {
-    color: #60695d
+    color: #f5f5f5
 }
 .wy-menu-vertical li.on a span.toctree-expand,
 .wy-menu-vertical li.current>a span.toctree-expand {
@@ -2749,10 +2748,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', end
 	padding: 0.4045em 4.045em
 }
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
-    color: #60695d
+    color: #f5f5f5
 }
 .wy-menu-vertical li.toctree-l2 span.toctree-expand {
-    color: #a3a3a3
+    color: #28343b
 }
 .wy-menu-vertical li.toctree-l3 {
     font-size: 0.9em
@@ -2811,7 +2810,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', end
     cursor: pointer
 }
 .wy-menu-vertical a:hover span.toctree-expand {
-    color: #60695d
+    color: #f5f5f5
 }
 .wy-menu-vertical a:active {
     background-color: #2980B9;
@@ -3654,22 +3653,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28343b', end
 }
 code.kbd,
 code.file,
+code.guilabel,
 .kbd,
-.file {
+.file,
+.guilabel{
     background-color: #D5DDE2; /* saturate from ecf0f3 to be more visible/blue on screen. */
     display: inline-block;
-    font-size: 88%;
+	font-family:'Inconsolata', monospace;
+    font-size: 92%;
     vertical-align: -.5px;
-    padding: 1px;
+    padding: 2px;
     line-height: 80%;
 	overflow: hidden;
 }
 code.kbd, .kbd {
     border: thin solid rgb(45, 45,255);
     border-radius: 2px;
+	font-weight: bold
 }
 code.file, .file {
     border: thin solid #999;
+}
+code.guilabel, .guilabel {
+	border:1px solid #7fbbe3;
+	background:#e7f2fa;
+	font-size:80%;
+	font-weight:600;
+	border-radius:4px;
+	padding:2.4px 3px;
+	margin:auto 2px;
+	font-family: 'Inconsolata', monospace;
+	text-transform: none
 }
 
 th {
