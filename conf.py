@@ -31,10 +31,9 @@ sys.path.insert(0, os.path.abspath('./extensions'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'globalindex',
-    'sphinx.ext.ifconfig',
-    'sphinxcontrib.httpdomain',
-    'sphinx.ext.numfig'
+#    'globalindex',
+#    'sphinx.ext.ifconfig',
+#    'sphinxcontrib.httpdomain'
 ]
 
 # -- Options for automatic Figure numbering
@@ -104,6 +103,45 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
 
+#Option to add text substitutions to all .rst files being built.
+rst_prolog = """
+.. |lumina| replace:: Lumina"""u'\u00AE'"""
+"""
+
+# -- Option to change :menuselection: arrow -----------------------------
+
+from docutils import nodes, utils
+from docutils.parsers.rst import roles
+from sphinx.roles import _amp_re
+
+def patched_menusel_role(typ, rawtext, text, lineno, inliner, options={}, content=[]):
+    text = utils.unescape(text)
+    if typ == 'menuselection':
+        text = text.replace('-->', u'\N{RIGHTWARDS ARROW}') # Here is the patch 
+
+    spans = _amp_re.split(text)  
+
+    node = nodes.literal(rawtext=rawtext)
+    for i, span in enumerate(spans):
+        span = span.replace('&&', '&')
+        if i == 0:
+            if len(span) > 0:
+                textnode = nodes.Text(span)
+                node += textnode
+            continue
+        accel_node = nodes.inline()
+        letter_node = nodes.Text(span[0])
+        accel_node += letter_node
+        accel_node['classes'].append('accelerator')
+        node += accel_node
+        textnode = nodes.Text(span[1:])
+        node += textnode
+
+    node['classes'].append(typ)
+    return [node], []
+
+# Use 'patched_menusel_role' function for processing the 'menuselection' role
+roles.register_local_role("menuselection", patched_menusel_role)
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -171,7 +209,7 @@ html_use_smartypants = True
 # html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 html_show_sphinx = False

@@ -1,9 +1,9 @@
 .. _Introduction to Lumina:
 
-Introduction to Lumina
-**********************
+Introduction to |lumina|
+************************
 
-The Lumina Desktop Environment (Lumina for short) is a lightweight,
+The Lumina Desktop Environment (|lumina| for short) is a lightweight,
 XDG-compliant, BSD-licensed desktop environment focused on streamlining
 work efficiency with minimal system overhead. It is specifically
 designed for TrueOS® and FreeBSD, but has also been ported to many other
@@ -104,7 +104,9 @@ configurable, with the numerous options covered in the
 .. figure:: images/lumina1e.png
    :scale: 50%
 
-:numref:`Figure %s: Lumina Desktop <lumina1e>` A screenshot of Lumina
+   Lumina Desktop
+
+:numref:`Figure %s <lumina1e>`. A screenshot of Lumina
 using its default settings. The user has clicked the "Lumina" icon in
 order to open the start menu.
 

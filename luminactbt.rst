@@ -97,6 +97,9 @@ Lumina and help coordinate with the other volunteers.
 Interface Translation
 ---------------------
 
+.. Lumina uses `Weblate <weblate.trueos.org>`_ ... (update when Lumina
+   Weblate interface goes live. Screenshots also need to be updated.)
+
 Lumina uses `Pootle <https://en.wikipedia.org/wiki/Pootle>`_ for
 managing the localization of menu screens seen in Lumina. Also, Pootle
 efficiently displays the progress of localization efforts, allowing

@@ -360,7 +360,8 @@ User Settings
 The "User Settings" option governs the general settings for the desktop
 session. These settings are usually not changed on a frequent basis.
 
-The "General Options" entry, seen in :numref:`Figure %s: Lumina General Options <lumina12f>`,
+The "General Options" entry, seen in
+:numref:`Figure %s: Lumina® General Options <lumina12f>`,
 is used to govern numerous settings for the desktop experience.
 
 .. _lumina12f:
@@ -369,7 +370,7 @@ is used to govern numerous settings for the desktop experience.
    :scale: 100%
 
 The user can select to automatically enable numlock, play chimes when
-Lumina starts or exits, and change the icon that appears in the login
+|lumina| starts or exits, and change the icon that appears in the login
 menu and the start menu button. There are also options to set the time
 and date format, as well as the time display format (via drop menu).
 Additionally, a user can reset **all** their desktop settings via
