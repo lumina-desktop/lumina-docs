@@ -1,0 +1,1670 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lumina Handbook 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-16 13:35-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../changelog.rst:13
+msgid "Changelog"
+msgstr ""
+
+#: ../../changelog.rst:15
+msgid ""
+"This section describes the major features and changes to each version of "
+"Lumina, with the most recent version of Lumina listed first."
+msgstr ""
+
+#: ../../changelog.rst:22
+msgid "Lumina 1.0.0"
+msgstr ""
+
+#: ../../changelog.rst:24
+msgid "Files moved/renamed:"
+msgstr ""
+
+#: ../../changelog.rst:26
+msgid ""
+"\"Lumina-DE\" binary is now \"lumina-desktop\". Full pathway change: "
+"/usr/local/share/Lumina-DE/* -> /usr/local/share/lumina-desktop/*"
+msgstr ""
+
+#: ../../changelog.rst:28
+msgid ""
+"Moved the \"runtime\" directory in the user's home directory to "
+":file:`XDG_CONFIG_HOME/lumina-desktop` (replaced :file:`~/.lumina`)."
+msgstr ""
+
+#: ../../changelog.rst:30
+msgid ""
+"Changed the install directory where Lumina puts all it's files at install "
+"time (:file:`L_SHAREDIR/lumina-desktop/` instead of :file:`L_SHAREDIR"
+"/Lumina-DE/`). The required LuminaOS templates have been adjusted to mirror "
+"the change."
+msgstr ""
+
+#: ../../changelog.rst:34
+msgid ""
+"Localization files are now installed via the main source tree, which "
+"accounts for the change to :file:`SHARE/lumina-desktop` rather than "
+":file:`SHARE/Lumina-DE`. Also fixed the wallpaper directory detection "
+"routine within :command:`lumina-config` (same issue - install dir change "
+"broke the path detection)."
+msgstr ""
+
+#: ../../changelog.rst:40
+msgid ""
+"Due to the file movement/renaming, all custom settings from previous "
+"versions of Lumina will be wiped. All settings will revert to the current "
+"1.0.0 defaults."
+msgstr ""
+
+#: ../../changelog.rst:44
+msgid ":file:`luminaDesktop.conf` changes:"
+msgstr ""
+
+#: ../../changelog.rst:46
+msgid ""
+"Quicklaunch apps can now be specified within :file:`luminaDesktop.conf` in a"
+" similar manner to the \"favorites\" options."
+msgstr ""
+
+#: ../../changelog.rst:48
+msgid ""
+"Convert the :file:`luminaDesktop.conf` parser to allow relative "
+"paths/filenames for favorite or default applications."
+msgstr ""
+
+#: ../../changelog.rst:50
+msgid ""
+":file:`luminaDesktop.conf` has been altered to include a number of first-"
+"install applications."
+msgstr ""
+
+#: ../../changelog.rst:52
+msgid ""
+"The :file:`luminaDesktop.conf` parser will now properly set mimetypes as "
+"needed."
+msgstr ""
+
+#: ../../changelog.rst:54
+msgid ""
+"Add support for running generic user generated scripts or tools after "
+"parsing :file:`luminaDesktop.conf`."
+msgstr ""
+
+#: ../../changelog.rst:56
+msgid ""
+"Add the ability to specify mimetype defaults within "
+":file:`luminaDesktop.conf` and also allow regex wildcard matching when "
+"looking for default applications (ex. :file:`text/*` will grab all text "
+"mimetypes)."
+msgstr ""
+
+#: ../../changelog.rst:60
+msgid ""
+"External scripts can be used to set up a new user after Lumina is "
+"initialized."
+msgstr ""
+
+#: ../../changelog.rst:62
+msgid ""
+"Allow relative paths within :file:`luminaDesktop.conf` and updated the "
+"default apps inside :file:`luminaDesktop.conf`."
+msgstr ""
+
+#: ../../changelog.rst:65
+msgid ":command:`lumina-config` reworked:"
+msgstr ""
+
+#: ../../changelog.rst:67
+msgid "Added search capabilities."
+msgstr ""
+
+#: ../../changelog.rst:68
+msgid "Rebuilt for faster startup."
+msgstr ""
+
+#: ../../changelog.rst:69
+msgid ""
+"Added advanced menus to :command:`fluxbox` and :command:`compton` for finer "
+"control."
+msgstr ""
+
+#: ../../changelog.rst:71
+msgid "General cleanup and fluxbox."
+msgstr ""
+
+#: ../../changelog.rst:72
+msgid "Reworked multi-screen selection functionality."
+msgstr ""
+
+#: ../../changelog.rst:73
+msgid ""
+"Ensure that :command:`lumina-config` defaults to looking in the system "
+"installed scripts directory for menu scripts."
+msgstr ""
+
+#: ../../changelog.rst:75
+msgid ""
+":command:`lumina-config` can now handle non-integer values for the panel "
+"settings as needed."
+msgstr ""
+
+#: ../../changelog.rst:78
+msgid "The Lumina Desktop binary has been reduced in size."
+msgstr ""
+
+#: ../../changelog.rst:80
+msgid "New application registrations:"
+msgstr ""
+
+#: ../../changelog.rst:82
+msgid "lumina-fileinfo.desktop"
+msgstr ""
+
+#: ../../changelog.rst:83
+msgid "lumina-config.desktop"
+msgstr ""
+
+#: ../../changelog.rst:85
+msgid "New optional dependencies:"
+msgstr ""
+
+#: ../../changelog.rst:87
+msgid "Compton (recommended compositing manager)"
+msgstr ""
+
+#: ../../changelog.rst:88
+msgid "xcompmgr (fallback manager)"
+msgstr ""
+
+#: ../../changelog.rst:90
+msgid ""
+"Compositing can now be disabled entirely by manually editing "
+":file:`/usr/home/tmoore/.config/lumina-desktop/sessionsettings.conf` and "
+"adding the line :command:`enableCompositing=false`."
+msgstr ""
+
+#: ../../changelog.rst:94
+msgid "New external script support:"
+msgstr ""
+
+#: ../../changelog.rst:96
+msgid ""
+"Added a new type of menu plugin: \"jsonmenu\". This is a recursive, auto-"
+"generating menu which runs an external utility (a script of some kind "
+"usually), which generates a JSON document/object which is used to populate "
+"the menu."
+msgstr ""
+
+#: ../../changelog.rst:100
+msgid "User created scripts."
+msgstr ""
+
+#: ../../changelog.rst:102
+msgid ""
+"Add the new JSON menu generation scripts to the \"core\" files installed as "
+"they are listed as another plugin option."
+msgstr ""
+
+#: ../../changelog.rst:105
+msgid ""
+"Add options for grouped windows in the task manager: \"Show All\", "
+"\"Minimize All\", and \"Close All\"."
+msgstr ""
+
+#: ../../changelog.rst:108
+msgid ""
+":command:`lumina-fileinfo` can now be used to create new application "
+"registrations. By default, applications are registered for the current user "
+"on the system, unless otherwise specified. It can also install it's own "
+":file:`.desktop` registrations on the system during installation."
+msgstr ""
+
+#: ../../changelog.rst:114
+msgid "Fixed a bug where panels display with only 5 pixels."
+msgstr ""
+
+#: ../../changelog.rst:116
+msgid "Fixed a crash with the user button logging out the user."
+msgstr ""
+
+#: ../../changelog.rst:118
+msgid "Fixed the xterm window title displaying nonsense."
+msgstr ""
+
+#: ../../changelog.rst:120
+msgid "Fixed :command:`fluxbox` config files."
+msgstr ""
+
+#: ../../changelog.rst:122
+msgid "Added the \"Advanced/Simple\" editors to the :command:`fluxbox` keys page."
+msgstr ""
+
+#: ../../changelog.rst:125
+msgid ""
+"The process of finding icons has been reworked for better functionality."
+msgstr ""
+
+#: ../../changelog.rst:128
+msgid "New wallpaper sizing options: \"Fit\" and \"Full\"."
+msgstr ""
+
+#: ../../changelog.rst:130
+msgid ""
+"Released a new desktop plugin: \"rssreader\". This plugin displays an active"
+" RSS feed in a configurable window set to the lower right corner of the "
+"screen by default. This plugin supports the RSS v0.91 and v2.0 standards."
+msgstr ""
+
+#: ../../changelog.rst:135
+msgid ""
+"Reset which directories are monitored for apps to be installed into every "
+"time the watcher updates (this fixes the detection of KDE apps being "
+"installed/removed)."
+msgstr ""
+
+#: ../../changelog.rst:139
+msgid ""
+"Improved backend search routine for finding .desktop files or binaries."
+msgstr ""
+
+#: ../../changelog.rst:141
+msgid ""
+"The calendar plugin will now move to next day if the system remains on over "
+"24 hours."
+msgstr ""
+
+#: ../../changelog.rst:144
+msgid ""
+":command:`lumina-fm` will remove broken symlinks when deleting directories."
+msgstr ""
+
+#: ../../changelog.rst:147
+msgid "Load previous screen config on Lumina start."
+msgstr ""
+
+#: ../../changelog.rst:149
+msgid ""
+"Fixed the detection and usage of the \"mailto:\" option in :command:`lumina-"
+"open`. This also changes the default mimetype used for email applications to"
+" \"application/email\"."
+msgstr ""
+
+#: ../../changelog.rst:153
+msgid "The start menu now hides duplicate \"favorite\" entries."
+msgstr ""
+
+#: ../../changelog.rst:155
+msgid ""
+"Added a search bar to the start menu to provide users an efficient method to"
+" search for apps or utilities directly."
+msgstr ""
+
+#: ../../changelog.rst:158
+msgid ""
+"User button - now displays only one entry for applications linked via both "
+"the desktop and favorites category."
+msgstr ""
+
+#: ../../changelog.rst:161
+msgid ""
+"The nongrouping task manager now uses a uniform size for panel buttons."
+msgstr ""
+
+#: ../../changelog.rst:163
+msgid ""
+"Pressing the :kbd:`Windows button` will open the Start Menu/User Button/ "
+"Application Menu, whichever is the default system button."
+msgstr ""
+
+#: ../../changelog.rst:166
+msgid "Build systems updates:"
+msgstr ""
+
+#: ../../changelog.rst:168
+msgid ""
+"Localizations have been moved from `NO_I18N` to `WITH_I18N`. This will "
+"ensure that the source version of the localizations are not installed unless"
+" explicitly requested (since the \"real\" localization files are in the "
+"lumina-i18n repo - these source files are the autogenerated ones before "
+"getting sent up to the pootle localization system)."
+msgstr ""
+
+#: ../../changelog.rst:174
+msgid ""
+"Users can add custom :file:`luminaDesktop.conf` files for a particular "
+"operating system to simplify builds. Customized :file:`luminaDesktop.conf` "
+"files can also pull in default wallpapers for the system."
+msgstr ""
+
+#: ../../changelog.rst:178
+msgid ""
+"To bypass OS settings check - use \"DEFAULT_SETTINGS=<some OS>\" in "
+":file:`luminaDesktop.conf`."
+msgstr ""
+
+#: ../../changelog.rst:181
+msgid "A new theme titled \"Glass\" has been added."
+msgstr ""
+
+#: ../../changelog.rst:183
+msgid ""
+"Added :kbd:`Control+[shift]+Tab` shortcuts for cycling between open windows "
+"in grouped order rather than open order (:kbd:`alt+[shift]+tab` will do open"
+" order)."
+msgstr ""
+
+#: ../../changelog.rst:187
+msgid ""
+"Non-applauncher desktop plugins now fill in from the bottom-right of the "
+"screen. This provides easily visible separation between the auto-generated "
+"launchers and other plugins."
+msgstr ""
+
+#: ../../changelog.rst:191
+msgid ""
+"Have the :command:`lumina-open` dialog show applications on the main list "
+"which also have the hidden flag set (since this is for using the app to "
+"launch something else - these apps are now valid to show)."
+msgstr ""
+
+#: ../../changelog.rst:195
+msgid ""
+"Lumina Text Edit has a new symlink :command:`lte` for quick launching the "
+"editor from the command line."
+msgstr ""
+
+#: ../../changelog.rst:198
+msgid ""
+"Fixed the symlink creation routine in :command:`lumina-textedit` to work "
+"with package systems."
+msgstr ""
+
+#: ../../changelog.rst:201
+msgid ""
+"Setup a recursive :command:`xinit` call within the :command:`start-lumina-"
+"desktop` binary as needed. This call detects if an \"X\" session is already "
+"active, and will startup \"X\" if inactive."
+msgstr ""
+
+#: ../../changelog.rst:205
+msgid ""
+"Added the ability for custom, system-wide environment variable settings "
+"within :file:`/usr/local/etc/lumina-environment.conf` This allows a system "
+"admin the ability to setup customized build environment settings on a global"
+" basis. User settings are treated as overrides for the system settings."
+msgstr ""
+
+#: ../../changelog.rst:211
+msgid "Disabled autoraise in :command:`fluxbox` by default."
+msgstr ""
+
+#: ../../changelog.rst:213
+msgid ""
+"Fixed a crash when right-clicking a non-applauncher desktop plugin and "
+"removing it."
+msgstr ""
+
+#: ../../changelog.rst:216
+msgid ""
+"Fixed a crash within the userbutton plugin which would happen after clearing"
+" out one of the scroll areas."
+msgstr ""
+
+#: ../../changelog.rst:219
+msgid ""
+"Fixed the resizeMenu's mouse event handling to ensure it keeps control of "
+"the mouse during resize events."
+msgstr ""
+
+#: ../../changelog.rst:222
+msgid ""
+"Add a new :file:`LuminaUtils` function for converting a .desktop or binary "
+"name into a full path (searching all the various system directories until it"
+" finds the file)."
+msgstr ""
+
+#: ../../changelog.rst:226
+msgid ""
+"The quick command run routine will now never hang the system for more than 1"
+" second of inactivity from the subprocess."
+msgstr ""
+
+#: ../../changelog.rst:229
+msgid ""
+"Allow the \"save file as\" option within lumina-textedit to always be "
+"available and not dependent on changes to the file."
+msgstr ""
+
+#: ../../changelog.rst:236
+msgid "Lumina 0.9.0"
+msgstr ""
+
+#: ../../changelog.rst:238
+msgid ""
+"Created a \"Common Applications\" tab in the :menuselection:`Lumina "
+"Configuration Utility --> \"Applications\"` section and moved common "
+"applications settings from the \"File Defaults\" tab."
+msgstr ""
+
+#: ../../changelog.rst:242
+msgid ""
+"Changed the default wallpapers for Lumina/PC-BSD and added some more 4K "
+"Lumina wallpapers."
+msgstr ""
+
+#: ../../changelog.rst:245
+msgid ""
+"Updated :command:`lumina-screenshot`: Added a new quicksave option and "
+"launch editor button for opening a full editor, windows to be snapshot may "
+"now be clicked on for selection rather than using the list of open windows, "
+"and screenshots may be cropped as needed within the utility before saving "
+"them to a file."
+msgstr ""
+
+#: ../../changelog.rst:251
+msgid ""
+"Added new Utility: :command:`lumina-textedit`. This is a simple plaintext "
+"editor with syntax highlighting, find/replace support, line numbers, and "
+"bracket highlighting."
+msgstr ""
+
+#: ../../changelog.rst:255
+msgid ""
+"Updated the Lumina theme engine to no longer use stylesheets to modify non-"
+"desktop applications (including the Lumina tools/utilities). This opens the "
+"door for a full Qt5 theme plugin to be used for non-desktop utilities "
+"instead."
+msgstr ""
+
+#: ../../changelog.rst:260
+msgid ""
+"Updated which XDG mime-types are used for the default web browser and file "
+"manager. This should make it align a bit better with what applications "
+"expect (if they try to read/use the database directly - such as some popular"
+" web browsers do)."
+msgstr ""
+
+#: ../../changelog.rst:265
+msgid "Updated Linux harddrive device detection (\"nvme\" devices)."
+msgstr ""
+
+#: ../../changelog.rst:267
+msgid "Added Gentoo Linux support and an \"ebuild\" file."
+msgstr ""
+
+#: ../../changelog.rst:269
+msgid "Cleanup of some minor source syntax issues with Qt 5.6"
+msgstr ""
+
+#: ../../changelog.rst:271
+msgid ""
+"Fixed a number of multi-monitor issues. Screen resizes/changes will now be "
+"properly detected on the fly (on any system - including VM's), and panels "
+"will be placed properly on monitors not aligned with the y=0 axis."
+msgstr ""
+
+#: ../../changelog.rst:276
+msgid ""
+"Ensured the current system volume gets saved on logout so it can be reloaded"
+" on next login (in case the volume was changed by some external tool during "
+"the session)."
+msgstr ""
+
+#: ../../changelog.rst:280
+msgid ""
+"Added new startup binary: :command:`start-lumina-desktop`. This will be used"
+" as the primary \"entry point\" for launching the desktop as opposed to the "
+"\"Lumina-DE\" binary (please adjust your .xinitrc files and wrapper scripts "
+"as needed). The xsession desktop entry that Lumina installs was already "
+"changed to run this tool, so graphical desktop managers should be unaffected"
+" by this change. This tool will eventually be used to perform the X session "
+"setup/configuration (so CLI users will not need to run :command:`xinit` or "
+":command:`startx` directly anymore), but the X integration has not been "
+"implemented yet."
+msgstr ""
+
+#: ../../changelog.rst:290
+msgid ""
+"Updated the FreeBSD appstore shortcut to point to the new appcafe.desktop "
+"file from PC-BSD."
+msgstr ""
+
+#: ../../changelog.rst:293
+msgid ""
+"Cleaned many old shell scripts from the source tree (not needed for builds "
+"any more)."
+msgstr ""
+
+#: ../../changelog.rst:296
+msgid "Streamlined the build procedures slightly."
+msgstr ""
+
+#: ../../changelog.rst:298
+msgid ""
+"Reorganized the source tree. Now all the Lumina tools/utilities are kept "
+"separate from the general build scripts/files within a :file:`src-qt5` "
+"directory, and additionally organized into categories (core, core-utils, "
+"desktop-utils). Automated build systems should not be impacted by this "
+"change, as the main project file (lumina.pro) has been left in the same "
+"place within the repository and just had all the internal paths adjusted "
+"accordingly."
+msgstr ""
+
+#: ../../changelog.rst:307
+msgid ""
+"Updated all the installed desktop entries to use relative paths for the "
+"icons (better cross-OS support)."
+msgstr ""
+
+#: ../../changelog.rst:310
+msgid "Fixed the detection of \"sloppy\" URL's given to lumina-open."
+msgstr ""
+
+#: ../../changelog.rst:312
+msgid ""
+"Adjusted one of the include files for the Lumina library so external "
+"applications can now link against the lib without the availability of the "
+"Lumina source tree (although still not recommended)."
+msgstr ""
+
+#: ../../changelog.rst:316
+msgid ""
+"Stability fix for the desktop when an invalid desktop plugin is "
+"set/registered."
+msgstr ""
+
+#: ../../changelog.rst:323
+msgid "Lumina 0.8.8"
+msgstr ""
+
+#: ../../changelog.rst:325
+msgid ""
+"Add 3 different view modes for applications in the start menu: Alphabetical "
+"(no categories), Partial Categories, or Categories (need to click the "
+"category to go into it and see the applications)."
+msgstr ""
+
+#: ../../changelog.rst:329
+msgid ""
+"Make the symlink icon overlays a bit smaller at 1/3 icon size instead of "
+"1/2."
+msgstr ""
+
+#: ../../changelog.rst:332
+msgid ""
+"Add a new button for the audio controls to the left side of the "
+":menuselection:`Start --> Preferences` menu for muting and unmuting audio."
+msgstr ""
+
+#: ../../changelog.rst:336
+msgid ""
+"The RPM spec for Fedora/CentOS has been refactored.  Within the limits of "
+"supporting both Fedora and CentOS 7, 32-bit and 64-bit builds can be done "
+"from the same spec, so that it complies with Fedora's guidelines on how a "
+"package should be structured."
+msgstr ""
+
+#: ../../changelog.rst:341
+msgid "Improvements to the notepad desktop plugin."
+msgstr ""
+
+#: ../../changelog.rst:343
+msgid ""
+"Redo the \"App Menu\" panel plugin so that it uses a self-contained menu and"
+" lists the logout options at the bottom."
+msgstr ""
+
+#: ../../changelog.rst:346
+msgid ""
+"Fix sorting of \"favorites\" items in the \"Start\" menu to be sorted by "
+"display name instead of file name."
+msgstr ""
+
+#: ../../changelog.rst:349
+msgid ""
+"Add new options for loading new wallpaper files in :command:`lumina-config`:"
+" Single Directory (all images within the directory) and Recursive Directory "
+"(all images in the selected directory and all sub-directories)."
+msgstr ""
+
+#: ../../changelog.rst:354
+msgid ""
+"Add support for selecting a ZFS snapshot by name, in addition to the current"
+" time-slider."
+msgstr ""
+
+#: ../../changelog.rst:357
+msgid "NetBSD is now a supported build target."
+msgstr ""
+
+#: ../../changelog.rst:359
+msgid ""
+"Add the ability to change monitor resolutions in :command:`lumina-xconfig`."
+msgstr ""
+
+#: ../../changelog.rst:362
+msgid "Add support for the Intel backlight, if available, on FreeBSD systems."
+msgstr ""
+
+#: ../../changelog.rst:364
+msgid "Fixed a translation bug for the Portuguese language."
+msgstr ""
+
+#: ../../changelog.rst:366
+msgid "Fix a crash on FreeBSD 11.x when removing a desktop icon."
+msgstr ""
+
+#: ../../changelog.rst:368
+msgid ""
+"Fix a multi-threading issue randomly causing :command:`lumina-fm` to crash "
+"when opening a directory."
+msgstr ""
+
+#: ../../changelog.rst:371
+msgid ""
+"Fix some resize bugs with the custom resizeMenu class which is used by the "
+"\"Start\" menu."
+msgstr ""
+
+#: ../../changelog.rst:374
+msgid ""
+"Multiple fixes for resolution detection as well as graphical glitches that "
+"were causing menus to behave unpredictably."
+msgstr ""
+
+#: ../../changelog.rst:381
+msgid "Lumina 0.8.7"
+msgstr ""
+
+#: ../../changelog.rst:383
+msgid "Convert everything to XCB and remove XLib dependencies."
+msgstr ""
+
+#: ../../changelog.rst:385
+msgid "Update DragonFlyBSD support."
+msgstr ""
+
+#: ../../changelog.rst:387
+msgid ""
+"Adjust build procedures to better support multiple concurrent threads using "
+"the \"-j<#threads>\" :command:`make` option."
+msgstr ""
+
+#: ../../changelog.rst:390
+msgid ""
+"Add better relative path support for launching applications in the mimetype "
+"database."
+msgstr ""
+
+#: ../../changelog.rst:393
+msgid ""
+"Add support for a new instance of a LuminaSingleInstance application using "
+"the \"-new-instance\" CLI flag."
+msgstr ""
+
+#: ../../changelog.rst:396
+msgid ""
+"Add better fallback methodology for detecting and fixing stale single-"
+"instance flags."
+msgstr ""
+
+#: ../../changelog.rst:399
+msgid ""
+"Now uses the Qt5-Concurrent build module for additional multi-threading "
+"support in various utilities."
+msgstr ""
+
+#: ../../changelog.rst:402
+msgid ""
+"Add support for selecting a mouse cursor theme (requires session restart)."
+msgstr ""
+
+#: ../../changelog.rst:405
+msgid ""
+"Add new color schemes: Grey-Dark, Solarized-Light, Solarized-Dark, and Blue-"
+"Light."
+msgstr ""
+
+#: ../../changelog.rst:408
+msgid "Customize the Lumina-default theme."
+msgstr ""
+
+#: ../../changelog.rst:410
+msgid ""
+"Add inheritance to theme files and convert the Lumina-default to inherit the"
+" \"None\" theme."
+msgstr ""
+
+#: ../../changelog.rst:413
+msgid ""
+"Add support to :ref:`Lumina Screenshot` for multi-screen arrangements and "
+"for including and excluding window borders for single window snapshots."
+msgstr ""
+
+#: ../../changelog.rst:417
+msgid ""
+"Add support for various background image scaling and placement options."
+msgstr ""
+
+#: ../../changelog.rst:420
+msgid ""
+"Add a number of new desktop shortcuts for the session. This requires "
+"existing users to remove their :file:`~/.lumina/fluxbox-keys` before logging"
+" in to get the new settings."
+msgstr ""
+
+#: ../../changelog.rst:424
+msgid ""
+"Clean up the panel activation and detection routines to better respond to "
+"mouse-over events, particularly for auto-hidden panels."
+msgstr ""
+
+#: ../../changelog.rst:427
+msgid ""
+"Completely overhaul the desktop plugin container system. Now it is "
+"completely drag and drop based with an intelligent grid of items and "
+"locations. Right-click, or click and hold, an item to open a menu of "
+"additional plugin configuration options. Note that any previous plugin "
+"locations will be reset to their defaults during the update to this new "
+"system."
+msgstr ""
+
+#: ../../changelog.rst:434
+msgid ""
+"Add support for dropping files and directories from other applications onto "
+"the desktop, creating a symlink to the desktop folder when appropriate."
+msgstr ""
+
+#: ../../changelog.rst:438
+msgid ""
+"Add font outlining to all desktop items so that the text is visible even if "
+"the font color blends into the background image."
+msgstr ""
+
+#: ../../changelog.rst:441
+msgid ""
+"ZFS snapshot browsing is now seemlessly embedded within the directory viewer"
+" of :ref:`Insight File Manager`."
+msgstr ""
+
+#: ../../changelog.rst:444
+msgid ""
+"Add support for either tabs or columns when viewing multiple directories at "
+"once."
+msgstr ""
+
+#: ../../changelog.rst:447
+msgid ""
+"Replace the \"Icon View\" mode with the ability to adjust the icon sizes as "
+"desired."
+msgstr ""
+
+#: ../../changelog.rst:450
+msgid ""
+"Add support for running the slideshow viewer and multimedia player in the "
+"background as separate tabs. Add the ability to zoom in/out on a slideshow "
+"image as desired."
+msgstr ""
+
+#: ../../changelog.rst:454
+msgid ""
+"Add full drag and drop implementation to Insight File Manager. Can drag "
+"files and directories to external applications that support the standard "
+"\"text/urilist\" Mimetype for drag and drop operations."
+msgstr ""
+
+#: ../../changelog.rst:458
+msgid ""
+"Directory and thumbnail loading is now a couple orders of magnitude faster "
+"than before. The thumbnail loading routine is now a completely separate "
+"background thread, preventing any delays in application functionality while "
+"loading."
+msgstr ""
+
+#: ../../changelog.rst:463
+msgid "Add support for the \"back\" mouse button when viewing a directory."
+msgstr ""
+
+#: ../../changelog.rst:465
+msgid ""
+"Completely overhaul the :ref:`Lumina File Information` utility. Now it is an"
+" almost complete front-end for the Qt/Lumina file information and XDG entry "
+"structures."
+msgstr ""
+
+#: ../../changelog.rst:469
+msgid ""
+"Add support for detecting and allowing user-local Fluxbox themes in addition"
+" to system-local themes."
+msgstr ""
+
+#: ../../changelog.rst:472
+msgid ""
+"Decrease initial loading time of :ref:`Lumina Configuration` by making it "
+"load all the background image thumbnails on demand instead of up-front."
+msgstr ""
+
+#: ../../changelog.rst:476
+msgid ""
+"Update the :ref:`Interface` used for panel configuration so that it is much "
+"easier to read and use."
+msgstr ""
+
+#: ../../changelog.rst:479
+msgid ""
+"Update the application selection in the fileopen dialog of :ref:`Lumina "
+"Open`, making it much easier to find the proper application to open the "
+"specified file."
+msgstr ""
+
+#: ../../changelog.rst:483
+msgid ""
+"Overhaul the \"Clock\" panel plugin. Now it provides a menu with a calendar "
+"as well as an option for the user to instantly switch the time zone."
+msgstr ""
+
+#: ../../changelog.rst:487
+msgid ""
+"New \"Start Menu\" panel plugin is a Windows-esque system menu which "
+"incorporates the functionality of both the user button and the system "
+"dashboard in one place. This plugin also supports creating and removing "
+"desktop links for applications, as well as \"quick-launch\" buttons for "
+"adding applications to the panel."
+msgstr ""
+
+#: ../../changelog.rst:493
+msgid ""
+"Update the \"Workspace Switcher\" panel plugin so it stays in sync with "
+"external changes to the current workspace."
+msgstr ""
+
+#: ../../changelog.rst:496
+msgid ""
+"New \"Line\" panel plugin provides a simple visual line to provide "
+"separation between plugins."
+msgstr ""
+
+#: ../../changelog.rst:499
+msgid "Fix or bypass some Fluxbox window placement bugs."
+msgstr ""
+
+#: ../../changelog.rst:501
+msgid ""
+"Fix some bugs in the user button regarding file and directory removals."
+msgstr ""
+
+#: ../../changelog.rst:504
+msgid ""
+"Clean up a number of built-in text strings for clarity and consistency."
+msgstr ""
+
+#: ../../changelog.rst:507
+msgid ""
+"Ensure that graphical sliders for adjusting screen brightness only go down "
+"to 10% to prevent the user from blacking out their screen entirely."
+msgstr ""
+
+#: ../../changelog.rst:511
+msgid ""
+"Update the support for non-xterm terminal emulators to be opened within a "
+"particular directory."
+msgstr ""
+
+#: ../../changelog.rst:514
+msgid "Update URL syntax handling in :ref:`Lumina Open`."
+msgstr ""
+
+#: ../../changelog.rst:516
+msgid ""
+"Update support for sticky windows to appear in the task manager on all "
+"workspaces."
+msgstr ""
+
+#: ../../changelog.rst:519
+msgid ""
+"Clean up a number of possible bugs with regards to how external application "
+"might be launched or used. This fixes the random race condition where a "
+"process finished but the thread in Lumina which called it still thinks it is"
+" running."
+msgstr ""
+
+#: ../../changelog.rst:524
+msgid ""
+"Ensure that all calendar widgets on the desktop or panel update as necessary"
+" to ensure the correct date is shown during multiple-day sessions."
+msgstr ""
+
+#: ../../changelog.rst:528
+msgid ""
+"Add a small CLI flag to :ref:`Lumina Open` for testing the crash handler "
+"(\"-testcrash\")."
+msgstr ""
+
+#: ../../changelog.rst:531
+msgid ""
+"Ensure that on FreeBSD, the disk I/O information uses instantaneous values "
+"instead of system averages."
+msgstr ""
+
+#: ../../changelog.rst:538
+msgid "Lumina 0.8.6"
+msgstr ""
+
+#: ../../changelog.rst:540
+msgid ""
+"Add the ability to set system-locale overrides, used on login. This allows "
+"the user to mix locale settings for the various outputs."
+msgstr ""
+
+#: ../../changelog.rst:543
+msgid ""
+"Add the ability to switch the locale of the current session on the fly, "
+"changing all locale settings for the current session only. These settings "
+"will be used when launching any applications within that session."
+msgstr ""
+
+#: ../../changelog.rst:548
+msgid ""
+"Fix up the translation mechanisms so that everything is instantly re-"
+"translated to the new locale."
+msgstr ""
+
+#: ../../changelog.rst:551
+msgid ""
+"More languages are now fully translated. Install the x11/lumina-i18n port or"
+" pkg to install the localizations and enable these new localization "
+"features."
+msgstr ""
+
+#: ../../changelog.rst:555
+msgid ""
+"Add support for the “Actions” extension to the XDG Desktop specifications. "
+"This allows applications to set a number of various actions, or alternate "
+"startup routines, within their XDG desktop registration file. These actions "
+"are shown within Lumina as new sub-menus within the \"Applications\" menu as"
+" well as in the \"User\" button. Look for the down arrow next to the "
+"application's icon."
+msgstr ""
+
+#: ../../changelog.rst:562
+msgid ""
+"Change the Lumina On-Screen-Display to a different widget, allowing it to be"
+" shown much faster."
+msgstr ""
+
+#: ../../changelog.rst:565
+msgid ""
+"Add new *_ifexists* functionality to any session options in "
+":file:`luminaDesktop.conf`. This allows the distributor to more easily setup"
+" default applications, such as the web browser or mail client, through an "
+"intelligent tree of options."
+msgstr ""
+
+#: ../../changelog.rst:570
+msgid ""
+"Apply a work-around for new users which fixes a bug in Fluxbox where the "
+"virtual desktop windows could still be changed or closed by various Fluxbox "
+"keyboard shortcuts. If an existing user wants to apply this fix, replace "
+"their :file:`~/.lumina/fluxbox-keys` with :file:`/usr/local/share/Lumina-DE"
+"/fluxbox-keys`. Note that this will overwrite any custom keyboard shortcuts."
+msgstr ""
+
+#: ../../changelog.rst:577
+msgid ""
+"Fix some bugs in the new window detection and adjustment routines with full-"
+"screen apps that modify the X session settings."
+msgstr ""
+
+#: ../../changelog.rst:580
+msgid ""
+"Fix a couple bugs with the automatic detection and load routines for the new"
+" QtQuick plugins."
+msgstr ""
+
+#: ../../changelog.rst:583
+msgid ""
+"Add in the :kbd:`Ctrl-X` keyboard shortcut for cutting items in the "
+":ref:`Insight File Manager`."
+msgstr ""
+
+#: ../../changelog.rst:586
+msgid "Fix up the active reloading of icons when the icon theme changes."
+msgstr ""
+
+#: ../../changelog.rst:592
+msgid "Lumina 0.8.5"
+msgstr ""
+
+#: ../../changelog.rst:594
+msgid ""
+"The user button has received a significant speed boost, and can now be used "
+"for browsing files and directories within the user’s home directory."
+msgstr ""
+
+#: ../../changelog.rst:598
+msgid ""
+"Desktop icons have received a large number of changes in styling, amount of "
+"visible text, and functionality. There is also a new feature to "
+"automatically generate plugins for items in the user’s Desktop directory, "
+"where each plugin may be individually moved/changed rather than trapped "
+"within a container like the “desktopview” plugin."
+msgstr ""
+
+#: ../../changelog.rst:604
+msgid ""
+"Added a desktop plugin for monitoring the system hardware status such as "
+"memory and CPU usage, CPU temperature, and disk I/O. This functionality "
+"requires operating system support and is currently only available for PC-"
+"BSD®, FreeBSD, and Debian."
+msgstr ""
+
+#: ../../changelog.rst:609
+msgid ""
+"Added a desktop plugin container for running custom QtQuick/QML scripts. "
+"While there is only a single sample plugin of this type available at the "
+"present time, it is now possible for users to create their own custom "
+"interface plugins using the QML scripting language, which is similar to "
+"JavaScript or CSS."
+msgstr ""
+
+#: ../../changelog.rst:615
+msgid ""
+"Lumina has been fully translated to German, Russian, and Spanish, and "
+"almost-completely translated to Catalan (89%), Chinese (61%), Estonian "
+"(53%), Indonesian (76%), Polish (89%), Portuguese (89%), Portuguese-"
+"Brazilian (89%), Swedish (91%), and Turkish (88%)."
+msgstr ""
+
+#: ../../changelog.rst:620
+msgid ""
+"The new system for desktop plugin settings requires that any desktop plugins"
+" be reset back to defaults when upgrading to this version of Lumina."
+msgstr ""
+
+#: ../../changelog.rst:624
+msgid ""
+"There is a known conflict between Qt 5.4+ and Fluxbox 1.3.7 which prevents "
+"the “close” button from working on unlocked desktop plugins. To work around "
+"this issue, right-click on the title for the plugin and select the “close” "
+"option from the menu to remove the desktop plugin. Alternatively, you may "
+"also remove desktop plugins using the :ref:`Lumina Configuration` utility."
+msgstr ""
+
+#: ../../changelog.rst:635
+msgid "Lumina 0.8.4"
+msgstr ""
+
+#: ../../changelog.rst:637
+msgid ""
+"The panel has been improved to add support for mouse tracking, variable-"
+"length panels that use a percentage of the screen edge length, and the "
+"ability to pin the panel to a particular location on the screen edge by "
+"either corner or centered."
+msgstr ""
+
+#: ../../changelog.rst:642
+msgid ""
+"Rescale the panel size if the monitor used in the previous session was a "
+"different screen resolution."
+msgstr ""
+
+#: ../../changelog.rst:645
+msgid ""
+"For hidden panels, 1% of the panel size is visible on the screen while it is"
+" hidden, rather than using a hard-coded pixel size. This is better for high-"
+"resolution screens."
+msgstr ""
+
+#: ../../changelog.rst:649
+msgid "Remove the restriction that panels be on opposite screen edges."
+msgstr ""
+
+#: ../../changelog.rst:651
+msgid ""
+":ref:`Lumina Search` now supports the ability to change \"Files or "
+"Directories\" search preferences on a temporary basis. New command-line "
+"flags can be used to start searches instantly."
+msgstr ""
+
+#: ../../changelog.rst:655
+msgid ""
+"Search functionality has been integrated into the :ref:`Insight File "
+"Manager`. The :kbd:`Ctrl-F` keyboard shortcut or the “Search” menu option "
+"will start a search for a file or directory with the current directory as "
+"the starting point."
+msgstr ""
+
+#: ../../changelog.rst:660
+msgid ""
+"A “Search” button has been added to the  home directory browser in the user "
+"menu. This allows the user to easily start searching for a file or directory"
+" within the selected directory."
+msgstr ""
+
+#: ../../changelog.rst:664
+msgid ""
+"The new “Favorites” system backend is much faster and more reliable than the"
+" old system of symbolic links. Existing favorites should be automatically "
+"converted to the new format when you log into the new version of Lumina."
+msgstr ""
+
+#: ../../changelog.rst:669
+msgid ""
+"The :command:`lumina-fileinfo` utility can be used to view basic file "
+"information, such as timestamps, owner/group information, file size, and "
+"read/write permissions. If the file is an XDG desktop shortcut that the user"
+" has permission to modify, this utility provides the ability to make changes"
+" to that shortcut by right-clicking on files in the desktop view plugin or "
+"within the :ref:`Insight File Manager` and selecting the “Properties” "
+"option."
+msgstr ""
+
+#: ../../changelog.rst:677
+msgid ""
+"Better application recommendations for files and URLs, especially for web "
+"browsers or email clients."
+msgstr ""
+
+#: ../../changelog.rst:680
+msgid "Major cleanup of XCB library usage."
+msgstr ""
+
+#: ../../changelog.rst:682
+msgid ""
+"Hardware-brightness controls now used for PC-BSD® by default, if supported "
+"by the system hardware."
+msgstr ""
+
+#: ../../changelog.rst:685
+msgid ""
+"Putting the system into the suspend state is now supported for PC-BSD® and "
+"Debian."
+msgstr ""
+
+#: ../../changelog.rst:688
+msgid "New clock display formats."
+msgstr ""
+
+#: ../../changelog.rst:690
+msgid ""
+"A large number of session cleanup and session initialization improvements, "
+"including resetting the user’s previous screen brightness and audio volume "
+"settings."
+msgstr ""
+
+#: ../../changelog.rst:694
+msgid ""
+"New default keyboard shortcuts for tiling the open windows on the screen, on"
+" new user configurations only."
+msgstr ""
+
+#: ../../changelog.rst:697
+msgid ""
+"Better support for the URL input format when required by an application."
+msgstr ""
+
+#: ../../changelog.rst:700
+msgid "The user’s “log out” window appears much faster when activated."
+msgstr ""
+
+#: ../../changelog.rst:702
+msgid ""
+"There is a known bug in Lumina 0.8.4 regarding “unlocked” desktop plugins. "
+"The close and maximize buttons for the plugin are unresponsive when using Qt"
+" 5.4.1, preventing the user from easily removing or maximizing a desktop "
+"plugin. As a temporary workaround, right-click the titlebar for the unlocked"
+" plugin and select close or maximize from the menu."
+msgstr ""
+
+#: ../../changelog.rst:713
+msgid "Lumina 0.8.3"
+msgstr ""
+
+#: ../../changelog.rst:715
+msgid ""
+"Add “Application Launcher” panel plugin which allows the user to pin the "
+"shortcut for an application directly to a panel."
+msgstr ""
+
+#: ../../changelog.rst:718
+msgid ""
+"Add :ref:`Lumina Xconfig`, a graphical front-end to :command:`xrandr`. This "
+"utility can be used to easily enable or disable additional monitors and "
+"screens within the current desktop session. Shortcuts to this utility are "
+"available in the user button plugin and the settings menu plugin."
+msgstr ""
+
+#: ../../changelog.rst:724
+msgid "Fix the issue with transparent system tray icons on FreeBSD 11."
+msgstr ""
+
+#: ../../changelog.rst:726
+msgid "Add support for the XDG autostart specifications."
+msgstr ""
+
+#: ../../changelog.rst:728
+msgid "Fix a number of bugs related to detecting and using XDG mimetypes."
+msgstr ""
+
+#: ../../changelog.rst:730
+msgid ""
+"Add support for the XDG autostart specifications. More work is necessary to "
+"convert the current Lumina autostart specification."
+msgstr ""
+
+#: ../../changelog.rst:733
+msgid ""
+"Add some additional fallback routines to account for possible errors in "
+":file:`*.desktop` files."
+msgstr ""
+
+#: ../../changelog.rst:736
+msgid ""
+"Add support for creating new (empty) files using :ref:`Insight File "
+"Manager`."
+msgstr ""
+
+#: ../../changelog.rst:739
+msgid ""
+"Add an option for enabling and disabling the use of image thumbnails. This "
+"is useful if you have massive image directories, just be sure to disable "
+"thumbnails **before** loading the directory."
+msgstr ""
+
+#: ../../changelog.rst:743
+msgid ""
+"Add initial drag-and-drop support for moving files and directories within a "
+"directory."
+msgstr ""
+
+#: ../../changelog.rst:746
+msgid "Load the specific icon for any application shortcuts."
+msgstr ""
+
+#: ../../changelog.rst:748
+msgid "Add the ability to view file checksums."
+msgstr ""
+
+#: ../../changelog.rst:750
+msgid ""
+"Add some additional checks and excludes for copy/move operations in the "
+"background to prevent the user from performing illegal operations, such as "
+"moving a directory into itself."
+msgstr ""
+
+#: ../../changelog.rst:754
+msgid ""
+"Add support for listing statistics about the current directory such as "
+"number of files, total size of files, and percent of the filesystem which is"
+" used."
+msgstr ""
+
+#: ../../changelog.rst:758
+msgid ""
+"Streamline the frequency of the background directory checker so that it runs"
+" much less often."
+msgstr ""
+
+#: ../../changelog.rst:761
+msgid ""
+"Disable the shutdown/restart options on PC-BSD® if the system is in the "
+"middle of performing updates in order to add an extra layer of safety."
+msgstr ""
+
+#: ../../changelog.rst:765
+msgid ""
+"Have the shutdown/restart options use the “-o” option on FreeBSD and PC-BSD®"
+" so that the system performs the action much faster."
+msgstr ""
+
+#: ../../changelog.rst:768
+msgid ""
+"Add support for thumbnails, increasing/decreasing icon sizes, removing "
+"files, and  cut/copy files to the “desktopview” desktop plugin. This plugin "
+"provides traditional desktop icons."
+msgstr ""
+
+#: ../../changelog.rst:772
+msgid ""
+"Add support for increasing and decreasing the icon size for the application "
+"launcher desktop plugin."
+msgstr ""
+
+#: ../../changelog.rst:775
+msgid ""
+"Update the icon used for the “favorites” system in the user button and the "
+"file manager."
+msgstr ""
+
+#: ../../changelog.rst:778
+msgid ""
+"Add the ability to display alternate timezones in the system clock. This "
+"does **not** change the system time as it is just a setting for the visual "
+"clocks/plugins."
+msgstr ""
+
+#: ../../changelog.rst:782
+msgid ""
+"Add a new panel plugin for pinning application shortcuts directly to the "
+"panel. This is just like the “applauncher” desktop plugin, but on the panel."
+msgstr ""
+
+#: ../../changelog.rst:786
+msgid ""
+"Perform the initial search for applications on the system within the session"
+" initialization. This ensure that buttons and plugins are responsive as soon"
+" as the desktop becomes visible."
+msgstr ""
+
+#: ../../changelog.rst:790
+msgid ""
+"Fix an issue with transparent system tray icons on FreeBSD 11 and convert "
+"the system tray embed/unembed routines to use the XCB library instead of "
+"XLib."
+msgstr ""
+
+#: ../../changelog.rst:798
+msgid "Lumina 0.8.2"
+msgstr ""
+
+#: ../../changelog.rst:800
+msgid ""
+"Added :command:`lumina-info` which can be used to display information about "
+"the Lumina desktop, such as the version, license, and link to the source "
+"repository."
+msgstr ""
+
+#: ../../changelog.rst:804
+msgid ""
+"Large overhaul of the theme templates and color schemes which are available "
+"out-of-box."
+msgstr ""
+
+#: ../../changelog.rst:807
+msgid ""
+"The :command:`lumina-config` utility has been rearranged so that its UI is "
+"more intuitive and there is a new dialog for selecting plugins. It now has "
+"the  ability to set preferred time and date formats and the ability to reset"
+" default applications back to their default, non-mimetype registrations."
+msgstr ""
+
+#: ../../changelog.rst:813
+msgid ""
+"The :ref:`Insight File Manager` has been improved. All file operations "
+"happen in a separate thread so that the UI does not lag any more and the "
+"detection of Qt-editable image files has been fixed."
+msgstr ""
+
+#: ../../changelog.rst:817
+msgid ""
+"Added support to update the vertical panel display of the clock plugin. "
+"Various desktop plugin stability issues have been fixed and the  session "
+"cleanup routine has been streamlined. A second panel is now supported and "
+"the number of filesystem watchers has been reduced to one per-session "
+"instead of one per-screen."
+msgstr ""
+
+#: ../../changelog.rst:823
+msgid ""
+":ref:`Lumina Search` can now be configured to exclude directories from a "
+"\"Files or Directories\" search and to set an alternate start directory."
+msgstr ""
+
+#: ../../changelog.rst:831
+msgid "Lumina 0.8.1"
+msgstr ""
+
+#: ../../changelog.rst:833
+msgid "New \"Audio Player\" desktop plugin to play audio files from the desktop."
+msgstr ""
+
+#: ../../changelog.rst:836
+msgid ""
+"New \"Home Button\" panel plugin to hide all windows and show the desktop "
+"and new \"Start Menu\" panel plugin which provides an alternative to the "
+"user button for traditional system management."
+msgstr ""
+
+#: ../../changelog.rst:840
+msgid ""
+"Added the ability to remove or rotate image files while viewing a slideshow "
+"with :ref:`Insight File Manager`."
+msgstr ""
+
+#: ../../changelog.rst:843
+msgid ""
+"New backend distribution framework for setting system-wide defaults. This "
+"affects new users only as existing settings will not be changed. Also added "
+"the ability to reset the desktop back to its defaults using the :ref:`Lumina"
+" Configuration` utility."
+msgstr ""
+
+#: ../../changelog.rst:848
+msgid ""
+"Allow a customizable user icon which is also used in PCDM (PC-BSD® Display "
+"Manager)."
+msgstr ""
+
+#: ../../changelog.rst:851
+msgid "Panels and desktop plugins follow the current theme by default."
+msgstr ""
+
+#: ../../changelog.rst:853
+msgid ""
+"The \"Note Pad\" desktop plugin has been converted to a file-based utility "
+"so that all notes can be found in :file:`~/Notes` for access by other "
+"utilities. Plugins are able to load a generic text file to treat like a note"
+" for watching or updating."
+msgstr ""
+
+#: ../../changelog.rst:858
+msgid ""
+"Auto-hidden panels now stay visible when the mouse moves over the system "
+"tray."
+msgstr ""
+
+#: ../../changelog.rst:861
+msgid ""
+"The user button opens faster now as it updates the widget on-demand in the "
+"background."
+msgstr ""
+
+#: ../../changelog.rst:864
+msgid ""
+"Fixed a bug in :ref:`Lumina Open` for filenames containing multiple \".\"s "
+"not detecting the file extension."
+msgstr ""
+
+#: ../../changelog.rst:867
+msgid ""
+"The log-out window now opens on the current screen and the log-out window is"
+" hidden at the start of the log-out procedure."
+msgstr ""
+
+#: ../../changelog.rst:874
+msgid "Lumina 0.8.0"
+msgstr ""
+
+#: ../../changelog.rst:876
+msgid "Converted to Qt5 with XCB."
+msgstr ""
+
+#: ../../changelog.rst:878
+msgid ""
+"New task manager mode which provides traditional task manager functionality."
+msgstr ""
+
+#: ../../changelog.rst:881
+msgid ""
+"Task manager right-click action menu has many more options that are auto-"
+"generated based on the current window state."
+msgstr ""
+
+#: ../../changelog.rst:884
+msgid "Better crash reporting through :ref:`Lumina Open`."
+msgstr ""
+
+#: ../../changelog.rst:886
+msgid "Better multimedia support using the new QMultimedia framework in Qt5."
+msgstr ""
+
+#: ../../changelog.rst:888
+msgid ""
+"New custom-written single-application framework with no external "
+"dependencies so it works on all operating systems."
+msgstr ""
+
+#: ../../changelog.rst:891
+msgid ""
+"New windows are no longer placed underneath Lumina panels, even on multi-"
+"monitor systems."
+msgstr ""
+
+#: ../../changelog.rst:894
+msgid ""
+"Special localized characters are now recognized when passed in from the "
+"command line."
+msgstr ""
+
+#: ../../changelog.rst:897
+msgid ""
+"Recursive file operations now function properly in :ref:`Insight File "
+"Manager`."
+msgstr ""
+
+#: ../../changelog.rst:900
+msgid ""
+"XDG \"Exec\" field code replacements function better, which fixes KDE "
+"application shortcuts like Okular."
+msgstr ""
+
+#: ../../changelog.rst:907
+msgid "Lumina 0.7.2"
+msgstr ""
+
+#: ../../changelog.rst:909
+msgid "Streamlined startup process and utilities."
+msgstr ""
+
+#: ../../changelog.rst:911
+msgid "Enabled login and logout chimes."
+msgstr ""
+
+#: ../../changelog.rst:913
+msgid "Added the \"Note Pad\" and \"Desktop View\" desktop plugins."
+msgstr ""
+
+#: ../../changelog.rst:915
+msgid "Added the :ref:`Lumina Search` utility."
+msgstr ""
+
+#: ../../changelog.rst:917
+msgid ""
+"New color schemes: Green, Gold, Purple, Red, and Glass, with Glass as the "
+"default."
+msgstr ""
+
+#: ../../changelog.rst:920
+msgid ""
+"New backend system for registering default applications using mime-types "
+"instead of extensions. While all Lumina utilities have been updated to work "
+"with the new system, previously registered defaults might not be "
+"transferred. You may need to reset your default web browser and email client"
+" using the :ref:`Lumina Configuration` utility."
+msgstr ""
+
+#: ../../changelog.rst:931
+msgid "Lumina 0.6.2"
+msgstr ""
+
+#: ../../changelog.rst:933
+msgid ""
+"A desktop plugin system has been implemented with two plugins: a calendar "
+"and an application launcher plugin."
+msgstr ""
+
+#: ../../changelog.rst:936
+msgid ""
+"The panel plugin system has been refined with transparency support for the "
+"panel itself and automatic plugin resizing."
+msgstr ""
+
+#: ../../changelog.rst:939
+msgid ""
+"Added the system dashboard panel plugin which allows control over the audio "
+"volume, screen brightness, and current workspace, while also displaying the "
+"current battery status, if applicable, and containing a button to let the "
+"user log out or shutdown/restart the system."
+msgstr ""
+
+#: ../../changelog.rst:944
+msgid ""
+"The user button panel plugin has been re-implemented, incorporating the "
+"functionality of the desktopbar plugin. Now the user has quick access to "
+"files and applications in the :file:`~/Desktop` folder, as well as the "
+"ability to add and remove shortcuts to system applications in the desktop "
+"folder with one click."
+msgstr ""
+
+#: ../../changelog.rst:950
+msgid "New backgrounds wallpapers and a project logo."
+msgstr ""
+
+#: ../../changelog.rst:952
+msgid ""
+"Add the :ref:`Insight File Manager`. Its features include the ability to "
+"browse the system and bookmark favorite directories. It includes a simple "
+"multimedia player for playing and previewing multimedia files, an image "
+"slideshow viewer for previewing image files, full file and directory restore"
+" functionality if ZFS snapshots are available, menu shortcuts to quickly "
+"browse attached or mounted devices, tabbing support for browsing multiple "
+"directories at once, and standard file and directory management such as "
+"copy/paste/delete/create. Supported multimedia and image formats are auto-"
+"detected, so if a particular file is not recognized, install the appropriate"
+" library or plugin to provide support."
+msgstr ""
+
+#: ../../changelog.rst:964
+msgid ""
+"Add :ref:`Lumina Screenshot`, a simple utility to create and save "
+"screenshots. It can capture the entire system or individual windows. It can "
+"delay the image capture for a few seconds as necessary. This utility is "
+"automatically assigned to the “Print Screen” keyboard shortcut and is also "
+"listed in the application registry under \"utilities\"."
+msgstr ""
+
+#: ../../changelog.rst:971
+msgid ""
+"Add a new implementation of the :ref:`Lumina Configuration` utility. It can "
+"now be used to configure desktop appearance such as the background image and"
+" to add desktop plugins, configure the location, color, transparency, and "
+"size of panels as well as manage their plugins, with up to two panels "
+"supported per screen, configure menu plugins, manage global keyboard "
+"shortcuts, including shortcuts for adjusting audio volume or screen "
+"brightness, manage default applications for the system by categories or "
+"individually, manage session options such as enable numlock on log in or to "
+"play audio chimes, manage applications and files to be launched on log in, "
+"and to manage window system options such as appearance, mouse focus policy, "
+"window placement policy, and the number of workspaces."
+msgstr ""
+
+#: ../../changelog.rst:984
+msgid ""
+"Update the overall appearance of the application selector window in "
+":ref:`Lumina Open`."
+msgstr ""
+
+#: ../../changelog.rst:987
+msgid ""
+"Fully support registered mime-types on the system and recommend those "
+"applications as appropriate."
+msgstr ""
