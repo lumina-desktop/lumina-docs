@@ -46,12 +46,16 @@ users to collaborate and contribute to the project:
   that allows you to subscribe to the list.
 
 * **Reddit:** The |trueos|
-  `Reddit page <https://www.reddit.com/r/TrueOS/>`_ is available for
-  general discussion of the |lumina| or |trueos| projects.
+  `Subreddit page <https://www.reddit.com/r/TrueOS/>`_ is available for
+  general discussion of the |lumina| or |trueos| projects. An account is
+  not necessary to view topics, but is required to create new posts.
 
 * **Weblate:** |lumina| uses Weblate, an online translation tool, to
   translate and provide |lumina| in a variety of languages. See
   :ref:`Become a Translator` for details about translating |lumina|.
+
+* **Website:** The `Lumina Website <https://lumina-desktop.org/>`_
+  offers the latest news and updates about the project.
 
 The |lumina| developers want your feedback about how to improve the
 project. Please use these communication options and let us know what you
