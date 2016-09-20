@@ -44,7 +44,7 @@ source_encoding = 'utf-8-sig'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Lumina Handbook'
+project = u'Lumina® Handbook'
 copyright = u'2011-2016, iXsystems'
 
 # The version info for the project you're documenting, acts as replacement for
