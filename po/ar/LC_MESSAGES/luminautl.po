@@ -11,30 +11,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../luminautl.rst:23 ../../luminautl.rst:36
+#: ../../luminautl.rst:23
 msgid "Insight File Manager"
 msgstr ""
 
-#: ../../luminautl.rst:69
+#: ../../luminautl.rst:240
 msgid ""
 "A few additional options may be available at the bottom of the window, "
 "depending on the directory being viewed and the types of files that are in "
 "it:"
 msgstr ""
 
-#: ../../luminautl.rst:73
+#: ../../luminautl.rst:244
 msgid ""
 "**New File:** The ability to create a new file is available if the user has "
 "permission to modify the contents of the current directory."
 msgstr ""
 
-#: ../../luminautl.rst:76
+#: ../../luminautl.rst:247
 msgid ""
 "**New Dir:** The ability to create a new directory is available if the user "
 "has permission to modify the contents of the current directory."
 msgstr ""
 
-#: ../../luminautl.rst:79
+#: ../../luminautl.rst:250
 msgid ""
 "**Slideshow:** If there are image files in the directory, this option will "
 "display those image files as a slideshow and provide arrows for going "
@@ -43,7 +43,7 @@ msgid ""
 "or to rotate it, and save the rotation, clockwise or counter-clockwise."
 msgstr ""
 
-#: ../../luminautl.rst:86
+#: ../../luminautl.rst:257
 msgid ""
 "**Play:** This will appear if there are supported multimedia files in the "
 "directory. The types of files that are supported depends on what multimedia "
@@ -53,42 +53,38 @@ msgid ""
 "manager."
 msgstr ""
 
-#: ../../luminautl.rst:154
+#: ../../luminautl.rst:325
 msgid ""
 "**Qt Version:** Click :guilabel:`View Information` to display the QT version"
 " and its license."
 msgstr ""
 
-#: ../../luminautl.rst:157
+#: ../../luminautl.rst:328
 msgid ""
 "**Lumina Website:** Click :guilabel:`Lumina Website` to open `<http"
 "://lumina-desktop.org/>`_ in the default web browser."
 msgstr ""
 
-#: ../../luminautl.rst:165
+#: ../../luminautl.rst:336
 msgid ""
 "**Source Repository:** Click :guilabel:`Source Repository` to open "
 "`<https://github.com/trueos/lumina>`_ in the default web browser."
 msgstr ""
 
-#: ../../luminautl.rst:168
+#: ../../luminautl.rst:339
 msgid ""
 "**Report a Bug:** Click :guilabel:`Bug Reports` to open "
 "`<https://bugs.pcbsd.org/projects/pcbsd>`_ in the default web browser. Refer"
 " to :ref:`Report a Bug` for instructions on how to submit a bug report."
 msgstr ""
 
-#: ../../luminautl.rst:179
+#: ../../luminautl.rst:350
 msgid ""
 "**Project Lead:** The name of the Project's lead developer. Click the name "
 "to open his or her profile on GitHub in the default web browser."
 msgstr ""
 
-#: ../../luminautl.rst:208
-msgid "Lumina Open"
-msgstr ""
-
-#: ../../luminautl.rst:210
+#: ../../luminautl.rst:381
 msgid ""
 "**Preferred:** These applications have registered their Mime type with the "
 "system and can open that type of file. Also included are any applications "
@@ -96,13 +92,13 @@ msgid ""
 "the last three applications used for that file type."
 msgstr ""
 
-#: ../../luminautl.rst:215
+#: ../../luminautl.rst:386
 msgid ""
 "**Available:** Displays all the applications installed on the system, "
 "organized by category and name."
 msgstr ""
 
-#: ../../luminautl.rst:231
+#: ../../luminautl.rst:402
 msgid ""
 "This utility can be used to take screenshots of the desktop or selected "
 "window and save them as PNG image files. To launch this utility, click the "
@@ -113,11 +109,11 @@ msgid ""
 "Screen`."
 msgstr ""
 
-#: ../../luminautl.rst:250
+#: ../../luminautl.rst:421
 msgid "**Entire Session:** Captures the entire screen."
 msgstr ""
 
-#: ../../luminautl.rst:252
+#: ../../luminautl.rst:423
 msgid ""
 "**Single Screen:** In a multi-monitor setup, the screen number can be "
 "selected for the screenshot."
@@ -133,41 +129,7 @@ msgid ""
 "chapter."
 msgstr ""
 
-#: ../../luminautl.rst:25
-msgid ""
-"The Insight file manager, shown in :numref:`Figure %s <lumina10a>`, allows "
-"the user to easily browse and modify files on the local system on a per-"
-"directory basis. To open Insight, click the start menu and select "
-":guilabel:`Browse Files`, right-click the desktop and select "
-":guilabel:`Browse Files`, or type :command:`lumina-fm` from an xterm."
-msgstr ""
-
-#: ../../luminautl.rst:38
-msgid ""
-"It is possible to open additional directories through the tab system using "
-":kbd:`Ctrl-T` or by clicking :menuselection:`File --> New Browser`, allowing"
-" the user to easily manage multiple locations on the system. Insight also "
-"features the ability to bookmark locations on the system for instant access "
-"via the :guilabel:`star` button. Once a location has been bookmarked, it "
-"will be available via the :guilabel:`Bookmarks` menu at the top of the "
-"window. Removable devices plugged into the sytem will appear in the "
-":guilabel:`External Devices` menu, if supported by the operating system. "
-"When an item is selected, the icons on the left side of the screen provide "
-"the possible actions that may be taken with regards to that item. Possible "
-"actions include: :guilabel:`open item`, :guilabel:`open item` (will prompt "
-"to select the application to use), :guilabel:`add item to personal "
-"favorites`, :guilabel:`rename item`, :guilabel:`cut items (add to the "
-"clipboard)`, :guilabel:`copy items to the clipboard`, :guilabel:`paste items"
-" from clipboard`, and :guilabel:`delete items`. The action buttons are "
-"visible by default, but can be made invisible by clicking "
-":menuselection:`View --> Show Action Buttons`. To disable thumbnails, "
-"uncheck :menuselection:`View --> Load Thumbnails`. Note this option does not"
-" remove thumbnails already loaded; it only prevents loading thumbnails in "
-"new directories. Check :menuselection:`View --> Show Hidden Files` to "
-"display hidden files."
-msgstr ""
-
-#: ../../luminautl.rst:61
+#: ../../luminautl.rst:232
 msgid ""
 "After right-clickin a file or directory, a number of options become "
 "available: :guilabel:`Open`, :guilabel:`Open With` (select the application),"
@@ -178,7 +140,7 @@ msgid ""
 "here`."
 msgstr ""
 
-#: ../../luminautl.rst:93
+#: ../../luminautl.rst:264
 msgid ""
 "**Backups:** If the system is formatted with ZFS and snapshots of the "
 "current directory are available, this button will appear. Snapshots are "
@@ -193,11 +155,11 @@ msgid ""
 ":file:`testfile-1.txt`."
 msgstr ""
 
-#: ../../luminautl.rst:109
+#: ../../luminautl.rst:280
 msgid "Lumina® File Information"
 msgstr ""
 
-#: ../../luminautl.rst:111
+#: ../../luminautl.rst:282
 msgid ""
 "The :command:`lumina-fileinfo` utility can be used to open a graphical "
 "window summarizing the size, permissions and ownership, creation time, and "
@@ -207,15 +169,11 @@ msgid ""
 "information of their :file:`~/Downloads` directory."
 msgstr ""
 
-#: ../../luminautl.rst:124
-msgid "Sample File Information"
-msgstr ""
-
-#: ../../luminautl.rst:130
+#: ../../luminautl.rst:301
 msgid "Lumina® Information"
 msgstr ""
 
-#: ../../luminautl.rst:132
+#: ../../luminautl.rst:303
 msgid ""
 "This utility provides information about the installed version of |lumina|, "
 "as well as the license, acknowledgements, and project links. To launch this "
@@ -225,57 +183,53 @@ msgid ""
 "window. An example is shown in :numref:`Figure %s <about1c>`."
 msgstr ""
 
-#: ../../luminautl.rst:145
-msgid "About Lumina"
-msgstr ""
-
-#: ../../luminautl.rst:147
+#: ../../luminautl.rst:318
 msgid "The :guilabel:`General` tab contains a variety of information:"
 msgstr ""
 
-#: ../../luminautl.rst:149
+#: ../../luminautl.rst:320
 msgid "**Desktop Version:** Indicates the version of |lumina|."
 msgstr ""
 
-#: ../../luminautl.rst:151
+#: ../../luminautl.rst:322
 msgid ""
 "**OS Build:** Indicates the operating system used to build this version of "
 "|lumina|."
 msgstr ""
 
-#: ../../luminautl.rst:160
+#: ../../luminautl.rst:331
 msgid ""
 "**Ask the Community:** Click :guilabel:`Ask the Community` to open "
 "`<https://webchat.freenode.net/?channels=%23lumina-desktop>`_, a chat "
 "channel dedicated to |lumina| with many friendly and helpful users."
 msgstr ""
 
-#: ../../luminautl.rst:173
+#: ../../luminautl.rst:344
 msgid ""
 "The :guilabel:`License` tab contains the license text for |lumina|. |lumina|"
 " is licensed under a `3-clause BSD license "
 "<https://github.com/trueos/lumina/blob/master/LICENSE>`_."
 msgstr ""
 
-#: ../../luminautl.rst:177
+#: ../../luminautl.rst:348
 msgid "The :guilabel:`Acknowledgements` tab contains the following:"
 msgstr ""
 
-#: ../../luminautl.rst:182
+#: ../../luminautl.rst:353
 msgid ""
 "**Contributors:** Click :guilabel:`Open in web browser` link to open "
 "`<https://github.com/trueos/lumina/graphs/contributors>`_."
 msgstr ""
 
-#: ../../luminautl.rst:185
+#: ../../luminautl.rst:356
 msgid "**Sponsors:** lists the official sponsors of the |lumina| Project."
 msgstr ""
 
-#: ../../luminautl.rst:191
+#: ../../luminautl.rst:362
 msgid "Lumina® Open"
 msgstr ""
 
-#: ../../luminautl.rst:193
+#: ../../luminautl.rst:364
 msgid ""
 "To open a file, directory, or URL from the command line, type :command"
 ":`lumina-open` followed by the full path to the file or the URL. This "
@@ -287,7 +241,7 @@ msgid ""
 "dialog organizes the available applications into three types:"
 msgstr ""
 
-#: ../../luminautl.rst:218
+#: ../../luminautl.rst:389
 msgid ""
 "**Custom:** The user can manually type in the binary name or path of the "
 "application to use. A search button is also available for the user to "
@@ -297,21 +251,17 @@ msgid ""
 "appropriate."
 msgstr ""
 
-#: ../../luminautl.rst:229
+#: ../../luminautl.rst:400
 msgid "Lumina® Screenshot"
 msgstr ""
 
-#: ../../luminautl.rst:239
+#: ../../luminautl.rst:410
 msgid ""
 "On the :guilabel:`New Screenshot` tab, seen here in :numref:`Figure %s "
 "<lumina25>`, options are available to fine tune the screenshot:"
 msgstr ""
 
-#: ../../luminautl.rst:248
-msgid "New Screenshot Tab"
-msgstr ""
-
-#: ../../luminautl.rst:255
+#: ../../luminautl.rst:426
 msgid ""
 "**Single Window:** Captures a selected window. Choose :guilabel:`Single "
 "Window`, click :guilabel:`Take Screenshot`, and click the desired window. "
@@ -319,7 +269,7 @@ msgid ""
 " not the utility will take a screenshot of the window with its border frame."
 msgstr ""
 
-#: ../../luminautl.rst:261
+#: ../../luminautl.rst:432
 msgid ""
 "**Delay:** Choose the number of seconds to delay the screenshot. This can be"
 " used to give more time to prepare the screenshot. For example, designating "
@@ -328,25 +278,21 @@ msgid ""
 "difficult elements to capture."
 msgstr ""
 
-#: ../../luminautl.rst:267
+#: ../../luminautl.rst:438
 msgid ""
 "There are three options for taking a screenshot: clicking :guilabel:`Take "
 "Screenshot` in the lower-right corner of |lumina| Screenshot, pressing "
 ":kbd:`Ctrl+N`, or selecting :menuselection:`File --> Take Screenshot`."
 msgstr ""
 
-#: ../../luminautl.rst:272
+#: ../../luminautl.rst:443
 msgid ""
 "After capturing a screenshot, the :guilabel:`View/Edit` tab, seen here in "
 ":numref:`Figure %s <lumina9a>`, provides additional options for manipulating"
 " the screenshot:"
 msgstr ""
 
-#: ../../luminautl.rst:281
-msgid "View/Edit Tab"
-msgstr ""
-
-#: ../../luminautl.rst:283
+#: ../../luminautl.rst:454
 msgid ""
 "**Image Preview:** Displays the captured screenshot. Right-click the image "
 "to view options for zooming in or out. Click and drag across the image to "
@@ -354,30 +300,30 @@ msgid ""
 "lower-right corner."
 msgstr ""
 
-#: ../../luminautl.rst:288
+#: ../../luminautl.rst:459
 msgid ""
 "**Save As:** Press :guilabel:`Save As` to open a window to specify the "
 "filename and location for saving the screenshot."
 msgstr ""
 
-#: ../../luminautl.rst:291
+#: ../../luminautl.rst:462
 msgid ""
 "**Launch Editor:** :guilabel:`Launch Editor` opens a selectable image "
 "manipulation program."
 msgstr ""
 
-#: ../../luminautl.rst:294
+#: ../../luminautl.rst:465
 msgid ""
 "Additionally, click :menuselection:`File --> Quick Save` to automatically "
 "save the screenshot to the default :file:`/Pictures` directory and open a "
 "window to select an image manipulation program."
 msgstr ""
 
-#: ../../luminautl.rst:302
+#: ../../luminautl.rst:473
 msgid "Lumina® Search"
 msgstr ""
 
-#: ../../luminautl.rst:304
+#: ../../luminautl.rst:475
 msgid ""
 "|lumina| Search provides options to find and launch applications or to "
 "quickly search for files and directories. The ***** wildcard can be used in "
@@ -385,7 +331,7 @@ msgid ""
 " starts with a dot (**.**)."
 msgstr ""
 
-#: ../../luminautl.rst:309
+#: ../../luminautl.rst:480
 msgid ""
 "To start this utility, type :command:`lumina-search`, press :kbd:`Alt + F2`,"
 " or go to the start menu and press :menuselection:`Browse Applications --> "
@@ -393,11 +339,7 @@ msgid ""
 "screenshot of this utility."
 msgstr ""
 
-#: ../../luminautl.rst:319
-msgid "Search for Applications"
-msgstr ""
-
-#: ../../luminautl.rst:321
+#: ../../luminautl.rst:492
 msgid ""
 "To open an application, begin to type its name into the search field "
 "(selected by default). The box below the selected :guilabel:`Applications` "
@@ -405,17 +347,13 @@ msgid ""
 "application and click :guilabel:`Launch Item` to open it."
 msgstr ""
 
-#: ../../luminautl.rst:326
+#: ../../luminautl.rst:497
 msgid ""
 "Click :guilabel:`Files or Directories` to change the screen slightly, as "
 "seen in :numref:`Figure %s <lumina26>`."
 msgstr ""
 
-#: ../../luminautl.rst:334
-msgid "Search for Files"
-msgstr ""
-
-#: ../../luminautl.rst:336
+#: ../../luminautl.rst:507
 msgid ""
 "By default, a :guilabel:`Files or Directories` search is limited to the "
 "user's home directory, as indicated by the :guilabel:`Search: ~` at the "
@@ -428,11 +366,7 @@ msgid ""
 "to see the screen shown in :numref:`Figure %s <lumina14a>`."
 msgstr ""
 
-#: ../../luminautl.rst:352
-msgid "Search Configuration"
-msgstr ""
-
-#: ../../luminautl.rst:354
+#: ../../luminautl.rst:525
 msgid ""
 "Click the :guilabel:`blue folder` icon to change the starting search "
 "directory. For example, select :guilabel:`Computer`, then :guilabel:`/` from"
@@ -444,28 +378,24 @@ msgid ""
 " settings back to their defaults after closing the menu."
 msgstr ""
 
-#: ../../luminautl.rst:368
+#: ../../luminautl.rst:539
 msgid "Lumina® Text Editor"
 msgstr ""
 
-#: ../../luminautl.rst:370
+#: ../../luminautl.rst:541
 msgid ""
 "The :command:`lumina-textedit` utility is a plaintext editor with a number "
 "of basic options. :numref:`Figure %s: <lumina23>` shows the editor with no "
 "file opened."
 msgstr ""
 
-#: ../../luminautl.rst:374
+#: ../../luminautl.rst:545
 msgid ""
 "Typing :command:`lte` in the command line will also open the |lumina| Text "
 "Editor."
 msgstr ""
 
-#: ../../luminautl.rst:382
-msgid "Lumina® Text Edit"
-msgstr ""
-
-#: ../../luminautl.rst:384
+#: ../../luminautl.rst:555
 msgid ""
 "Clicking :guilabel:`File` will present options to create **New File**, "
 "**Open File**, **Close File**, **Save file**, **Save File As**, and "
@@ -479,15 +409,11 @@ msgid ""
 "text and highlight colors, seen in :numref:`Figure %s <lumina32>`."
 msgstr ""
 
-#: ../../luminautl.rst:401
-msgid "Customize Colors"
-msgstr ""
-
-#: ../../luminautl.rst:407
+#: ../../luminautl.rst:578
 msgid "Lumina® Xconfig"
 msgstr ""
 
-#: ../../luminautl.rst:409
+#: ../../luminautl.rst:580
 msgid ""
 "The :command:`lumina-xconfig` utility is a graphical front-end to the "
 ":command:`xrandr` command line utility. It provides the ability to probe and"
@@ -497,11 +423,7 @@ msgid ""
 "similar to the one shown in :numref:`Figure %s <lumina15a>`."
 msgstr ""
 
-#: ../../luminautl.rst:421
-msgid "Configuring Monitors"
-msgstr ""
-
-#: ../../luminautl.rst:423
+#: ../../luminautl.rst:594
 msgid ""
 "In this example, two display inputs are attached to the system and their "
 "current screen resolutions are displayed. If the display input supports "
@@ -509,12 +431,477 @@ msgid ""
 "down menu to select a different resolution."
 msgstr ""
 
-#: ../../luminautl.rst:428
+#: ../../luminautl.rst:599
 msgid ""
 "If another display input is attached, the :guilabel:`Add Screen` tab is "
 "activated so the new input's resolution can be configured. Also, the user "
 "can select whether or not it should be the default input."
 msgstr ""
+
+#: ../../luminautl.rst:25
+msgid ""
+"The Insight file manager, shown in :numref:`Figure %s <lumina10b>`, allows "
+"the user to easily browse and modify files on the local system on a per-"
+"directory basis. To open Insight, click the start menu and select "
+":guilabel:`Browse Files`, right-click the desktop and select "
+":guilabel:`Browse Files`, or type :command:`lumina-fm` from an xterm."
+msgstr ""
+
+#: ../../luminautl.rst:31
+msgid ""
+"If Insight is already open :command:`lumina-fm` will not open a new window, "
+"but instead activate the currently open instance of Insight. Open a new "
+"window of Insight with :kbd:`Ctrl + N` from within Insight."
+msgstr ""
+
+#: ../../luminautl.rst:41
+msgid ": Insight File Manager"
+msgstr ""
+
+#: ../../luminautl.rst:43
+msgid ""
+"The top menu bar offers a wide variety of options for controlling Insight:"
+msgstr ""
+
+#: ../../luminautl.rst:46
+msgid ""
+"**File:** Contains basic options for manipulating Insight, seen here in "
+":numref:`Table %s <insightfile>`."
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid ": Insight Manager \"File\" Options"
+msgstr ""
+
+#: ../../luminautl.rst:54 ../../luminautl.rst:76 ../../luminautl.rst:100
+msgid "**Name**"
+msgstr ""
+
+#: ../../luminautl.rst:54 ../../luminautl.rst:76 ../../luminautl.rst:100
+#: ../../luminautl.rst:185
+msgid "**Shortcut**"
+msgstr ""
+
+#: ../../luminautl.rst:54 ../../luminautl.rst:76 ../../luminautl.rst:100
+#: ../../luminautl.rst:139 ../../luminautl.rst:185
+msgid "**Description**"
+msgstr ""
+
+#: ../../luminautl.rst:56
+msgid "New Window"
+msgstr ""
+
+#: ../../luminautl.rst:56
+msgid "Ctrl + N"
+msgstr ""
+
+#: ../../luminautl.rst:56
+msgid "Creates a new instance of Insight"
+msgstr ""
+
+#: ../../luminautl.rst:58
+msgid "New Tab"
+msgstr ""
+
+#: ../../luminautl.rst:58
+msgid "Ctrl + T"
+msgstr ""
+
+#: ../../luminautl.rst:58
+msgid "Opens a new tab in Insight"
+msgstr ""
+
+#: ../../luminautl.rst:60
+msgid "Search Directory"
+msgstr ""
+
+#: ../../luminautl.rst:60
+msgid "Ctrl + F"
+msgstr ""
+
+#: ../../luminautl.rst:60
+msgid "Opens **lumina-search**"
+msgstr ""
+
+#: ../../luminautl.rst:62
+msgid "Close Tab"
+msgstr ""
+
+#: ../../luminautl.rst:62
+msgid "Ctrl + W"
+msgstr ""
+
+#: ../../luminautl.rst:62
+msgid "Removes an open tab"
+msgstr ""
+
+#: ../../luminautl.rst:64
+msgid "Exit"
+msgstr ""
+
+#: ../../luminautl.rst:64
+msgid "Ctrl + Q"
+msgstr ""
+
+#: ../../luminautl.rst:64
+msgid "Closes Insight"
+msgstr ""
+
+#: ../../luminautl.rst:67
+msgid ""
+"**View:** Presents options to alter what Insight will display to the user. "
+":numref:`Table %s <insightview>` shows the current options in the "
+":guilabel:`View` tab:"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid ": Insight Manager \"View\" Options"
+msgstr ""
+
+#: ../../luminautl.rst:78
+msgid "Refresh"
+msgstr ""
+
+#: ../../luminautl.rst:78
+msgid "F5"
+msgstr ""
+
+#: ../../luminautl.rst:78
+msgid "Reloads the current location"
+msgstr ""
+
+#: ../../luminautl.rst:80
+msgid "Show Hidden Files"
+msgstr ""
+
+#: ../../luminautl.rst:80 ../../luminautl.rst:83 ../../luminautl.rst:102
+#: ../../luminautl.rst:108
+msgid "None"
+msgstr ""
+
+#: ../../luminautl.rst:80
+msgid "Insight will display all files marked *hidden*"
+msgstr ""
+
+#: ../../luminautl.rst:83
+msgid "View Mode"
+msgstr ""
+
+#: ../../luminautl.rst:83
+msgid ""
+"Basic: Displays only the names of files an directories. Advanced: Displays "
+"Name, Size, Type, Date Modified, and Date Created for each file or "
+"directory."
+msgstr ""
+
+#: ../../luminautl.rst:90
+msgid ""
+"**Bookmarks:** The :guilabel:`Bookmarks` not only gives options to add and "
+"manipulate internal links for quick navigation with Insight, but will "
+"display any created bookmarks in the menu as well. :numref:`Table %s "
+"<insightbkmrks>` describes all these elements:"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid ": Insight Manager \"Bookmark\" Options"
+msgstr ""
+
+#: ../../luminautl.rst:102
+msgid "Manage Bookmarks"
+msgstr ""
+
+#: ../../luminautl.rst:102
+msgid "Allows modification or removal of bookmarks"
+msgstr ""
+
+#: ../../luminautl.rst:105
+msgid "Add Bookmark"
+msgstr ""
+
+#: ../../luminautl.rst:105
+msgid "Ctrl + D"
+msgstr ""
+
+#: ../../luminautl.rst:105
+msgid "Creates new bookmark of current location"
+msgstr ""
+
+#: ../../luminautl.rst:108
+msgid "Bookmark Display"
+msgstr ""
+
+#: ../../luminautl.rst:108
+msgid "Populates with bookmarks as they are created"
+msgstr ""
+
+#: ../../luminautl.rst:112
+msgid ""
+"**External Devices:** Any attached devices with storage will appear in this "
+"menu. Click :guilabel:`Scan for Devices` if an attached device does not "
+"appear."
+msgstr ""
+
+#: ../../luminautl.rst:116
+msgid ""
+"**Git:** GitHub functionality is natively built into Insight. Currently, "
+":guilabel:`Repo Status` will display which branch is active, the update "
+"status with the origin repo, and any changes to commit. :guilabel:`Clone "
+"Repository` opens a wizard to download a git repository from the internet, "
+"seen in :numref:`Figure %s <lumina34>`."
+msgstr ""
+
+#: ../../luminautl.rst:126
+msgid ": Git Clone Repository Wizard"
+msgstr ""
+
+#: ../../luminautl.rst:128
+msgid ""
+":guilabel:`Clone Repository` will deactivate when Insight navigates inside a"
+" directory already labeled as a git repository."
+msgstr ""
+
+#: ../../luminautl.rst:131
+msgid ""
+"Underneath the top menu bar is a navigation bar with even more options. From"
+" left to right, :numref:`Table %s <insightnav>` describes each icon:"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid ": Insight Manager Navigation bar"
+msgstr ""
+
+#: ../../luminautl.rst:139 ../../luminautl.rst:185
+msgid "**Item**"
+msgstr ""
+
+#: ../../luminautl.rst:141
+msgid "Left Arrow"
+msgstr ""
+
+#: ../../luminautl.rst:141
+msgid "Go back to previous directory"
+msgstr ""
+
+#: ../../luminautl.rst:143
+msgid "Up Arrow"
+msgstr ""
+
+#: ../../luminautl.rst:143
+msgid "Go to parent directory"
+msgstr ""
+
+#: ../../luminautl.rst:145
+msgid "House Icon"
+msgstr ""
+
+#: ../../luminautl.rst:145
+msgid "Go to home directory"
+msgstr ""
+
+#: ../../luminautl.rst:147
+msgid "Text Field"
+msgstr ""
+
+#: ../../luminautl.rst:147
+msgid "Path to current location/Manual navigation field"
+msgstr ""
+
+#: ../../luminautl.rst:149
+msgid "Table with red minus"
+msgstr ""
+
+#: ../../luminautl.rst:149
+msgid "Single column view"
+msgstr ""
+
+#: ../../luminautl.rst:152
+msgid "Table with green plus"
+msgstr ""
+
+#: ../../luminautl.rst:152
+msgid "Dual column view"
+msgstr ""
+
+#: ../../luminautl.rst:155
+msgid "Horizontal lines icon"
+msgstr ""
+
+#: ../../luminautl.rst:155
+msgid ""
+"Additional file and directory operations (also available by right-clicking "
+"in the display area)"
+msgstr ""
+
+#: ../../luminautl.rst:159
+msgid ""
+"Pressing the :guilabel:`Green Plus Columns` button next to the navigation "
+"field will activate columned browsing, displaying two independent instances "
+"of the file manager in a side-by-side view, seen in :numref:`Figure %s "
+"<lumina33>`."
+msgstr ""
+
+#: ../../luminautl.rst:168
+msgid ": Insight Columns Display"
+msgstr ""
+
+#: ../../luminautl.rst:170
+msgid ""
+"In columns mode, the active column will have the white background. All the "
+"menu options and ZFS functions will apply to only the active column."
+msgstr ""
+
+#: ../../luminautl.rst:173
+msgid ""
+"The :guilabel:`Horizontal Lines Icon` shows file and directory operations, "
+"commonly seen in the right click menu when an item is selected. "
+":numref:`Table %s <insightfileops>` describes each of these options."
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid ": Insight Manager Operations"
+msgstr ""
+
+#: ../../luminautl.rst:185
+msgid "**Category**"
+msgstr ""
+
+#: ../../luminautl.rst:210
+msgid ""
+"Insight also features the ability to bookmark locations on the system for "
+"instant access via the :guilabel:`star` button. Once a location has been "
+"bookmarked, it will be available via the :guilabel:`Bookmarks` menu at the "
+"top of the window. Removable devices plugged into the sytem will appear in "
+"the :guilabel:`External Devices` menu, if supported by the operating system."
+" When an item is selected, the icons on the left side of the screen provide "
+"the possible actions that may be taken with regards to the item. Possible "
+"actions include: **open item**, **open item** (will prompt to select the "
+"application to use), **add item to personal favorites**, **rename item**, "
+"**cut items** (add to the clipboard), **copy items to the clipboard**, "
+"**paste items from clipboard**, and **delete items**. The action buttons are"
+" visible by default, but can be made invisible by clicking "
+":menuselection:`View --> Show Action Buttons`. To disable thumbnails, "
+"uncheck :menuselection:`View --> Load Thumbnails`."
+msgstr ""
+
+#: ../../luminautl.rst:226
+msgid ""
+"This option does not remove thumbnails already loaded. It only prevents "
+"loading thumbnails in new directories."
+msgstr ""
+
+#: ../../luminautl.rst:229
+msgid ""
+"Check :menuselection:`View --> Show Hidden Files` to display hidden files."
+msgstr ""
+
+#: ../../luminautl.rst:295
+msgid ": Sample File Information"
+msgstr ""
+
+#: ../../luminautl.rst:316
+msgid ": About Lumina"
+msgstr ""
+
+#: ../../luminautl.rst:379
+msgid ": Lumina Open"
+msgstr ""
+
+#: ../../luminautl.rst:419
+msgid ": New Screenshot Tab"
+msgstr ""
+
+#: ../../luminautl.rst:452
+msgid ": View/Edit Tab"
+msgstr ""
+
+#: ../../luminautl.rst:490
+msgid ": Search for Applications"
+msgstr ""
+
+#: ../../luminautl.rst:505
+msgid ": Search for Files"
+msgstr ""
+
+#: ../../luminautl.rst:523
+msgid ": Search Configuration"
+msgstr ""
+
+#: ../../luminautl.rst:553
+msgid ": |lumina| Text Edit"
+msgstr ""
+
+#: ../../luminautl.rst:572
+msgid ": Customize Colors"
+msgstr ""
+
+#: ../../luminautl.rst:592
+msgid ": Configuring Monitors"
+msgstr ""
+
+#~ msgid "Lumina Open"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Insight file manager, shown in :numref:`Figure %s <lumina10a>`, allows "
+#~ "the user to easily browse and modify files on the local system on a per-"
+#~ "directory basis. To open Insight, click the start menu and select "
+#~ ":guilabel:`Browse Files`, right-click the desktop and select "
+#~ ":guilabel:`Browse Files`, or type :command:`lumina-fm` from an xterm."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is possible to open additional directories through the tab system using "
+#~ ":kbd:`Ctrl-T` or by clicking :menuselection:`File --> New Browser`, allowing"
+#~ " the user to easily manage multiple locations on the system. Insight also "
+#~ "features the ability to bookmark locations on the system for instant access "
+#~ "via the :guilabel:`star` button. Once a location has been bookmarked, it "
+#~ "will be available via the :guilabel:`Bookmarks` menu at the top of the "
+#~ "window. Removable devices plugged into the sytem will appear in the "
+#~ ":guilabel:`External Devices` menu, if supported by the operating system. "
+#~ "When an item is selected, the icons on the left side of the screen provide "
+#~ "the possible actions that may be taken with regards to that item. Possible "
+#~ "actions include: :guilabel:`open item`, :guilabel:`open item` (will prompt "
+#~ "to select the application to use), :guilabel:`add item to personal "
+#~ "favorites`, :guilabel:`rename item`, :guilabel:`cut items (add to the "
+#~ "clipboard)`, :guilabel:`copy items to the clipboard`, :guilabel:`paste items"
+#~ " from clipboard`, and :guilabel:`delete items`. The action buttons are "
+#~ "visible by default, but can be made invisible by clicking "
+#~ ":menuselection:`View --> Show Action Buttons`. To disable thumbnails, "
+#~ "uncheck :menuselection:`View --> Load Thumbnails`. Note this option does not"
+#~ " remove thumbnails already loaded; it only prevents loading thumbnails in "
+#~ "new directories. Check :menuselection:`View --> Show Hidden Files` to "
+#~ "display hidden files."
+#~ msgstr ""
+
+#~ msgid "Sample File Information"
+#~ msgstr ""
+
+#~ msgid "About Lumina"
+#~ msgstr ""
+
+#~ msgid "New Screenshot Tab"
+#~ msgstr ""
+
+#~ msgid "View/Edit Tab"
+#~ msgstr ""
+
+#~ msgid "Search for Applications"
+#~ msgstr ""
+
+#~ msgid "Search for Files"
+#~ msgstr ""
+
+#~ msgid "Search Configuration"
+#~ msgstr ""
+
+#~ msgid "Lumina® Text Edit"
+#~ msgstr ""
+
+#~ msgid "Customize Colors"
+#~ msgstr ""
+
+#~ msgid "Configuring Monitors"
+#~ msgstr ""
 
 #~ msgid "Lumina Utilities"
 #~ msgstr ""

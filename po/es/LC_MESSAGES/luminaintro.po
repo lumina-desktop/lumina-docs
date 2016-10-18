@@ -73,10 +73,6 @@ msgstr ""
 msgid "Initial Settings"
 msgstr ""
 
-#: ../../luminaintro.rst:118
-msgid "Lumina Desktop"
-msgstr ""
-
 #: ../../luminaintro.rst:169
 msgid ""
 "**Configure Desktop:** This entry opens the :ref:`Lumina Configuration` "
@@ -399,6 +395,13 @@ msgid ""
 "Xconfig`), the operating system's control panel, and |lumina| version "
 "information contained within \"About |lumina|\"."
 msgstr ""
+
+#: ../../luminaintro.rst:118
+msgid ": Lumina Desktop"
+msgstr ""
+
+#~ msgid "Lumina Desktop"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "The Lumina Desktop Environment (|lumina| for short) is a lightweight, XDG-"
