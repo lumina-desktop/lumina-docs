@@ -77,15 +77,17 @@ few guidelines to ensure a speedy response:
 
 * |lumina| uses its
   `GitHub repository <https://github.com/trueos/lumina>`_,
-  seen in :numref:`Figure %s: Lumina Issues Tracker <buga>`, to manage
-  bugs. A GitHub account is required before bugs can be reported.
-  Navigate to https://github.com, fill in the required fields, and click
+  seen in :numref:`Figure %s <buga>`, to manage bugs. A GitHub account
+  is required before bugs can be reported. Navigate to
+  https://github.com, fill in the required fields, and click
   :guilabel:`Sign up for GitHub` to create a new github account.
 
 .. _buga:
 
 .. figure:: images/buga.png
    :scale: 100%
+
+   : Lumina Issues Tracker
 
 .. warning:: The GitHub issues tracker uses email to update contributors
    on the status of bugs. Please use a valid and frequently used email
@@ -103,12 +105,14 @@ few guidelines to ensure a speedy response:
 * To create a new bug report, log into the website, then navigate to
   `<https://github.com/trueos/lumina/issues>`_. Click
   :guilabel:`New Issue` to open the window shown in
-  :numref:`Figure %s: Creating a Bug Report <bug1>`.
+  :numref:`Figure %s <bug1>`.
 
 .. _bug1:
 
 .. figure:: images/bug1.png
    :scale: 100%
+
+   : Creating a Bug Report
 
 * Write a brief but descriptive title that includes the error and
   the version of |lumina|. Ideally, the title is short (8 words or less)
@@ -155,9 +159,6 @@ the mailing list will keep you up to date with important changes to
 Interface Translation
 ---------------------
 
-.. TODO Update screenshots of Weblate Interface. Screenshot names are
-   updated, just name the new screenshots exactly as written below.
-
 |lumina| uses `Weblate <http://weblate.trueos.org/projects/lumina/>`_ to
 manage the localization of menu screens seen in |lumina|. Weblate also
 efficiently displays the progress of localization efforts, allowing
@@ -170,15 +171,14 @@ tool set.
 
 To see the status of a localization, open the
 `Lumina Weblate Project <http://weblate.trueos.org/projects/lumina/>`_
-in a web browser, as seen in
-:numref:`Figure %s: The Lumina Weblate Translation System <translate1b>`.
+in a web browser, as seen in :numref:`Figure %s <translate1b>`.
 
 .. _translate1b:
 
 .. figure:: images/translate1b.png
    :scale: 100%
 
-   The |lumina| Project Overview Screen.
+   : The |lumina| Project Overview Screen.
 
 Requested localizations are listed alphabetically on the left. The right
 columns contain information about the project and any glossaries that
@@ -193,30 +193,28 @@ indicate translations that may need additional review. Any language not
 fully translated will display the incomplete menus in English.
 
 Click on a component name to see each available language for translation.
-:numref:`Figure %s: Viewing Lumina's Available Components <translate2b>`
-shows the **lumina-config** component. In this example,
-**lumina-config** has almost been completely translated to Bulgarian
-(bg), but has just begun translation to Afrikaans (af).
+:numref:`Figure %s <translate2b>` shows the **lumina-config** component.
+In this example, **lumina-config** has almost been completely translated
+to Bulgarian (bg), but has just begun translation to Afrikaans (af).
 
 .. _translate2b:
 
 .. figure:: images/translate2b.png
    :scale: 100%
 
-   lumina-config Overview screen.
+   : lumina-config Overview screen.
 
 A Weblate account is necessary to edit a translation. Log in to Weblate
 and navigate to the desired component in need of translation. In
-:numref:`Figure %s: Using the Weblate Translate Interface <translate3b>`,
-the translator has clicked :guilabel:`Translate` in the
-:guilabel:`lumina_CONFIG@af` row.
+:numref:`Figure %s <translate3b>`, the translator has clicked
+:guilabel:`Translate` in the :guilabel:`lumina_CONFIG@af` row.
 
 .. _translate3b:
 
 .. figure:: images/translate3b.png
    :scale: 100%
 
-   Translation screen for lumina-config, Afrikaans language
+   : Translation screen for lumina-config, Afrikaans language
 
 In this example, the phrase "Manually set value for selection" needs to
 be reviewed. To edit the translation, type the translated text into the
@@ -387,7 +385,7 @@ default file names.
 
 .. _table_1:
 
-.. table:: Commonly Used File Menu Icons
+.. table:: : Commonly Used File Menu Icons
 
    +-----------+-----------------+--------------------+
    | Function  | File Menu Icon  | File Name          |
@@ -423,7 +421,7 @@ the commonly used shortcut and hotkeys.
 
 .. _table_2:
 
-.. table:: Shortcut Keys
+.. table:: : Shortcut Keys
 
    +---------------+---------+
    | Shortcut Key  | Action  |
@@ -435,7 +433,7 @@ the commonly used shortcut and hotkeys.
 
 .. _table_3:
 
-.. table:: Hot Keys
+.. table:: : Hot Keys
 
    +-----------+-----------------+
    | Hot Key   | Action          |

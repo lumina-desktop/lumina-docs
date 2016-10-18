@@ -12,42 +12,213 @@ chapter.
 
 Insight File Manager
 ====================
-  
-The Insight file manager, shown in :numref:`Figure %s <lumina10a>`,
+
+The Insight file manager, shown in :numref:`Figure %s <lumina10b>`,
 allows the user to easily browse and modify files on the local system on
 a per-directory basis. To open Insight, click the start menu and select
 :guilabel:`Browse Files`, right-click the desktop and select
 :guilabel:`Browse Files`, or type :command:`lumina-fm` from an xterm.
 
-.. _lumina10a:
+.. note:: If Insight is already open :command:`lumina-fm` will not open
+   a new window, but instead activate the currently open instance of
+   Insight. Open a new window of Insight with :kbd:`Ctrl + N` from
+   within Insight.
 
-.. figure:: images/lumina10a.png
+.. _lumina10b:
+
+.. figure:: images/lumina10b.png
    :scale: 100%
 
-   Insight File Manager
+   : Insight File Manager
 
-It is possible to open additional directories through the tab system
-using :kbd:`Ctrl-T` or by clicking :menuselection:`File --> New Browser`,
-allowing the user to easily manage multiple locations on the system.
+The top menu bar offers a wide variety of options for controlling
+Insight:
+
+* **File:** Contains basic options for manipulating Insight, seen here
+  in :numref:`Table %s <insightfile>`.
+  
+  .. _insightfile:
+  
+  .. table:: : Insight Manager "File" Options
+
+     +------------------+--------------+-----------------------------------+
+     | **Name**         | **Shortcut** | **Description**                   |
+     +------------------+--------------+-----------------------------------+
+     | New Window       | Ctrl + N     | Creates a new instance of Insight |
+     +------------------+--------------+-----------------------------------+
+     | New Tab          | Ctrl + T     | Opens a new tab in Insight        |
+     +------------------+--------------+-----------------------------------+
+     | Search Directory | Ctrl + F     | Opens **lumina-search**           |
+     +------------------+--------------+-----------------------------------+
+     | Close Tab        | Ctrl + W     | Removes an open tab               |
+     +------------------+--------------+-----------------------------------+
+     | Exit             | Ctrl + Q     | Closes Insight                    |
+     +------------------+--------------+-----------------------------------+
+
+* **View:** Presents options to alter what Insight will display to the
+  user. :numref:`Table %s <insightview>` shows the current options in
+  the :guilabel:`View` tab:
+  
+  .. _insightview:
+  
+  .. table:: : Insight Manager "View" Options
+
+     +-------------+--------------+-----------------------------------------+
+     | **Name**    | **Shortcut** | **Description**                         |
+     +-------------+--------------+-----------------------------------------+
+     | Refresh     | F5           | Reloads the current location            |
+     +-------------+--------------+-----------------------------------------+
+     | Show Hidden | None         | Insight will display all files marked   |
+     | Files       |              | *hidden*                                |
+     +-------------+--------------+-----------------------------------------+
+     | View Mode   | None         | Basic: Displays only the names of files |
+     |             |              | an directories.                         |
+     |             |              | Advanced: Displays Name, Size, Type,    |
+     |             |              | Date Modified, and Date Created for     |
+     |             |              | each file or directory.                 |
+     +-------------+--------------+-----------------------------------------+
+
+* **Bookmarks:** The :guilabel:`Bookmarks` not only gives options to
+  add and manipulate internal links for quick navigation with Insight,
+  but will display any created bookmarks in the menu as well.
+  :numref:`Table %s <insightbkmrks>` describes all these elements:
+  
+  .. _insightbkmrks:
+  
+  .. table:: : Insight Manager "Bookmark" Options
+
+     +------------------+--------------+--------------------------+
+     | **Name**         | **Shortcut** | **Description**          |
+     +------------------+--------------+--------------------------+
+     | Manage Bookmarks | None         | Allows modification      |
+     |                  |              | or removal of bookmarks  |
+     +------------------+--------------+--------------------------+
+     | Add Bookmark     | Ctrl + D     | Creates new bookmark of  |
+     |                  |              | current location         |
+     +------------------+--------------+--------------------------+
+     | Bookmark Display | None         | Populates with bookmarks |
+     |                  |              | as they are created      |
+     +------------------+--------------+--------------------------+
+
+* **External Devices:** Any attached devices with storage will appear
+  in this menu. Click :guilabel:`Scan for Devices` if an attached device
+  does not appear.
+
+* **Git:** GitHub functionality is natively built into Insight.
+  Currently, :guilabel:`Repo Status` will display which branch is
+  active, the update status with the origin repo, and any changes to
+  commit. :guilabel:`Clone Repository` opens a wizard to download a git
+  repository from the internet, seen in :numref:`Figure %s <lumina34>`.
+
+  .. _lumina34:
+
+  .. figure:: images/lumina34.png
+
+     : Git Clone Repository Wizard
+
+  .. tip:: :guilabel:`Clone Repository` will deactivate when Insight
+     navigates inside a directory already labeled as a git repository.
+
+Underneath the top menu bar is a navigation bar with even more options.
+From left to right, :numref:`Table %s <insightnav>` describes each icon:
+
+.. _insightnav:
+
+.. table:: : Insight Manager Navigation bar
+
+   +------------+--------------------------------------------------+
+   | **Item**   | **Description**                                  |
+   +------------+--------------------------------------------------+
+   | Left Arrow | Go back to previous directory                    |
+   +------------+--------------------------------------------------+
+   | Up Arrow   | Go to parent directory                           |
+   +------------+--------------------------------------------------+
+   | House Icon | Go to home directory                             |
+   +------------+--------------------------------------------------+
+   | Text Field | Path to current location/Manual navigation field |
+   +------------+--------------------------------------------------+
+   | Table with | Single column view                               |
+   | red minus  |                                                  |
+   +------------+--------------------------------------------------+
+   | Table with | Dual column view                                 |
+   | green plus |                                                  |
+   +------------+--------------------------------------------------+
+   | Horizontal | Additional file and directory operations (also   |
+   | lines icon | available by right-clicking in the display area) |
+   +------------+--------------------------------------------------+
+
+Pressing the :guilabel:`Green Plus Columns` button next to the
+navigation field will activate columned browsing, displaying two
+independent instances of the file manager in a side-by-side view, seen
+in :numref:`Figure %s <lumina33>`.
+
+.. _lumina33:
+
+.. figure:: images/lumina33.png
+
+   : Insight Columns Display
+
+In columns mode, the active column will have the white background. All
+the menu options and ZFS functions will apply to only the active column.
+
+The :guilabel:`Horizontal Lines Icon` shows file and directory
+operations, commonly seen in the right click menu when an item is
+selected. :numref:`Table %s <insightfileops>` describes each of these
+options.
+
+.. TODO continue below
+
+.. _insightfileops:
+
+.. table:: : Insight Manager Operations
+
+   +------------+--------------+--------------+--------------------+
+   | **Item**   | **Category** | **Shortcut** | **Description**    |
+   +------------+--------------+--------------+--------------------+
+   |            |              |              |                    |
+   +------------+--------------+--------------+--------------------+
+   |            |              |              |                    |
+   +------------+--------------+--------------+--------------------+
+   |            |              |              |                    |
+   +------------+--------------+--------------+--------------------+
+   |            |              |              |                    |
+   +------------+--------------+--------------+--------------------+
+   |            |              |              |                    |
+   |            |              |              |                    |
+   +------------+--------------+--------------+--------------------+
+   |            |              |              |                    |
+   |            |              |              |                    |
+   +------------+--------------+--------------+--------------------+
+   |            |              |              |                    |
+   |            |              |              |                    |
+   +------------+--------------+--------------+--------------------+
+
+.. TODO Describe "ZFS Bar"
+
+
+.. TODO Review text down to section end and remove all obsolete.
+
 Insight also features the ability to bookmark locations on the system
 for instant access via the :guilabel:`star` button. Once a location has
-been bookmarked, it will be available via the :guilabel:`Bookmarks`
-menu at the top of the window. Removable devices plugged into the sytem
-will appear in the :guilabel:`External Devices` menu, if supported by
-the operating system. When an item is selected, the icons on the left
-side of the screen provide the possible actions that may be taken with
-regards to that item. Possible actions include: :guilabel:`open item`,
-:guilabel:`open item` (will prompt to select the application to use),
-:guilabel:`add item to personal favorites`, :guilabel:`rename item`,
-:guilabel:`cut items (add to the clipboard)`,
-:guilabel:`copy items to the clipboard`,
-:guilabel:`paste items from clipboard`, and :guilabel:`delete items`.
-The action buttons are visible by default, but can be made invisible by
-clicking :menuselection:`View --> Show Action Buttons`. To disable
-thumbnails, uncheck :menuselection:`View --> Load Thumbnails`. Note this
-option does not remove thumbnails already loaded; it only prevents
-loading thumbnails in new directories. Check
-:menuselection:`View --> Show Hidden Files` to display hidden files.
+been bookmarked, it will be available via the :guilabel:`Bookmarks` menu
+at the top of the window. Removable devices plugged into the sytem will
+appear in the :guilabel:`External Devices` menu, if supported by the
+operating system. When an item is selected, the icons on the left side
+of the screen provide the possible actions that may be taken with
+regards to the item. Possible actions include: **open item**,
+**open item** (will prompt to select the application to use),
+**add item to personal favorites**, **rename item**, **cut items** (add
+to the clipboard), **copy items to the clipboard**,
+**paste items from clipboard**, and **delete items**. The action buttons
+are visible by default, but can be made invisible by clicking
+:menuselection:`View --> Show Action Buttons`. To disable thumbnails,
+uncheck :menuselection:`View --> Load Thumbnails`.
+
+.. note:: This option does not remove thumbnails already loaded. It only
+   prevents loading thumbnails in new directories.
+
+Check :menuselection:`View --> Show Hidden Files` to display hidden
+files.
 
 After right-clickin a file or directory, a number of options become
 available: :guilabel:`Open`, :guilabel:`Open With` (select the
@@ -112,7 +283,7 @@ directory.
 .. figure:: images/file1a.png
    :scale: 100%  
 
-   Sample File Information
+   : Sample File Information
 
 .. index:: Lumina Information
 .. _Lumina Information:
@@ -133,7 +304,7 @@ the question mark icon in :guilabel:`Preferences`, or type
 .. figure:: images/about1c.png
    :scale: 100%
 
-   About Lumina
+   : About Lumina
 
 The :guilabel:`General` tab contains a variety of information:
 
@@ -196,7 +367,7 @@ applications into three types:
 .. figure:: images/lumina11b.png
    :scale: 100%
 
-   Lumina Open
+   : Lumina Open
 
 * **Preferred:** These applications have registered their Mime type with
   the system and can open that type of file. Also included are any
@@ -236,7 +407,7 @@ screenshot:
 .. figure:: images/lumina25.png
    :scale: 100%
 
-   New Screenshot Tab
+   : New Screenshot Tab
 
 * **Entire Session:** Captures the entire screen.
 
@@ -269,7 +440,7 @@ manipulating the screenshot:
 .. figure:: images/lumina9a.png
    :scale: 100%
 
-   View/Edit Tab
+   : View/Edit Tab
 
 * **Image Preview:** Displays the captured screenshot. Right-click
   the image to view options for zooming in or out. Click and drag across
@@ -307,7 +478,7 @@ To start this utility, type :command:`lumina-search`, press
 .. figure:: images/lumina13b.png
    :scale: 100%
 
-   Search for Applications
+   : Search for Applications
 
 To open an application, begin to type its name into the search field
 (selected by default). The box below the selected :guilabel:`Applications`
@@ -322,7 +493,7 @@ as seen in :numref:`Figure %s <lumina26>`.
 .. figure:: images/lumina26.png
    :scale: 100%
 
-   Search for Files
+   : Search for Files
 
 By default, a :guilabel:`Files or Directories` search is limited to the
 user's home directory, as indicated by the :guilabel:`Search: ~` at the
@@ -340,7 +511,7 @@ search directories or to exclude subdirectories, click the
 .. figure:: images/lumina14a.png
    :scale: 100%
 
-   Search Configuration
+   : Search Configuration
 
 Click the :guilabel:`blue folder` icon to change the starting search
 directory. For example, select :guilabel:`Computer`, then
@@ -370,7 +541,7 @@ shows the editor with no file opened.
 .. figure:: images/lumina23.png
    :scale: 100%
 
-   Lumina® Text Edit
+   : |lumina| Text Edit
 
 Clicking :guilabel:`File` will present options to create **New File**,
 **Open File**, **Close File**, **Save file**, **Save File As**, and
@@ -389,7 +560,7 @@ to alter all the default text and highlight colors, seen in
 .. figure:: images/lumina32.png
    :scale: 100%
 
-   Customize Colors
+   : Customize Colors
 
 .. index:: Xconfig
 .. _Lumina Xconfig:
@@ -409,7 +580,7 @@ a screen similar to the one shown in :numref:`Figure %s <lumina15a>`.
 .. figure:: images/lumina15a.png
    :scale: 100%
 
-   Configuring Monitors
+   : Configuring Monitors
 
 In this example, two display inputs are attached to the system and their
 current screen resolutions are displayed. If the display input supports
