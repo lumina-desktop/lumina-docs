@@ -43,7 +43,7 @@ Insight:
 
      +------------------+--------------+-----------------------------------+
      | **Name**         | **Shortcut** | **Description**                   |
-     +------------------+--------------+-----------------------------------+
+     +==================+==============+===================================+
      | New Window       | Ctrl + N     | Creates a new instance of Insight |
      +------------------+--------------+-----------------------------------+
      | New Tab          | Ctrl + T     | Opens a new tab in Insight        |
@@ -65,7 +65,7 @@ Insight:
 
      +-------------+--------------+-----------------------------------------+
      | **Name**    | **Shortcut** | **Description**                         |
-     +-------------+--------------+-----------------------------------------+
+     +=============+==============+=========================================+
      | Refresh     | F5           | Reloads the current location            |
      +-------------+--------------+-----------------------------------------+
      | Show Hidden | None         | Insight will display all files marked   |
@@ -89,7 +89,7 @@ Insight:
 
      +------------------+--------------+--------------------------+
      | **Name**         | **Shortcut** | **Description**          |
-     +------------------+--------------+--------------------------+
+     +==================+==============+==========================+
      | Manage Bookmarks | None         | Allows modification      |
      |                  |              | or removal of bookmarks  |
      +------------------+--------------+--------------------------+
@@ -128,7 +128,7 @@ From left to right, :numref:`Table %s <insightnav>` describes each icon:
 
    +------------+--------------------------------------------------+
    | **Item**   | **Description**                                  |
-   +------------+--------------------------------------------------+
+   +============+=====================+============================+
    | Left Arrow | Go back to previous directory                    |
    +------------+--------------------------------------------------+
    | Up Arrow   | Go to parent directory                           |
@@ -163,106 +163,103 @@ the menu options and ZFS functions will apply to only the active column.
 
 The :guilabel:`Horizontal Lines Icon` shows file and directory
 operations, commonly seen in the right click menu when an item is
-selected. :numref:`Table %s <insightfileops>` describes each of these
-options.
+selected. The directory operations are always available, and, like the
+name implies, provide options effecting the entire directory.
+:numref:`Table %s <insdirops>` shows each of these options, split into
+the :guilabel:`Create...` and :guilabel:`Open...` categories:
 
-.. TODO continue below
+.. _insdirops:
+
+.. table:: : Insight Manager Directory Operations
+
+   +-------------+--------------+------------------+-----------------------+
+   | **Item**    | **Category** | **Shortcut**     | **Description**       |
+   +=============+==============+==================+=======================+
+   | File        | Create       | Ctrl + Shift + F | Create new file       |
+   +-------------+--------------+------------------+-----------------------+
+   | Directory   | Create       | Ctrl + Shift + N | Create new directory  |
+   +-------------+--------------+------------------+-----------------------+
+   | Application | Create       | Ctrl + G         | Launches wizard to    |
+   | Launcher    |              |                  | create link to        |
+   |             |              |                  | desired application   |
+   +-------------+--------------+------------------+-----------------------+
+   | Terminal    | Open         | F1               | Launches the default  |
+   |             |              |                  | terminal set to the   |
+   |             |              |                  | current directory     |
+   +-------------+--------------+------------------+-----------------------+
+   | Slideshow   | Open         | F6               | Creates and populates |
+   |             |              |                  | a slideshow within a  |
+   |             |              |                  | new Insight tab       |
+   +-------------+--------------+------------------+-----------------------+
+   | Multimedia  | Open         | F7               | Opens the directory   |
+   | Player      |              |                  | with the default      |
+   |             |              |                  | multimedia player     |
+   +-------------+--------------+------------------+-----------------------+
+
+Once an item is highlighted in Insight, a number of file operations
+become available, seen in :numref:`Table %s <insightfileops>`:
 
 .. _insightfileops:
 
 .. table:: : Insight Manager Operations
 
-   +------------+--------------+--------------+--------------------+
-   | **Item**   | **Category** | **Shortcut** | **Description**    |
-   +------------+--------------+--------------+--------------------+
-   |            |              |              |                    |
-   +------------+--------------+--------------+--------------------+
-   |            |              |              |                    |
-   +------------+--------------+--------------+--------------------+
-   |            |              |              |                    |
-   +------------+--------------+--------------+--------------------+
-   |            |              |              |                    |
-   +------------+--------------+--------------+--------------------+
-   |            |              |              |                    |
-   |            |              |              |                    |
-   +------------+--------------+--------------+--------------------+
-   |            |              |              |                    |
-   |            |              |              |                    |
-   +------------+--------------+--------------+--------------------+
-   |            |              |              |                    |
-   |            |              |              |                    |
-   +------------+--------------+--------------+--------------------+
+   +------------+--------------+--------------+-------------------------+
+   | **Item**   | **Category** | **Shortcut** | **Description**         |
+   +============+==============+==============+=========================+
+   | Open       | None         | Double-Click | Open the file or        |
+   |            |              |              | directory with the      |
+   |            |              |              | default applications    |
+   +------------+--------------+--------------+-------------------------+
+   | Open With  | None         | None         | Opens the file or       |
+   |            |              |              | directory with a        |
+   |            |              |              | chosen application      |
+   +------------+--------------+--------------+-------------------------+
+   | Cut        | Modify Files | Ctrl + X     | Used with "Paste" to    |
+   | Selection  |              |              | move a file             |
+   +------------+--------------+--------------+-------------------------+
+   | Copy       | Modify Files | Ctrl + C     | Used with "Paste" to    |
+   | Selection  |              |              | create an exact         |
+   |            |              |              | duplicate of the        |
+   |            |              |              | selected file           |
+   +------------+--------------+--------------+-------------------------+
+   | Rename     | Modify Files | F2           | Allows changing the     |
+   |            |              |              | title of the selection  |
+   +------------+--------------+--------------+-------------------------+
+   | Delete     | Modify Files | Del          | Removes the selection   |
+   | Selection  |              |              | from the system         |
+   +------------+--------------+--------------+-------------------------+
+   | Checksums  | View Files   | None         | Displays the file's     |
+   |            |              |              | checksum                |
+   +------------+--------------+--------------+-------------------------+
+   | Properties | View Files   | None         | Displays the file       |
+   |            |              |              | information of the      |
+   |            |              |              | selection               |
+   +------------+--------------+--------------+-------------------------+
+   | Paste      | None         | Ctrl + V     | Used with "Cut" or      |
+   |            |              |              | "Copy" to move or clone |
+   |            |              |              | files and directories   |
+   +------------+--------------+--------------+-------------------------+
 
-.. TODO Describe "ZFS Bar"
+The final element to the upper Insight menus, if configured, is the ZFS
+snapshot bar, seen as the long blue line in :ref:`Insight <lumina10b>`.
+If the system is formatted with ZFS and snapshots of the current
+directory are available, this bar allows the user to view the current
+directory from previous snapshots. In other words, the user can see past
+instances of the directory, as long as ZFS is configured to take
+periodic snapshots.
 
+Snapshots are organized with oldest to newest snapshots displayed on the
+line from left to right. The text box on the left side of the blue line
+shows the active snapshot. Click the text box to view the other
+snapshots and choose which snapshots to activate. A slider also exists
+which can be used to move the directory back and forward in time,
+according to the saved snapshots. The left and right arrows can also be
+used for this function.
 
-.. TODO Review text down to section end and remove all obsolete.
-
-Insight also features the ability to bookmark locations on the system
-for instant access via the :guilabel:`star` button. Once a location has
-been bookmarked, it will be available via the :guilabel:`Bookmarks` menu
-at the top of the window. Removable devices plugged into the sytem will
-appear in the :guilabel:`External Devices` menu, if supported by the
-operating system. When an item is selected, the icons on the left side
-of the screen provide the possible actions that may be taken with
-regards to the item. Possible actions include: **open item**,
-**open item** (will prompt to select the application to use),
-**add item to personal favorites**, **rename item**, **cut items** (add
-to the clipboard), **copy items to the clipboard**,
-**paste items from clipboard**, and **delete items**. The action buttons
-are visible by default, but can be made invisible by clicking
-:menuselection:`View --> Show Action Buttons`. To disable thumbnails,
-uncheck :menuselection:`View --> Load Thumbnails`.
-
-.. note:: This option does not remove thumbnails already loaded. It only
-   prevents loading thumbnails in new directories.
-
-Check :menuselection:`View --> Show Hidden Files` to display hidden
-files.
-
-After right-clickin a file or directory, a number of options become
-available: :guilabel:`Open`, :guilabel:`Open With` (select the
-application), :guilabel:`Rename`, :guilabel:`View Checksums` (shows the
-MD5 checksum), :guilabel:`Cut Selection`, :guilabel:`Copy Selection`,
-:guilabel:`Paste`, :guilabel:`Delete Selection`,
-:guilabel:`File Properties` (such as file type, size, permissions, and
-creation date), or :guilabel:`Open Terminal here`.
-
-A few additional options may be available at the bottom of the window,
-depending on the directory being viewed and the types of files that are
-in it:
-
-* **New File:** The ability to create a new file is available if the
-  user has permission to modify the contents of the current directory.
-
-* **New Dir:** The ability to create a new directory is available if the
-  user has permission to modify the contents of the current directory.
-
-* **Slideshow:** If there are image files in the directory, this option
-  will display those image files as a slideshow and provide arrows for
-  going forward or back by one file or to the very beginning or end of
-  the file list. Buttons are also provided for deleting the currently
-  displayed image or to rotate it, and save the rotation, clockwise or
-  counter-clockwise.
-
-* **Play:** This will appear if there are supported multimedia files in
-  the directory. The types of files that are supported depends on what
-  multimedia plugins are installed on the system. If a particular file
-  is not recognized as a multimedia file, install the associated
-  multimedia codec using the operating system's application management
-  software and restart the file manager.
-
-* **Backups:** If the system is formatted with ZFS and snapshots of the
-  current directory are available, this button will appear. Snapshots
-  are organized from oldest to newest, with the most recent snapshot
-  selected by default, and the contents of the directory at the time of
-  that snapshot are displayed. To restore a file or multiple files,
-  select them from the list and click :guilabel:`Restore Selection`. If
-  those files still exist and need to be overwritten, make sure the
-  :guilabel:`Overwrite Existing Files` option is checked first.
-  Otherwise, if a file with that name exists, the restore will append a
-  number to the end of the filename. For example, the first restored
-  version of :file:`testfile.txt` will become :file:`testfile-1.txt`.
+Underneath the viewing area of Insight are :guilabel:`Magnifying Glass`
+icons, used to increase or decrease the size of the objects to display.
+Also, the bottom left corner will display tooltips about the highlighted
+object or other relevant information.
 
 .. index:: Lumina File Information
 .. _Lumina File Information:
