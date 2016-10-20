@@ -7,6 +7,151 @@ This section describes the major features and changes to each version of
 Lumina, with the most recent version of Lumina listed first.
 
 .. index:: changelog
+.. _Lumina 1.1.0:
+
+Lumina 1.1.0
+============
+
+**Major Changes:**
+
+* :file:`trueos/lumina-i18n` repository is now depreciated. To include
+  the localization files, use the :command:`WITH_I18N` build flag when
+  compiling |lumina| or any of it's utilities.
+
+* The :command:`start-lumina-desktop` utility has been significantly
+  updated. It can now be used as a single command start routine for the
+  |lumina| desktop. This will now automatically detect and/or start any
+  background services as needed. One example is an X session or a DBUS
+  session (a DBUS session is required to bypass a known bug in Qt). If
+  **compton** is available and enabled for use, this binary will
+  automatically set **compton** to the proper hardware/software backend
+  rendering mode. By default, **compton** use will be disabled if GPU
+  acceleration is not available, but this logic may be tuned as desired
+  within the configuration utility.
+
+* Significantly update how the system application list is probed and
+  maintained. This results in a much lighter and faster system.
+
+* Add the ability for |lumina| to automatically manage symlinks for
+  applications within the current user's :file:`Desktop` (tunable: may
+  be turned off within the user settings in the configuration utility)
+
+* Add a new OS integration: System update detection at logout time with
+  a prompt for performing or skipping updates.
+
+* Overhaul the Insight File Manager (:command:`lumina-fm`):
+  
+  * Add a menu for GIT operations (if the **git** binary is found on the
+    system). Currently supported operations: **clone** a repo from
+    GitHub onto the local system (graphical wizard) and **view** the
+    current status of a git repo.
+  * Created a completely new directory probing backend. This backend is
+    designed around multi-threading, resulting in speeds which are
+    orders of magnitude faster than the previous solution.
+    
+  * Created a completely new directory viewing frontend:
+  
+    * The tab and column possibilities are now integrated within each
+      other, with no more distinct **modes** to toggle. Instead, tabs
+      are now **always** available, and can be created or destroyed on
+      demand, but within each tab there are new buttons for using single
+      or dual directory columns.
+    * The thumbnails option has been removed, as the new backend makes
+      loading and using thumbnails for image files a trivial matter now.
+    * The interface has been simplified, more options for interacting
+      with a directory and/or files through the use of a smart menu
+      system have been added.
+  
+  * There is a completely new file operations tray notification system:
+  
+    * All file operations are now performed in the background. A system
+      tray icon shows the status of any operations, when needed.
+    * This allows for multiple sets of file operations to be performed
+      simultaneously without stopping usage of the file manager itself.
+
+* Update :command:`lumina-textedit`:
+
+  * Cleanup the find and replace options a little, making them easier to
+    close with a mouse. The options also take up less space.
+  * Update syntax highlighting rules and routines quite a bit.
+  * Add a font selection option, so monospaced fonts can be used for
+    particular types of files and formats.
+  * Add detection of unsaved changes on close and prompt to save or
+    discard those changes.
+  * Add new syntax highlighting rules for shell scripts/files
+    (:file:`*.sh`).
+
+* Update the desktop settings to be based on monitor ID's instead of
+  monitor numbers (automatic backend settings conversion when starting
+  the new version). This ensures each monitor always loads the right
+  settings, even if **X** decides to randomly scramble the order of the
+  monitors between sessions.
+
+* New Desktop Utility: :command:`lumina-calculator`:
+
+  * This is a simple calculator written in Qt5.
+  * Supports simple push-button operations in addition to the option to
+    write and evaluate more complicated mathematical equations.
+  * Displays a history of calculations and results.
+
+**Bug fixes and other small tweaks:**
+
+* :command:`lumina-open` will now handle binary names as inputs.
+
+* Fixed up terminal launching abilities:
+  
+  * Auto-use default terminal for Alt-F1 shortcut.
+  * Better support for binary names in addition to :file:`.desktop`
+    entries.
+
+* :command:`lumina-open` will now detect/handle directory paths better.
+
+* Add a special check/fix for setting a cursor theme called "default"
+  (only seems to impact a few various Linux distros).
+  
+* Cleanup the application of syntax highlighting rules in
+  :command:`lumina-textedit`. Ensures better priority of highlighting
+  rules.
+  
+* Find and fix some stability issues with :command:`lumina-fileinfo`.
+
+* Adjust the FreeBSD CPU temperature detection a bit, so raw CPU stats
+  are preferred over ACPI data.
+  
+* Bundle in a single fallback mimetype database file so mimetypes are
+  always available within |lumina|, even if the official mimetype
+  database is not found.
+  
+* Have the |lumina| utilities (**text editor**, **file manager**, etc)
+  check or set the :command:`XDG_*` environment variables at start, as
+  needed. |lumina| utilities will now be able to detect and use the
+  proper settings and files for the current user when launching through
+  utilities (such as **sudo** or **doas**) which strip the environment.
+
+* Have the desktop wallpaper randomized *every* time a change is
+  requested, rather than just the first time.
+  
+* Add support for per-workspace wallpapers (not exposed in the config UI
+  yet).
+
+* :command:`lumina-fileinfo` now shows the size of an image file, in
+  addition to the thumbnail.
+  
+* Make :command:`lumina-screenshot` single instanced for keyboard
+  shortcut launching and setup the application registration to always
+  open a new instance as needed.
+  
+* Add a right-click option to *launch* a desktop item.
+
+* Reduce the number of widgets or items used when generating a
+  "desktop" for a monitor. This greatly increases performance of the
+  system, particularly when running through a remote X/VNC connection.
+  
+* Add an audio warning to the battery monitor plugin when the system
+  drops to 5% left, as well as some more *warning* styling for the
+  monitor.
+
+.. index:: changelog
 .. _Lumina 1.0.0:
 
 Lumina 1.0.0
