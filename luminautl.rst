@@ -7,6 +7,41 @@
 |lumina| provides many built-in utilities, which are described in this
 chapter.
 
+.. index:: archiver
+
+.. _Lumina Archiver:
+
+|lumina| Archiver
+=================
+
+.. TODO WIP: Screenshot(s), explanatory text.
+
+The |lumina| archiver provides compression/decompression services for a
+variety of file types.
+
+.. index:: calculator
+.. _Lumina Calculator:
+
+|lumina| Calculator
+===================
+
+.. TODO check screenshot after new packages are released 11/16.
+
+The |lumina| calculator utility is designed to provide a simple and
+intuitive interface paired with advanced functions and features. The
+interface is seen in :numref:`Figure %s <lcalc>`:
+
+.. _lcalc:
+
+.. figure:: images/lcalc.png
+
+   : |lumina| Calculator
+
+The calculator is configured to use a numpad, if one is available.
+Enter the values and an operation, and the calculator will display the
+answer in the upper window. Select an equation displayed in the upper
+window to paste it in the entry box.
+
 .. index:: file manager
 .. _Insight File Manager:
 

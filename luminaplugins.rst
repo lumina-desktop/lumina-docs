@@ -479,6 +479,16 @@ Control Panel (if available), and a list of installed software sorted by
 categories. This plugin is a primary menu like the start button, and
 will open when the :kbd:`Windows` key is pressed.
 
+.. _Panel Audio Player:
+
+Audio Player (Panel)
+--------------------
+
+.. TODO WIP: Add screenshots, text once package updates becomes
+   available.
+
+Coming Soon!
+
 .. _Battery Monitor:
 
 Battery Monitor
@@ -507,6 +517,15 @@ contained within the :file:`~/Desktop` folder or favorited by the user,
 seen in :numref:`Figure %s <luminapanelplugin3>`. The :guilabel:`star`
 button displays applications, the :guilabel:`folder` button displays
 folders, and the :guilabel:`file` button shows favorite files.
+
+.. _Panel JSON Menu:
+
+JSON Menu (Panel)
+-----------------
+
+.. TODO WIP: Add content once package update becomes available.
+
+Coming Soon!
 
 .. _Line:
 
