@@ -263,15 +263,16 @@ Audio Player
 
 The Audio Player plugin, seen in
 :numref:`Figure %s <luminadesktopplugin2>`, will play user added lists
-of audio files. Pressing the wrench icon in the upper left corner will
-open an options menu to clear or shuffle the playlist.
+of audio files. Pressing the :guilabel:`wrench` in the upper left corner
+will open an options menu to clear or shuffle the playlist.
 
-The green plus icon gives the user options to add files, a directory, or
-URL to the playlist. Toggle the play button in the lower left corner of
-the plugin in order to start/stop an audio file. The forward and back
-buttons in the upper right corner allow the user to skip to the next
-song or return to the previous one. Click the currently playing file to
-open a drop down menu of all added audio files.
+The green :guilabel:`plus` gives the user options to add files, a
+directory, or URL to the playlist. Toggle :guilabel:`play` in the lower
+left corner of the plugin in order to start/stop an audio file. In the
+upper right corner, :guilabel:`forward` and :guilabel:`back` allow the
+user to skip to the next song or return to the previous one. Click the
+currently playing file to open a drop down menu of all added audio
+files.
 
 .. _calendar:
 
@@ -484,10 +485,8 @@ will open when the :kbd:`Windows` key is pressed.
 Audio Player (Panel)
 --------------------
 
-.. TODO WIP: Add screenshots, text once package updates becomes
-   available.
-
-Coming Soon!
+The panel audio player is identical to the desktop :ref:`Audio Player`,
+except the player is on the chosen panel.
 
 .. _Battery Monitor:
 
@@ -523,9 +522,8 @@ folders, and the :guilabel:`file` button shows favorite files.
 JSON Menu (Panel)
 -----------------
 
-.. TODO WIP: Add content once package update becomes available.
-
-Coming Soon!
+The panel JSON Menu is functionally identical to the context menu
+:ref:`JSON Menu`, only with the menu script generator pinned to a panel.
 
 .. _Line:
 
