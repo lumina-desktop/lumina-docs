@@ -287,7 +287,6 @@ type:
 .. code-block:: none
 
     git clone git://github.com/trueos/lumina.git
-    git pull
 
 These commands will create a directory named :file:`lumina/`, which
 contains the local copy of the repository. Keep the local copy
