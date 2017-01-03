@@ -104,11 +104,11 @@ msgstr ""
 msgid "**Back:** Click to return to the start menu."
 msgstr ""
 
-#: ../../luminaintro.rst:223
+#: ../../luminaintro.rst:330
 msgid "Panel and System Tray"
 msgstr ""
 
-#: ../../luminaintro.rst:230
+#: ../../luminaintro.rst:337
 msgid ""
 "When opening windows or applications, a button will be added to the section "
 "of the panel near the start menu. If the application provides an icon, the "
@@ -118,27 +118,27 @@ msgid ""
 "active; click it again to minimize it."
 msgstr ""
 
-#: ../../luminaintro.rst:237
+#: ../../luminaintro.rst:344
 msgid ""
 "Right-click the title of an open window to open a menu of options, including"
 " stick, layer/dock, and set transparency, among other options."
 msgstr ""
 
-#: ../../luminaintro.rst:256
+#: ../../luminaintro.rst:363
 msgid "Desktop Context Menu"
 msgstr ""
 
-#: ../../luminaintro.rst:264
+#: ../../luminaintro.rst:371
 msgid "By default, the right-click menu contains the following items:"
 msgstr ""
 
-#: ../../luminaintro.rst:269
+#: ../../luminaintro.rst:376
 msgid ""
 "**Browse Files:** Launches the default file manager. (:ref:`Insight File "
 "Manager` for Lumina)"
 msgstr ""
 
-#: ../../luminaintro.rst:272
+#: ../../luminaintro.rst:379
 msgid ""
 "**Applications:** Provides shortcuts to the operating system's graphical "
 "software management utility (if available), the control panel (if the "
@@ -146,7 +146,7 @@ msgid ""
 " the system, arranged by system category."
 msgstr ""
 
-#: ../../luminaintro.rst:283
+#: ../../luminaintro.rst:390
 msgid ""
 "**Leave:** Opens the system log out window, with options to log out of the "
 "desktop session, restart the system (if the user has permission), shutdown "
@@ -317,14 +317,7 @@ msgid ""
 " resume the session."
 msgstr ""
 
-#: ../../luminaintro.rst:216
-msgid ""
-"On a |trueos| system which is applying updates, the shutdown and restart "
-"options will be disabled until the updates are complete, with a note "
-"indicating updates are in progress."
-msgstr ""
-
-#: ../../luminaintro.rst:225
+#: ../../luminaintro.rst:332
 msgid ""
 "By default, |lumina| provides a panel at the bottom of the screen with a "
 "system tray at the far right of the panel. This section describes the "
@@ -332,7 +325,7 @@ msgid ""
 " :ref:`Interface` section."
 msgstr ""
 
-#: ../../luminaintro.rst:258
+#: ../../luminaintro.rst:365
 msgid ""
 "Right-clicking the desktop will open a menu of quick shortcuts with the "
 "title of the menu indicating the name of the current workspace. This section"
@@ -385,7 +378,7 @@ msgid ""
 " button for the application to the panel next to the :guilabel:`Start Menu`."
 msgstr ""
 
-#: ../../luminaintro.rst:240
+#: ../../luminaintro.rst:347
 msgid ""
 "The system tray is located in the right portion of the panel. Any "
 "applications that register a tray icon will appear in this area. For "
@@ -400,19 +393,356 @@ msgid ""
 "zone."
 msgstr ""
 
-#: ../../luminaintro.rst:266
+#: ../../luminaintro.rst:373
 msgid ""
 "**Terminal:** Used to launch a system terminal. The default is "
 ":command:`xterm`, but this is customizable."
 msgstr ""
 
-#: ../../luminaintro.rst:277
+#: ../../luminaintro.rst:384
 msgid ""
 "**Preferences:** Contains shortcuts to the screensaver preferences, desktop "
 "utility (:ref:`Lumina Configuration`), display configuration (:ref:`Lumina "
 "Xconfig`), the operating system's control panel, and |lumina| version "
 "information contained within :guilabel:`About Lumina`."
 msgstr ""
+
+#: ../../luminaintro.rst:216
+msgid ""
+"On a |trueos| system currently applying updates, the *shutdown* and "
+"*restart* options are disabled until the updates are complete. A popup "
+"indicates updates are in progress."
+msgstr ""
+
+#: ../../luminaintro.rst:223
+msgid "Default Keyboard Shortcuts"
+msgstr ""
+
+#: ../../luminaintro.rst:225
+msgid ""
+"By default, |lumina| utilizes a large number of keyboard shortcuts, as seen "
+"in :numref:`Table %s <lumdefkbd>`. Many of these shortcuts are derived from "
+"*fluxbox* defaults, as noted in the table."
+msgstr ""
+
+#: ../../luminaintro.rst:0
+msgid ": |lumina| keyboard shortcuts"
+msgstr ""
+
+#: ../../luminaintro.rst:236
+msgid "Shortcut"
+msgstr ""
+
+#: ../../luminaintro.rst:236
+msgid "Function"
+msgstr ""
+
+#: ../../luminaintro.rst:236
+msgid "Default"
+msgstr ""
+
+#: ../../luminaintro.rst:238
+msgid "Alt + click (open window)"
+msgstr ""
+
+#: ../../luminaintro.rst:238
+msgid "Move window"
+msgstr ""
+
+#: ../../luminaintro.rst:238 ../../luminaintro.rst:241
+#: ../../luminaintro.rst:245 ../../luminaintro.rst:249
+#: ../../luminaintro.rst:253 ../../luminaintro.rst:255
+#: ../../luminaintro.rst:258 ../../luminaintro.rst:260
+#: ../../luminaintro.rst:263 ../../luminaintro.rst:266
+#: ../../luminaintro.rst:269 ../../luminaintro.rst:272
+#: ../../luminaintro.rst:275 ../../luminaintro.rst:280
+#: ../../luminaintro.rst:282 ../../luminaintro.rst:284
+#: ../../luminaintro.rst:286 ../../luminaintro.rst:288
+#: ../../luminaintro.rst:290 ../../luminaintro.rst:292
+#: ../../luminaintro.rst:296 ../../luminaintro.rst:300
+#: ../../luminaintro.rst:303
+msgid "Fluxbox"
+msgstr ""
+
+#: ../../luminaintro.rst:241
+msgid "Alt + right click (open window)"
+msgstr ""
+
+#: ../../luminaintro.rst:241
+msgid "Resize window"
+msgstr ""
+
+#: ../../luminaintro.rst:245
+msgid "Alt + middle click (open window"
+msgstr ""
+
+#: ../../luminaintro.rst:245
+msgid "Lower window"
+msgstr ""
+
+#: ../../luminaintro.rst:249
+msgid "Ctrl + click + drag (window titlebar)"
+msgstr ""
+
+#: ../../luminaintro.rst:249
+msgid "Attach windows"
+msgstr ""
+
+#: ../../luminaintro.rst:253
+msgid "Alt + Tab"
+msgstr ""
+
+#: ../../luminaintro.rst:253
+msgid "Next window"
+msgstr ""
+
+#: ../../luminaintro.rst:255
+msgid "Alt + Shift + Tab"
+msgstr ""
+
+#: ../../luminaintro.rst:255
+msgid "Previous window"
+msgstr ""
+
+#: ../../luminaintro.rst:258
+msgid "Ctrl + Tab"
+msgstr ""
+
+#: ../../luminaintro.rst:258
+msgid "Next group"
+msgstr ""
+
+#: ../../luminaintro.rst:260
+msgid "Ctrl + Shift + Tab"
+msgstr ""
+
+#: ../../luminaintro.rst:260
+msgid "Previous group"
+msgstr ""
+
+#: ../../luminaintro.rst:263
+msgid "Windows Key + Tab"
+msgstr ""
+
+#: ../../luminaintro.rst:263
+msgid "Next (Fluxbox) Tab"
+msgstr ""
+
+#: ../../luminaintro.rst:266
+msgid "Windows Key + Shift + Tab"
+msgstr ""
+
+#: ../../luminaintro.rst:266
+msgid "Previous (Fluxbox) Tab"
+msgstr ""
+
+#: ../../luminaintro.rst:269
+msgid "Alt + Left Arrow"
+msgstr ""
+
+#: ../../luminaintro.rst:269
+msgid "Arrange windows in a tiled state. The active window moves screen left."
+msgstr ""
+
+#: ../../luminaintro.rst:272
+msgid "Alt + Right Arrow"
+msgstr ""
+
+#: ../../luminaintro.rst:272
+msgid ""
+"Arrange windows in a tiled state. The active window moves screen right."
+msgstr ""
+
+#: ../../luminaintro.rst:275
+msgid "Windows Key + <1-9>"
+msgstr ""
+
+#: ../../luminaintro.rst:275
+msgid "Move to a specific tab in the current window."
+msgstr ""
+
+#: ../../luminaintro.rst:278
+msgid "Alt + F1"
+msgstr ""
+
+#: ../../luminaintro.rst:278
+msgid "Opens Lumina default terminal"
+msgstr ""
+
+#: ../../luminaintro.rst:278 ../../luminaintro.rst:306
+#: ../../luminaintro.rst:308 ../../luminaintro.rst:310
+#: ../../luminaintro.rst:312 ../../luminaintro.rst:314
+#: ../../luminaintro.rst:316 ../../luminaintro.rst:318
+#: ../../luminaintro.rst:320 ../../luminaintro.rst:322
+#: ../../luminaintro.rst:324
+msgid "Lumina"
+msgstr ""
+
+#: ../../luminaintro.rst:280
+msgid "Alt + F2"
+msgstr ""
+
+#: ../../luminaintro.rst:280
+msgid "Opens :command:`lumina-search`"
+msgstr ""
+
+#: ../../luminaintro.rst:282
+msgid "Alt + F4"
+msgstr ""
+
+#: ../../luminaintro.rst:282
+msgid "Close open window"
+msgstr ""
+
+#: ../../luminaintro.rst:284
+msgid "Alt + F5"
+msgstr ""
+
+#: ../../luminaintro.rst:284
+msgid "Kill the open window's process."
+msgstr ""
+
+#: ../../luminaintro.rst:286
+msgid "Alt + F9"
+msgstr ""
+
+#: ../../luminaintro.rst:286
+msgid "Minimize open window"
+msgstr ""
+
+#: ../../luminaintro.rst:288
+msgid "Alt + F10"
+msgstr ""
+
+#: ../../luminaintro.rst:288
+msgid "Maximize open window"
+msgstr ""
+
+#: ../../luminaintro.rst:290
+msgid "Alt + F11"
+msgstr ""
+
+#: ../../luminaintro.rst:290
+msgid "Fullscreen open window"
+msgstr ""
+
+#: ../../luminaintro.rst:292
+msgid "Windows Key + <Left & Right Arrows>"
+msgstr ""
+
+#: ../../luminaintro.rst:292
+msgid "Send current window to previous/next workspace."
+msgstr ""
+
+#: ../../luminaintro.rst:296
+msgid "Ctrl + Windows Key + <Left & Right Arrows>"
+msgstr ""
+
+#: ../../luminaintro.rst:296
+msgid "Send current window to previous/next workspace and follow the window."
+msgstr ""
+
+#: ../../luminaintro.rst:300
+msgid "Windows Key + F1-12"
+msgstr ""
+
+#: ../../luminaintro.rst:300
+msgid "Change to a specific workspace."
+msgstr ""
+
+#: ../../luminaintro.rst:303
+msgid "Ctrl + Windows Key + F1-12"
+msgstr ""
+
+#: ../../luminaintro.rst:303
+msgid "Change to a specific workspace with the active window."
+msgstr ""
+
+#: ../../luminaintro.rst:306
+msgid "Print"
+msgstr ""
+
+#: ../../luminaintro.rst:306
+msgid "Open :command:`lumina-screenshot`"
+msgstr ""
+
+#: ../../luminaintro.rst:308
+msgid "Pause"
+msgstr ""
+
+#: ../../luminaintro.rst:308
+msgid "Lock the system"
+msgstr ""
+
+#: ../../luminaintro.rst:310
+msgid "Alt + L"
+msgstr ""
+
+#: ../../luminaintro.rst:310
+msgid "Lock the system (alternate)"
+msgstr ""
+
+#: ../../luminaintro.rst:312
+msgid "Alt + Space"
+msgstr ""
+
+#: ../../luminaintro.rst:312
+msgid "Open :command:`lumina-search`"
+msgstr ""
+
+#: ../../luminaintro.rst:314
+msgid "Alt + PgUp"
+msgstr ""
+
+#: ../../luminaintro.rst:314
+msgid "Increase system volume"
+msgstr ""
+
+#: ../../luminaintro.rst:316
+msgid "Alt + PgDn"
+msgstr ""
+
+#: ../../luminaintro.rst:316
+msgid "Decrease system volume"
+msgstr ""
+
+#: ../../luminaintro.rst:318
+msgid "Alt + Home"
+msgstr ""
+
+#: ../../luminaintro.rst:318
+msgid "Increase brightness"
+msgstr ""
+
+#: ../../luminaintro.rst:320
+msgid "Alt + End"
+msgstr ""
+
+#: ../../luminaintro.rst:320
+msgid "Decrease brightness"
+msgstr ""
+
+#: ../../luminaintro.rst:322
+msgid "F12"
+msgstr ""
+
+#: ../../luminaintro.rst:322
+msgid "Open the Lumina default terminal"
+msgstr ""
+
+#: ../../luminaintro.rst:324
+msgid "Windows Key"
+msgstr ""
+
+#: ../../luminaintro.rst:324
+msgid "Open the default \"Start Menu\""
+msgstr ""
+
+#~ msgid ""
+#~ "On a |trueos| system which is applying updates, the shutdown and restart "
+#~ "options will be disabled until the updates are complete, with a note "
+#~ "indicating updates are in progress."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "**Terminal:** Used to launch a system terminal. The default is "

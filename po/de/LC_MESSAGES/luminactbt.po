@@ -313,7 +313,7 @@ msgid ""
 " the desired storage directory and from within the directory, type:"
 msgstr ""
 
-#: ../../luminactbt.rst:301
+#: ../../luminactbt.rst:300
 msgid ""
 "These commands will create a directory named :file:`lumina/`, which contains"
 " the local copy of the repository. Keep the local copy synchronized with the"
@@ -321,7 +321,7 @@ msgid ""
 ":file:`lumina/` directory."
 msgstr ""
 
-#: ../../luminactbt.rst:306
+#: ../../luminactbt.rst:305
 msgid ""
 "To compile the source code, start by checking the `list of required software"
 " <https://github.com/trueos/lumina/blob/master/DEPENDENCIES>`_ to install "
@@ -330,13 +330,13 @@ msgid ""
 "code."
 msgstr ""
 
-#: ../../luminactbt.rst:312
+#: ../../luminactbt.rst:311
 msgid ""
 "The :command:`pkg` system is used by FreeBSD based operating systems; other "
 "OS's will use different packaging systems and command syntax."
 msgstr ""
 
-#: ../../luminactbt.rst:316
+#: ../../luminactbt.rst:315
 msgid ""
 "Once the necessary Qt elements are installed, compile the source by typing "
 ":command:`qmake` to generate a :file:`Makefile`, then run :command:`make`. "
@@ -344,7 +344,7 @@ msgid ""
 "other operating systems:"
 msgstr ""
 
-#: ../../luminactbt.rst:329
+#: ../../luminactbt.rst:328
 msgid ""
 "If you encounter an issue trying to compile the source on a system other "
 "than |trueos|, refer to the \"How to build from source\" section of the "
@@ -352,13 +352,13 @@ msgid ""
 "additional instructions."
 msgstr ""
 
-#: ../../luminactbt.rst:335
+#: ../../luminactbt.rst:334
 msgid ""
 "To also install the compiled applications, type :command:`sudo make "
 "install`. This command requires superuser privileges."
 msgstr ""
 
-#: ../../luminactbt.rst:338
+#: ../../luminactbt.rst:337
 msgid ""
 "Several Qt integrated development environments (IDE) are available for "
 "development. These IDEs can be installed using |appcafe| on |trueos| or "
@@ -371,7 +371,7 @@ msgid ""
 "functionality."
 msgstr ""
 
-#: ../../luminactbt.rst:348
+#: ../../luminactbt.rst:347
 msgid ""
 "To submit changes for inclusion in |lumina|, fork the `repository "
 "<https://github.com/trueos/lumina>`_ using the instructions in `fork a repo "
@@ -383,11 +383,11 @@ msgid ""
 "additional suggestions for improvement."
 msgstr ""
 
-#: ../../luminactbt.rst:363
+#: ../../luminactbt.rst:362
 msgid "Design Guidelines"
 msgstr ""
 
-#: ../../luminactbt.rst:365
+#: ../../luminactbt.rst:364
 msgid ""
 "|lumina| is a project driven by the support of developers within the "
 "community. Developers have designed and implemented a number of new "
@@ -399,7 +399,7 @@ msgid ""
 "menu bar."
 msgstr ""
 
-#: ../../luminactbt.rst:374
+#: ../../luminactbt.rst:373
 msgid ""
 "The `Developer Guidelines "
 "<https://github.com/trueos/lumina/blob/5beb2730a9e8230d2377ea89e9728504ea88de9c/DeveloperGuidelines.txt>`_"
@@ -408,7 +408,7 @@ msgid ""
 " volunteer developers are encouraged to follow."
 msgstr ""
 
-#: ../../luminactbt.rst:380
+#: ../../luminactbt.rst:379
 msgid ""
 "Any graphical program which is a fully featured utility, such as "
 ":ref:`Insight File Manager`,  needs a \"File\" menu. However, a \"File\" "
@@ -417,7 +417,7 @@ msgid ""
 "or three items in the \"File\" menu."
 msgstr ""
 
-#: ../../luminactbt.rst:386
+#: ../../luminactbt.rst:385
 msgid ""
 "\"Configure\" is the |lumina| standard for the category of settings or "
 "configuration related settings. If additional categories are needed, it is "
@@ -425,73 +425,73 @@ msgid ""
 "conventions."
 msgstr ""
 
-#: ../../luminactbt.rst:391
+#: ../../luminactbt.rst:390
 msgid ""
 "File menu icons are taken from the installed icon theme. :numref:`Table %s "
 "<table_1>` lists some commonly used icons and their default file names."
 msgstr ""
 
-#: ../../luminactbt.rst:400
+#: ../../luminactbt.rst:399
 msgid "Function"
 msgstr ""
 
-#: ../../luminactbt.rst:400
+#: ../../luminactbt.rst:399
 msgid "File Menu Icon"
 msgstr ""
 
-#: ../../luminactbt.rst:400
+#: ../../luminactbt.rst:399
 msgid "File Name"
 msgstr ""
 
-#: ../../luminactbt.rst:402 ../../luminactbt.rst:438 ../../luminactbt.rst:450
+#: ../../luminactbt.rst:401 ../../luminactbt.rst:437 ../../luminactbt.rst:449
 msgid "Quit"
 msgstr ""
 
-#: ../../luminactbt.rst:402
+#: ../../luminactbt.rst:401
 msgid "row 1, cell 2"
 msgstr ""
 
-#: ../../luminactbt.rst:402
+#: ../../luminactbt.rst:401
 msgid "window-close.png"
 msgstr ""
 
-#: ../../luminactbt.rst:404 ../../luminactbt.rst:452
+#: ../../luminactbt.rst:403 ../../luminactbt.rst:451
 msgid "Settings"
 msgstr ""
 
-#: ../../luminactbt.rst:404
+#: ../../luminactbt.rst:403
 msgid "row 2, cell 2"
 msgstr ""
 
-#: ../../luminactbt.rst:404
+#: ../../luminactbt.rst:403
 msgid "configure.png"
 msgstr ""
 
-#: ../../luminactbt.rst:407
+#: ../../luminactbt.rst:406
 msgid "|lumina| utilities uses several buttons:"
 msgstr ""
 
-#: ../../luminactbt.rst:409
+#: ../../luminactbt.rst:408
 msgid "**Apply:** Applies settings and leaves the window open."
 msgstr ""
 
-#: ../../luminactbt.rst:411
+#: ../../luminactbt.rst:410
 msgid "**Close:** Closes a program without applying settings."
 msgstr ""
 
-#: ../../luminactbt.rst:413
+#: ../../luminactbt.rst:412
 msgid "**OK:** Closes the dialogue window and saves settings."
 msgstr ""
 
-#: ../../luminactbt.rst:415
+#: ../../luminactbt.rst:414
 msgid "**Cancel:** Closes the dialog window without applying settings."
 msgstr ""
 
-#: ../../luminactbt.rst:417
+#: ../../luminactbt.rst:416
 msgid "**Save:** Saves settings and can also close the window."
 msgstr ""
 
-#: ../../luminactbt.rst:419
+#: ../../luminactbt.rst:418
 msgid ""
 "Keyboard shortcuts are extremely useful to many users, and |lumina| attempts"
 " to include shortcuts in every utility. Qt simplifies assigning keyboard "
@@ -506,92 +506,92 @@ msgid ""
 "hotkeys."
 msgstr ""
 
-#: ../../luminactbt.rst:436
+#: ../../luminactbt.rst:435
 msgid "Shortcut Key"
 msgstr ""
 
-#: ../../luminactbt.rst:436 ../../luminactbt.rst:448
+#: ../../luminactbt.rst:435 ../../luminactbt.rst:447
 msgid "Action"
 msgstr ""
 
-#: ../../luminactbt.rst:438
+#: ../../luminactbt.rst:437
 msgid "CTRL + Q"
 msgstr ""
 
-#: ../../luminactbt.rst:440
+#: ../../luminactbt.rst:439
 msgid "F1"
 msgstr ""
 
-#: ../../luminactbt.rst:440
+#: ../../luminactbt.rst:439
 msgid "Help"
 msgstr ""
 
-#: ../../luminactbt.rst:448
+#: ../../luminactbt.rst:447
 msgid "Hot Key"
 msgstr ""
 
-#: ../../luminactbt.rst:450
+#: ../../luminactbt.rst:449
 msgid "Alt + Q"
 msgstr ""
 
-#: ../../luminactbt.rst:452
+#: ../../luminactbt.rst:451
 msgid "Alt + S"
 msgstr ""
 
-#: ../../luminactbt.rst:454
+#: ../../luminactbt.rst:453
 msgid "Alt + I"
 msgstr ""
 
-#: ../../luminactbt.rst:454
+#: ../../luminactbt.rst:453
 msgid "Import"
 msgstr ""
 
-#: ../../luminactbt.rst:456
+#: ../../luminactbt.rst:455
 msgid "Alt + E"
 msgstr ""
 
-#: ../../luminactbt.rst:456
+#: ../../luminactbt.rst:455
 msgid "Export"
 msgstr ""
 
-#: ../../luminactbt.rst:458
+#: ../../luminactbt.rst:457
 msgid "ALT + F"
 msgstr ""
 
-#: ../../luminactbt.rst:458
+#: ../../luminactbt.rst:457
 msgid "File Menu"
 msgstr ""
 
-#: ../../luminactbt.rst:460
+#: ../../luminactbt.rst:459
 msgid "ALT + C"
 msgstr ""
 
-#: ../../luminactbt.rst:460
+#: ../../luminactbt.rst:459
 msgid "Configure Menu"
 msgstr ""
 
-#: ../../luminactbt.rst:462
+#: ../../luminactbt.rst:461
 msgid "ALT + H"
 msgstr ""
 
-#: ../../luminactbt.rst:462
+#: ../../luminactbt.rst:461
 msgid "Help Menu"
 msgstr ""
 
-#: ../../luminactbt.rst:465
+#: ../../luminactbt.rst:464
 msgid "Developers will also find these resources helpful:"
 msgstr ""
 
-#: ../../luminactbt.rst:467
+#: ../../luminactbt.rst:466
 msgid ""
 "`Commits Mailing List <http://lists.pcbsd.org/mailman/listinfo/commits>`_"
 msgstr ""
 
-#: ../../luminactbt.rst:469
+#: ../../luminactbt.rst:468
 msgid "`Qt 5.4 Documentation <http://doc.qt.io/qt-5/index.html>`_"
 msgstr ""
 
-#: ../../luminactbt.rst:471
+#: ../../luminactbt.rst:470
 msgid "`C++ Tutorials <http://www.cplusplus.com/doc/tutorial/>`_"
 msgstr ""
 
