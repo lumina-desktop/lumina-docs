@@ -204,54 +204,116 @@ start menu is divided into several categories:
   :guilabel:`Leave` to lock the system, which will start the screensaver
   and password prompt to resume the session.
 
-.. note:: On a |trueos| system which is applying updates, the shutdown
-   and restart options will be disabled until the updates are complete,
-   with a note indicating updates are in progress.
+.. note:: On a |trueos| system currently applying updates, the
+   *shutdown* and *restart* options are disabled until the updates are
+   complete. A popup indicates updates are in progress.
 
-.. TODO Uncomment and fill table when full list is obtained.
-   .. _Default Keyboard Shortcuts:
+.. _Default Keyboard Shortcuts:
 
-   Default Keyboard Shortcuts
-   --------------------------
-   
-   By default, |lumina| utilizes a large number of keyboard shortcuts,
-   as seen in :numref:`Table %s <lumdefkbd>`:
-   
-   .. _lumdefkbd:
-   
-   .. table:: : |lumina| default keyboard shortcuts
-   
-      +----------+----------------------------------------------------+
-      | Shortcut | Description                                        |
-      +==========+====================================================+
-      | Ctrl +   |                                                    |
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
-      +----------+----------------------------------------------------+
+Default Keyboard Shortcuts
+--------------------------
+
+By default, |lumina| utilizes a large number of keyboard shortcuts, as
+seen in :numref:`Table %s <lumdefkbd>`. Many of these shortcuts are
+derived from *fluxbox* defaults, as noted in the table.
+
+.. TODO Update table when rework goes live (est. v1.30 release)
+
+.. _lumdefkbd:
+
+.. table:: : |lumina| keyboard shortcuts
+
+   +----------------+---------------------------------------+------------+
+   | Shortcut       | Function                              | Default    |
+   +================+=======================================+============+
+   | Alt + click    | Move window                           | Fluxbox    |
+   | (open window)  |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Alt + right    | Resize window                         | Fluxbox    |
+   | click (open    |                                       |            |
+   | window)        |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Alt + middle   | Lower window                          | Fluxbox    |
+   | click (open    |                                       |            |
+   | window         |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Ctrl + click   | Attach windows                        | Fluxbox    |
+   | + drag (window |                                       |            |
+   | titlebar)      |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Alt + Tab      | Next window                           | Fluxbox    |                      
+   +----------------+---------------------------------------+------------+
+   | Alt + Shift +  | Previous window                       | Fluxbox    |
+   | Tab            |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Ctrl + Tab     | Next group                            | Fluxbox    |
+   +----------------+---------------------------------------+------------+
+   | Ctrl + Shift + | Previous group                        | Fluxbox    |
+   | Tab            |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Windows Key +  | Next (Fluxbox) Tab                    | Fluxbox    |
+   | Tab            |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Windows Key +  | Previous (Fluxbox) Tab                | Fluxbox    |
+   | Shift + Tab    |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Alt + Left     | Arrange windows in a tiled state. The | Fluxbox    |
+   | Arrow          | active window moves screen left.      |            |
+   +----------------+---------------------------------------+------------+
+   | Alt + Right    | Arrange windows in a tiled state. The | Fluxbox    |
+   | Arrow          | active window moves screen right.     |            |
+   +----------------+---------------------------------------+------------+
+   | Windows Key +  | Move to a specific tab in the current | Fluxbox    |
+   | <1-9>          | window.                               |            |
+   +----------------+---------------------------------------+------------+
+   | Alt + F1       | Opens Lumina default terminal         | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | Alt + F2       | Opens :command:`lumina-search`        | Fluxbox    |
+   +----------------+---------------------------------------+------------+
+   | Alt + F4       | Close open window                     | Fluxbox    |
+   +----------------+---------------------------------------+------------+
+   | Alt + F5       | Kill the open window's process.       | Fluxbox    |
+   +----------------+---------------------------------------+------------+
+   | Alt + F9       | Minimize open window                  | Fluxbox    |
+   +----------------+---------------------------------------+------------+
+   | Alt + F10      | Maximize open window                  | Fluxbox    |
+   +----------------+---------------------------------------+------------+
+   | Alt + F11      | Fullscreen open window                | Fluxbox    |
+   +----------------+---------------------------------------+------------+
+   | Windows Key +  | Send current window to previous/next  | Fluxbox    |
+   | <Left & Right  | workspace.                            |            |
+   | Arrows>        |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Ctrl + Windows | Send current window to previous/next  | Fluxbox    |
+   | Key + <Left &  | workspace and follow the window.      |            |
+   | Right Arrows>  |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Windows Key +  | Change to a specific workspace.       | Fluxbox    |
+   | F1-12          |                                       |            |
+   +----------------+---------------------------------------+------------+
+   | Ctrl + Windows | Change to a specific workspace with   | Fluxbox    |
+   | Key + F1-12    | the active window.                    |            |
+   +----------------+---------------------------------------+------------+
+   | Print          | Open :command:`lumina-screenshot`     | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | Pause          | Lock the system                       | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | Alt + L        | Lock the system (alternate)           | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | Alt + Space    | Open :command:`lumina-search`         | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | Alt + PgUp     | Increase system volume                | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | Alt + PgDn     | Decrease system volume                | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | Alt + Home     | Increase brightness                   | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | Alt + End      | Decrease brightness                   | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | F12            | Open the Lumina default terminal      | Lumina     |
+   +----------------+---------------------------------------+------------+
+   | Windows Key    | Open the default "Start Menu"         | Lumina     |
+   +----------------+---------------------------------------+------------+
 
 .. _Panel and System Tray:
 
