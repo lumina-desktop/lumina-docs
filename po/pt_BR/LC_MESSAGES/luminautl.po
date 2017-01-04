@@ -305,8 +305,7 @@ msgid "Show Hidden Files"
 msgstr ""
 
 #: ../../luminautl.rst:54 ../../luminautl.rst:56 ../../luminautl.rst:58
-#: ../../luminautl.rst:61 ../../luminautl.rst:64 ../../luminautl.rst:67
-#: ../../luminautl.rst:226 ../../luminautl.rst:229 ../../luminautl.rst:248
+#: ../../luminautl.rst:61 ../../luminautl.rst:67 ../../luminautl.rst:229
 #: ../../luminautl.rst:254 ../../luminautl.rst:366 ../../luminautl.rst:370
 #: ../../luminautl.rst:370 ../../luminautl.rst:388 ../../luminautl.rst:391
 #: ../../luminautl.rst:395
@@ -1335,6 +1334,18 @@ msgid ""
 "If another display input is attached, the :guilabel:`Add Screen` tab is "
 "activated in order to configure the new input's resolution. Additionally, "
 "the user can choose to make the new input the system default."
+msgstr ""
+
+#: ../../luminautl.rst:64
+msgid "Ctrl + E"
+msgstr ""
+
+#: ../../luminautl.rst:226
+msgid "Ctrl + H"
+msgstr ""
+
+#: ../../luminautl.rst:248
+msgid "Ctrl + B"
 msgstr ""
 
 #~ msgid ""
