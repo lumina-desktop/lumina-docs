@@ -7,6 +7,137 @@ This section describes the major features and changes to each version of
 Lumina, with the most recent version of Lumina listed first.
 
 .. index:: changelog
+.. _Lumina 1.2.0:
+
+Lumina 1.2.0
+============
+
+**Major Changes**
+
+* Dismantle the Lumina library (:file:`libLuminaUtils.so`). This is no
+  longer needed or installed.
+* Disable the internal Lumina Theme engine from all utilities. Now it
+  is used only by the desktop while all applications use the global
+  Qt5 theme engine.
+* New Panel Plugins: 
+
+  * *audioplayer* (panel version of the desktop plugin with the same
+    name): Allows the user to load and play audio files directly through
+    the desktop itself.
+  * *jsonmenu* (panel version of the menu plugin with the same name):
+    Allows use of an external utility or script to generate a menu or
+    contents on demand.
+
+* New Menu Plugin *lockdesktop*: Menu option for instantly locking the
+  desktop session.
+
+* New :command:`lumina-archiver` utility: A pure Qt5 front-end to the
+  *tar* utility for managing and creating archives. *Archiver* can also
+  use the *dd* utility to burn an :file:`*.img` file to a USB device
+  for booting.
+
+**Updates**
+
+* :command:`lumina-calculator`:
+
+  * Clean up precision of reported results and how they are re-used for
+    later calculations.
+  * Added ability to clear or save history.
+  * Tag each result with "#X" and allow that shortcut to be used in an
+    equation to recall the result of that calculation.
+  * Add tons of scientific functionality to the calculator without
+    bloating the interface.
+
+* :command:`lumina-config`:
+
+  * Clean up the main page considerably: 2 columns, auto-expanded items,
+    and more.
+  * In the main page, add the ability to change the current Qt5 theme
+    engine for external applications.
+  * Add entries for newer desktop backend systems (compositor start/skip
+    detection, new plugins, etc)
+  * Add a new page for managing Xorg input device properties
+    (requires *xinput*).
+  * Add pre-defined *profiles* to the interface/panels page. Available
+    options: *No panels*, *Windows*, *GNOME2/MATE*, *XFCE*, and
+    *Mac OSX*
+  * Add the ability to *import* panel configuration settings from one
+    monitor to another, even if the original monitor is not currently
+    enabled or active.
+
+* :command:`lumina-desktop`:
+
+  * Fix up some wallpaper update issues with monitor resizes and Fluxbox
+    eccentricity.
+  * Add right-click passthrough to many desktop plugins so the overall
+    *plugin* menu functions no matter where the click happens on the
+    plugin.
+  * Fix up the panel *autohide* functionality to it will work on screen
+    edges *between* monitors as well.
+  * Speed up the initial start of the desktop, but delay the
+    auto-started applications by 1/2 second.
+  * Clean up some mimetype detection routines.
+  * Clean up some more systems to ensure they use the monitor ID for
+    loading or saving desktop settings.
+  * Add a green background to the battery notifiers if the battery is
+    fully charged, but still plugged in.
+  * Make the *start menu* open faster by only re-loading the favorites
+    when they change.
+  * Make the *applauncher* panel plugin able to auto-complete the path
+    to :file:`*.desktop` files.
+  * Make the *clock* panel plugin auto-adjust the number of lines of
+    text to show depending on the panel size/orientation.
+  * Adjust the margins in the menus to work better on 4K monitors.
+  * Clean up some vertical-panel plugin behavior.
+  * Clean up the boot splash when starting the desktop. Now it displays
+    the version of the desktop and some random *message of the day*, in
+    addition to the normal loading indicators.
+
+.. note:: The *message of the day* (motd) can be changed by creating a
+   :file:`lumina-motd` file and placing it into :file:`<LOCALBASE>/etc`
+   alongside :file:`luminaDesktop.conf`. If the new file is executable,
+   Lumina will run the file and print any text that is output. Otherwise,
+   it will read and display contents of the file as plaintext. For
+   example, a blank file will disable the motd.
+
+* :command:`lumina-fm`:
+
+  * Fix up some issues with directory modifications through the right
+    column of a split view.
+  * Fix up the re-loading of the *show hidden files* option when
+    starting new viewers.
+  * Re-enable drag and drop functionality (missed that with the latest
+    overhaul to the viewers).
+  * Fix an issue with symlinks in the path preventing the ZFS snapshot
+    finder from working properly.
+
+* :command:`lumina-open`: Update the crash monitor to only trigger when
+  the process actually crashes by disabling the return code checking
+  (some apps intentionally return non-zero and were getting flagged as
+  crashes).
+
+* :command:`lumina-screenshot`:
+
+  * Add better error reporting when a screenshot can not save for some
+    reason.
+  * Cleanup the scaling rules for the *zoom* functionality.
+
+* :command:`lumina-search`:
+
+  * Apply more limits to the background search process handling. 
+  * Avoid trawling through the :file:`proc` directory heirarchy at all
+    costs.
+  * Bump the time to start the live search from 1/3 to 1/2 second.
+
+* :command:`start-lumina-desktop`:
+
+  * Modify the Qt5/dbus crash workaround to avoid starting up a dbus
+    session if at all possible.
+  * Checked and cleaned up any :command:`lumina-desktop` lockfiles.
+
+* FreeBSD: Add PulseAudio support for TrueOS PICO sessions.
+
+.. index:: changelog
 .. _Lumina 1.1.0:
 
 Lumina 1.1.0

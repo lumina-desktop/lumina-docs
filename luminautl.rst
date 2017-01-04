@@ -52,7 +52,7 @@ Archive Manager:
    | Remove File(s)    | Edit | Page with Red X       | None     | Removes the selected file from  |
    |                   |      |                       |          | the archive                     |
    +-------------------+------+-----------------------+----------+---------------------------------+
-   | Extract All       | Edit | Page with White Arrow | None     | Opens a window to extract the   |
+   | Extract All       | Edit | Page with White Arrow | Ctrl + E | Opens a window to extract the   |
    |                   |      |                       |          | entire contents of the archive  |
    +-------------------+------+-----------------------+----------+---------------------------------+
    | Extract Selection | Edit | Page with White Arrow | None     | Opens a window to extract the   |
@@ -214,7 +214,7 @@ Insight:
      +=============+==========+=========================================+
      | Refresh     | F5       | Reloads the current location            |
      +-------------+----------+-----------------------------------------+
-     | Show Hidden | None     | Insight will display all files marked   |
+     | Show Hidden | Ctrl + H | Insight will display all files marked   |
      | Files       |          | *hidden*                                |
      +-------------+----------+-----------------------------------------+
      | View Mode   | None     | Basic: Displays only the names of files |
@@ -236,7 +236,7 @@ Insight:
      +------------------+----------+--------------------------+
      | Name             | Shortcut | Description              |
      +==================+==========+==========================+
-     | Manage Bookmarks | None     | Allows modification      |
+     | Manage Bookmarks | Ctrl + B | Allows modification      |
      |                  |          | or removal of bookmarks  |
      +------------------+----------+--------------------------+
      | Add Bookmark     | Ctrl + D | Creates new bookmark of  |
