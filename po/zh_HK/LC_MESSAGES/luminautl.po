@@ -494,7 +494,7 @@ msgid "Terminal"
 msgstr ""
 
 #: ../../luminautl.rst:343 ../../luminautl.rst:347 ../../luminautl.rst:351
-#: ../../luminautl.rst:366
+#: ../../luminautl.rst:366 ../../luminautl.rst:506
 msgid "Open"
 msgstr ""
 
@@ -643,52 +643,16 @@ msgid ""
 "object or other relevant information."
 msgstr ""
 
-#: ../../luminautl.rst:14
-msgid "|lumina| Utilities"
-msgstr ""
-
-#: ../../luminautl.rst:425
-msgid "|lumina| File Information"
-msgstr ""
-
-#: ../../luminautl.rst:445
-msgid "|lumina| Information"
-msgstr ""
-
 #: ../../luminautl.rst:460
 msgid ": About |lumina|"
-msgstr ""
-
-#: ../../luminautl.rst:506
-msgid "|lumina| Open"
 msgstr ""
 
 #: ../../luminautl.rst:523
 msgid ": |lumina| Open"
 msgstr ""
 
-#: ../../luminautl.rst:544
-msgid "|lumina| Screenshot"
-msgstr ""
-
 #: ../../luminautl.rst:646
 msgid "|lumina| Search"
-msgstr ""
-
-#: ../../luminautl.rst:712
-msgid "|lumina| Text Editor"
-msgstr ""
-
-#: ../../luminautl.rst:750
-msgid "|lumina| Xconfig"
-msgstr ""
-
-#: ../../luminautl.rst:23
-msgid "|lumina| Archiver"
-msgstr ""
-
-#: ../../luminautl.rst:86
-msgid "|lumina| Calculator"
 msgstr ""
 
 #: ../../luminautl.rst:99
@@ -1416,6 +1380,65 @@ msgid ""
 " mouse up or down to adjust the image scaling. You can also mouse over the "
 "slider area and use the scroll wheel to adjust the scaling."
 msgstr ""
+
+#: ../../luminautl.rst:14
+msgid "Utilities"
+msgstr ""
+
+#: ../../luminautl.rst:23
+msgid "Archiver"
+msgstr ""
+
+#: ../../luminautl.rst:86
+msgid "Calculator"
+msgstr ""
+
+#: ../../luminautl.rst:425
+msgid "File Information"
+msgstr ""
+
+#: ../../luminautl.rst:445
+msgid "Information"
+msgstr ""
+
+#: ../../luminautl.rst:544
+msgid "Screenshot"
+msgstr ""
+
+#: ../../luminautl.rst:712
+msgid "Text Editor"
+msgstr ""
+
+#: ../../luminautl.rst:750
+msgid "Xconfig"
+msgstr ""
+
+#~ msgid "|lumina| Utilities"
+#~ msgstr ""
+
+#~ msgid "|lumina| File Information"
+#~ msgstr ""
+
+#~ msgid "|lumina| Information"
+#~ msgstr ""
+
+#~ msgid "|lumina| Open"
+#~ msgstr ""
+
+#~ msgid "|lumina| Screenshot"
+#~ msgstr ""
+
+#~ msgid "|lumina| Text Editor"
+#~ msgstr ""
+
+#~ msgid "|lumina| Xconfig"
+#~ msgstr ""
+
+#~ msgid "|lumina| Archiver"
+#~ msgstr ""
+
+#~ msgid "|lumina| Calculator"
+#~ msgstr ""
 
 #~ msgid "**Entire Session:** Captures the entire screen."
 #~ msgstr ""

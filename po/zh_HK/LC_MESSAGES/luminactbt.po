@@ -11,20 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../luminactbt.rst:13
-msgid "Contributing to |lumina|"
-msgstr ""
-
 #: ../../luminactbt.rst:15
 msgid ""
 "|lumina| is an open source project which relies on involvement from its "
 "users and supporters to assist in development, documentation, and "
 "localization. This section describes how to best assist the |lumina| "
 "Project."
-msgstr ""
-
-#: ../../luminactbt.rst:23
-msgid "Communicate, Collaborate, Contribute"
 msgstr ""
 
 #: ../../luminactbt.rst:25
@@ -679,6 +671,20 @@ msgstr ""
 #: ../../luminactbt.rst:0
 msgid ": Hot Keys"
 msgstr ""
+
+#: ../../luminactbt.rst:13
+msgid "Contribute!"
+msgstr ""
+
+#: ../../luminactbt.rst:23
+msgid "Communicate"
+msgstr ""
+
+#~ msgid "Contributing to |lumina|"
+#~ msgstr ""
+
+#~ msgid "Communicate, Collaborate, Contribute"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "|lumina| uses its `GitHub repository <https://github.com/trueos/lumina>`_, "

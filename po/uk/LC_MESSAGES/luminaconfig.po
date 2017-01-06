@@ -277,10 +277,6 @@ msgstr ""
 msgid ": Session Locale Tab"
 msgstr ""
 
-#: ../../luminaconfig.rst:14
-msgid "|lumina| Configuration"
-msgstr ""
-
 #: ../../luminaconfig.rst:35
 msgid ": |lumina| Desktop Configuration"
 msgstr ""
@@ -515,13 +511,6 @@ msgid ""
 ":guilabel:`Interface Configuration`, as seen in :numref:`Figure %s "
 "<lumina31>`, is used to configure the desktop, (right-click) menu, and any "
 "panels."
-msgstr ""
-
-#: ../../luminaconfig.rst:364
-msgid ""
-"The options of :guilabel:`Menu`, :guilabel:`Desktop`, and :guilabel:`Panels`"
-" involve modifying and interacting with plugins, which are described at "
-"length in the :ref:`Lumina Plugins` chapter of this handbook."
 msgstr ""
 
 #: ../../luminaconfig.rst:373
@@ -817,6 +806,26 @@ msgid ""
 "When an incompatible value is set, the entire option line will be "
 "highlighted in red."
 msgstr ""
+
+#: ../../luminaconfig.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../luminaconfig.rst:364
+msgid ""
+"The options of :guilabel:`Menu`, :guilabel:`Desktop`, and :guilabel:`Panels`"
+" involve modifying and interacting with plugins, which are described at "
+"length in the :ref:`Plugins` chapter of this handbook."
+msgstr ""
+
+#~ msgid "|lumina| Configuration"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The options of :guilabel:`Menu`, :guilabel:`Desktop`, and :guilabel:`Panels`"
+#~ " involve modifying and interacting with plugins, which are described at "
+#~ "length in the :ref:`Lumina Plugins` chapter of this handbook."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "It is possible to create your own **theme template** or **color scheme** by "

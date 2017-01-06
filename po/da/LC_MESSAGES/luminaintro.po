@@ -40,12 +40,6 @@ msgid ""
 "other modern operating systems."
 msgstr ""
 
-#: ../../luminaintro.rst:55
-msgid ""
-"A single, easy-to-use :ref:`Lumina Configuration` utility controls all the "
-"different configuration options for the desktop in one location."
-msgstr ""
-
 #: ../../luminaintro.rst:58
 msgid ""
 "Intelligent \"favorites\" system for creating quick shortcuts to "
@@ -71,12 +65,6 @@ msgstr ""
 
 #: ../../luminaintro.rst:113
 msgid "Initial Settings"
-msgstr ""
-
-#: ../../luminaintro.rst:179
-msgid ""
-"**Configure Desktop:** This entry opens the :ref:`Lumina Configuration` "
-"utility."
 msgstr ""
 
 #: ../../luminaintro.rst:192
@@ -179,18 +167,6 @@ msgid ""
 "defaults and interface for their distribution."
 msgstr ""
 
-#: ../../luminaintro.rst:64
-msgid ""
-"Multi-monitor support includes the :ref:`Lumina Xconfig` graphical utility "
-"for adding or removing monitors from the |lumina| session."
-msgstr ""
-
-#: ../../luminaintro.rst:74
-msgid ""
-"Screenshot functionality through :ref:`Lumina Screenshot`, which is also "
-"tied to the :kbd:`Print Screen` key by default."
-msgstr ""
-
 #: ../../luminaintro.rst:82
 msgid ""
 "|lumina| is available as a pre-built package for numerous operating systems."
@@ -222,14 +198,6 @@ msgstr ""
 msgid ""
 "When using a system with no graphical login manager, type :command:`start-"
 "lumina-desktop` to start |lumina|."
-msgstr ""
-
-#: ../../luminaintro.rst:115
-msgid ""
-"When freshly installed, |lumina| will implement a number of default plugins "
-"and options for the user. All these first time defaults are configurable, "
-"with the numerous options covered in the :ref:`Lumina Plugins` section of "
-"the handbook."
 msgstr ""
 
 #: ../../luminaintro.rst:120
@@ -350,10 +318,6 @@ msgid ""
 " attribute the |lumina| Project as the original source of the Handbook."
 msgstr ""
 
-#: ../../luminaintro.rst:80
-msgid "Install and Start |lumina|"
-msgstr ""
-
 #: ../../luminaintro.rst:105
 msgid ""
 "The rest of this Handbook describes the Lumina Configuration utility, other "
@@ -397,14 +361,6 @@ msgstr ""
 msgid ""
 "**Terminal:** Used to launch a system terminal. The default is "
 ":command:`xterm`, but this is customizable."
-msgstr ""
-
-#: ../../luminaintro.rst:384
-msgid ""
-"**Preferences:** Contains shortcuts to the screensaver preferences, desktop "
-"utility (:ref:`Lumina Configuration`), display configuration (:ref:`Lumina "
-"Xconfig`), the operating system's control panel, and |lumina| version "
-"information contained within :guilabel:`About Lumina`."
 msgstr ""
 
 #: ../../luminaintro.rst:216
@@ -737,6 +693,86 @@ msgstr ""
 #: ../../luminaintro.rst:324
 msgid "Open the default \"Start Menu\""
 msgstr ""
+
+#: ../../luminaintro.rst:55
+msgid ""
+"A single, easy-to-use :ref:`Configuration` utility controls all the "
+"different configuration options for the desktop in one location."
+msgstr ""
+
+#: ../../luminaintro.rst:64
+msgid ""
+"Multi-monitor support includes the :ref:`Xconfig` graphical utility for "
+"adding or removing monitors from the |lumina| session."
+msgstr ""
+
+#: ../../luminaintro.rst:74
+msgid ""
+"Screenshot functionality through |lumina| :ref:`Screenshot`, which is also "
+"tied to the :kbd:`Print Screen` key by default."
+msgstr ""
+
+#: ../../luminaintro.rst:80
+msgid "Install and Start"
+msgstr ""
+
+#: ../../luminaintro.rst:115
+msgid ""
+"When freshly installed, |lumina| will implement a number of default plugins "
+"and options for the user. All these first time defaults are configurable, "
+"with the numerous options covered in the :ref:`Plugins` section of the "
+"handbook."
+msgstr ""
+
+#: ../../luminaintro.rst:179
+msgid ""
+"**Configure Desktop:** This entry opens the :ref:`Configuration` utility."
+msgstr ""
+
+#: ../../luminaintro.rst:384
+msgid ""
+"**Preferences:** Contains shortcuts to the screensaver preferences, desktop "
+"utility (:ref:`Configuration`), display configuration (:ref:`Xconfig`), the "
+"operating system's control panel, and |lumina| version information contained"
+" within :guilabel:`About Lumina`."
+msgstr ""
+
+#~ msgid ""
+#~ "A single, easy-to-use :ref:`Lumina Configuration` utility controls all the "
+#~ "different configuration options for the desktop in one location."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Configure Desktop:** This entry opens the :ref:`Lumina Configuration` "
+#~ "utility."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Multi-monitor support includes the :ref:`Lumina Xconfig` graphical utility "
+#~ "for adding or removing monitors from the |lumina| session."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Screenshot functionality through :ref:`Lumina Screenshot`, which is also "
+#~ "tied to the :kbd:`Print Screen` key by default."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When freshly installed, |lumina| will implement a number of default plugins "
+#~ "and options for the user. All these first time defaults are configurable, "
+#~ "with the numerous options covered in the :ref:`Lumina Plugins` section of "
+#~ "the handbook."
+#~ msgstr ""
+
+#~ msgid "Install and Start |lumina|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Preferences:** Contains shortcuts to the screensaver preferences, desktop "
+#~ "utility (:ref:`Lumina Configuration`), display configuration (:ref:`Lumina "
+#~ "Xconfig`), the operating system's control panel, and |lumina| version "
+#~ "information contained within :guilabel:`About Lumina`."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "On a |trueos| system which is applying updates, the shutdown and restart "

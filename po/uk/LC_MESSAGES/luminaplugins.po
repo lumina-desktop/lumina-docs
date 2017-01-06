@@ -557,10 +557,6 @@ msgstr ""
 msgid ": Workspace Switcher"
 msgstr ""
 
-#: ../../luminaplugins.rst:14
-msgid "|lumina| Plugins"
-msgstr ""
-
 #: ../../luminaplugins.rst:37
 msgid ": |lumina| Menu Plugins"
 msgstr ""
@@ -828,6 +824,13 @@ msgid ""
 ":guilabel:`Desktop Preferences`, seen in :numref:`Figure %s "
 "<luminapanelplugin16>`."
 msgstr ""
+
+#: ../../luminaplugins.rst:14
+msgid "Plugins"
+msgstr ""
+
+#~ msgid "|lumina| Plugins"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "**Settings:** Options for syncing the feed. You can choose to synchronize "

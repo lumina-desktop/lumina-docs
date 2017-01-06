@@ -744,12 +744,6 @@ msgid ""
 " \"None\" theme."
 msgstr ""
 
-#: ../../changelog.rst:689
-msgid ""
-"Add support to :ref:`Lumina Screenshot` for multi-screen arrangements and "
-"for including and excluding window borders for single window snapshots."
-msgstr ""
-
 #: ../../changelog.rst:693
 msgid ""
 "Add support for various background image scaling and placement options."
@@ -834,36 +828,16 @@ msgstr ""
 msgid "Add support for the \"back\" mouse button when viewing a directory."
 msgstr ""
 
-#: ../../changelog.rst:741
-msgid ""
-"Completely overhaul the :ref:`Lumina File Information` utility. Now it is an"
-" almost complete front-end for the Qt/Lumina file information and XDG entry "
-"structures."
-msgstr ""
-
 #: ../../changelog.rst:745
 msgid ""
 "Add support for detecting and allowing user-local Fluxbox themes in addition"
 " to system-local themes."
 msgstr ""
 
-#: ../../changelog.rst:748
-msgid ""
-"Decrease initial loading time of :ref:`Lumina Configuration` by making it "
-"load all the background image thumbnails on demand instead of up-front."
-msgstr ""
-
 #: ../../changelog.rst:752
 msgid ""
 "Update the :ref:`Interface` used for panel configuration so that it is much "
 "easier to read and use."
-msgstr ""
-
-#: ../../changelog.rst:755
-msgid ""
-"Update the application selection in the fileopen dialog of :ref:`Lumina "
-"Open`, making it much easier to find the proper application to open the "
-"specified file."
 msgstr ""
 
 #: ../../changelog.rst:759
@@ -919,10 +893,6 @@ msgid ""
 "particular directory."
 msgstr ""
 
-#: ../../changelog.rst:790
-msgid "Update URL syntax handling in :ref:`Lumina Open`."
-msgstr ""
-
 #: ../../changelog.rst:792
 msgid ""
 "Update support for sticky windows to appear in the task manager on all "
@@ -941,12 +911,6 @@ msgstr ""
 msgid ""
 "Ensure that all calendar widgets on the desktop or panel update as necessary"
 " to ensure the correct date is shown during multiple-day sessions."
-msgstr ""
-
-#: ../../changelog.rst:804
-msgid ""
-"Add a small CLI flag to :ref:`Lumina Open` for testing the crash handler "
-"(\"-testcrash\")."
 msgstr ""
 
 #: ../../changelog.rst:807
@@ -1090,15 +1054,6 @@ msgid ""
 " be reset back to defaults when upgrading to this version of Lumina."
 msgstr ""
 
-#: ../../changelog.rst:900
-msgid ""
-"There is a known conflict between Qt 5.4+ and Fluxbox 1.3.7 which prevents "
-"the “close” button from working on unlocked desktop plugins. To work around "
-"this issue, right-click on the title for the plugin and select the “close” "
-"option from the menu to remove the desktop plugin. Alternatively, you may "
-"also remove desktop plugins using the :ref:`Lumina Configuration` utility."
-msgstr ""
-
 #: ../../changelog.rst:911
 msgid "Lumina 0.8.4"
 msgstr ""
@@ -1233,14 +1188,6 @@ msgstr ""
 msgid ""
 "Add “Application Launcher” panel plugin which allows the user to pin the "
 "shortcut for an application directly to a panel."
-msgstr ""
-
-#: ../../changelog.rst:994
-msgid ""
-"Add :ref:`Lumina Xconfig`, a graphical front-end to :command:`xrandr`. This "
-"utility can be used to easily enable or disable additional monitors and "
-"screens within the current desktop session. Shortcuts to this utility are "
-"available in the user button plugin and the settings menu plugin."
 msgstr ""
 
 #: ../../changelog.rst:1000
@@ -1440,14 +1387,6 @@ msgid ""
 "with :ref:`Insight File Manager`."
 msgstr ""
 
-#: ../../changelog.rst:1119
-msgid ""
-"New backend distribution framework for setting system-wide defaults. This "
-"affects new users only as existing settings will not be changed. Also added "
-"the ability to reset the desktop back to its defaults using the :ref:`Lumina"
-" Configuration` utility."
-msgstr ""
-
 #: ../../changelog.rst:1124
 msgid ""
 "Allow a customizable user icon which is also used in PCDM (PC-BSD® Display "
@@ -1478,12 +1417,6 @@ msgid ""
 "background."
 msgstr ""
 
-#: ../../changelog.rst:1140
-msgid ""
-"Fixed a bug in :ref:`Lumina Open` for filenames containing multiple \".\"s "
-"not detecting the file extension."
-msgstr ""
-
 #: ../../changelog.rst:1143
 msgid ""
 "The log-out window now opens on the current screen and the log-out window is"
@@ -1507,10 +1440,6 @@ msgstr ""
 msgid ""
 "Task manager right-click action menu has many more options that are auto-"
 "generated based on the current window state."
-msgstr ""
-
-#: ../../changelog.rst:1160
-msgid "Better crash reporting through :ref:`Lumina Open`."
 msgstr ""
 
 #: ../../changelog.rst:1162
@@ -1573,15 +1502,6 @@ msgid ""
 "default."
 msgstr ""
 
-#: ../../changelog.rst:1196
-msgid ""
-"New backend system for registering default applications using mime-types "
-"instead of extensions. While all Lumina utilities have been updated to work "
-"with the new system, previously registered defaults might not be "
-"transferred. You may need to reset your default web browser and email client"
-" using the :ref:`Lumina Configuration` utility."
-msgstr ""
-
 #: ../../changelog.rst:1207
 msgid "Lumina 0.6.2"
 msgstr ""
@@ -1631,36 +1551,6 @@ msgid ""
 "copy/paste/delete/create. Supported multimedia and image formats are auto-"
 "detected, so if a particular file is not recognized, install the appropriate"
 " library or plugin to provide support."
-msgstr ""
-
-#: ../../changelog.rst:1240
-msgid ""
-"Add :ref:`Lumina Screenshot`, a simple utility to create and save "
-"screenshots. It can capture the entire system or individual windows. It can "
-"delay the image capture for a few seconds as necessary. This utility is "
-"automatically assigned to the “Print Screen” keyboard shortcut and is also "
-"listed in the application registry under \"utilities\"."
-msgstr ""
-
-#: ../../changelog.rst:1247
-msgid ""
-"Add a new implementation of the :ref:`Lumina Configuration` utility. It can "
-"now be used to configure desktop appearance such as the background image and"
-" to add desktop plugins, configure the location, color, transparency, and "
-"size of panels as well as manage their plugins, with up to two panels "
-"supported per screen, configure menu plugins, manage global keyboard "
-"shortcuts, including shortcuts for adjusting audio volume or screen "
-"brightness, manage default applications for the system by categories or "
-"individually, manage session options such as enable numlock on log in or to "
-"play audio chimes, manage applications and files to be launched on log in, "
-"and to manage window system options such as appearance, mouse focus policy, "
-"window placement policy, and the number of workspaces."
-msgstr ""
-
-#: ../../changelog.rst:1260
-msgid ""
-"Update the overall appearance of the application selector window in "
-":ref:`Lumina Open`."
 msgstr ""
 
 #: ../../changelog.rst:1263
@@ -2228,3 +2118,208 @@ msgstr ""
 #: ../../changelog.rst:147
 msgid "FreeBSD: Add PulseAudio support for TrueOS PICO sessions."
 msgstr ""
+
+#: ../../changelog.rst:689
+msgid ""
+"Add support to |lumina| :ref:`Screenshot` for multi-screen arrangements and "
+"for including and excluding window borders for single window snapshots."
+msgstr ""
+
+#: ../../changelog.rst:741
+msgid ""
+"Completely overhaul the :ref:`File Information` utility. Now it is an almost"
+" complete front-end for the Qt/Lumina file information and XDG entry "
+"structures."
+msgstr ""
+
+#: ../../changelog.rst:748
+msgid ""
+"Decrease initial loading time of |lumina| :ref:`Configuration` by making it "
+"load all the background image thumbnails on demand instead of up-front."
+msgstr ""
+
+#: ../../changelog.rst:755
+msgid ""
+"Update the application selection in the fileopen dialog of |lumina| "
+":ref:`Open`, making it much easier to find the proper application to open "
+"the specified file."
+msgstr ""
+
+#: ../../changelog.rst:790
+msgid "Update URL syntax handling in |lumina| :ref:`Open`."
+msgstr ""
+
+#: ../../changelog.rst:804
+msgid ""
+"Add a small CLI flag to |lumina| :ref:`Open` for testing the crash handler "
+"(\"-testcrash\")."
+msgstr ""
+
+#: ../../changelog.rst:900
+msgid ""
+"There is a known conflict between Qt 5.4+ and Fluxbox 1.3.7 which prevents "
+"the “close” button from working on unlocked desktop plugins. To work around "
+"this issue, right-click on the title for the plugin and select the “close” "
+"option from the menu to remove the desktop plugin. Alternatively, you may "
+"also remove desktop plugins using the :ref:`Configuration` utility."
+msgstr ""
+
+#: ../../changelog.rst:994
+msgid ""
+"Add |lumina| :ref:`Xconfig`, a graphical front-end to :command:`xrandr`. "
+"This utility can be used to easily enable or disable additional monitors and"
+" screens within the current desktop session. Shortcuts to this utility are "
+"available in the user button plugin and the settings menu plugin."
+msgstr ""
+
+#: ../../changelog.rst:1119
+msgid ""
+"New backend distribution framework for setting system-wide defaults. This "
+"affects new users only as existing settings will not be changed. Also added "
+"the ability to reset the desktop back to its defaults using the "
+":ref:`Configuration` utility."
+msgstr ""
+
+#: ../../changelog.rst:1140
+msgid ""
+"Fixed a bug in |lumina| :ref:`Open` for filenames containing multiple \".\"s"
+" not detecting the file extension."
+msgstr ""
+
+#: ../../changelog.rst:1160
+msgid "Better crash reporting through |lumina| :ref:`Open`."
+msgstr ""
+
+#: ../../changelog.rst:1196
+msgid ""
+"New backend system for registering default applications using mime-types "
+"instead of extensions. While all Lumina utilities have been updated to work "
+"with the new system, previously registered defaults might not be "
+"transferred. You may need to reset your default web browser and email client"
+" using the :ref:`Configuration` utility."
+msgstr ""
+
+#: ../../changelog.rst:1240
+msgid ""
+"Add |lumina| :ref:`Screenshot`, a simple utility to create and save "
+"screenshots. It can capture the entire system or individual windows. It can "
+"delay the image capture for a few seconds as necessary. This utility is "
+"automatically assigned to the “Print Screen” keyboard shortcut and is also "
+"listed in the application registry under \"utilities\"."
+msgstr ""
+
+#: ../../changelog.rst:1247
+msgid ""
+"Add a new implementation of the :ref:`Configuration` utility. It can now be "
+"used to configure desktop appearance such as the background image and to add"
+" desktop plugins, configure the location, color, transparency, and size of "
+"panels as well as manage their plugins, with up to two panels supported per "
+"screen, configure menu plugins, manage global keyboard shortcuts, including "
+"shortcuts for adjusting audio volume or screen brightness, manage default "
+"applications for the system by categories or individually, manage session "
+"options such as enable numlock on log in or to play audio chimes, manage "
+"applications and files to be launched on log in, and to manage window system"
+" options such as appearance, mouse focus policy, window placement policy, "
+"and the number of workspaces."
+msgstr ""
+
+#: ../../changelog.rst:1260
+msgid ""
+"Update the overall appearance of the application selector window in |lumina|"
+" :ref:`Open`."
+msgstr ""
+
+#~ msgid ""
+#~ "Add support to :ref:`Lumina Screenshot` for multi-screen arrangements and "
+#~ "for including and excluding window borders for single window snapshots."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Completely overhaul the :ref:`Lumina File Information` utility. Now it is an"
+#~ " almost complete front-end for the Qt/Lumina file information and XDG entry "
+#~ "structures."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Decrease initial loading time of :ref:`Lumina Configuration` by making it "
+#~ "load all the background image thumbnails on demand instead of up-front."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Update the application selection in the fileopen dialog of :ref:`Lumina "
+#~ "Open`, making it much easier to find the proper application to open the "
+#~ "specified file."
+#~ msgstr ""
+
+#~ msgid "Update URL syntax handling in :ref:`Lumina Open`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add a small CLI flag to :ref:`Lumina Open` for testing the crash handler "
+#~ "(\"-testcrash\")."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There is a known conflict between Qt 5.4+ and Fluxbox 1.3.7 which prevents "
+#~ "the “close” button from working on unlocked desktop plugins. To work around "
+#~ "this issue, right-click on the title for the plugin and select the “close” "
+#~ "option from the menu to remove the desktop plugin. Alternatively, you may "
+#~ "also remove desktop plugins using the :ref:`Lumina Configuration` utility."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add :ref:`Lumina Xconfig`, a graphical front-end to :command:`xrandr`. This "
+#~ "utility can be used to easily enable or disable additional monitors and "
+#~ "screens within the current desktop session. Shortcuts to this utility are "
+#~ "available in the user button plugin and the settings menu plugin."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "New backend distribution framework for setting system-wide defaults. This "
+#~ "affects new users only as existing settings will not be changed. Also added "
+#~ "the ability to reset the desktop back to its defaults using the :ref:`Lumina"
+#~ " Configuration` utility."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fixed a bug in :ref:`Lumina Open` for filenames containing multiple \".\"s "
+#~ "not detecting the file extension."
+#~ msgstr ""
+
+#~ msgid "Better crash reporting through :ref:`Lumina Open`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "New backend system for registering default applications using mime-types "
+#~ "instead of extensions. While all Lumina utilities have been updated to work "
+#~ "with the new system, previously registered defaults might not be "
+#~ "transferred. You may need to reset your default web browser and email client"
+#~ " using the :ref:`Lumina Configuration` utility."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add :ref:`Lumina Screenshot`, a simple utility to create and save "
+#~ "screenshots. It can capture the entire system or individual windows. It can "
+#~ "delay the image capture for a few seconds as necessary. This utility is "
+#~ "automatically assigned to the “Print Screen” keyboard shortcut and is also "
+#~ "listed in the application registry under \"utilities\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add a new implementation of the :ref:`Lumina Configuration` utility. It can "
+#~ "now be used to configure desktop appearance such as the background image and"
+#~ " to add desktop plugins, configure the location, color, transparency, and "
+#~ "size of panels as well as manage their plugins, with up to two panels "
+#~ "supported per screen, configure menu plugins, manage global keyboard "
+#~ "shortcuts, including shortcuts for adjusting audio volume or screen "
+#~ "brightness, manage default applications for the system by categories or "
+#~ "individually, manage session options such as enable numlock on log in or to "
+#~ "play audio chimes, manage applications and files to be launched on log in, "
+#~ "and to manage window system options such as appearance, mouse focus policy, "
+#~ "window placement policy, and the number of workspaces."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Update the overall appearance of the application selector window in "
+#~ ":ref:`Lumina Open`."
+#~ msgstr ""
