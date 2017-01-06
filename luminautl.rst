@@ -543,72 +543,92 @@ right-click the desktop and select
 :command:`lumina-screenshot` from a terminal window, or press
 :kbd:`Print Screen`.
 
-On the :guilabel:`New Screenshot` tab, seen here in
-:numref:`Figure %s <lumina25>`, options are available to fine tune the
+The utility menu provides all options for screengrabs in addition to the
+cropping window, as seen here in :numref:`Figure %s <lumina25>`:
 screenshot:
 
 .. _lumina25:
 
-.. figure:: images/lumina25a.png
+.. figure:: images/lumina25b.png
    :scale: 100%
 
-   : New Screenshot Tab
+   : Lumina Screenshot
 
-* **Entire Session:** Captures the entire screen.
+:numref:`Table %s <lscrnshtfl>` lists all file options for configuring
+the utility:
 
-* **Single Screen:** In a multi-monitor setup, the screen number can be
-  selected for the screenshot.
+.. _lscrnshtfl:
 
-* **Single Window:** Captures a selected window. Choose
-  :guilabel:`Single Window`, click :guilabel:`Take Screenshot`, and
-  click the desired window. The :guilabel:`Include Borders` checkbox
-  can be used to determine whether or not the utility will take a
-  screenshot of the window with its border frame.
-  
-* **Delay:** Choose the number of seconds to delay the screenshot. This
-  can be used to give more time to prepare the screenshot. For example,
-  designating a five second delay on a screenshot will give the user
-  time to open a temporary menu or hover over an icon, allowing the
-  screenshot to include difficult elements to capture.
+.. table:: : Lumina Screenshot File Options
 
-There are three options for taking a screenshot: clicking
-:guilabel:`Take Screenshot` in the lower-right corner of |lumina|
-Screenshot, pressing :kbd:`Ctrl+N`, or selecting
-:menuselection:`File --> Take Screenshot`.
+   +-----------------+----------+
+   | File Options    | Shortcut |
+   +=================+==========+
+   | Take Screenshot | Ctrl + N |
+   +-----------------+----------+
+   | Save As         | Ctrl + S |
+   +-----------------+----------+
+   | Quicksave       | None     |
+   +-----------------+----------+
+   | Close           | Esc      |
+   +-----------------+----------+
 
-After capturing a screenshot, the :guilabel:`View/Edit` tab, seen here
-in :numref:`Figure %s <lumina9>`, provides additional options for
-manipulating the screenshot:
+.. tip:: The :guilabel:`Quicksave` option automatically saves the
+   screenshot to :file:`/Pictures` and opens the default image viewing
+   program.
+   
+:numref:`Table %s <lscrnshtmn>` lists all UI options for configuring
+screenshots:
 
-.. _lumina9:
+.. _lscrnshtmn:
 
-.. figure:: images/lumina9b.png
-   :scale: 100%
+.. table:: : Lumina Screenshot UI Options
 
-   : View/Edit Tab
-
-* **Image Preview:** Displays the captured screenshot. Right-click
-  the image to view options for zooming in or out. Click and drag across
-  the image to highlight an area which can be cropped by pressing
-  :guilabel:`Crop` in the lower-right corner. Click again on the image
-  to remove a highlighted area.
-
-* **Zoom Slider:** The left side of the :guilabel:`Image Preview` area
-  contains the :guilabel:`Zoom Slider`. This tool adjusts the zoom level
-  of the captured image as a percentage value. Click the
-  :guilabel:`white square` and move the mouse up or down to adjust the
-  image scaling. Alternately, mouse over the slider area and use the
-  scroll wheel to adjust the scaling.
-
-* **Save As:** Press :guilabel:`Save As` to open a window to specify the
-  filename and location for saving the screenshot.
-
-* **Launch Editor:** :guilabel:`Launch Editor` opens a selectable
-  image manipulation program.
-
-Additionally, click :menuselection:`File --> Quick Save` to
-automatically save the screenshot to the default :file:`/Pictures`
-directory and open a window to select an image manipulation program.
+   +-----------------+-------------------------------------------------+
+   | Option          | Description                                     |
+   +=================+=================================================+
+   | Entire Session  | Captures the entire screen.                     |
+   +-----------------+-------------------------------------------------+
+   | Single Screen   | For multi-monitor setups. The screen number     |
+   |                 | can be selected for the screenshot.             |
+   +-----------------+-------------------------------------------------+
+   | Single Window   | Captures a selected window. With this selected, |
+   |                 | click :guilabel:`Capture`, and click the        |
+   |                 | desired window. The :guilabel:`Include Borders` |
+   |                 | checkbox is used to determine if the utility    |
+   |                 | takes a screenshot of the window with its       |
+   |                 | border frame.                                   |
+   +-----------------+-------------------------------------------------+
+   | Delay           | Choose the number of seconds to delay the       |
+   |                 | screen capture after pressing                   | 
+   |                 | :guilabel:`Capture`.                            |
+   +-----------------+-------------------------------------------------+
+   | Capture         | Captures the screen with the chosen options.    |
+   +-----------------+-------------------------------------------------+
+   | Save As         | Saves the screen capture to a chosen directory. |
+   +-----------------+-------------------------------------------------+
+   | Edit            | Opens the default image editor with the         |
+   |                 | screenshot for advanced editing                 |
+   +-----------------+-------------------------------------------------+
+   | Crop            | Crops the image to the selected frame from the  |
+   |                 | image preview area.                             |
+   +-----------------+-------------------------------------------------+
+   | Image Preview   | Displays the captured screenshot. Right-click   |
+   |                 | the image to view zoom options. Click and drag  |
+   |                 | across the image to highlight an area to crop   |
+   |                 | by pressing :guilabel:`Crop` in the upper-right |
+   |                 | menu. Click again on the image to remove a      |
+   |                 | highlighted area.                               |
+   +-----------------+-------------------------------------------------+
+   | Zoom Slider     | The left side of the :guilabel:`Image Preview`  |
+   |                 | area contains the :guilabel:`Zoom Slider`. This |
+   |                 | tool adjusts the zoom level of the captured     |
+   |                 | image as a percentage value. Click the          |
+   |                 | :guilabel:`white square` and move the mouse up  |
+   |                 | or down to adjust the image scaling. You can    |
+   |                 | also mouse over the slider area and use the     |
+   |                 | scroll wheel to adjust the scaling.             |
+   +-----------------+-------------------------------------------------+
 
 .. index:: search
 .. _Lumina Search:
