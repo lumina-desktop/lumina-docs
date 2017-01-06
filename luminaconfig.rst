@@ -1,8 +1,8 @@
 .. index:: configuration
-.. _Lumina Configuration:
+.. _Configuration:
 
-|lumina| Configuration
-**********************
+Configuration
+*************
 
 The |lumina| Configuration utility, shown in
 :numref:`Figure %s <lumina3>`, can be used to configure every aspect
@@ -354,8 +354,8 @@ Interface Configuration
 
 .. note:: The options of :guilabel:`Menu`, :guilabel:`Desktop`, and
    :guilabel:`Panels` involve modifying and interacting with plugins,
-   which are described at length in the :ref:`Lumina Plugins` chapter of
-   this handbook.
+   which are described at length in the :ref:`Plugins` chapter of this
+   handbook.
 
 .. index:: interface, desktop config
 .. _Desktop:

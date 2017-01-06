@@ -43,7 +43,7 @@ utilities for various tasks, such as :command:`numlockx` and
   have running on their desktop and panels. This plugin-based system is
   similar to Android or other modern operating systems.
 
-* A single, easy-to-use :ref:`Lumina Configuration` utility controls all
+* A single, easy-to-use :ref:`Configuration` utility controls all
   the different configuration options for the desktop in one location.
 
 * Intelligent "favorites" system for creating quick shortcuts to
@@ -52,8 +52,8 @@ utilities for various tasks, such as :command:`numlockx` and
 * ZFS file restore functionality through the
   :ref:`Insight File Manager`.
 
-* Multi-monitor support includes the :ref:`Lumina Xconfig` graphical
-  utility for adding or removing monitors from the |lumina| session.
+* Multi-monitor support includes the :ref:`Xconfig` graphical utility
+  for adding or removing monitors from the |lumina| session.
 
 * Simple system controls through the system menu for configuring audio
   volume, screen brightness, battery status/notifications, and workspace
@@ -62,13 +62,13 @@ utilities for various tasks, such as :command:`numlockx` and
 * Total system search capabilities through the resource friendly
   :ref:`Lumina Search` utility.
 
-* Screenshot functionality through :ref:`Lumina Screenshot`, which is
+* Screenshot functionality through |lumina| :ref:`Screenshot`, which is
   also tied to the :kbd:`Print Screen` key by default.
 
-.. _Install and Start Lumina:
+.. _Install and Start:
 
-Install and Start |lumina|
-==========================
+Install and Start
+=================
 
 |lumina| is available as a pre-built package for numerous operating
 systems. The `Get Lumina® <http://lumina-desktop.org/get-lumina/>`_
@@ -105,8 +105,8 @@ Initial Settings
 
 When freshly installed, |lumina| will implement a number of default
 plugins and options for the user. All these first time defaults are
-configurable, with the numerous options covered in the
-:ref:`Lumina Plugins` section of the handbook.
+configurable, with the numerous options covered in the :ref:`Plugins`
+section of the handbook.
 
 .. note:: The default desktop appearance can vary if using another
    distrubution's custom configuration of the |lumina| Desktop Project.
@@ -167,8 +167,8 @@ start menu is divided into several categories:
 
 * **Preferences:** Click this entry to access a number of options:
 
-    * **Configure Desktop:** This entry opens the
-      :ref:`Lumina Configuration` utility.
+    * **Configure Desktop:** This entry opens the :ref:`Configuration`
+      utility.
 
     * **Lumina Desktop Information:** Click the :guilabel:`?` icon to
       determine the installed version of |lumina|.
@@ -373,8 +373,8 @@ By default, the right-click menu contains the following items:
   currently registered on the system, arranged by system category.
 
 * **Preferences:** Contains shortcuts to the screensaver preferences,
-  desktop utility (:ref:`Lumina Configuration`), display configuration
-  (:ref:`Lumina Xconfig`), the operating system's control panel, and
+  desktop utility (:ref:`Configuration`), display configuration
+  (:ref:`Xconfig`), the operating system's control panel, and
   |lumina| version information contained within
   :guilabel:`About Lumina`.
 

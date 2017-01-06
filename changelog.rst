@@ -677,9 +677,9 @@ Lumina 0.8.7
 * Add inheritance to theme files and convert the Lumina-default to
   inherit the "None" theme.
 
-* Add support to :ref:`Lumina Screenshot` for multi-screen arrangements
-  and for including and excluding window borders for single window
-  snapshots.
+* Add support to |lumina| :ref:`Screenshot` for multi-screen
+  arrangements and for including and excluding window borders for single
+  window snapshots.
 
 * Add support for various background image scaling and placement
   options.
@@ -729,22 +729,22 @@ Lumina 0.8.7
 
 * Add support for the "back" mouse button when viewing a directory.
 
-* Completely overhaul the :ref:`Lumina File Information` utility. Now it
+* Completely overhaul the :ref:`File Information` utility. Now it
   is an almost complete front-end for the Qt/Lumina file information and
   XDG entry structures.
 
 * Add support for detecting and allowing user-local Fluxbox themes in
   addition to system-local themes.
 
-* Decrease initial loading time of :ref:`Lumina Configuration` by making
-  it load all the background image thumbnails on demand instead of
-  up-front.
+* Decrease initial loading time of |lumina| :ref:`Configuration` by
+  making it load all the background image thumbnails on demand instead
+  of up-front.
 
 * Update the :ref:`Interface` used for panel configuration so that it is
   much easier to read and use.
 
 * Update the application selection in the fileopen dialog of
-  :ref:`Lumina Open`, making it much easier to find the proper
+  |lumina| :ref:`Open`, making it much easier to find the proper
   application to open the specified file.
 
 * Overhaul the "Clock" panel plugin. Now it provides a menu with a
@@ -778,7 +778,7 @@ Lumina 0.8.7
 * Update the support for non-xterm terminal emulators to be opened
   within a particular directory.
 
-* Update URL syntax handling in :ref:`Lumina Open`.
+* Update URL syntax handling in |lumina| :ref:`Open`.
 
 * Update support for sticky windows to appear in the task manager on all
   workspaces.
@@ -792,7 +792,7 @@ Lumina 0.8.7
   necessary to ensure the correct date is shown during multiple-day
   sessions.
 
-* Add a small CLI flag to :ref:`Lumina Open` for testing the crash
+* Add a small CLI flag to |lumina| :ref:`Open` for testing the crash
   handler ("-testcrash").
 
 * Ensure that on FreeBSD, the disk I/O information uses instantaneous
@@ -893,7 +893,7 @@ Lumina 0.8.5
   To work around this issue, right-click on the title for the plugin and
   select the “close” option from the menu to remove the desktop plugin.
   Alternatively, you may also remove desktop plugins using the
-  :ref:`Lumina Configuration` utility.
+  :ref:`Configuration` utility.
 
 .. index:: changelog
 .. _Lumina 0.8.4:
@@ -982,11 +982,11 @@ Lumina 0.8.3
 * Add “Application Launcher” panel plugin which allows the user to pin
   the shortcut for an application directly to a panel.
 
-* Add :ref:`Lumina Xconfig`, a graphical front-end to :command:`xrandr`.
-  This utility can be used to easily enable or disable additional
-  monitors and screens within the current desktop session. Shortcuts to
-  this utility are available in the user button plugin and the settings
-  menu plugin.
+* Add |lumina| :ref:`Xconfig`, a graphical front-end to
+  :command:`xrandr`. This utility can be used to easily enable or
+  disable additional monitors and screens within the current desktop
+  session. Shortcuts to this utility are available in the user button
+  plugin and the settings menu plugin.
 
 * Fix the issue with transparent system tray icons on FreeBSD 11.
 
@@ -1110,7 +1110,7 @@ Lumina 0.8.1
 * New backend distribution framework for setting system-wide defaults.
   This affects new users only as existing settings will not be changed.
   Also added the ability to reset the desktop back to its defaults using
-  the :ref:`Lumina Configuration` utility.
+  the :ref:`Configuration` utility.
 
 * Allow a customizable user icon which is also used in PCDM
   (PC-BSD® Display Manager).
@@ -1128,7 +1128,7 @@ Lumina 0.8.1
 * The user button opens faster now as it updates the widget on-demand in
   the background.
 
-* Fixed a bug in :ref:`Lumina Open` for filenames containing multiple
+* Fixed a bug in |lumina| :ref:`Open` for filenames containing multiple
   "."s not detecting the file extension.
 
 * The log-out window now opens on the current screen and the log-out
@@ -1148,7 +1148,7 @@ Lumina 0.8.0
 * Task manager right-click action menu has many more options that are
   auto-generated based on the current window state.
 
-* Better crash reporting through :ref:`Lumina Open`.
+* Better crash reporting through |lumina| :ref:`Open`.
 
 * Better multimedia support using the new QMultimedia framework in Qt5.
 
@@ -1188,7 +1188,7 @@ Lumina 0.7.2
   mime-types instead of extensions. While all Lumina utilities have been
   updated to work with the new system, previously registered defaults
   might not be transferred. You may need to reset your default web
-  browser and email client using the :ref:`Lumina Configuration`
+  browser and email client using the :ref:`Configuration`
   utility.
 
 .. index:: changelog
@@ -1228,14 +1228,14 @@ Lumina 0.6.2
   file is not recognized, install the appropriate library or plugin to
   provide support.
 
-* Add :ref:`Lumina Screenshot`, a simple utility to create and save
+* Add |lumina| :ref:`Screenshot`, a simple utility to create and save
   screenshots. It can capture the entire system or individual windows.
   It can delay the image capture for a few seconds as necessary. This
   utility is automatically assigned to the “Print Screen” keyboard
   shortcut and is also listed in the application registry under
   "utilities".
 
-* Add a new implementation of the :ref:`Lumina Configuration` utility.
+* Add a new implementation of the :ref:`Configuration` utility.
   It can now be used to configure desktop appearance such as the
   background image and to add desktop plugins, configure the location,
   color, transparency, and size of panels as well as manage their
@@ -1249,7 +1249,7 @@ Lumina 0.6.2
   window placement policy, and the number of workspaces.
 
 * Update the overall appearance of the application selector window in
-  :ref:`Lumina Open`.
+  |lumina| :ref:`Open`.
 
 * Fully support registered mime-types on the system and recommend those
   applications as appropriate.

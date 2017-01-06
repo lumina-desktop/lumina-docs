@@ -1,8 +1,8 @@
 .. index:: Utilities
-.. _Lumina Utilities:
+.. _Utilities:
 
-|lumina| Utilities
-******************
+Utilities
+*********
 
 |lumina| provides many built-in utilities, which are described in this
 chapter.
@@ -10,8 +10,8 @@ chapter.
 .. index:: archiver
 .. _Lumina Archiver:
 
-|lumina| Archiver
-=================
+Archiver
+========
 
 The |lumina| Archiver, seen here in :numref:`Figure %s <luminaarc1>`,
 provides compression/decompression services for a wide variety of file
@@ -73,8 +73,8 @@ operation's success or failure.
 .. index:: calculator
 .. _Lumina Calculator:
 
-|lumina| Calculator
-===================
+Calculator
+==========
 
 The |lumina| calculator utility is designed to provide a simple and
 intuitive interface paired with advanced functions and features. Open
@@ -409,11 +409,11 @@ icons, used to increase or decrease the size of the objects to display.
 Also, the bottom left corner will display tooltips about the highlighted
 object or other relevant information.
 
-.. index:: Lumina File Information
-.. _Lumina File Information:
+.. index:: File Information
+.. _File Information:
 
-|lumina| File Information
-=========================
+File Information
+================
 
 The :command:`lumina-fileinfo` utility is used to open a graphical
 window summarizing the size, permissions and ownership, creation time,
@@ -429,11 +429,11 @@ the file information of their :file:`~/Downloads` directory.
 
    : Sample File Information
 
-.. index:: Lumina Information
-.. _Lumina Information:
+.. index:: Information
+.. _Information:
 
-|lumina| Information
-====================
+Information
+===========
 
 This utility provides information about the installed version of
 |lumina|, as well as the license, acknowledgements, and project links.
@@ -491,10 +491,10 @@ The :guilabel:`Acknowledgements` tab contains a few elements:
 * **Sponsors:** lists the official sponsors of the |lumina| Project.
 
 .. index:: application launcher
-.. _Lumina Open:
+.. _Open:
 
-|lumina| Open
-=============
+Open
+====
 
 To open a file, directory, or URL from the command line, type
 :command:`lumina-open` followed by the full path to the file or the URL.
@@ -529,10 +529,10 @@ applications into three types:
   :guilabel:`red X` as appropriate.
 
 .. index:: screenshot
-.. _Lumina Screenshot:
+.. _Screenshot:
 
-|lumina| Screenshot
-===================
+Screenshot
+==========
 
 This utility can be used to take screenshots of the desktop or selected
 window and save them as PNG image files. To launch this utility, click
@@ -699,8 +699,8 @@ defaults after closing the menu.
 .. index:: textedit
 .. _Lumina Text Editor:
 
-|lumina| Text Editor
-====================
+Text Editor
+===========
 
 The :command:`lumina-textedit` utility is a plaintext editor with a
 number of basic options. :numref:`Figure %s: <lumina23>`
@@ -735,10 +735,10 @@ text and highlight colors, as seen in :numref:`Figure %s <lumina32>`.
    : Customize Colors
 
 .. index:: Xconfig
-.. _Lumina Xconfig:
+.. _Xconfig:
 
-|lumina| Xconfig
-================
+Xconfig
+=======
 
 The :command:`lumina-xconfig` utility is a graphical front-end to the
 :command:`xrandr` command line utility. It provides the ability to probe

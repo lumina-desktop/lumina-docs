@@ -1,8 +1,8 @@
 .. index:: plugins
-.. _Lumina Plugins:
+.. _Plugins:
 
-|lumina| Plugins
-****************
+Plugins
+*******
 
 |lumina| offers a wide variety of plugins which allow the user to
 customize their desktop experience. Plugins are divided between context

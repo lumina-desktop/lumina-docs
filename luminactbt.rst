@@ -1,7 +1,7 @@
-.. _Contributing to Lumina:
+.. _Contribute!:
 
-Contributing to |lumina|
-************************
+Contribute!
+***********
 
 |lumina| is an open source project which relies on involvement from its
 users and supporters to assist in development, documentation, and
@@ -10,8 +10,8 @@ Project.
   
 .. _communicate:
 
-Communicate, Collaborate, Contribute
-====================================
+Communicate
+===========
 
 Communication is the lifeblood of any open source project, and |lumina|
 is no exception. The developers have attempted to create many
