@@ -32,12 +32,12 @@ to view the specific configuration options.
 
 .. note:: If you make changes to any of the options, remember to click
    :guilabel:`Save` before exiting this utility in order to save
-   them. |lumina| will prompt for a decision if any unsaved changes are
+   them. |lumina| prompts for a decision if any unsaved changes are
    present when attempting to navigate away from the current settings
    area.
 
-The rest of this section describes the configurations that are available
-in each category.
+The rest of this section describes the available configurations in each
+category.
 
 .. index:: appearance, wallpaper
 .. _Appearance:
@@ -55,7 +55,7 @@ Theme Settings
 --------------
 
 The :guilabel:`Theme` option, shown in :numref:`Figure %s <lumina17>`,
-can be used to change the default font, font size, theme template, color
+is used to change the default font, font size, theme template, color
 scheme, icon pack, and mouse cursors.
 
 .. _lumina17:
@@ -65,7 +65,7 @@ scheme, icon pack, and mouse cursors.
 
    : Theme settings, Desktop Tab
 
-It is possible to create your own **theme template** or **color scheme**
+It is possible to create personalized theme templates or color schemes
 by clicking :guilabel:`Edit` next to those options and changing the
 settings as necessary. :numref:`Figure %s <lumina18>` shows an example
 of clicking :guilabel:`Edit` with the :guilabel:`Glass (System)` theme
@@ -73,18 +73,21 @@ template selected. This action opened the :guilabel:`Theme Editor` and
 the user has clicked the color selector (dropper icon) in the upper
 right corner. Select an item in this menu to edit the template
 controlling the selection by changing the values in the theme editor
-box. Note the theme templates are written as
-`Qt stylesheets <http://doc.qt.io/qt-5/stylesheet.html>`_, so some
-scripting experience will be helpful when configuring a theme. After
-making your changes, click :guilabel:`Save` to save the theme without
-closing the editor, or click :guilabel:`Apply`, which saves the theme
-and closes the editor.
+box.
+
+.. note:: Theme templates are written as
+   `Qt stylesheets <http://doc.qt.io/qt-5/stylesheet.html>`_. Scripting
+   experience is helpful when configuring a theme.
+
+After making any changes, click :guilabel:`Save` to save the theme
+without closing the editor, or click :guilabel:`Apply`, which both saves
+the theme and closes the editor.
 
 .. _lumina18:
 
 .. figure:: images/lumina18c.png
    :scale: 100%
-   
+
    : Using the Theme Editor
 
 The :guilabel:`Application Themes` tab, seen in
@@ -459,7 +462,8 @@ The :guilabel:`Appearance` tab (monitor icon) is shown in
 To hide the panel unless the mouse is hovered over it, check
 :guilabel:`Auto-hide Panel`. The :guilabel:`Custom Color` option can be
 used to fine-tune the panel color. Click its box, then the paint icon to
-select a panel color.
+select a panel color. The panel transparency is also adjustable using
+the :guilabel:`Alpha channel` element.
 
 The :guilabel:`Plugins` tab (puzzle icon) is shown in
 :numref:`Figure %s <lumina20>`.
