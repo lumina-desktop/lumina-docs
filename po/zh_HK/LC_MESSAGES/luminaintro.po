@@ -116,17 +116,17 @@ msgstr ""
 msgid "Desktop Context Menu"
 msgstr ""
 
-#: ../../luminaintro.rst:371
+#: ../../luminaintro.rst:380
 msgid "By default, the right-click menu contains the following items:"
 msgstr ""
 
-#: ../../luminaintro.rst:376
+#: ../../luminaintro.rst:385
 msgid ""
 "**Browse Files:** Launches the default file manager. (:ref:`Insight File "
 "Manager` for Lumina)"
 msgstr ""
 
-#: ../../luminaintro.rst:379
+#: ../../luminaintro.rst:388
 msgid ""
 "**Applications:** Provides shortcuts to the operating system's graphical "
 "software management utility (if available), the control panel (if the "
@@ -134,7 +134,7 @@ msgid ""
 " the system, arranged by system category."
 msgstr ""
 
-#: ../../luminaintro.rst:390
+#: ../../luminaintro.rst:399
 msgid ""
 "**Leave:** Opens the system log out window, with options to log out of the "
 "desktop session, restart the system (if the user has permission), shutdown "
@@ -293,14 +293,6 @@ msgid ""
 " :ref:`Interface` section."
 msgstr ""
 
-#: ../../luminaintro.rst:365
-msgid ""
-"Right-clicking the desktop will open a menu of quick shortcuts with the "
-"title of the menu indicating the name of the current workspace. This section"
-" describes the default menu items. For instructions on how to configure the "
-"right-click menu, refer to the :ref:`Interface` section of this handbook."
-msgstr ""
-
 #: ../../luminaintro.rst:128
 msgid ": Lumina Desktop"
 msgstr ""
@@ -357,7 +349,7 @@ msgid ""
 "zone."
 msgstr ""
 
-#: ../../luminaintro.rst:373
+#: ../../luminaintro.rst:382
 msgid ""
 "**Terminal:** Used to launch a system terminal. The default is "
 ":command:`xterm`, but this is customizable."
@@ -729,13 +721,38 @@ msgid ""
 "**Configure Desktop:** This entry opens the :ref:`Configuration` utility."
 msgstr ""
 
-#: ../../luminaintro.rst:384
+#: ../../luminaintro.rst:393
 msgid ""
 "**Preferences:** Contains shortcuts to the screensaver preferences, desktop "
 "utility (:ref:`Configuration`), display configuration (:ref:`Xconfig`), the "
 "operating system's control panel, and |lumina| version information contained"
 " within :guilabel:`About Lumina`."
 msgstr ""
+
+#: ../../luminaintro.rst:365
+msgid ""
+"Right-clicking the desktop will open a menu of quick shortcuts with the "
+"title of the menu indicating the name of the current workspace, as seen in "
+":numref:`Figure %s <conmen>`."
+msgstr ""
+
+#: ../../luminaintro.rst:374
+msgid ": Default Context Menu"
+msgstr ""
+
+#: ../../luminaintro.rst:376
+msgid ""
+"This section describes the default menu items. For instructions on how to "
+"configure the right-click menu, refer to the :ref:`Interface` section of "
+"this handbook."
+msgstr ""
+
+#~ msgid ""
+#~ "Right-clicking the desktop will open a menu of quick shortcuts with the "
+#~ "title of the menu indicating the name of the current workspace. This section"
+#~ " describes the default menu items. For instructions on how to configure the "
+#~ "right-click menu, refer to the :ref:`Interface` section of this handbook."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "A single, easy-to-use :ref:`Lumina Configuration` utility controls all the "
