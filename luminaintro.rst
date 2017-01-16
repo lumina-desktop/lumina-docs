@@ -354,10 +354,19 @@ Desktop Context Menu
 ====================
 
 Right-clicking the desktop will open a menu of quick shortcuts with the
-title of the menu indicating the name of the current workspace. This
-section describes the default menu items. For instructions on how to
-configure the right-click menu, refer to the :ref:`Interface` section of
-this handbook.
+title of the menu indicating the name of the current workspace, as seen
+in :numref:`Figure %s <conmen>`.
+
+.. _conmen:
+
+.. figure:: images/lconmen.png
+   :scale: 100%
+   
+   : Default Context Menu
+
+This section describes the default menu items. For instructions on how
+to configure the right-click menu, refer to the :ref:`Interface`
+section of this handbook.
 
 By default, the right-click menu contains the following items:
 
