@@ -404,7 +404,7 @@ includes several plugins: :ref:`Terminal`,
    
    : Context menu plugins configuration with an open context menu.
 
-.. note:: **Leave**, with its options to *Logout*, *Restart*,
+.. note:: :guilabel:`Leave`, with its options to *Logout*, *Restart*,
    *Shutdown*, *Lock*, and *Suspend* the system, will **always** be
    available in the context menu.
 
@@ -420,17 +420,20 @@ in :numref:`Figure %s <lumina5>`.
 
 .. _lumina5:
 
-.. figure:: images/lumina5f.png
+.. figure:: images/lumina5g.png
    :scale: 100%
 
    : |lumina| Panel Configuration
 
 This screen can be used to customize the location, alignment, size,
-theme, and plugins for an existing panel. The :guilabel:`+` and
-:guilabel:`-` icons towards the top, next to :guilabel:`Panel 1` can be
-used to add or remove additional panels. Panels must be aligned along a
-screen edge, opposite screen edges in the case of two panels, and may
-have any width, color, or transparency.
+theme, and plugins for an existing panel. You can also apply a
+preconfigured :guilabel:`Profile` to the panels, in order to mimic the
+style of another, more familiar desktop. You can also :guilabel:`Import`
+other custom-created profiles. The :guilabel:`+ Panel` and :guilabel:`-`
+icons towards the top, next to :guilabel:`Panel 1` are used to add or
+remove additional panels. Panels must be aligned along a screen edge,
+opposite screen edges in the case of two panels, and may have any width,
+color, or transparency.
 
 .. note:: When adding panels, a frame similar to :guilabel:`Panel 1`
    will be created for each panel, labeled :guilabel:`Panel 2`,
@@ -454,7 +457,7 @@ The :guilabel:`Appearance` tab (monitor icon) is shown in
 
 .. _lumina19:
 
-.. figure:: images/lumina19d.png
+.. figure:: images/lumina19e.png
    :scale: 100%
 
    : Panels Appearance Tab
@@ -470,7 +473,7 @@ The :guilabel:`Plugins` tab (puzzle icon) is shown in
 
 .. _lumina20:
 
-.. figure:: images/lumina20d.png
+.. figure:: images/lumina20e.png
    :scale: 100%
 
    : Panels Plugins Tab
