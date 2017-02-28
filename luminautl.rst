@@ -543,42 +543,63 @@ right-click the desktop and select
 :command:`lumina-screenshot` from a terminal window, or press
 :kbd:`Print Screen`.
 
-The utility menu provides all options for screengrabs in addition to the
-cropping window, as seen here in :numref:`Figure %s <lumina25>`:
-screenshot:
+The utility opens with the *View* tab open by default, as seen in
+:numref:`Figure %s <lumina25>`.
 
 .. _lumina25:
 
-.. figure:: images/lumina25b.png
+.. figure:: images/lumina25c.png
    :scale: 100%
 
-   : Lumina Screenshot
+   : Lumina Screenshot with *View* tab open.
 
-:numref:`Table %s <lscrnshtfl>` lists all file options for configuring
-the utility:
+The top menu bar contains several common options, while the tabs contain
+configuration options for screenshots. :numref:`Table %s <lssmo>` lists
+the options in this top menu bar:
 
-.. _lscrnshtfl:
+.. _lssmo:
+.. table:: : Lumina Screenshot menu options
 
-.. table:: : Lumina Screenshot File Options
+   +------------+----------+-----------------------------------------------------+
+   | Option     | Shortcut | Description                                         |
+   +============+==========+=====================================================+
+   | Capture    | Ctrl + N | Take a screenshot.                                  |
+   +------------+----------+-----------------------------------------------------+
+   | Save As    | Ctrl + S | Open the *Save Screenshot* window to designate      |
+   |            |          | and how to save the new screenshot.                 |
+   +------------+----------+-----------------------------------------------------+
+   | Quick Save | None     | Saves the screenshot to :file:`/Pictures` in the    |
+   |            |          | format                                              |
+   |            |          | *Screenshot-year-month-day-hour-minute-second.png*. |
+   |            |          | Then shows the *Open With* window to view the       |
+   |            |          | screenshot.                                         |
+   +------------+----------+-----------------------------------------------------+
+   | Close      | Esc      | Closes **lumina-screenshot**.                       |
+   +------------+----------+-----------------------------------------------------+
 
-   +-----------------+----------+
-   | File Options    | Shortcut |
-   +=================+==========+
-   | Take Screenshot | Ctrl + N |
-   +-----------------+----------+
-   | Save As         | Ctrl + S |
-   +-----------------+----------+
-   | Quicksave       | None     |
-   +-----------------+----------+
-   | Close           | Esc      |
-   +-----------------+----------+
+Underneath the top menu bar are tabs for viewing and configuring
+screenshots.
 
-.. tip:: The :guilabel:`Quicksave` option automatically saves the
-   screenshot to :file:`/Pictures` and opens the default image viewing
-   program.
-   
-:numref:`Table %s <lscrnshtmn>` lists all UI options for configuring
+The *View* tab displays the most recent screenshot. Adjust the slider
+on the left to zoom in or out on the screenshot. Click and drag anywhere
+on the screenshot to designate an area to crop. Click again to remove
+the highlighted area. When satisfied, click :guilabel:`Crop` to remove
+everything from the screenshot outside the highlighted area. Click
+:guilabel:`Open With...` to quicksave the screenshot and designate an
+application to view or further manipulate the screenshot.
+
+Use the settings tab to configure how a screenshot is taken.
+
+:numref:`Figure %s <lumina39>` shows the *Settings* tab, while
+:numref:`Table %s <lscrnshtmn>` lists all options for configuring
 screenshots:
+
+.. _lumina39:
+
+.. figure:: images/lumina39.png
+   :scale: 100%
+
+   : Lumina Screenshot with *Settings* tab open.
 
 .. _lscrnshtmn:
 
@@ -603,31 +624,9 @@ screenshots:
    |                 | screen capture after pressing                   | 
    |                 | :guilabel:`Capture`.                            |
    +-----------------+-------------------------------------------------+
-   | Capture         | Captures the screen with the chosen options.    |
-   +-----------------+-------------------------------------------------+
-   | Save As         | Saves the screen capture to a chosen directory. |
-   +-----------------+-------------------------------------------------+
-   | Edit            | Opens the default image editor with the         |
-   |                 | screenshot for advanced editing                 |
-   +-----------------+-------------------------------------------------+
-   | Crop            | Crops the image to the selected frame from the  |
-   |                 | image preview area.                             |
-   +-----------------+-------------------------------------------------+
-   | Image Preview   | Displays the captured screenshot. Right-click   |
-   |                 | the image to view zoom options. Click and drag  |
-   |                 | across the image to highlight an area to crop   |
-   |                 | by pressing :guilabel:`Crop` in the upper-right |
-   |                 | menu. Click again on the image to remove a      |
-   |                 | highlighted area.                               |
-   +-----------------+-------------------------------------------------+
-   | Zoom Slider     | The left side of the :guilabel:`Image Preview`  |
-   |                 | area contains the :guilabel:`Zoom Slider`. This |
-   |                 | tool adjusts the zoom level of the captured     |
-   |                 | image as a percentage value. Click the          |
-   |                 | :guilabel:`white square` and move the mouse up  |
-   |                 | or down to adjust the image scaling. You can    |
-   |                 | also mouse over the slider area and use the     |
-   |                 | scroll wheel to adjust the scaling.             |
+   | Show warnings   | Check this box to have the utility provide a    |
+   |                 | popup prompt when closing without saving the    |
+   |                 | screenshot.                                     |
    +-----------------+-------------------------------------------------+
 
 .. index:: search
