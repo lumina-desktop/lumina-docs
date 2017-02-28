@@ -107,7 +107,7 @@ msgstr ""
 msgid "**Sponsors:** lists the official sponsors of the |lumina| Project."
 msgstr ""
 
-#: ../../luminautl.rst:648
+#: ../../luminautl.rst:647
 msgid ""
 "|lumina| Search provides options to find and launch applications or to "
 "quickly search for files and directories. The ***** wildcard can be used in "
@@ -115,13 +115,13 @@ msgid ""
 " starts with a dot (**.**)."
 msgstr ""
 
-#: ../../luminautl.rst:671
+#: ../../luminautl.rst:670
 msgid ""
 "Click :guilabel:`Files or Directories` to change the screen slightly, as "
 "seen in :numref:`Figure %s <lumina26>`."
 msgstr ""
 
-#: ../../luminautl.rst:698
+#: ../../luminautl.rst:697
 msgid ""
 "Click the :guilabel:`blue folder` icon to change the starting search "
 "directory. For example, select :guilabel:`Computer`, then :guilabel:`/` from"
@@ -133,14 +133,14 @@ msgid ""
 " settings back to their defaults after closing the menu."
 msgstr ""
 
-#: ../../luminautl.rst:714
+#: ../../luminautl.rst:713
 msgid ""
 "The :command:`lumina-textedit` utility is a plaintext editor with a number "
 "of basic options. :numref:`Figure %s: <lumina23>` shows the editor with no "
 "file opened."
 msgstr ""
 
-#: ../../luminautl.rst:718
+#: ../../luminautl.rst:717
 msgid ""
 "Typing :command:`lte` in the command line will also open the |lumina| Text "
 "Editor."
@@ -172,7 +172,7 @@ msgstr ""
 msgid "New Window"
 msgstr ""
 
-#: ../../luminautl.rst:49 ../../luminautl.rst:202 ../../luminautl.rst:576
+#: ../../luminautl.rst:49 ../../luminautl.rst:202 ../../luminautl.rst:575
 msgid "Ctrl + N"
 msgstr ""
 
@@ -420,27 +420,27 @@ msgstr ""
 msgid ": Sample File Information"
 msgstr ""
 
-#: ../../luminautl.rst:663
+#: ../../luminautl.rst:662
 msgid ": Search for Applications"
 msgstr ""
 
-#: ../../luminautl.rst:679
+#: ../../luminautl.rst:678
 msgid ": Search for Files"
 msgstr ""
 
-#: ../../luminautl.rst:696
+#: ../../luminautl.rst:695
 msgid ": Search Configuration"
 msgstr ""
 
-#: ../../luminautl.rst:726
+#: ../../luminautl.rst:725
 msgid ": |lumina| Text Edit"
 msgstr ""
 
-#: ../../luminautl.rst:744
+#: ../../luminautl.rst:743
 msgid ": Customize Colors"
 msgstr ""
 
-#: ../../luminautl.rst:765
+#: ../../luminautl.rst:764
 msgid ": Configuring Monitors"
 msgstr ""
 
@@ -651,7 +651,7 @@ msgstr ""
 msgid ": |lumina| Open"
 msgstr ""
 
-#: ../../luminautl.rst:646
+#: ../../luminautl.rst:645
 msgid "|lumina| Search"
 msgstr ""
 
@@ -696,7 +696,7 @@ msgstr ""
 
 #: ../../luminautl.rst:47 ../../luminautl.rst:200 ../../luminautl.rst:222
 #: ../../luminautl.rst:246 ../../luminautl.rst:331 ../../luminautl.rst:364
-#: ../../luminautl.rst:574
+#: ../../luminautl.rst:573
 msgid "Shortcut"
 msgstr ""
 
@@ -745,7 +745,7 @@ msgid "Add File(s)"
 msgstr ""
 
 #: ../../luminautl.rst:56 ../../luminautl.rst:58 ../../luminautl.rst:61
-#: ../../luminautl.rst:64 ../../luminautl.rst:67 ../../luminautl.rst:619
+#: ../../luminautl.rst:64 ../../luminautl.rst:67
 msgid "Edit"
 msgstr ""
 
@@ -1028,7 +1028,7 @@ msgstr ""
 
 #: ../../luminautl.rst:200 ../../luminautl.rst:222 ../../luminautl.rst:246
 #: ../../luminautl.rst:285 ../../luminautl.rst:331 ../../luminautl.rst:364
-#: ../../luminautl.rst:597
+#: ../../luminautl.rst:573 ../../luminautl.rst:618
 msgid "Description"
 msgstr ""
 
@@ -1143,7 +1143,7 @@ msgid ""
 "to a :guilabel:`green checkmark` or :guilabel:`red X` as appropriate."
 msgstr ""
 
-#: ../../luminautl.rst:653
+#: ../../luminautl.rst:652
 msgid ""
 "To start this utility, type :command:`lumina-search`, press :kbd:`Alt + F2`,"
 " or go to the start menu and press :menuselection:`Browse Applications --> "
@@ -1151,7 +1151,7 @@ msgid ""
 "screenshot of this utility."
 msgstr ""
 
-#: ../../luminautl.rst:665
+#: ../../luminautl.rst:664
 msgid ""
 "To open an application, begin to type its name into the search field "
 "(selected by default). The box below the selected :guilabel:`Applications` "
@@ -1159,7 +1159,7 @@ msgid ""
 "select the desired application and click :guilabel:`Launch Item`."
 msgstr ""
 
-#: ../../luminautl.rst:681
+#: ../../luminautl.rst:680
 msgid ""
 "By default, a :guilabel:`Files or Directories` search is limited to the "
 "user's home directory, as indicated by the :guilabel:`Search: ~` at the "
@@ -1172,7 +1172,7 @@ msgid ""
 "<lumina14>`."
 msgstr ""
 
-#: ../../luminautl.rst:728
+#: ../../luminautl.rst:727
 msgid ""
 "Clicking :guilabel:`File` presents options to create *New File*, *Open "
 "File*, *Close File*, *Save file*, *Save File As*, and *Close*. Click "
@@ -1186,7 +1186,7 @@ msgid ""
 "%s <lumina32>`."
 msgstr ""
 
-#: ../../luminautl.rst:752
+#: ../../luminautl.rst:751
 msgid ""
 "The :command:`lumina-xconfig` utility is a graphical front-end to the "
 ":command:`xrandr` command line utility. It provides the ability to probe and"
@@ -1196,7 +1196,7 @@ msgid ""
 "similar to the one shown in :numref:`Figure %s <lumina15>`."
 msgstr ""
 
-#: ../../luminautl.rst:767
+#: ../../luminautl.rst:766
 msgid ""
 "In this example, two display inputs are attached to the system and their "
 "current screen resolutions are displayed. If the display input supports "
@@ -1204,7 +1204,7 @@ msgid ""
 "down menu to select a different resolution."
 msgstr ""
 
-#: ../../luminautl.rst:772
+#: ../../luminautl.rst:771
 msgid ""
 "If another display input is attached, the :guilabel:`Add Screen` tab is "
 "activated in order to configure the new input's resolution. Additionally, "
@@ -1223,97 +1223,53 @@ msgstr ""
 msgid "Ctrl + B"
 msgstr ""
 
-#: ../../luminautl.rst:555
-msgid ""
-"The utility menu provides all options for screengrabs in addition to the "
-"cropping window, as seen here in :numref:`Figure %s <lumina25>`: screenshot:"
-msgstr ""
-
-#: ../../luminautl.rst:564
-msgid ": Lumina Screenshot"
-msgstr ""
-
-#: ../../luminautl.rst:566
-msgid ""
-":numref:`Table %s <lscrnshtfl>` lists all file options for configuring the "
-"utility:"
-msgstr ""
-
-#: ../../luminautl.rst:0
-msgid ": Lumina Screenshot File Options"
-msgstr ""
-
-#: ../../luminautl.rst:574
-msgid "File Options"
-msgstr ""
-
-#: ../../luminautl.rst:576
-msgid "Take Screenshot"
-msgstr ""
-
-#: ../../luminautl.rst:578 ../../luminautl.rst:617
+#: ../../luminautl.rst:577
 msgid "Save As"
 msgstr ""
 
-#: ../../luminautl.rst:578
+#: ../../luminautl.rst:577
 msgid "Ctrl + S"
 msgstr ""
 
-#: ../../luminautl.rst:580
-msgid "Quicksave"
-msgstr ""
-
-#: ../../luminautl.rst:582
+#: ../../luminautl.rst:586
 msgid "Close"
 msgstr ""
 
-#: ../../luminautl.rst:582
+#: ../../luminautl.rst:586
 msgid "Esc"
-msgstr ""
-
-#: ../../luminautl.rst:585
-msgid ""
-"The :guilabel:`Quicksave` option automatically saves the screenshot to "
-":file:`/Pictures` and opens the default image viewing program."
-msgstr ""
-
-#: ../../luminautl.rst:589
-msgid ""
-":numref:`Table %s <lscrnshtmn>` lists all UI options for configuring "
-"screenshots:"
 msgstr ""
 
 #: ../../luminautl.rst:0
 msgid ": Lumina Screenshot UI Options"
 msgstr ""
 
-#: ../../luminautl.rst:597
+#: ../../luminautl.rst:573 ../../luminautl.rst:618
 msgid "Option"
 msgstr ""
 
-#: ../../luminautl.rst:599
+#: ../../luminautl.rst:620
 msgid "Entire Session"
 msgstr ""
 
-#: ../../luminautl.rst:599
+#: ../../luminautl.rst:620
 msgid "Captures the entire screen."
 msgstr ""
 
-#: ../../luminautl.rst:601
+#: ../../luminautl.rst:622
 msgid "Single Screen"
 msgstr ""
 
-#: ../../luminautl.rst:601
+#: ../../luminautl.rst:622
 msgid ""
 "For multi-monitor setups. The screen number can be selected for the "
 "screenshot."
 msgstr ""
 
-#: ../../luminautl.rst:604
+#: ../../luminautl.rst:625
 msgid "Single Window"
 msgstr ""
 
-#: ../../luminautl.rst:604
+#: ../../luminautl.rst:625
 msgid ""
 "Captures a selected window. With this selected, click :guilabel:`Capture`, "
 "and click the desired window. The :guilabel:`Include Borders` checkbox is "
@@ -1321,64 +1277,18 @@ msgid ""
 "border frame."
 msgstr ""
 
-#: ../../luminautl.rst:611
+#: ../../luminautl.rst:632
 msgid "Delay"
 msgstr ""
 
-#: ../../luminautl.rst:611
+#: ../../luminautl.rst:632
 msgid ""
 "Choose the number of seconds to delay the screen capture after pressing "
 ":guilabel:`Capture`."
 msgstr ""
 
-#: ../../luminautl.rst:615
+#: ../../luminautl.rst:575
 msgid "Capture"
-msgstr ""
-
-#: ../../luminautl.rst:615
-msgid "Captures the screen with the chosen options."
-msgstr ""
-
-#: ../../luminautl.rst:617
-msgid "Saves the screen capture to a chosen directory."
-msgstr ""
-
-#: ../../luminautl.rst:619
-msgid ""
-"Opens the default image editor with the screenshot for advanced editing"
-msgstr ""
-
-#: ../../luminautl.rst:622
-msgid "Crop"
-msgstr ""
-
-#: ../../luminautl.rst:622
-msgid "Crops the image to the selected frame from the image preview area."
-msgstr ""
-
-#: ../../luminautl.rst:625
-msgid "Image Preview"
-msgstr ""
-
-#: ../../luminautl.rst:625
-msgid ""
-"Displays the captured screenshot. Right-click the image to view zoom "
-"options. Click and drag across the image to highlight an area to crop by "
-"pressing :guilabel:`Crop` in the upper-right menu. Click again on the image "
-"to remove a highlighted area."
-msgstr ""
-
-#: ../../luminautl.rst:632
-msgid "Zoom Slider"
-msgstr ""
-
-#: ../../luminautl.rst:632
-msgid ""
-"The left side of the :guilabel:`Image Preview` area contains the "
-":guilabel:`Zoom Slider`. This tool adjusts the zoom level of the captured "
-"image as a percentage value. Click the :guilabel:`white square` and move the"
-" mouse up or down to adjust the image scaling. You can also mouse over the "
-"slider area and use the scroll wheel to adjust the scaling."
 msgstr ""
 
 #: ../../luminautl.rst:14
@@ -1405,13 +1315,173 @@ msgstr ""
 msgid "Screenshot"
 msgstr ""
 
-#: ../../luminautl.rst:712
+#: ../../luminautl.rst:711
 msgid "Text Editor"
 msgstr ""
 
-#: ../../luminautl.rst:750
+#: ../../luminautl.rst:749
 msgid "Xconfig"
 msgstr ""
+
+#: ../../luminautl.rst:555
+msgid ""
+"The utility opens with the *View* tab open by default, as seen in "
+":numref:`Figure %s <lumina25>`."
+msgstr ""
+
+#: ../../luminautl.rst:563
+msgid ": Lumina Screenshot with *View* tab open."
+msgstr ""
+
+#: ../../luminautl.rst:565
+msgid ""
+"The top menu bar contains several common options, while the tabs contain "
+"configuration options for screenshots. :numref:`Table %s <lssmo>` lists the "
+"options in this top menu bar:"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid ": Lumina Screenshot menu options"
+msgstr ""
+
+#: ../../luminautl.rst:575
+msgid "Take a screenshot."
+msgstr ""
+
+#: ../../luminautl.rst:577
+msgid ""
+"Open the *Save Screenshot* window to designate and how to save the new "
+"screenshot."
+msgstr ""
+
+#: ../../luminautl.rst:580
+msgid "Quick Save"
+msgstr ""
+
+#: ../../luminautl.rst:580
+msgid ""
+"Saves the screenshot to :file:`/Pictures` in the format *Screenshot-year-"
+"month-day-hour-minute-second.png*. Then shows the *Open With* window to view"
+" the screenshot."
+msgstr ""
+
+#: ../../luminautl.rst:586
+msgid "Closes **lumina-screenshot**."
+msgstr ""
+
+#: ../../luminautl.rst:589
+msgid ""
+"Underneath the top menu bar are tabs for viewing and configuring "
+"screenshots."
+msgstr ""
+
+#: ../../luminautl.rst:592
+msgid ""
+"The *View* tab displays the most recent screenshot. Adjust the slider on the"
+" left to zoom in or out on the screenshot. Click and drag anywhere on the "
+"screenshot to designate an area to crop. Click again to remove the "
+"highlighted area. When satisfied, click :guilabel:`Crop` to remove "
+"everything from the screenshot outside the highlighted area. Click "
+":guilabel:`Open With...` to quicksave the screenshot and designate an "
+"application to view or further manipulate the screenshot."
+msgstr ""
+
+#: ../../luminautl.rst:600
+msgid "Use the settings tab to configure how a screenshot is taken."
+msgstr ""
+
+#: ../../luminautl.rst:602
+msgid ""
+":numref:`Figure %s <lumina39>` shows the *Settings* tab, while "
+":numref:`Table %s <lscrnshtmn>` lists all options for configuring "
+"screenshots:"
+msgstr ""
+
+#: ../../luminautl.rst:611
+msgid ": Lumina Screenshot with *Settings* tab open."
+msgstr ""
+
+#: ../../luminautl.rst:636
+msgid "Show warnings"
+msgstr ""
+
+#: ../../luminautl.rst:636
+msgid ""
+"Check this box to have the utility provide a popup prompt when closing "
+"without saving the screenshot."
+msgstr ""
+
+#~ msgid ""
+#~ "The utility menu provides all options for screengrabs in addition to the "
+#~ "cropping window, as seen here in :numref:`Figure %s <lumina25>`: screenshot:"
+#~ msgstr ""
+
+#~ msgid ": Lumina Screenshot"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":numref:`Table %s <lscrnshtfl>` lists all file options for configuring the "
+#~ "utility:"
+#~ msgstr ""
+
+#~ msgid ": Lumina Screenshot File Options"
+#~ msgstr ""
+
+#~ msgid "File Options"
+#~ msgstr ""
+
+#~ msgid "Take Screenshot"
+#~ msgstr ""
+
+#~ msgid "Quicksave"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :guilabel:`Quicksave` option automatically saves the screenshot to "
+#~ ":file:`/Pictures` and opens the default image viewing program."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":numref:`Table %s <lscrnshtmn>` lists all UI options for configuring "
+#~ "screenshots:"
+#~ msgstr ""
+
+#~ msgid "Captures the screen with the chosen options."
+#~ msgstr ""
+
+#~ msgid "Saves the screen capture to a chosen directory."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Opens the default image editor with the screenshot for advanced editing"
+#~ msgstr ""
+
+#~ msgid "Crop"
+#~ msgstr ""
+
+#~ msgid "Crops the image to the selected frame from the image preview area."
+#~ msgstr ""
+
+#~ msgid "Image Preview"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Displays the captured screenshot. Right-click the image to view zoom "
+#~ "options. Click and drag across the image to highlight an area to crop by "
+#~ "pressing :guilabel:`Crop` in the upper-right menu. Click again on the image "
+#~ "to remove a highlighted area."
+#~ msgstr ""
+
+#~ msgid "Zoom Slider"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The left side of the :guilabel:`Image Preview` area contains the "
+#~ ":guilabel:`Zoom Slider`. This tool adjusts the zoom level of the captured "
+#~ "image as a percentage value. Click the :guilabel:`white square` and move the"
+#~ " mouse up or down to adjust the image scaling. You can also mouse over the "
+#~ "slider area and use the scroll wheel to adjust the scaling."
+#~ msgstr ""
 
 #~ msgid "|lumina| Utilities"
 #~ msgstr ""
