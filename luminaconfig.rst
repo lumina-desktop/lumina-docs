@@ -343,49 +343,60 @@ application capable of reading the file type.
 Interface Configuration
 =======================
 
-.. TODO continue editing below
-
 :guilabel:`Interface Configuration`, as seen in
-:numref:`Figure %s <lumina31>`, is used to configure the desktop,
-(right-click) menu, and any panels.
+:numref:`Figure %s <lumina31>`, is used to configure the Desktop,
+(right-click) Menu, and any Panels.
 
 .. _lumina31:
 
-.. figure:: images/lumina31a.png
+.. figure:: images/lumina31b.png
    :scale: 100%
 
    : |lumina| Interface Configuration
 
 .. note:: The options of :guilabel:`Menu`, :guilabel:`Desktop`, and
-   :guilabel:`Panels` involve modifying and interacting with plugins,
-   which are described at length in the :ref:`Plugins` chapter of this
+   :guilabel:`Panels` involve modifying and interacting with plugins.
+   These are described at length in the :ref:`Plugins` chapter of this
    handbook.
 
-.. index:: interface, desktop config
+.. index:: desktop config
 .. _Desktop:
 
 Desktop
 -------
 
-Select :guilabel:`Desktop` to modify what appears on the current primary
-desktop. By default, the :ref:`RSS Reader` plugin will appear in the
-lower right corner.
+Select :guilabel:`Desktop` to modify the appearance of the primary
+desktop and modify any embedded utilities, as seen in
+:numref:`Figure %s <lumina40>`. By default, the :ref:`RSS Reader` plugin
+appears in the lower right corner.
 
-Many customization options are available after right-clicking an icon on
-the desktop:
+.. _lumina40:
+
+.. figure:: images/lumina40.png
+   :scale: 100%
+   
+   : Desktop Settings
+
+Use the :guilabel:`Plus` and :guilabel:`Minus` buttons to adjust the
+embedded utilities. The :guilabel:`Display Desktop Folder Contents`
+option automatically populates the Desktop with any item seen in
+:file:`/<username>/Desktop`.
+
+Right-click an icon on the desktop to view a variety of customization
+options:
 
 * **Launch Item:** Starts the item.
 * **Start Moving Item:** Click the icon to lock it in place once it is
   in the desired location.
-* **Start Resizing Item:** Use the mouse to increase or decrease size.
-  Click when finished adjusting the icon to save the changes.
+* **Start Resizing Item:** Move the mouse to resize the icon/widget.
+  Click to save any changes.
 * **Increase Desktop Icon Sizes:** Increases the size of all desktop
   icons, repeat as necessary.
 * **Decrease Desktop Icon Sizes:** Decreases the size of all desktop
   icons, repeat as necessary.
 * **Remove Item:** Removes the item from the desktop.
 
-.. index:: interface, rightclick menu
+.. index:: right click menu
 .. _rightclick menu:
 
 Menu
@@ -406,10 +417,10 @@ includes several plugins: :ref:`Terminal`,
    : Context menu plugins configuration with an open context menu.
 
 .. note:: :guilabel:`Leave`, with its options to *Logout*, *Restart*,
-   *Shutdown*, *Lock*, and *Suspend* the system, will **always** be
-   available in the context menu.
+   *Shutdown*, *Lock*, and *Suspend* the system, is **always** available
+   in the context menu.
 
-.. index:: interface, panels
+.. index:: panels
 .. _Panels:
 
 Panels
@@ -426,31 +437,32 @@ in :numref:`Figure %s <lumina5>`.
 
    : |lumina| Panel Configuration
 
-This screen can be used to customize the location, alignment, size,
-theme, and plugins for an existing panel. You can also apply a
-preconfigured :guilabel:`Profile` to the panels, in order to mimic the
-style of another, more familiar desktop. You can also :guilabel:`Import`
-other custom-created profiles. The :guilabel:`+ Panel` and :guilabel:`-`
-icons towards the top, next to :guilabel:`Panel 1` are used to add or
-remove additional panels. Panels must be aligned along a screen edge,
-opposite screen edges in the case of two panels, and may have any width,
-color, or transparency.
+This screen is used to customize the location, alignment, size, theme,
+and plugins for an existing panel.
+A preconfigured :guilabel:`Profile` is also available for panels. These
+profiles are used to mimic the style of other desktops. Click
+:guilabel:`Import` to add other custom-created profiles.
+
+The :guilabel:`+ Panel` and :guilabel:`-` icons at the top-left of the
+window can add or remove additional panels. Panels must be aligned
+along a screen edge or opposite screen edges in the case of two panels.
+Panels may have any width, color, or transparency.
 
 .. note:: When adding panels, a frame similar to :guilabel:`Panel 1`
-   will be created for each panel, labeled :guilabel:`Panel 2`,
+   is created for each panel, labeled :guilabel:`Panel 2`,
    :guilabel:`Panel 3`, and so on. This allows each panel to be
    configured separately. The configuration tabs available for a panel
    are described below. Be sure to select the tab in the desired panel.
 
 The :guilabel:`Location` tab (4 arrow icon) contains a number of items:
 
-* **Edge:** This drop-down menu can be used to set the location of the
-  panel which can be *Top*, *Bottom*, *Left*, or *Right*.
+* **Edge:** This drop-down menu is used to set the general location of
+  the panel. The options are *Top*, *Bottom*, *Left*, or *Right*.
 
-* **Alignment:** This drop-down menu can be used to center the panel on
-  the edge or pin it to one of the corners.
+* **Alignment:** This drop-down menu is used to center the panel or pin
+  it to a corner of the screen.
 
-* **Size:** Can be used to specify the panel width in pixels and the
+* **Size:** Is used to specify the panel width in pixels as well as
   panel length.
 
 The :guilabel:`Appearance` tab (monitor icon) is shown in
@@ -461,7 +473,7 @@ The :guilabel:`Appearance` tab (monitor icon) is shown in
 .. figure:: images/lumina19e.png
    :scale: 100%
 
-   : Panels Appearance Tab
+   : Panel Appearance
 
 To hide the panel unless the mouse is hovered over it, check
 :guilabel:`Auto-hide Panel`. The :guilabel:`Custom Color` option can be
@@ -477,7 +489,7 @@ The :guilabel:`Plugins` tab (puzzle icon) is shown in
 .. figure:: images/lumina20e.png
    :scale: 100%
 
-   : Panels Plugins Tab
+   : Panel Plugins
 
 To add a plugin as an icon to the panel, click :guilabel:`+` below the
 listed plugins and select a plugin from the list that appears. To remove
@@ -487,13 +499,51 @@ the plugin on the panel. The top of an ordered list corresponds to
 either the top of a vertical panel or the left side of a horizontal
 panel.
 
-By default, |lumina| will have one panel which stretches across the
-bottom of the primary screen and another auto-hiding panel centered at
-the top of the screen. The bottom panel incorporates the
-:ref:`Panel Start Menu`, :ref:`Task Manager Plugin (No Groups)`, a
-:ref:`Spacer`, :ref:`System Tray`, :ref:`Time Date`, and
-:ref:`Battery Monitor` plugins. The top panel includes the
-:ref:`Desktop Bar` between two :ref:`Spacer` plugins.
+By default, |lumina| has one panel stretching across the bottom of the
+primary screen and another automatically hiding panel centered at the
+top of the screen.
+
+The bottom panel incorporates the :ref:`Panel Start Menu`,
+:ref:`Task Manager Plugin (No Groups)`, a :ref:`Spacer`,
+:ref:`System Tray`, :ref:`Time Date`, and :ref:`Battery Monitor`
+plugins.
+
+The top panel includes the :ref:`Desktop Bar` between two
+:ref:`Spacer` plugins.
+
+.. note:: Panel and other Desktop settings may appear differently when
+   using a version of |lumina| packaged with an OS. For example,
+   |trueos| uses only a single panel across the bottom of the primary
+   screen.
+
+.. index:: system settings
+.. _System Settings:
+
+System Settings
+===============
+
+The :guilabel:`System Settings` category, seen in
+:numref:`Figure %s <lumina41>`, displays all configurable system
+utilities in one convenient location. |lumina| automatically updates
+this category as new utilities are added or removed by the user or
+other development updates.
+
+.. _lumina41:
+
+.. figure:: images/lumina41.png
+   :scale: 100%
+
+   : System Settings
+
+The entries in this category are all symlinks. Click an entry to open
+the related utility or configuration tool. For example, click
+:guilabel:`Mouse Configuration` to open a simple menu for adjusting all
+mouse settings.
+
+.. TODO Contact Ken to see if there are stable entries that should be
+   documented.
+
+.. warning:: Some utilities prompt for *Root* access before opening.
 
 .. index:: user settings
 .. _User Settings:
@@ -502,7 +552,9 @@ User Settings
 =============
 
 The :guilabel:`User Settings` option governs the general settings for
-the desktop session. These settings are typically left unchanged.
+the desktop session. The settings include how the time and date are
+displayed, changing user icons, when to play chimes, and all
+localization options.
 
 .. index:: user settings, general options
 .. _general options:
@@ -510,32 +562,46 @@ the desktop session. These settings are typically left unchanged.
 General Options
 ---------------
 
-:guilabel:`General Options`, seen in :numref:`Figure %s <lumina12f>`,
+:guilabel:`General Options`, seen in :numref:`Figure %s <lumina12>`,
 is used to govern numerous settings for the desktop experience.
 
-.. _lumina12f:
+.. _lumina12:
 
-.. figure:: images/lumina12f.png
+.. figure:: images/lumina12g.png
    :scale: 100%
 
    : |lumina| General Options
 
-The user can choose to automatically enable numlock, play chimes when
-|lumina| starts or exits, and change the icon that appears in the login
-menu and the start menu button. There are also options to set the time
-and date format, as well as the time display format (using a drop menu).
-Additionally, a user can reset **all** their desktop settings via
-:guilabel:`Return to system defaults`, which returns |lumina| to the
-defaults created by the OS, while :guilabel:`Return to Lumina defaults`
-returns to the |lumina| created settings.
+Here are the options available in the General Options menu:
 
-.. index:: user settings, localization
+* **Enable numlock on startup**
+* **Play chimes on startup**
+* **Play chimes on exit**
+* **Manage desktop app links:** When checked, |lumina| automatically
+  updates the available desktop symlinks when applications are installed
+  or removed.
+* **Show application crash data**
+* **Change User Icon**
+* **Time Format**
+* **Date Format**
+
+.. note:: Click the :guilabel:`blue circle with "i" icon` for examples
+   of time and date formatting.
+
+* **Display Format:** Opens a dropdown menu for more format options.
+* **Return to system defaults:** All system settings revert to those
+  configured by the OS.
+* **Return to Lumina defaults** All system settings revert to their
+  |lumina| defaults.
+
+.. index:: localization
 .. _localization:
 
 Localization
 ------------
 
-The :guilabel:`Localization` is shown in :numref:`Figure %s <lumina21>`.
+:guilabel:`Localization` options are shown in
+:numref:`Figure %s <lumina21>`.
 
 .. _lumina21:
 
@@ -556,85 +622,16 @@ changes are made in the :guilabel:`Locale` tab, click
 :guilabel:`Save Changes` and restart |lumina| to load the configured
 locales.
 
-Installing the **lumina-i18n** package will also add a drop-down menu to
-the :guilabel:`Preferences` area of the start menu, though |lumina| will
-need to be restarted after the package installation to add the locale
-menu to :guilabel:`Preferences`. This drop-down menu is used to
-change the locale for the current session only. This will immediately
-change the localization of any translated menu items without requiring
-a restart of |lumina|.
+Installing the **lumina-i18n** package also adds a drop-down menu to
+the :guilabel:`Preferences` area of the start menu. |lumina| must be
+restarted after the package installation before the locale menu is
+visible in :guilabel:`Preferences`. This drop-down menu changes the
+locale for the current session only. This immediately changes the
+localization of any translated menu items without requiring a restart
+of |lumina|.
 
 .. note:: If using |lumina| with a language other than English, any menu
           items that continue to be displayed in English have not yet
           been translated to the selected language. To assist the
-          |lumina| Project in translating menu items, see
+          |lumina| Project with translating menu items, see
           :ref:`Interface Translation`.
-
-.. index:: user settings, input devices
-.. _Input Device Settings:
-
-Input Device Settings
----------------------
-
-:guilabel:`Input Device Settings` provides a full array of configuration
-options for each detected input device. :numref:`Figure %s <lumina37>`
-shows options to configure a keyboard, while
-:numref:`Figure %s <lumina38>` shows the available mouse options.
-
-.. _lumina37:
-
-.. figure:: images/lumina37.png
-   :scale: 100%
-
-   : Input device configuration, Keyboard settings
-
-Keyboard settings are generally confined to enable/disable, and are
-spread from the *master* device and any *extension* devices.
-
-.. _lumina38:
-
-.. figure:: images/lumina38.png
-   :scale: 100%
-   
-   : Mouse configuration settings
-
-There are a number of different elements available to configure for a
-basic mouse, seen in :numref:`Table %s <mseconfset>`. For more in-depth
-descriptions of these options, refer to x.org's article on
-`PointerAcceleration <https://www.x.org/wiki/Development/Documentation/PointerAcceleration/>`_:
-
-.. _mseconfset:
-
-.. table:: : Mouse configuration options
-
-   +-----------------------+---------------+----------------------------------------------------+
-   | Option Name           | Default Value | Description                                        |
-   +=======================+===============+====================================================+
-   | Button Labels         | Button Names  | Displays all button names on the device            |
-   +-----------------------+---------------+----------------------------------------------------+
-   | Device Accel Adaptive | 1.00          | Improves mouse control at the pixel level without  |
-   | Deceleration          |               | reducing overall speed                             |
-   +-----------------------+---------------+----------------------------------------------------+
-   | Device Accel Constant | 1.00          | Decelerates the mouse by a factor equal to the     |
-   | Deceleration          |               | chosen number value                                |
-   +-----------------------+---------------+----------------------------------------------------+
-   | Device Accel Profile  | 0             | Different acceleration configurations. "1" is not  |
-   |                       |               | a valid option at this time                        |
-   +-----------------------+---------------+----------------------------------------------------+
-   | Device Accel Velocity | 10.00         | Controls the sensitivity of acceleration. The      |
-   | Scaling               |               | effect is dependent on the chosen profile          |
-   +-----------------------+---------------+----------------------------------------------------+
-   | Device Enabled        | Checked       | Used to activate/deactivate the device             |
-   +-----------------------+---------------+----------------------------------------------------+
-   | Device Node           | Path to Node  | Displays the pathway to the mouse node file        |
-   +-----------------------+---------------+----------------------------------------------------+
-   | Mouse Middle Button   | Checked (if a | Activate/deactivates the middle mouse button       |
-   | Emulation             | middle button |                                                    |
-   |                       | is detected)  |                                                    |
-   +-----------------------+---------------+----------------------------------------------------+
-   | Mouse Middle Button   | 50            | A millisecond value for the driver to wait before  |
-   | Timeout               |               | deciding two buttons were "simultaneously" pressed |
-   +-----------------------+---------------+----------------------------------------------------+
-
-When an incompatible value is set, the entire option line will be
-highlighted in red.
