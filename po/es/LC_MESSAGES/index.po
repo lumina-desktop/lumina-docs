@@ -11,14 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../index.rst:11
+#: ../../index.rst:14
 msgid "Lumina Handbook |release|"
 msgstr ""
 
-#: ../../index.rst:27
+#: ../../index.rst:30
 msgid "Index"
 msgstr ""
 
-#: ../../index.rst:29
+#: ../../index.rst:32
 msgid ":ref:`genindex`"
 msgstr ""
