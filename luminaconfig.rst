@@ -1,18 +1,19 @@
-.. index:: configuration
+.. index:: lumina configuration utility
 .. _Configuration:
 
 Configuration
 *************
 
 The |lumina| Configuration utility, shown in
-:numref:`Figure %s <lumina3>`, can be used to configure every aspect
-of the desktop and is the recommended way to make changes. To launch
-this utility, click the start menu then
-:menuselection:`Preferences --> Configure Desktop`, right-click the
-desktop and hover over :guilabel:`Preferences` and click
-:guilabel:`All desktop settings`, or type :command:`lumina-config` in a
-CLI. If all those options are unavailable, the "Desktop Configuration"
-application (under the :guilabel:`Utilities` category) will also open
+:numref:`Figure %s <lumina3>`, is used to configure every aspect of the
+desktop and is the recommended way to make changes. To launch this
+utility, click
+:menuselection:`Start menu --> Preferences --> Configure Desktop`, or
+right-click the desktop and hover over :guilabel:`Preferences` and click
+:guilabel:`All Desktop Settings`, or type :command:`lumina-config` in a
+Command Line Interface (CLI). If all those options are unavailable,
+the *Desktop Configuration*
+application (under the :guilabel:`Settings` category) also opens
 the configuration utility. For convenience, the :guilabel:`Preferences`
 section of the right-click menu also lists the commonly used
 sub-elements of **Screensaver**, **Wallpaper**, and **Display** from
@@ -20,15 +21,15 @@ within the Configuration utility.
 
 .. _lumina3:
 
-.. figure:: images/lumina3e.png
+.. figure:: images/lumina3f.png
    :scale: 100%
    
-   : |lumina| Desktop Configuration
+   : |lumina| Desktop Settings
 
-Under the top search bar are four options to configure different areas
-of the system. By default, each category is expanded to provide an
-efficient view of all available configutation options. Click an option
-to view the specific configuration options.
+Under the top search bar are options to configure different areas of
+the system. By default, each category is expanded to provide an
+efficient view of all available configuration options. Click an option
+to view more details and tunables.
 
 .. note:: If you make changes to any of the options, remember to click
    :guilabel:`Save` before exiting this utility in order to save
@@ -39,16 +40,16 @@ to view the specific configuration options.
 The rest of this section describes the available configurations in each
 category.
 
-.. index:: appearance, wallpaper
+.. index:: configure appearance
 .. _Appearance:
 
 Appearance
 ==========
 
-This category is used to change the visual appearance and functionality
-of the desktop on a per-screen basis.
+This category changes the visual appearance and functionality of the
+desktop on a per-screen basis.
 
-.. index:: appearance, themesettings
+.. index:: configure themesettings
 .. _Theme Settings:
 
 Theme Settings
@@ -63,23 +64,22 @@ scheme, icon pack, and mouse cursors.
 .. figure:: images/lumina17e.png
    :scale: 100%
 
-   : Theme settings, Desktop Tab
+   : Desktop Theme settings
 
 It is possible to create personalized theme templates or color schemes
 by clicking :guilabel:`Edit` next to those options and changing the
 settings as necessary. :numref:`Figure %s <lumina18>` shows an example
-of clicking :guilabel:`Edit` with the :guilabel:`Glass (System)` theme
-template selected. This action opened the :guilabel:`Theme Editor` and
-the user has clicked the color selector (dropper icon) in the upper
-right corner. Select an item in this menu to edit the template
-controlling the selection by changing the values in the theme editor
-box.
+of clicking :guilabel:`Edit` on the :guilabel:`Glass (System)` theme
+template. The :guilabel:`Theme Editor` opens and
+the user clicks the color selector (:guilabel:`dropper` icon) in the
+upper right corner. Selecting an item in this menu edits the template by
+changing the values in the theme editor box.
 
 .. note:: Theme templates are written as
    `Qt stylesheets <http://doc.qt.io/qt-5/stylesheet.html>`_. Scripting
    experience is helpful when configuring a theme.
 
-After making any changes, click :guilabel:`Save` to save the theme
+When making changes, be sure to click :guilabel:`Save` to save the theme
 without closing the editor, or click :guilabel:`Apply`, which both saves
 the theme and closes the editor.
 
@@ -125,7 +125,7 @@ specified time interval in minutes to move to the next image.
 .. figure:: images/lumina27.png
    :scale: 100%
    
-   : |lumina| Wallpaper Settings
+   : Wallpaper Settings
 
 Click the :guilabel:`Layout` drop-down menu to change the default
 layout of :guilabel:`Automatic` to one of several options:
@@ -142,9 +142,9 @@ wallpaper selection drop-down menu.
 .. figure:: images/lumina16b.png
    :scale: 100%
 
-   : Modifying the Wallpaper
+   : Custom Wallpaper colors
 
-.. index:: appearance, windoweffects
+.. index:: window effects
 .. _Window Effects:
 
 Window Effects
@@ -162,13 +162,13 @@ changes need to be adjusted manually.
 
    : Window Effects
 
-Check :guilabel:`Disable Compositing Manager` to enable this option.
+Disable the Compositing Manager by checking its associated box.
 Restarting the current session is required for any changes to take
 effect. By default,
 :guilabel:`Only use compositing with GPU acceleration` is selected,
-which aids with overall system performance.
+which improves system performance.
 
-.. index:: appearance, windowmanager
+.. index:: window manager
 .. _Window Manager:
 
 Window Manager
@@ -197,8 +197,8 @@ Drop-down menus are provided for configuring all options:
   *Click to Focus*, *Active Mouse Focus*, or *Strict Mouse Focus*.
 
 * **Window Theme:** Controls the appearance of the frame around
-  application windows. The :guilabel:`Window Theme Preview` screen can
-  be used to preview the selected theme.
+  application windows. The :guilabel:`Window Theme Preview` box previews
+  the selected theme.
 
 The :guilabel:`Advanced Editor`, seen in
 :numref:`Figure %s <lumina29>`, provides options to manually adjust
@@ -209,9 +209,9 @@ every setting related to the display of windows on the system.
 .. figure:: images/lumina29.png
    :scale: 100%
 
-   : Window Manager - Advanced
+   : Window Manager - Advanced Editor
 
-.. index:: application startup shortcuts
+.. index:: Desktop Defaults
 
 .. _Desktop Defaults:
 
@@ -220,10 +220,10 @@ Desktop Defaults
 
 The :guilabel:`Desktop Defaults` category, seen in
 :numref:`Figure %s <lumina3>`, is used to configure which applications
-automatically start upon logging in to |lumina|, the default
-applications and file types, and keyboard shortcuts.
+automatically start on login in to |lumina|, the default applications
+and file types, and keyboard shortcuts.
 
-.. index:: applications
+.. index:: default applications
 .. _Applications:
 
 Applications
@@ -240,18 +240,17 @@ This tab can be used to configure default applications.
 
    : |lumina| Default Applications - Basic
 
-The default web browser, email client, file manager,and virtual
-terminal are all configurable. Click the desired application, and a new
-window will appear, allowing a new default application to be chosen. To
+The default *web browser*, *email client*, *file manager*, and *virtual*
+*terminal* are all configurable. Click the desired application, and a new
+window appears, allowing a new default application to be chosen. To
 return to the default application, click the current application's name,
 then :guilabel:`Restore Defaults`.
 
 .. note:: Some applications, such as web browsers, keep their own
    internal lists of default applications for opening particular types
    of files. These applications, when configured to use the
-   :command:`lumina-open` or :command:`xdg-open` utilities, will refer
-   back to the default applications set in
-   :guilabel:`Applications`.
+   :command:`lumina-open` or :command:`xdg-open` utilities, refer back
+   to the default applications set in :guilabel:`Applications`.
 
 The :guilabel:`Advanced` tab allows for configuring the default
 application used for particular file types, as seen in
@@ -264,16 +263,16 @@ application used for particular file types, as seen in
 
    : |lumina| Default Applications - Advanced
 
-To add an application, select the file type and specific group and
-either click :guilabel:`Set App`, which will open a drop-down menu of
-common applications, or :guilabel:`Set Binary`, which will open a file
-browser for navigating the application path. Alternately, selecting only
-a file type and clicking :guilabel:`Set App` or :guilabel:`Set Binary`
-will register the application for all the groups within the selected
-type. Selecting :guilabel:`Clear` will remove the default application
-from the associated file type or group.
+To add an application, select both the file type and specific group.
+Then, either click :guilabel:`Set App` to open a drop-down menu of
+common applications or :guilabel:`Set Binary` to open a file browser for
+navigating the application path. Alternately, selecting only a file type
+and clicking :guilabel:`Set App` or :guilabel:`Set Binary` registers the
+application for all the groups within the selected type. Selecting
+:guilabel:`Clear` removes the default application from the associated
+file type or group.
 
-.. index:: shortcuts
+.. index:: keyboard shortcuts
 .. _Keyboard Shortcuts:
 
 Keyboard Shortcuts
@@ -335,14 +334,16 @@ To add an application to the auto-start configuration , click
 :guilabel:`Application` to select the application's name from a
 drop-down menu. Alternately, click :guilabel:`Binary` or
 :guilabel:`File` to browse to the location of the application or file to
-open. If a file is chosen, |lumina| will automatically open it in an
-application that is capable of reading the file type.
+open. If a file is chosen, |lumina| automatically opens it in an
+application capable of reading the file type.
 
-.. index:: interface config
+.. index:: interface configuration
 .. _Interface:
 
 Interface Configuration
 =======================
+
+.. TODO continue editing below
 
 :guilabel:`Interface Configuration`, as seen in
 :numref:`Figure %s <lumina31>`, is used to configure the desktop,
