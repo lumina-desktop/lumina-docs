@@ -11,61 +11,61 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../luminaconfig.rst:55
+#: ../../luminaconfig.rst:56
 msgid "Appearance"
 msgstr ""
 
-#: ../../luminaconfig.rst:354
+#: ../../luminaconfig.rst:353
 msgid "Interface Configuration"
 msgstr ""
 
-#: ../../luminaconfig.rst:382
+#: ../../luminaconfig.rst:383
 msgid ""
 "Many customization options are available after right-clicking an icon on the"
 " desktop:"
 msgstr ""
 
-#: ../../luminaconfig.rst:386
+#: ../../luminaconfig.rst:387
 msgid ""
 "**Start Moving Item:** Click the icon to lock it in place once it is in the "
 "desired location."
 msgstr ""
 
-#: ../../luminaconfig.rst:388
+#: ../../luminaconfig.rst:389
 msgid ""
 "**Start Resizing Item:** Use the mouse to increase or decrease size. Click "
 "when finished adjusting the icon to save the changes."
 msgstr ""
 
-#: ../../luminaconfig.rst:390
+#: ../../luminaconfig.rst:391
 msgid ""
 "**Increase Desktop Icon Sizes:** Increases the size of all desktop icons, "
 "repeat as necessary."
 msgstr ""
 
-#: ../../luminaconfig.rst:392
+#: ../../luminaconfig.rst:393
 msgid ""
 "**Decrease Desktop Icon Sizes:** Decreases the size of all desktop icons, "
 "repeat as necessary."
 msgstr ""
 
-#: ../../luminaconfig.rst:394
+#: ../../luminaconfig.rst:395
 msgid "**Remove Item:** Removes the item from the desktop."
 msgstr ""
 
-#: ../../luminaconfig.rst:458
+#: ../../luminaconfig.rst:459
 msgid ""
 "**Alignment:** This drop-down menu can be used to center the panel on the "
 "edge or pin it to one of the corners."
 msgstr ""
 
-#: ../../luminaconfig.rst:461
+#: ../../luminaconfig.rst:462
 msgid ""
 "**Size:** Can be used to specify the panel width in pixels and the panel "
 "length."
 msgstr ""
 
-#: ../../luminaconfig.rst:510
+#: ../../luminaconfig.rst:511
 msgid "User Settings"
 msgstr ""
 
@@ -92,13 +92,6 @@ msgid ""
 "to Focus*, *Active Mouse Focus*, or *Strict Mouse Focus*."
 msgstr ""
 
-#: ../../luminaconfig.rst:208
-msgid ""
-"**Window Theme:** Controls the appearance of the frame around application "
-"windows. The :guilabel:`Window Theme Preview` screen can be used to preview "
-"the selected theme."
-msgstr ""
-
 #: ../../luminaconfig.rst:212
 msgid ""
 "The :guilabel:`Advanced Editor`, seen in :numref:`Figure %s <lumina29>`, "
@@ -106,28 +99,7 @@ msgid ""
 "windows on the system."
 msgstr ""
 
-#: ../../luminaconfig.rst:252
-msgid ""
-"The default web browser, email client, file manager,and virtual terminal are"
-" all configurable. Click the desired application, and a new window will "
-"appear, allowing a new default application to be chosen. To return to the "
-"default application, click the current application's name, then "
-":guilabel:`Restore Defaults`."
-msgstr ""
-
-#: ../../luminaconfig.rst:276
-msgid ""
-"To add an application, select the file type and specific group and either "
-"click :guilabel:`Set App`, which will open a drop-down menu of common "
-"applications, or :guilabel:`Set Binary`, which will open a file browser for "
-"navigating the application path. Alternately, selecting only a file type and"
-" clicking :guilabel:`Set App` or :guilabel:`Set Binary` will register the "
-"application for all the groups within the selected type. Selecting "
-":guilabel:`Clear` will remove the default application from the associated "
-"file type or group."
-msgstr ""
-
-#: ../../luminaconfig.rst:305
+#: ../../luminaconfig.rst:304
 msgid ""
 "To create a shortcut, click the desired entry, then :guilabel:`Change "
 "Shortcut`, and define the desired key combination. Any entry with an already"
@@ -137,7 +109,7 @@ msgid ""
 ":guilabel:`Save Changes`. A new shortcut can now be created."
 msgstr ""
 
-#: ../../luminaconfig.rst:313
+#: ../../luminaconfig.rst:312
 msgid ""
 "Click :guilabel:`Advanced Editor`, seen in :numref:`Figure %s <lumina30>`, "
 "to manually adjust or create all keyboard shortcuts. By default, syntax "
@@ -145,7 +117,7 @@ msgid ""
 "unchecking :guilabel:`View Syntax Codes`."
 msgstr ""
 
-#: ../../luminaconfig.rst:447
+#: ../../luminaconfig.rst:448
 msgid ""
 "When adding panels, a frame similar to :guilabel:`Panel 1` will be created "
 "for each panel, labeled :guilabel:`Panel 2`, :guilabel:`Panel 3`, and so on."
@@ -154,18 +126,18 @@ msgid ""
 "desired panel."
 msgstr ""
 
-#: ../../luminaconfig.rst:453
+#: ../../luminaconfig.rst:454
 msgid ""
 "The :guilabel:`Location` tab (4 arrow icon) contains a number of items:"
 msgstr ""
 
-#: ../../luminaconfig.rst:455
+#: ../../luminaconfig.rst:456
 msgid ""
 "**Edge:** This drop-down menu can be used to set the location of the panel "
 "which can be *Top*, *Bottom*, *Left*, or *Right*."
 msgstr ""
 
-#: ../../luminaconfig.rst:490
+#: ../../luminaconfig.rst:491
 msgid ""
 "To add a plugin as an icon to the panel, click :guilabel:`+` below the "
 "listed plugins and select a plugin from the list that appears. To remove a "
@@ -175,7 +147,7 @@ msgid ""
 "vertical panel or the left side of a horizontal panel."
 msgstr ""
 
-#: ../../luminaconfig.rst:498
+#: ../../luminaconfig.rst:499
 msgid ""
 "By default, |lumina| will have one panel which stretches across the bottom "
 "of the primary screen and another auto-hiding panel centered at the top of "
@@ -185,13 +157,13 @@ msgid ""
 "includes the :ref:`Desktop Bar` between two :ref:`Spacer` plugins."
 msgstr ""
 
-#: ../../luminaconfig.rst:521
+#: ../../luminaconfig.rst:522
 msgid ""
 ":guilabel:`General Options`, seen in :numref:`Figure %s <lumina12f>`, is "
 "used to govern numerous settings for the desktop experience."
 msgstr ""
 
-#: ../../luminaconfig.rst:567
+#: ../../luminaconfig.rst:568
 msgid ""
 "Installing the **lumina-i18n** package will also add a drop-down menu to the"
 " :guilabel:`Preferences` area of the start menu, though |lumina| will need "
@@ -201,7 +173,7 @@ msgid ""
 "of any translated menu items without requiring a restart of |lumina|."
 msgstr ""
 
-#: ../../luminaconfig.rst:575
+#: ../../luminaconfig.rst:576
 msgid ""
 "If using |lumina| with a language other than English, any menu items that "
 "continue to be displayed in English have not yet been translated to the "
@@ -213,14 +185,6 @@ msgstr ""
 msgid ": Using the Theme Editor"
 msgstr ""
 
-#: ../../luminaconfig.rst:137
-msgid ": |lumina| Wallpaper Settings"
-msgstr ""
-
-#: ../../luminaconfig.rst:154
-msgid ": Modifying the Wallpaper"
-msgstr ""
-
 #: ../../luminaconfig.rst:172
 msgid ": Window Effects"
 msgstr ""
@@ -229,51 +193,43 @@ msgstr ""
 msgid ": Session Window Manager"
 msgstr ""
 
-#: ../../luminaconfig.rst:221
-msgid ": Window Manager - Advanced"
-msgstr ""
-
-#: ../../luminaconfig.rst:365
+#: ../../luminaconfig.rst:366
 msgid ": |lumina| Interface Configuration"
 msgstr ""
 
-#: ../../luminaconfig.rst:472
+#: ../../luminaconfig.rst:473
 msgid ": Panels Appearance Tab"
 msgstr ""
 
-#: ../../luminaconfig.rst:488
+#: ../../luminaconfig.rst:489
 msgid ": Panels Plugins Tab"
 msgstr ""
 
-#: ../../luminaconfig.rst:529
+#: ../../luminaconfig.rst:530
 msgid ": |lumina| General Options"
 msgstr ""
 
-#: ../../luminaconfig.rst:553
+#: ../../luminaconfig.rst:554
 msgid ": Session Locale Tab"
-msgstr ""
-
-#: ../../luminaconfig.rst:35
-msgid ": |lumina| Desktop Configuration"
 msgstr ""
 
 #: ../../luminaconfig.rst:250
 msgid ": |lumina| Default Applications - Basic"
 msgstr ""
 
-#: ../../luminaconfig.rst:274
+#: ../../luminaconfig.rst:273
 msgid ": |lumina| Default Applications - Advanced"
 msgstr ""
 
-#: ../../luminaconfig.rst:303
+#: ../../luminaconfig.rst:302
 msgid ": |lumina| Keyboard Shortcuts - Basic"
 msgstr ""
 
-#: ../../luminaconfig.rst:323
+#: ../../luminaconfig.rst:322
 msgid ": |lumina| Keyboard Shortcuts - Advanced"
 msgstr ""
 
-#: ../../luminaconfig.rst:435
+#: ../../luminaconfig.rst:436
 msgid ": |lumina| Panel Configuration"
 msgstr ""
 
@@ -281,41 +237,8 @@ msgstr ""
 msgid "Window Effects"
 msgstr ""
 
-#: ../../luminaconfig.rst:16
-msgid ""
-"The |lumina| Configuration utility, shown in :numref:`Figure %s <lumina3>`, "
-"can be used to configure every aspect of the desktop and is the recommended "
-"way to make changes. To launch this utility, click the start menu then "
-":menuselection:`Preferences --> Configure Desktop`, right-click the desktop "
-"and hover over :guilabel:`Preferences` and click :guilabel:`All desktop "
-"settings`, or type :command:`lumina-config` in a CLI. If all those options "
-"are unavailable, the \"Desktop Configuration\" application (under the "
-":guilabel:`Utilities` category) will also open the configuration utility. "
-"For convenience, the :guilabel:`Preferences` section of the right-click menu"
-" also lists the commonly used sub-elements of **Screensaver**, "
-"**Wallpaper**, and **Display** from within the Configuration utility."
-msgstr ""
-
-#: ../../luminaconfig.rst:37
-msgid ""
-"Under the top search bar are four options to configure different areas of "
-"the system. By default, each category is expanded to provide an efficient "
-"view of all available configutation options. Click an option to view the "
-"specific configuration options."
-msgstr ""
-
-#: ../../luminaconfig.rst:57
-msgid ""
-"This category is used to change the visual appearance and functionality of "
-"the desktop on a per-screen basis."
-msgstr ""
-
-#: ../../luminaconfig.rst:64
+#: ../../luminaconfig.rst:65
 msgid "Theme Settings"
-msgstr ""
-
-#: ../../luminaconfig.rst:75
-msgid ": Theme settings, Desktop Tab"
 msgstr ""
 
 #: ../../luminaconfig.rst:102
@@ -372,14 +295,6 @@ msgid ""
 "adjusted manually."
 msgstr ""
 
-#: ../../luminaconfig.rst:174
-msgid ""
-"Check :guilabel:`Disable Compositing Manager` to enable this option. "
-"Restarting the current session is required for any changes to take effect. "
-"By default, :guilabel:`Only use compositing with GPU acceleration` is "
-"selected, which aids with overall system performance."
-msgstr ""
-
 #: ../../luminaconfig.rst:184
 msgid "Window Manager"
 msgstr ""
@@ -394,14 +309,6 @@ msgstr ""
 msgid "Desktop Defaults"
 msgstr ""
 
-#: ../../luminaconfig.rst:230
-msgid ""
-"The :guilabel:`Desktop Defaults` category, seen in :numref:`Figure %s "
-"<lumina3>`, is used to configure which applications automatically start upon"
-" logging in to |lumina|, the default applications and file types, and "
-"keyboard shortcuts."
-msgstr ""
-
 #: ../../luminaconfig.rst:239
 msgid "Applications"
 msgstr ""
@@ -413,26 +320,17 @@ msgid ""
 "This tab can be used to configure default applications."
 msgstr ""
 
-#: ../../luminaconfig.rst:258
-msgid ""
-"Some applications, such as web browsers, keep their own internal lists of "
-"default applications for opening particular types of files. These "
-"applications, when configured to use the :command:`lumina-open` or :command"
-":`xdg-open` utilities, will refer back to the default applications set in "
-":guilabel:`Applications`."
-msgstr ""
-
-#: ../../luminaconfig.rst:265
+#: ../../luminaconfig.rst:264
 msgid ""
 "The :guilabel:`Advanced` tab allows for configuring the default application "
 "used for particular file types, as seen in :numref:`Figure %s <lumina7>`."
 msgstr ""
 
-#: ../../luminaconfig.rst:289
+#: ../../luminaconfig.rst:288
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: ../../luminaconfig.rst:291
+#: ../../luminaconfig.rst:290
 msgid ""
 ":guilabel:`Keyboard Shortcuts`, shown in :numref:`Figure %s <lumina8>`, is "
 "used to configure various keyboard shortcuts for system or window tasks. "
@@ -441,59 +339,48 @@ msgid ""
 "the system audio volume or screen brightness."
 msgstr ""
 
-#: ../../luminaconfig.rst:329
+#: ../../luminaconfig.rst:328
 msgid "Autostart"
 msgstr ""
 
-#: ../../luminaconfig.rst:331
+#: ../../luminaconfig.rst:330
 msgid ""
 ":guilabel:`Autostart`, displayed in :numref:`Figure %s <lumina6>`, provides "
 "adjustment options for what is automatically started when logging into "
 "|lumina|."
 msgstr ""
 
-#: ../../luminaconfig.rst:340
+#: ../../luminaconfig.rst:339
 msgid ": |lumina| Startup Services Configuration"
 msgstr ""
 
-#: ../../luminaconfig.rst:342
-msgid ""
-"To prevent an application from starting automatically, uncheck its box. To "
-"add an application to the auto-start configuration , click "
-":guilabel:`Application` to select the application's name from a drop-down "
-"menu. Alternately, click :guilabel:`Binary` or :guilabel:`File` to browse to"
-" the location of the application or file to open. If a file is chosen, "
-"|lumina| will automatically open it in an application that is capable of "
-"reading the file type."
-msgstr ""
-
-#: ../../luminaconfig.rst:356
+#: ../../luminaconfig.rst:357
 msgid ""
 ":guilabel:`Interface Configuration`, as seen in :numref:`Figure %s "
 "<lumina31>`, is used to configure the desktop, (right-click) menu, and any "
 "panels."
 msgstr ""
 
-#: ../../luminaconfig.rst:376
+#: ../../luminaconfig.rst:377
 msgid "Desktop"
 msgstr ""
 
-#: ../../luminaconfig.rst:378
+#: ../../luminaconfig.rst:379
 msgid ""
 "Select :guilabel:`Desktop` to modify what appears on the current primary "
 "desktop. By default, the :ref:`RSS Reader` plugin will appear in the lower "
 "right corner."
 msgstr ""
 
-#: ../../luminaconfig.rst:385
+#: ../../luminaconfig.rst:386
 msgid "**Launch Item:** Starts the item."
 msgstr ""
 
-#: ../../luminaconfig.rst:400
+#: ../../luminaconfig.rst:401
 msgid "Menu"
 msgstr ""
 
-#: ../../luminaconfig.rst:402
+#: ../../luminaconfig.rst:403
 msgid ""
 "Click :guilabel:`Menu` to adjust the appearance of the menu which appears "
 "when right-clicking the desktop, seen in :numref:`Figure %s <lumina36>`. By "
@@ -502,44 +389,44 @@ msgid ""
 ":ref:`Separator`, :ref:`Settings`, and **Leave**."
 msgstr ""
 
-#: ../../luminaconfig.rst:414
+#: ../../luminaconfig.rst:415
 msgid ": Context menu plugins configuration with an open context menu."
 msgstr ""
 
-#: ../../luminaconfig.rst:424
+#: ../../luminaconfig.rst:425
 msgid "Panels"
 msgstr ""
 
-#: ../../luminaconfig.rst:426
+#: ../../luminaconfig.rst:427
 msgid ""
 "The :guilabel:`Panels` option offers the ability to create and/or customize "
 "panels which are attached to the edges of the screen, as seen in "
 ":numref:`Figure %s <lumina5>`."
 msgstr ""
 
-#: ../../luminaconfig.rst:464
+#: ../../luminaconfig.rst:465
 msgid ""
 "The :guilabel:`Appearance` tab (monitor icon) is shown in :numref:`Figure %s"
 " <lumina19>`."
 msgstr ""
 
-#: ../../luminaconfig.rst:480
+#: ../../luminaconfig.rst:481
 msgid ""
 "The :guilabel:`Plugins` tab (puzzle icon) is shown in :numref:`Figure %s "
 "<lumina20>`."
 msgstr ""
 
-#: ../../luminaconfig.rst:512
+#: ../../luminaconfig.rst:513
 msgid ""
 "The :guilabel:`User Settings` option governs the general settings for the "
 "desktop session. These settings are typically left unchanged."
 msgstr ""
 
-#: ../../luminaconfig.rst:519
+#: ../../luminaconfig.rst:520
 msgid "General Options"
 msgstr ""
 
-#: ../../luminaconfig.rst:531
+#: ../../luminaconfig.rst:532
 msgid ""
 "The user can choose to automatically enable numlock, play chimes when "
 "|lumina| starts or exits, and change the icon that appears in the login menu"
@@ -551,16 +438,16 @@ msgid ""
 "returns to the |lumina| created settings."
 msgstr ""
 
-#: ../../luminaconfig.rst:544
+#: ../../luminaconfig.rst:545
 msgid "Localization"
 msgstr ""
 
-#: ../../luminaconfig.rst:546
+#: ../../luminaconfig.rst:547
 msgid ""
 "The :guilabel:`Localization` is shown in :numref:`Figure %s <lumina21>`."
 msgstr ""
 
-#: ../../luminaconfig.rst:555
+#: ../../luminaconfig.rst:556
 msgid ""
 "The **lumina-i18n** package provides localization files. Once installed, "
 "this allows customization of the locale used for the various items listed in"
@@ -577,11 +464,11 @@ msgstr ""
 msgid ": Application Themes tab, with :guilabel:`Qt5 Theme Engine` pressed."
 msgstr ""
 
-#: ../../luminaconfig.rst:585
+#: ../../luminaconfig.rst:586
 msgid "Input Device Settings"
 msgstr ""
 
-#: ../../luminaconfig.rst:587
+#: ../../luminaconfig.rst:588
 msgid ""
 ":guilabel:`Input Device Settings` provides a full array of configuration "
 "options for each detected input device. :numref:`Figure %s <lumina37>` shows"
@@ -589,21 +476,21 @@ msgid ""
 " the available mouse options."
 msgstr ""
 
-#: ../../luminaconfig.rst:597
+#: ../../luminaconfig.rst:598
 msgid ": Input device configuration, Keyboard settings"
 msgstr ""
 
-#: ../../luminaconfig.rst:599
+#: ../../luminaconfig.rst:600
 msgid ""
 "Keyboard settings are generally confined to enable/disable, and are spread "
 "from the *master* device and any *extension* devices."
 msgstr ""
 
-#: ../../luminaconfig.rst:607
+#: ../../luminaconfig.rst:608
 msgid ": Mouse configuration settings"
 msgstr ""
 
-#: ../../luminaconfig.rst:609
+#: ../../luminaconfig.rst:610
 msgid ""
 "There are a number of different elements available to configure for a basic "
 "mouse, seen in :numref:`Table %s <mseconfset>`. For more in-depth "
@@ -616,130 +503,130 @@ msgstr ""
 msgid ": Mouse configuration options"
 msgstr ""
 
-#: ../../luminaconfig.rst:619
+#: ../../luminaconfig.rst:620
 msgid "Option Name"
 msgstr ""
 
-#: ../../luminaconfig.rst:619
+#: ../../luminaconfig.rst:620
 msgid "Default Value"
 msgstr ""
 
-#: ../../luminaconfig.rst:619
+#: ../../luminaconfig.rst:620
 msgid "Description"
 msgstr ""
 
-#: ../../luminaconfig.rst:621
+#: ../../luminaconfig.rst:622
 msgid "Button Labels"
 msgstr ""
 
-#: ../../luminaconfig.rst:621
+#: ../../luminaconfig.rst:622
 msgid "Button Names"
 msgstr ""
 
-#: ../../luminaconfig.rst:621
+#: ../../luminaconfig.rst:622
 msgid "Displays all button names on the device"
 msgstr ""
 
-#: ../../luminaconfig.rst:623
+#: ../../luminaconfig.rst:624
 msgid "Device Accel Adaptive Deceleration"
 msgstr ""
 
-#: ../../luminaconfig.rst:623 ../../luminaconfig.rst:626
+#: ../../luminaconfig.rst:624 ../../luminaconfig.rst:627
 msgid "1.00"
 msgstr ""
 
-#: ../../luminaconfig.rst:623
+#: ../../luminaconfig.rst:624
 msgid ""
 "Improves mouse control at the pixel level without reducing overall speed"
 msgstr ""
 
-#: ../../luminaconfig.rst:626
+#: ../../luminaconfig.rst:627
 msgid "Device Accel Constant Deceleration"
 msgstr ""
 
-#: ../../luminaconfig.rst:626
+#: ../../luminaconfig.rst:627
 msgid "Decelerates the mouse by a factor equal to the chosen number value"
 msgstr ""
 
-#: ../../luminaconfig.rst:629
+#: ../../luminaconfig.rst:630
 msgid "Device Accel Profile"
 msgstr ""
 
-#: ../../luminaconfig.rst:629
+#: ../../luminaconfig.rst:630
 msgid "0"
 msgstr ""
 
-#: ../../luminaconfig.rst:629
+#: ../../luminaconfig.rst:630
 msgid ""
 "Different acceleration configurations. \"1\" is not a valid option at this "
 "time"
 msgstr ""
 
-#: ../../luminaconfig.rst:632
+#: ../../luminaconfig.rst:633
 msgid "Device Accel Velocity Scaling"
 msgstr ""
 
-#: ../../luminaconfig.rst:632
+#: ../../luminaconfig.rst:633
 msgid "10.00"
 msgstr ""
 
-#: ../../luminaconfig.rst:632
+#: ../../luminaconfig.rst:633
 msgid ""
 "Controls the sensitivity of acceleration. The effect is dependent on the "
 "chosen profile"
 msgstr ""
 
-#: ../../luminaconfig.rst:635
+#: ../../luminaconfig.rst:636
 msgid "Device Enabled"
 msgstr ""
 
-#: ../../luminaconfig.rst:635
+#: ../../luminaconfig.rst:636
 msgid "Checked"
 msgstr ""
 
-#: ../../luminaconfig.rst:635
+#: ../../luminaconfig.rst:636
 msgid "Used to activate/deactivate the device"
 msgstr ""
 
-#: ../../luminaconfig.rst:637
+#: ../../luminaconfig.rst:638
 msgid "Device Node"
 msgstr ""
 
-#: ../../luminaconfig.rst:637
+#: ../../luminaconfig.rst:638
 msgid "Path to Node"
 msgstr ""
 
-#: ../../luminaconfig.rst:637
+#: ../../luminaconfig.rst:638
 msgid "Displays the pathway to the mouse node file"
 msgstr ""
 
-#: ../../luminaconfig.rst:639
+#: ../../luminaconfig.rst:640
 msgid "Mouse Middle Button Emulation"
 msgstr ""
 
-#: ../../luminaconfig.rst:639
+#: ../../luminaconfig.rst:640
 msgid "Checked (if a middle button is detected)"
 msgstr ""
 
-#: ../../luminaconfig.rst:639
+#: ../../luminaconfig.rst:640
 msgid "Activate/deactivates the middle mouse button"
 msgstr ""
 
-#: ../../luminaconfig.rst:643
+#: ../../luminaconfig.rst:644
 msgid "Mouse Middle Button Timeout"
 msgstr ""
 
-#: ../../luminaconfig.rst:643
+#: ../../luminaconfig.rst:644
 msgid "50"
 msgstr ""
 
-#: ../../luminaconfig.rst:643
+#: ../../luminaconfig.rst:644
 msgid ""
 "A millisecond value for the driver to wait before deciding two buttons were "
 "\"simultaneously\" pressed"
 msgstr ""
 
-#: ../../luminaconfig.rst:647
+#: ../../luminaconfig.rst:648
 msgid ""
 "When an incompatible value is set, the entire option line will be "
 "highlighted in red."
@@ -749,14 +636,14 @@ msgstr ""
 msgid "Configuration"
 msgstr ""
 
-#: ../../luminaconfig.rst:367
+#: ../../luminaconfig.rst:368
 msgid ""
 "The options of :guilabel:`Menu`, :guilabel:`Desktop`, and :guilabel:`Panels`"
 " involve modifying and interacting with plugins, which are described at "
 "length in the :ref:`Plugins` chapter of this handbook."
 msgstr ""
 
-#: ../../luminaconfig.rst:42
+#: ../../luminaconfig.rst:43
 msgid ""
 "If you make changes to any of the options, remember to click "
 ":guilabel:`Save` before exiting this utility in order to save them. |lumina|"
@@ -764,29 +651,17 @@ msgid ""
 "to navigate away from the current settings area."
 msgstr ""
 
-#: ../../luminaconfig.rst:48
+#: ../../luminaconfig.rst:49
 msgid ""
 "The rest of this section describes the available configurations in each "
 "category."
 msgstr ""
 
-#: ../../luminaconfig.rst:66
+#: ../../luminaconfig.rst:67
 msgid ""
 "The :guilabel:`Theme` option, shown in :numref:`Figure %s <lumina17>`, is "
 "used to change the default font, font size, theme template, color scheme, "
 "icon pack, and mouse cursors."
-msgstr ""
-
-#: ../../luminaconfig.rst:77
-msgid ""
-"It is possible to create personalized theme templates or color schemes by "
-"clicking :guilabel:`Edit` next to those options and changing the settings as"
-" necessary. :numref:`Figure %s <lumina18>` shows an example of clicking "
-":guilabel:`Edit` with the :guilabel:`Glass (System)` theme template "
-"selected. This action opened the :guilabel:`Theme Editor` and the user has "
-"clicked the color selector (dropper icon) in the upper right corner. Select "
-"an item in this menu to edit the template controlling the selection by "
-"changing the values in the theme editor box."
 msgstr ""
 
 #: ../../luminaconfig.rst:87
@@ -796,14 +671,7 @@ msgid ""
 "when configuring a theme."
 msgstr ""
 
-#: ../../luminaconfig.rst:91
-msgid ""
-"After making any changes, click :guilabel:`Save` to save the theme without "
-"closing the editor, or click :guilabel:`Apply`, which both saves the theme "
-"and closes the editor."
-msgstr ""
-
-#: ../../luminaconfig.rst:474
+#: ../../luminaconfig.rst:475
 msgid ""
 "To hide the panel unless the mouse is hovered over it, check :guilabel"
 ":`Auto-hide Panel`. The :guilabel:`Custom Color` option can be used to fine-"
@@ -812,14 +680,14 @@ msgid ""
 "channel` element."
 msgstr ""
 
-#: ../../luminaconfig.rst:416
+#: ../../luminaconfig.rst:417
 msgid ""
 ":guilabel:`Leave`, with its options to *Logout*, *Restart*, *Shutdown*, "
 "*Lock*, and *Suspend* the system, will **always** be available in the "
 "context menu."
 msgstr ""
 
-#: ../../luminaconfig.rst:437
+#: ../../luminaconfig.rst:438
 msgid ""
 "This screen can be used to customize the location, alignment, size, theme, "
 "and plugins for an existing panel. You can also apply a preconfigured "
@@ -830,6 +698,251 @@ msgid ""
 "Panels must be aligned along a screen edge, opposite screen edges in the "
 "case of two panels, and may have any width, color, or transparency."
 msgstr ""
+
+#: ../../luminaconfig.rst:16
+msgid ""
+"The |lumina| Configuration utility, shown in :numref:`Figure %s <lumina3>`, "
+"is used to configure every aspect of the desktop and is the recommended way "
+"to make changes. To launch this utility, click :menuselection:`Start menu "
+"--> Preferences --> Configure Desktop`, or right-click the desktop and hover"
+" over :guilabel:`Preferences` and click :guilabel:`All Desktop Settings`, or"
+" type :command:`lumina-config` in a Command Line Interface (CLI). If all "
+"those options are unavailable, the *Desktop Configuration* application "
+"(under the :guilabel:`Settings` category) also opens the configuration "
+"utility. For convenience, the :guilabel:`Preferences` section of the right-"
+"click menu also lists the commonly used sub-elements of **Screensaver**, "
+"**Wallpaper**, and **Display** from within the Configuration utility."
+msgstr ""
+
+#: ../../luminaconfig.rst:36
+msgid ": |lumina| Desktop Settings"
+msgstr ""
+
+#: ../../luminaconfig.rst:38
+msgid ""
+"Under the top search bar are options to configure different areas of the "
+"system. By default, each category is expanded to provide an efficient view "
+"of all available configuration options. Click an option to view more details"
+" and tunables."
+msgstr ""
+
+#: ../../luminaconfig.rst:58
+msgid ""
+"This category changes the visual appearance and functionality of the desktop"
+" on a per-screen basis."
+msgstr ""
+
+#: ../../luminaconfig.rst:76
+msgid ": Desktop Theme settings"
+msgstr ""
+
+#: ../../luminaconfig.rst:78
+msgid ""
+"It is possible to create personalized theme templates or color schemes by "
+"clicking :guilabel:`Edit` next to those options and changing the settings as"
+" necessary. :numref:`Figure %s <lumina18>` shows an example of clicking "
+":guilabel:`Edit` on the :guilabel:`Glass (System)` theme template. The "
+":guilabel:`Theme Editor` opens and the user clicks the color selector "
+"(:guilabel:`dropper` icon) in the upper right corner. Selecting an item in "
+"this menu edits the template by changing the values in the theme editor box."
+msgstr ""
+
+#: ../../luminaconfig.rst:91
+msgid ""
+"When making changes, be sure to click :guilabel:`Save` to save the theme "
+"without closing the editor, or click :guilabel:`Apply`, which both saves the"
+" theme and closes the editor."
+msgstr ""
+
+#: ../../luminaconfig.rst:137
+msgid ": Wallpaper Settings"
+msgstr ""
+
+#: ../../luminaconfig.rst:154
+msgid ": Custom Wallpaper colors"
+msgstr ""
+
+#: ../../luminaconfig.rst:174
+msgid ""
+"Disable the Compositing Manager by checking its associated box. Restarting "
+"the current session is required for any changes to take effect. By default, "
+":guilabel:`Only use compositing with GPU acceleration` is selected, which "
+"improves system performance."
+msgstr ""
+
+#: ../../luminaconfig.rst:208
+msgid ""
+"**Window Theme:** Controls the appearance of the frame around application "
+"windows. The :guilabel:`Window Theme Preview` box previews the selected "
+"theme."
+msgstr ""
+
+#: ../../luminaconfig.rst:221
+msgid ": Window Manager - Advanced Editor"
+msgstr ""
+
+#: ../../luminaconfig.rst:230
+msgid ""
+"The :guilabel:`Desktop Defaults` category, seen in :numref:`Figure %s "
+"<lumina3>`, is used to configure which applications automatically start on "
+"login in to |lumina|, the default applications and file types, and keyboard "
+"shortcuts."
+msgstr ""
+
+#: ../../luminaconfig.rst:252
+msgid ""
+"The default *web browser*, *email client*, *file manager*, and *virtual* "
+"*terminal* are all configurable. Click the desired application, and a new "
+"window appears, allowing a new default application to be chosen. To return "
+"to the default application, click the current application's name, then "
+":guilabel:`Restore Defaults`."
+msgstr ""
+
+#: ../../luminaconfig.rst:258
+msgid ""
+"Some applications, such as web browsers, keep their own internal lists of "
+"default applications for opening particular types of files. These "
+"applications, when configured to use the :command:`lumina-open` or :command"
+":`xdg-open` utilities, refer back to the default applications set in "
+":guilabel:`Applications`."
+msgstr ""
+
+#: ../../luminaconfig.rst:275
+msgid ""
+"To add an application, select both the file type and specific group. Then, "
+"either click :guilabel:`Set App` to open a drop-down menu of common "
+"applications or :guilabel:`Set Binary` to open a file browser for navigating"
+" the application path. Alternately, selecting only a file type and clicking "
+":guilabel:`Set App` or :guilabel:`Set Binary` registers the application for "
+"all the groups within the selected type. Selecting :guilabel:`Clear` removes"
+" the default application from the associated file type or group."
+msgstr ""
+
+#: ../../luminaconfig.rst:341
+msgid ""
+"To prevent an application from starting automatically, uncheck its box. To "
+"add an application to the auto-start configuration , click "
+":guilabel:`Application` to select the application's name from a drop-down "
+"menu. Alternately, click :guilabel:`Binary` or :guilabel:`File` to browse to"
+" the location of the application or file to open. If a file is chosen, "
+"|lumina| automatically opens it in an application capable of reading the "
+"file type."
+msgstr ""
+
+#~ msgid ""
+#~ "**Window Theme:** Controls the appearance of the frame around application "
+#~ "windows. The :guilabel:`Window Theme Preview` screen can be used to preview "
+#~ "the selected theme."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The default web browser, email client, file manager,and virtual terminal are"
+#~ " all configurable. Click the desired application, and a new window will "
+#~ "appear, allowing a new default application to be chosen. To return to the "
+#~ "default application, click the current application's name, then "
+#~ ":guilabel:`Restore Defaults`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add an application, select the file type and specific group and either "
+#~ "click :guilabel:`Set App`, which will open a drop-down menu of common "
+#~ "applications, or :guilabel:`Set Binary`, which will open a file browser for "
+#~ "navigating the application path. Alternately, selecting only a file type and"
+#~ " clicking :guilabel:`Set App` or :guilabel:`Set Binary` will register the "
+#~ "application for all the groups within the selected type. Selecting "
+#~ ":guilabel:`Clear` will remove the default application from the associated "
+#~ "file type or group."
+#~ msgstr ""
+
+#~ msgid ": |lumina| Wallpaper Settings"
+#~ msgstr ""
+
+#~ msgid ": Modifying the Wallpaper"
+#~ msgstr ""
+
+#~ msgid ": Window Manager - Advanced"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Desktop Configuration"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The |lumina| Configuration utility, shown in :numref:`Figure %s <lumina3>`, "
+#~ "can be used to configure every aspect of the desktop and is the recommended "
+#~ "way to make changes. To launch this utility, click the start menu then "
+#~ ":menuselection:`Preferences --> Configure Desktop`, right-click the desktop "
+#~ "and hover over :guilabel:`Preferences` and click :guilabel:`All desktop "
+#~ "settings`, or type :command:`lumina-config` in a CLI. If all those options "
+#~ "are unavailable, the \"Desktop Configuration\" application (under the "
+#~ ":guilabel:`Utilities` category) will also open the configuration utility. "
+#~ "For convenience, the :guilabel:`Preferences` section of the right-click menu"
+#~ " also lists the commonly used sub-elements of **Screensaver**, "
+#~ "**Wallpaper**, and **Display** from within the Configuration utility."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Under the top search bar are four options to configure different areas of "
+#~ "the system. By default, each category is expanded to provide an efficient "
+#~ "view of all available configutation options. Click an option to view the "
+#~ "specific configuration options."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This category is used to change the visual appearance and functionality of "
+#~ "the desktop on a per-screen basis."
+#~ msgstr ""
+
+#~ msgid ": Theme settings, Desktop Tab"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Check :guilabel:`Disable Compositing Manager` to enable this option. "
+#~ "Restarting the current session is required for any changes to take effect. "
+#~ "By default, :guilabel:`Only use compositing with GPU acceleration` is "
+#~ "selected, which aids with overall system performance."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :guilabel:`Desktop Defaults` category, seen in :numref:`Figure %s "
+#~ "<lumina3>`, is used to configure which applications automatically start upon"
+#~ " logging in to |lumina|, the default applications and file types, and "
+#~ "keyboard shortcuts."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Some applications, such as web browsers, keep their own internal lists of "
+#~ "default applications for opening particular types of files. These "
+#~ "applications, when configured to use the :command:`lumina-open` or :command"
+#~ ":`xdg-open` utilities, will refer back to the default applications set in "
+#~ ":guilabel:`Applications`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To prevent an application from starting automatically, uncheck its box. To "
+#~ "add an application to the auto-start configuration , click "
+#~ ":guilabel:`Application` to select the application's name from a drop-down "
+#~ "menu. Alternately, click :guilabel:`Binary` or :guilabel:`File` to browse to"
+#~ " the location of the application or file to open. If a file is chosen, "
+#~ "|lumina| will automatically open it in an application that is capable of "
+#~ "reading the file type."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is possible to create personalized theme templates or color schemes by "
+#~ "clicking :guilabel:`Edit` next to those options and changing the settings as"
+#~ " necessary. :numref:`Figure %s <lumina18>` shows an example of clicking "
+#~ ":guilabel:`Edit` with the :guilabel:`Glass (System)` theme template "
+#~ "selected. This action opened the :guilabel:`Theme Editor` and the user has "
+#~ "clicked the color selector (dropper icon) in the upper right corner. Select "
+#~ "an item in this menu to edit the template controlling the selection by "
+#~ "changing the values in the theme editor box."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After making any changes, click :guilabel:`Save` to save the theme without "
+#~ "closing the editor, or click :guilabel:`Apply`, which both saves the theme "
+#~ "and closes the editor."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "This screen can be used to customize the location, alignment, size, theme, "
