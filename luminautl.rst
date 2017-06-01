@@ -740,6 +740,81 @@ text and highlight colors, as seen in :numref:`Figure %s <lumina32>`.
 
    : Customize Colors
 
+.. index:: lumina-mediaplayer
+.. _Lumina Media Player:
+
+Lumina Media Player
+===================
+
+:command:`lumina-mediaplayer` is a very basic music player with included
+integrations for the Pandora internet radio streaming service. Lumina
+Media Player can be found in the
+:menuselection:`Applications --> Utilities` section, or by typing
+:command:`lumina-mediaplayer` in a command line.
+
+Lumina Media Player is essentially a basic graphic interface for the Qt
+`QMediaPlayer Class <http://doc.qt.io/qt-5/qmediaplayer.html>`_. This
+class supports many audio formats, including *.ogg*, *.mp3*, *.mp4*,
+*.flac*, and *.wmv*. You can increase the number of playable formats by
+installing *gstreamer-plugins* from |appcafe|.
+
+:numref:`Figure %s <lmediapl1>` shows the initial screen for Lumina
+Media Player.
+
+.. _lmediapl1:
+
+.. figure:: images/lmediapl1.png
+   :scale: 100%
+
+   Lumina Media Player: Play Local Files
+
+Use :guilabel:`View` to toggle notifications or closing the player to
+the tray when active. The :guilabel:`Play` button plays all songs in the
+:guilabel:`Playlist`. When music is playing, the :guilabel:`Now Playing`
+tab becomes active, displaying more icons to *Pause*, *Stop*,
+*Play Previous*, and *Skip to Next*. Press *Stop* to disable the
+:guilabel:`Now Playing` tab and return to the :guilabel:`Playlist` tab.
+
+While browsing the :guilabel:`Playlist`, you can use the
+:guilabel:`Plus` and :guilabel:`Minus` buttons to add and remove songs
+from the list. Use the :kbd:`Arrow` keys to reorder songs in the list.
+There are also :guilabel:`Cross Arrows` and :guilabel:`Circular Arrows`
+icons to *Randomize* and *Auto-Repeat* the playlist, respectively.
+
+To enable Pandora streaming functionality, install the *pianobar*
+utility from |appcafe|. Once installed, restart Lumina Media Player to
+enable the :guilabel:`P` icon. Click it to switch to Pandora streaming,
+seen in :numref:`Figure %s <lmediapl2>`.
+
+.. _lmediapl2:
+
+.. figure:: images/lmediapl2.png
+   :scale: 100%
+
+   Lumina Media Player: Pandora Settings
+
+The :guilabel:`Settings` tab has a number of options for configuring
+your Pandora stream.
+You can log in to your account or click :guilabel:`Need an account?` to
+create a new Pandora account. There are also options to adjust
+*Audio Quality*, *Audio Driver*, and add *Proxy URLs*. Be sure to click
+:guilabel:`Apply Settings`. If the account information is valid, the
+:guilabel:`Now Playing` tab activates, seen in
+:numref:`Figure %s <lmediapl3>`.
+
+.. _lmediapl3:
+
+.. figure:: images/lmediapl3.png
+   :scale: 100%
+
+   Lumina Media Player: Pandora Now Playing
+
+The :guilabel:`Now Playing` tab offers a very basic Pandora interface,
+displaying the current song and station, and offering options to *like*
+songs, prevent a song from playing for a month, *ban* songs, and view
+more *details* about a song. You can also use the :guilabel:`Plus` and
+:guilabel:`Minus` icons to add or remove new radio stations.
+
 .. index:: Xconfig
 .. _Xconfig:
 
