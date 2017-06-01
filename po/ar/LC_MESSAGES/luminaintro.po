@@ -11,28 +11,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../luminaintro.rst:183
+#: ../../luminaintro.rst:185
 msgid "Introduction to |lumina|"
 msgstr ""
 
-#: ../../luminaintro.rst:196
+#: ../../luminaintro.rst:198
 msgid "Very little system overhead."
 msgstr ""
 
-#: ../../luminaintro.rst:198
+#: ../../luminaintro.rst:200
 msgid ""
 "Does not require any of the desktop implementation frameworks such as DBUS, "
 "policykit, consolekit, systemd, or HALD."
 msgstr ""
 
-#: ../../luminaintro.rst:201
+#: ../../luminaintro.rst:203
 msgid ""
 "Does not come bundled with any applications such as web browsers, email "
 "clients, multimedia software, or office suites. Instead, it provides "
 "utilities for configuring the desktop environment."
 msgstr ""
 
-#: ../../luminaintro.rst:211
+#: ../../luminaintro.rst:213
 msgid ""
 "Provides a plugin-based interface design. The user can make their desktop as"
 " light or heavy as they wish by choosing which plugins to have running on "
@@ -40,46 +40,46 @@ msgid ""
 "other modern operating systems."
 msgstr ""
 
-#: ../../luminaintro.rst:219
+#: ../../luminaintro.rst:221
 msgid ""
 "Intelligent \"favorites\" system for creating quick shortcuts to "
 "applications, files, and directories."
 msgstr ""
 
-#: ../../luminaintro.rst:222
+#: ../../luminaintro.rst:224
 msgid ""
 "ZFS file restore functionality through the :ref:`Insight File Manager`."
 msgstr ""
 
-#: ../../luminaintro.rst:228
+#: ../../luminaintro.rst:230
 msgid ""
 "Simple system controls through the system menu for configuring audio volume,"
 " screen brightness, battery status/notifications, and workspace switching."
 msgstr ""
 
-#: ../../luminaintro.rst:232
+#: ../../luminaintro.rst:234
 msgid ""
 "Total system search capabilities through the resource friendly :ref:`Lumina "
 "Search` utility."
 msgstr ""
 
-#: ../../luminaintro.rst:274
+#: ../../luminaintro.rst:276
 msgid "Initial Settings"
 msgstr ""
 
-#: ../../luminaintro.rst:353
+#: ../../luminaintro.rst:355
 msgid ""
 "**Screen Brightness:** Use the mouse to move the brightness control slider "
 "from 10% to 100%."
 msgstr ""
 
-#: ../../luminaintro.rst:356
+#: ../../luminaintro.rst:358
 msgid ""
 "**Workspace:** The number of available virtual workspaces are listed. Click "
 "the right or left arrow to switch between workspaces."
 msgstr ""
 
-#: ../../luminaintro.rst:359
+#: ../../luminaintro.rst:362
 msgid ""
 "**Locale:** This will only appear if the lumina-i18n package is installed. "
 "The current locale will be displayed as the title of the drop-down menu. "
@@ -88,15 +88,15 @@ msgid ""
 "settings."
 msgstr ""
 
-#: ../../luminaintro.rst:365
+#: ../../luminaintro.rst:368
 msgid "**Back:** Click to return to the start menu."
 msgstr ""
 
-#: ../../luminaintro.rst:491
+#: ../../luminaintro.rst:494
 msgid "Panel and System Tray"
 msgstr ""
 
-#: ../../luminaintro.rst:498
+#: ../../luminaintro.rst:501
 msgid ""
 "When opening windows or applications, a button will be added to the section "
 "of the panel near the start menu. If the application provides an icon, the "
@@ -106,27 +106,27 @@ msgid ""
 "active; click it again to minimize it."
 msgstr ""
 
-#: ../../luminaintro.rst:505
+#: ../../luminaintro.rst:508
 msgid ""
 "Right-click the title of an open window to open a menu of options, including"
 " stick, layer/dock, and set transparency, among other options."
 msgstr ""
 
-#: ../../luminaintro.rst:524
+#: ../../luminaintro.rst:527
 msgid "Desktop Context Menu"
 msgstr ""
 
-#: ../../luminaintro.rst:541
+#: ../../luminaintro.rst:544
 msgid "By default, the right-click menu contains the following items:"
 msgstr ""
 
-#: ../../luminaintro.rst:546
+#: ../../luminaintro.rst:549
 msgid ""
 "**Browse Files:** Launches the default file manager. (:ref:`Insight File "
 "Manager` for Lumina)"
 msgstr ""
 
-#: ../../luminaintro.rst:549
+#: ../../luminaintro.rst:552
 msgid ""
 "**Applications:** Provides shortcuts to the operating system's graphical "
 "software management utility (if available), the control panel (if the "
@@ -134,7 +134,7 @@ msgid ""
 " the system, arranged by system category."
 msgstr ""
 
-#: ../../luminaintro.rst:560
+#: ../../luminaintro.rst:563
 msgid ""
 "**Leave:** Opens the system log out window, with options to log out of the "
 "desktop session, restart the system (if the user has permission), shutdown "
@@ -143,7 +143,7 @@ msgid ""
 "mode)."
 msgstr ""
 
-#: ../../luminaintro.rst:185
+#: ../../luminaintro.rst:187
 msgid ""
 "The Lumina Desktop Environment (|lumina| for short) is a lightweight, XDG-"
 "compliant, BSD-licensed desktop environment focused on streamlining work "
@@ -154,27 +154,18 @@ msgid ""
 "such as :command:`numlockx` and :command:`xscreensaver`."
 msgstr ""
 
-#: ../../luminaintro.rst:194
+#: ../../luminaintro.rst:196
 msgid "|lumina|'s features include:"
 msgstr ""
 
-#: ../../luminaintro.rst:205
-msgid ""
-"Uses a simple, `text-based configuration file "
-"<https://github.com/trueos/lumina/blob/master/src-qt5/core/lumina-"
-"desktop/defaults/luminaDesktop.conf>`_ for setting system-wide defaults. "
-"|lumina| distributors can use this file to easily preset the |lumina| "
-"defaults and interface for their distribution."
-msgstr ""
-
-#: ../../luminaintro.rst:243
+#: ../../luminaintro.rst:245
 msgid ""
 "|lumina| is available as a pre-built package for numerous operating systems."
 " The `Get Lumina® <http://lumina-desktop.org/get-lumina/>`_ section of the "
 "webpage includes installation instructions for each supported system."
 msgstr ""
 
-#: ../../luminaintro.rst:248
+#: ../../luminaintro.rst:250
 msgid ""
 "In addition to pre-built packages, the `Lumina® source repository "
 "<https://github.com/trueos/lumina>`_ is available on GitHub so that "
@@ -186,7 +177,7 @@ msgid ""
 "instructions."
 msgstr ""
 
-#: ../../luminaintro.rst:258
+#: ../../luminaintro.rst:260
 msgid ""
 "After installing |lumina|, no startup configuration is needed when installed"
 " on a |trueos| system as the PCDM login manager will automatically display "
@@ -194,19 +185,19 @@ msgid ""
 "in."
 msgstr ""
 
-#: ../../luminaintro.rst:263
+#: ../../luminaintro.rst:265
 msgid ""
 "When using a system with no graphical login manager, type :command:`start-"
 "lumina-desktop` to start |lumina|."
 msgstr ""
 
-#: ../../luminaintro.rst:281
+#: ../../luminaintro.rst:283
 msgid ""
 "The default desktop appearance can vary if using another distrubution's "
 "custom configuration of the |lumina| Desktop Project."
 msgstr ""
 
-#: ../../luminaintro.rst:295
+#: ../../luminaintro.rst:297
 msgid ""
 "The Start Menu provides quick access for user interaction with the system. "
 "The top frame is a search bar for rapidly finding specific items. Just "
@@ -218,7 +209,7 @@ msgid ""
 "categories:"
 msgstr ""
 
-#: ../../luminaintro.rst:311
+#: ../../luminaintro.rst:313
 msgid ""
 "**Browse Files:** Used to browse for files and directories using the "
 ":ref:`Insight File Manager`. One available action in this file manager is "
@@ -226,7 +217,7 @@ msgid ""
 "select the file or directory and click the :guilabel:`star` icon in Insight."
 msgstr ""
 
-#: ../../luminaintro.rst:317
+#: ../../luminaintro.rst:319
 msgid ""
 "**Browse Applications:** Click this entry to browse all applications "
 "currently registered on the system. Applications are listed alphabetically "
@@ -235,7 +226,7 @@ msgid ""
 "categories (unchecked box), and categories with contents (half-checked box)."
 msgstr ""
 
-#: ../../luminaintro.rst:324
+#: ../../luminaintro.rst:326
 msgid ""
 "Click an application's name to start the application. Right-click an "
 "application's name to view choices for :guilabel:`Pin to Desktop`, "
@@ -248,23 +239,23 @@ msgid ""
 " menu."
 msgstr ""
 
-#: ../../luminaintro.rst:334
+#: ../../luminaintro.rst:336
 msgid ""
 "**Control Panel:** If using |trueos| or an operating system with a control "
 "panel, click this entry to open the operating system's control panel."
 msgstr ""
 
-#: ../../luminaintro.rst:338
+#: ../../luminaintro.rst:340
 msgid "**Preferences:** Click this entry to access a number of options:"
 msgstr ""
 
-#: ../../luminaintro.rst:343
+#: ../../luminaintro.rst:345
 msgid ""
 "**Lumina Desktop Information:** Click the :guilabel:`?` icon to determine "
 "the installed version of |lumina|."
 msgstr ""
 
-#: ../../luminaintro.rst:346
+#: ../../luminaintro.rst:348
 msgid ""
 "**System Volume:** Use the mouse to move the volume control slider to change"
 " the system audio volume from 0% to 100%. Click the sound icon on the left "
@@ -273,7 +264,7 @@ msgid ""
 " advanced control of the audio system."
 msgstr ""
 
-#: ../../luminaintro.rst:367
+#: ../../luminaintro.rst:370
 msgid ""
 "**Leave:** Click this entry to view options to :guilabel:`Suspend System` "
 "(if supported by the operating system, press the system's power button to "
@@ -285,7 +276,7 @@ msgid ""
 " resume the session."
 msgstr ""
 
-#: ../../luminaintro.rst:493
+#: ../../luminaintro.rst:496
 msgid ""
 "By default, |lumina| provides a panel at the bottom of the screen with a "
 "system tray at the far right of the panel. This section describes the "
@@ -293,11 +284,11 @@ msgid ""
 " :ref:`Interface` section."
 msgstr ""
 
-#: ../../luminaintro.rst:289
+#: ../../luminaintro.rst:291
 msgid ": Lumina Desktop"
 msgstr ""
 
-#: ../../luminaintro.rst:76
+#: ../../luminaintro.rst:78
 msgid ""
 "The |lumina| Handbook is freely available for sharing and redistribution "
 "under the terms of the `Creative Commons Attribution License "
@@ -306,7 +297,7 @@ msgid ""
 " attribute the |lumina| Project as the original source of the Handbook."
 msgstr ""
 
-#: ../../luminaintro.rst:266
+#: ../../luminaintro.rst:268
 msgid ""
 "The rest of this Handbook describes the Lumina Configuration utility, other "
 "various utilities built into |lumina|, and |lumina| plugins. Also, the "
@@ -314,14 +305,14 @@ msgid ""
 " the change log for each major release of |lumina|."
 msgstr ""
 
-#: ../../luminaintro.rst:291
+#: ../../luminaintro.rst:293
 msgid ""
 ":numref:`Figure %s <lumina1>` is a screenshot of Lumina using its default "
 "settings. The user has clicked the \"|lumina|\" icon in order to open the "
 "start menu."
 msgstr ""
 
-#: ../../luminaintro.rst:304
+#: ../../luminaintro.rst:306
 msgid ""
 "**Favorites:** This element is the largest section of the menu. Click an "
 "entry to launch that application. Right-click an entry to :guilabel:`Remove "
@@ -330,7 +321,7 @@ msgid ""
 " button for the application to the panel next to the :guilabel:`Start Menu`."
 msgstr ""
 
-#: ../../luminaintro.rst:508
+#: ../../luminaintro.rst:511
 msgid ""
 "The system tray is located in the right portion of the panel. Any "
 "applications that register a tray icon will appear in this area. For "
@@ -345,24 +336,24 @@ msgid ""
 "zone."
 msgstr ""
 
-#: ../../luminaintro.rst:543
+#: ../../luminaintro.rst:546
 msgid ""
 "**Terminal:** Used to launch a system terminal. The default is "
 ":command:`xterm`, but this is customizable."
 msgstr ""
 
-#: ../../luminaintro.rst:377
+#: ../../luminaintro.rst:380
 msgid ""
 "On a |trueos| system currently applying updates, the *shutdown* and "
 "*restart* options are disabled until the updates are complete. A popup "
 "indicates updates are in progress."
 msgstr ""
 
-#: ../../luminaintro.rst:384
+#: ../../luminaintro.rst:387
 msgid "Default Keyboard Shortcuts"
 msgstr ""
 
-#: ../../luminaintro.rst:386
+#: ../../luminaintro.rst:389
 msgid ""
 "By default, |lumina| utilizes a large number of keyboard shortcuts, as seen "
 "in :numref:`Table %s <lumdefkbd>`. Many of these shortcuts are derived from "
@@ -373,338 +364,338 @@ msgstr ""
 msgid ": |lumina| keyboard shortcuts"
 msgstr ""
 
-#: ../../luminaintro.rst:397
+#: ../../luminaintro.rst:400
 msgid "Shortcut"
 msgstr ""
 
-#: ../../luminaintro.rst:397
+#: ../../luminaintro.rst:400
 msgid "Function"
 msgstr ""
 
-#: ../../luminaintro.rst:397
+#: ../../luminaintro.rst:400
 msgid "Default"
 msgstr ""
 
-#: ../../luminaintro.rst:399
+#: ../../luminaintro.rst:402
 msgid "Alt + click (open window)"
 msgstr ""
 
-#: ../../luminaintro.rst:399
+#: ../../luminaintro.rst:402
 msgid "Move window"
 msgstr ""
 
-#: ../../luminaintro.rst:399 ../../luminaintro.rst:402
-#: ../../luminaintro.rst:406 ../../luminaintro.rst:410
-#: ../../luminaintro.rst:414 ../../luminaintro.rst:416
-#: ../../luminaintro.rst:419 ../../luminaintro.rst:421
-#: ../../luminaintro.rst:424 ../../luminaintro.rst:427
-#: ../../luminaintro.rst:430 ../../luminaintro.rst:433
-#: ../../luminaintro.rst:436 ../../luminaintro.rst:441
-#: ../../luminaintro.rst:443 ../../luminaintro.rst:445
-#: ../../luminaintro.rst:447 ../../luminaintro.rst:449
-#: ../../luminaintro.rst:451 ../../luminaintro.rst:453
-#: ../../luminaintro.rst:457 ../../luminaintro.rst:461
-#: ../../luminaintro.rst:464
+#: ../../luminaintro.rst:402 ../../luminaintro.rst:405
+#: ../../luminaintro.rst:409 ../../luminaintro.rst:413
+#: ../../luminaintro.rst:417 ../../luminaintro.rst:419
+#: ../../luminaintro.rst:422 ../../luminaintro.rst:424
+#: ../../luminaintro.rst:427 ../../luminaintro.rst:430
+#: ../../luminaintro.rst:433 ../../luminaintro.rst:436
+#: ../../luminaintro.rst:439 ../../luminaintro.rst:444
+#: ../../luminaintro.rst:446 ../../luminaintro.rst:448
+#: ../../luminaintro.rst:450 ../../luminaintro.rst:452
+#: ../../luminaintro.rst:454 ../../luminaintro.rst:456
+#: ../../luminaintro.rst:460 ../../luminaintro.rst:464
+#: ../../luminaintro.rst:467
 msgid "Fluxbox"
 msgstr ""
 
-#: ../../luminaintro.rst:402
+#: ../../luminaintro.rst:405
 msgid "Alt + right click (open window)"
 msgstr ""
 
-#: ../../luminaintro.rst:402
+#: ../../luminaintro.rst:405
 msgid "Resize window"
 msgstr ""
 
-#: ../../luminaintro.rst:406
+#: ../../luminaintro.rst:409
 msgid "Alt + middle click (open window"
 msgstr ""
 
-#: ../../luminaintro.rst:406
+#: ../../luminaintro.rst:409
 msgid "Lower window"
 msgstr ""
 
-#: ../../luminaintro.rst:410
+#: ../../luminaintro.rst:413
 msgid "Ctrl + click + drag (window titlebar)"
 msgstr ""
 
-#: ../../luminaintro.rst:410
+#: ../../luminaintro.rst:413
 msgid "Attach windows"
 msgstr ""
 
-#: ../../luminaintro.rst:414
+#: ../../luminaintro.rst:417
 msgid "Alt + Tab"
 msgstr ""
 
-#: ../../luminaintro.rst:414
+#: ../../luminaintro.rst:417
 msgid "Next window"
 msgstr ""
 
-#: ../../luminaintro.rst:416
+#: ../../luminaintro.rst:419
 msgid "Alt + Shift + Tab"
 msgstr ""
 
-#: ../../luminaintro.rst:416
+#: ../../luminaintro.rst:419
 msgid "Previous window"
 msgstr ""
 
-#: ../../luminaintro.rst:419
+#: ../../luminaintro.rst:422
 msgid "Ctrl + Tab"
 msgstr ""
 
-#: ../../luminaintro.rst:419
+#: ../../luminaintro.rst:422
 msgid "Next group"
 msgstr ""
 
-#: ../../luminaintro.rst:421
+#: ../../luminaintro.rst:424
 msgid "Ctrl + Shift + Tab"
 msgstr ""
 
-#: ../../luminaintro.rst:421
+#: ../../luminaintro.rst:424
 msgid "Previous group"
 msgstr ""
 
-#: ../../luminaintro.rst:424
+#: ../../luminaintro.rst:427
 msgid "Windows Key + Tab"
 msgstr ""
 
-#: ../../luminaintro.rst:424
+#: ../../luminaintro.rst:427
 msgid "Next (Fluxbox) Tab"
 msgstr ""
 
-#: ../../luminaintro.rst:427
+#: ../../luminaintro.rst:430
 msgid "Windows Key + Shift + Tab"
 msgstr ""
 
-#: ../../luminaintro.rst:427
+#: ../../luminaintro.rst:430
 msgid "Previous (Fluxbox) Tab"
 msgstr ""
 
-#: ../../luminaintro.rst:430
+#: ../../luminaintro.rst:433
 msgid "Alt + Left Arrow"
 msgstr ""
 
-#: ../../luminaintro.rst:430
+#: ../../luminaintro.rst:433
 msgid "Arrange windows in a tiled state. The active window moves screen left."
 msgstr ""
 
-#: ../../luminaintro.rst:433
+#: ../../luminaintro.rst:436
 msgid "Alt + Right Arrow"
 msgstr ""
 
-#: ../../luminaintro.rst:433
+#: ../../luminaintro.rst:436
 msgid ""
 "Arrange windows in a tiled state. The active window moves screen right."
 msgstr ""
 
-#: ../../luminaintro.rst:436
+#: ../../luminaintro.rst:439
 msgid "Windows Key + <1-9>"
 msgstr ""
 
-#: ../../luminaintro.rst:436
+#: ../../luminaintro.rst:439
 msgid "Move to a specific tab in the current window."
 msgstr ""
 
-#: ../../luminaintro.rst:439
+#: ../../luminaintro.rst:442
 msgid "Alt + F1"
 msgstr ""
 
-#: ../../luminaintro.rst:439
+#: ../../luminaintro.rst:442
 msgid "Opens Lumina default terminal"
 msgstr ""
 
-#: ../../luminaintro.rst:439 ../../luminaintro.rst:467
-#: ../../luminaintro.rst:469 ../../luminaintro.rst:471
-#: ../../luminaintro.rst:473 ../../luminaintro.rst:475
-#: ../../luminaintro.rst:477 ../../luminaintro.rst:479
-#: ../../luminaintro.rst:481 ../../luminaintro.rst:483
-#: ../../luminaintro.rst:485
+#: ../../luminaintro.rst:442 ../../luminaintro.rst:470
+#: ../../luminaintro.rst:472 ../../luminaintro.rst:474
+#: ../../luminaintro.rst:476 ../../luminaintro.rst:478
+#: ../../luminaintro.rst:480 ../../luminaintro.rst:482
+#: ../../luminaintro.rst:484 ../../luminaintro.rst:486
+#: ../../luminaintro.rst:488
 msgid "Lumina"
 msgstr ""
 
-#: ../../luminaintro.rst:441
+#: ../../luminaintro.rst:444
 msgid "Alt + F2"
 msgstr ""
 
-#: ../../luminaintro.rst:441
+#: ../../luminaintro.rst:444
 msgid "Opens :command:`lumina-search`"
 msgstr ""
 
-#: ../../luminaintro.rst:443
+#: ../../luminaintro.rst:446
 msgid "Alt + F4"
 msgstr ""
 
-#: ../../luminaintro.rst:443
+#: ../../luminaintro.rst:446
 msgid "Close open window"
 msgstr ""
 
-#: ../../luminaintro.rst:445
+#: ../../luminaintro.rst:448
 msgid "Alt + F5"
 msgstr ""
 
-#: ../../luminaintro.rst:445
+#: ../../luminaintro.rst:448
 msgid "Kill the open window's process."
 msgstr ""
 
-#: ../../luminaintro.rst:447
+#: ../../luminaintro.rst:450
 msgid "Alt + F9"
 msgstr ""
 
-#: ../../luminaintro.rst:447
+#: ../../luminaintro.rst:450
 msgid "Minimize open window"
 msgstr ""
 
-#: ../../luminaintro.rst:449
+#: ../../luminaintro.rst:452
 msgid "Alt + F10"
 msgstr ""
 
-#: ../../luminaintro.rst:449
+#: ../../luminaintro.rst:452
 msgid "Maximize open window"
 msgstr ""
 
-#: ../../luminaintro.rst:451
+#: ../../luminaintro.rst:454
 msgid "Alt + F11"
 msgstr ""
 
-#: ../../luminaintro.rst:451
+#: ../../luminaintro.rst:454
 msgid "Fullscreen open window"
 msgstr ""
 
-#: ../../luminaintro.rst:453
+#: ../../luminaintro.rst:456
 msgid "Windows Key + <Left & Right Arrows>"
 msgstr ""
 
-#: ../../luminaintro.rst:453
+#: ../../luminaintro.rst:456
 msgid "Send current window to previous/next workspace."
 msgstr ""
 
-#: ../../luminaintro.rst:457
+#: ../../luminaintro.rst:460
 msgid "Ctrl + Windows Key + <Left & Right Arrows>"
 msgstr ""
 
-#: ../../luminaintro.rst:457
+#: ../../luminaintro.rst:460
 msgid "Send current window to previous/next workspace and follow the window."
 msgstr ""
 
-#: ../../luminaintro.rst:461
+#: ../../luminaintro.rst:464
 msgid "Windows Key + F1-12"
 msgstr ""
 
-#: ../../luminaintro.rst:461
+#: ../../luminaintro.rst:464
 msgid "Change to a specific workspace."
 msgstr ""
 
-#: ../../luminaintro.rst:464
+#: ../../luminaintro.rst:467
 msgid "Ctrl + Windows Key + F1-12"
 msgstr ""
 
-#: ../../luminaintro.rst:464
+#: ../../luminaintro.rst:467
 msgid "Change to a specific workspace with the active window."
 msgstr ""
 
-#: ../../luminaintro.rst:467
+#: ../../luminaintro.rst:470
 msgid "Print"
 msgstr ""
 
-#: ../../luminaintro.rst:467
+#: ../../luminaintro.rst:470
 msgid "Open :command:`lumina-screenshot`"
 msgstr ""
 
-#: ../../luminaintro.rst:469
+#: ../../luminaintro.rst:472
 msgid "Pause"
 msgstr ""
 
-#: ../../luminaintro.rst:469
+#: ../../luminaintro.rst:472
 msgid "Lock the system"
 msgstr ""
 
-#: ../../luminaintro.rst:471
+#: ../../luminaintro.rst:474
 msgid "Alt + L"
 msgstr ""
 
-#: ../../luminaintro.rst:471
+#: ../../luminaintro.rst:474
 msgid "Lock the system (alternate)"
 msgstr ""
 
-#: ../../luminaintro.rst:473
+#: ../../luminaintro.rst:476
 msgid "Alt + Space"
 msgstr ""
 
-#: ../../luminaintro.rst:473
+#: ../../luminaintro.rst:476
 msgid "Open :command:`lumina-search`"
 msgstr ""
 
-#: ../../luminaintro.rst:475
+#: ../../luminaintro.rst:478
 msgid "Alt + PgUp"
 msgstr ""
 
-#: ../../luminaintro.rst:475
+#: ../../luminaintro.rst:478
 msgid "Increase system volume"
 msgstr ""
 
-#: ../../luminaintro.rst:477
+#: ../../luminaintro.rst:480
 msgid "Alt + PgDn"
 msgstr ""
 
-#: ../../luminaintro.rst:477
+#: ../../luminaintro.rst:480
 msgid "Decrease system volume"
 msgstr ""
 
-#: ../../luminaintro.rst:479
+#: ../../luminaintro.rst:482
 msgid "Alt + Home"
 msgstr ""
 
-#: ../../luminaintro.rst:479
+#: ../../luminaintro.rst:482
 msgid "Increase brightness"
 msgstr ""
 
-#: ../../luminaintro.rst:481
+#: ../../luminaintro.rst:484
 msgid "Alt + End"
 msgstr ""
 
-#: ../../luminaintro.rst:481
+#: ../../luminaintro.rst:484
 msgid "Decrease brightness"
 msgstr ""
 
-#: ../../luminaintro.rst:483
+#: ../../luminaintro.rst:486
 msgid "F12"
 msgstr ""
 
-#: ../../luminaintro.rst:483
+#: ../../luminaintro.rst:486
 msgid "Open the Lumina default terminal"
 msgstr ""
 
-#: ../../luminaintro.rst:485
+#: ../../luminaintro.rst:488
 msgid "Windows Key"
 msgstr ""
 
-#: ../../luminaintro.rst:485
+#: ../../luminaintro.rst:488
 msgid "Open the default \"Start Menu\""
 msgstr ""
 
-#: ../../luminaintro.rst:216
+#: ../../luminaintro.rst:218
 msgid ""
 "A single, easy-to-use :ref:`Configuration` utility controls all the "
 "different configuration options for the desktop in one location."
 msgstr ""
 
-#: ../../luminaintro.rst:225
+#: ../../luminaintro.rst:227
 msgid ""
 "Multi-monitor support includes the :ref:`Xconfig` graphical utility for "
 "adding or removing monitors from the |lumina| session."
 msgstr ""
 
-#: ../../luminaintro.rst:235
+#: ../../luminaintro.rst:237
 msgid ""
 "Screenshot functionality through |lumina| :ref:`Screenshot`, which is also "
 "tied to the :kbd:`Print Screen` key by default."
 msgstr ""
 
-#: ../../luminaintro.rst:241
+#: ../../luminaintro.rst:243
 msgid "Install and Start"
 msgstr ""
 
-#: ../../luminaintro.rst:276
+#: ../../luminaintro.rst:278
 msgid ""
 "When freshly installed, |lumina| will implement a number of default plugins "
 "and options for the user. All these first time defaults are configurable, "
@@ -712,12 +703,12 @@ msgid ""
 "handbook."
 msgstr ""
 
-#: ../../luminaintro.rst:340
+#: ../../luminaintro.rst:342
 msgid ""
 "**Configure Desktop:** This entry opens the :ref:`Configuration` utility."
 msgstr ""
 
-#: ../../luminaintro.rst:554
+#: ../../luminaintro.rst:557
 msgid ""
 "**Preferences:** Contains shortcuts to the screensaver preferences, desktop "
 "utility (:ref:`Configuration`), display configuration (:ref:`Xconfig`), the "
@@ -725,18 +716,18 @@ msgid ""
 " within :guilabel:`About Lumina`."
 msgstr ""
 
-#: ../../luminaintro.rst:526
+#: ../../luminaintro.rst:529
 msgid ""
 "Right-clicking the desktop will open a menu of quick shortcuts with the "
 "title of the menu indicating the name of the current workspace, as seen in "
 ":numref:`Figure %s <conmen>`."
 msgstr ""
 
-#: ../../luminaintro.rst:535
+#: ../../luminaintro.rst:538
 msgid ": Default Context Menu"
 msgstr ""
 
-#: ../../luminaintro.rst:537
+#: ../../luminaintro.rst:540
 msgid ""
 "This section describes the default menu items. For instructions on how to "
 "configure the right-click menu, refer to the :ref:`Interface` section of "
@@ -783,210 +774,202 @@ msgstr ""
 msgid "Click the :guilabel:`Import CA` button."
 msgstr ""
 
-#: ../../luminaintro.rst:40
+#: ../../luminaintro.rst:41
 msgid "Menu selections"
 msgstr ""
 
-#: ../../luminaintro.rst:40
-msgid "Click :menuselection:`System --> Information`."
-msgstr ""
-
-#: ../../luminaintro.rst:42
+#: ../../luminaintro.rst:43
 msgid "CLI Command name"
 msgstr ""
 
-#: ../../luminaintro.rst:42
+#: ../../luminaintro.rst:43
 msgid "Use :command:`scp`."
 msgstr ""
 
-#: ../../luminaintro.rst:44
-msgid "A command line example"
-msgstr ""
-
-#: ../../luminaintro.rst:44
+#: ../../luminaintro.rst:45
 msgid ":samp:`[tmoore@example] ls /etc`"
 msgstr ""
 
-#: ../../luminaintro.rst:46
+#: ../../luminaintro.rst:47
 msgid "Files, volume and dataset names, and directories"
 msgstr ""
 
-#: ../../luminaintro.rst:46
+#: ../../luminaintro.rst:47
 msgid "Locate the :file:`/etc/rc.conf` file."
 msgstr ""
 
-#: ../../luminaintro.rst:50
+#: ../../luminaintro.rst:51
 msgid "Keyboard keys"
 msgstr ""
 
-#: ../../luminaintro.rst:50
+#: ../../luminaintro.rst:51
 msgid "Press the :kbd:`Enter` key."
 msgstr ""
 
-#: ../../luminaintro.rst:52
+#: ../../luminaintro.rst:53
 msgid "Important points"
 msgstr ""
 
-#: ../../luminaintro.rst:52
+#: ../../luminaintro.rst:53
 msgid "**This is important.**"
 msgstr ""
 
-#: ../../luminaintro.rst:54
+#: ../../luminaintro.rst:55
 msgid "Values entered into fields, or device names"
 msgstr ""
 
-#: ../../luminaintro.rst:54
+#: ../../luminaintro.rst:55
 msgid "Enter *127.0.0.1* in the address field."
 msgstr ""
 
-#: ../../luminaintro.rst:62
+#: ../../luminaintro.rst:64
 msgid "Legal"
 msgstr ""
 
-#: ../../luminaintro.rst:64
+#: ../../luminaintro.rst:66
 msgid ""
 "This section covers the required legal elements to the handbook, including "
 "the Copyright notice, Trademarks used in the document, and the |lumina| "
 "ethical advertising policy."
 msgstr ""
 
-#: ../../luminaintro.rst:72
+#: ../../luminaintro.rst:74
 msgid "Copyright & Trademarks"
 msgstr ""
 
-#: ../../luminaintro.rst:74
+#: ../../luminaintro.rst:76
 msgid "Copyright © 2005-2017, iXsystems"
 msgstr ""
 
-#: ../../luminaintro.rst:83
+#: ../../luminaintro.rst:85
 msgid ""
 "|trueos| and the |trueos| logo are registered trademarks of `iXsystems "
 "<https://www.ixsystems.com/>`_. To use the |trueos| logo in your own works, "
 "please ask for permission first from marketing@ixsystems.com."
 msgstr ""
 
-#: ../../luminaintro.rst:88
+#: ../../luminaintro.rst:90
 msgid ""
 "|lumina| and the |lumina| logo are registered trademarks of `iXsystems "
 "<https://www.ixsystems.com/>`_. To use the |lumina| logo in your own works, "
 "please ask for permission first from marketing@ixsystems.com."
 msgstr ""
 
-#: ../../luminaintro.rst:93
+#: ../../luminaintro.rst:95
 msgid "|sysadm| is a trademark of `iXsystems <https://www.ixsystems.com/>`_."
 msgstr ""
 
-#: ../../luminaintro.rst:95
+#: ../../luminaintro.rst:97
 msgid ""
 "|trpi|, |pise|, and |picl| are trademarks of `iXsystems "
 "<https://www.ixsystems.com/>`_."
 msgstr ""
 
-#: ../../luminaintro.rst:98
+#: ../../luminaintro.rst:100
 msgid "AMD is a trademark of Advanced Micro Devices, Inc."
 msgstr ""
 
-#: ../../luminaintro.rst:100
+#: ../../luminaintro.rst:102
 msgid "Apache is a trademark of The Apache Software Foundation."
 msgstr ""
 
-#: ../../luminaintro.rst:102
+#: ../../luminaintro.rst:104
 msgid ""
 "|appcafe| is a registered trademark of `iXsystems "
 "<https://www.ixsystems.com/>`_."
 msgstr ""
 
-#: ../../luminaintro.rst:105
+#: ../../luminaintro.rst:107
 msgid "Asus® and Eee PC® are registered trademarks of ASUSTeK® Computer Inc."
 msgstr ""
 
-#: ../../luminaintro.rst:107
+#: ../../luminaintro.rst:109
 msgid "Facebook® is a registered trademark of Facebook Inc."
 msgstr ""
 
-#: ../../luminaintro.rst:109
+#: ../../luminaintro.rst:111
 msgid ""
 "Flash® is a registered trademark of Adobe Systems Incorporated in the United"
 " States and/or other countries."
 msgstr ""
 
-#: ../../luminaintro.rst:112
+#: ../../luminaintro.rst:114
 msgid ""
 "FreeBSD® is a registered trademark of the `FreeBSD Foundation "
 "<https://www.freebsdfoundation.org/>`_."
 msgstr ""
 
-#: ../../luminaintro.rst:115
+#: ../../luminaintro.rst:117
 msgid ""
 "|freenas| is a registered trademark of `iXsystems "
 "<https://www.ixsystems.com/>`_."
 msgstr ""
 
-#: ../../luminaintro.rst:118
+#: ../../luminaintro.rst:120
 msgid ""
 "Intel, the Intel logo, Pentium Inside, and Pentium are trademarks of Intel "
 "Corporation in the U.S. and/or other countries."
 msgstr ""
 
-#: ../../luminaintro.rst:121
+#: ../../luminaintro.rst:123
 msgid ""
 "Java™ is a trademark of Oracle America and/or its affiliates in the United "
 "States and other countries."
 msgstr ""
 
-#: ../../luminaintro.rst:124
+#: ../../luminaintro.rst:126
 msgid "LinkedIn® is a registered trademark of LinkedIn Corporation."
 msgstr ""
 
-#: ../../luminaintro.rst:126
+#: ../../luminaintro.rst:128
 msgid "Linux® is a registered trademark of Linus Torvalds."
 msgstr ""
 
-#: ../../luminaintro.rst:128
+#: ../../luminaintro.rst:130
 msgid ""
 "Mac and Mac OS are trademarks of Apple Inc., registered in the U.S. and "
 "other countries."
 msgstr ""
 
-#: ../../luminaintro.rst:131
+#: ../../luminaintro.rst:133
 msgid ""
 "NVIDIA® is a trademark and/or registered trademark of NVIDIA Corporation in "
 "the U.S. and other countries."
 msgstr ""
 
-#: ../../luminaintro.rst:134
+#: ../../luminaintro.rst:136
 msgid "ThinkPad® is a registered trademark of Lenovo."
 msgstr ""
 
-#: ../../luminaintro.rst:136
+#: ../../luminaintro.rst:138
 msgid ""
 "Twitter is a trademark of Twitter, Inc. in the United States and other "
 "countries."
 msgstr ""
 
-#: ../../luminaintro.rst:139
+#: ../../luminaintro.rst:141
 msgid "UNIX® is a registered trademark of The Open Group."
 msgstr ""
 
-#: ../../luminaintro.rst:141
+#: ../../luminaintro.rst:143
 msgid "VirtualBox® is a registered trademark of Oracle."
 msgstr ""
 
-#: ../../luminaintro.rst:143
+#: ../../luminaintro.rst:145
 msgid "VMWare® is a registered trademark of VMWare, Inc."
 msgstr ""
 
-#: ../../luminaintro.rst:145
+#: ../../luminaintro.rst:147
 msgid ""
 "Windows® is a registered trademark of Microsoft Corporation in the United "
 "States and other countries."
 msgstr ""
 
-#: ../../luminaintro.rst:152
+#: ../../luminaintro.rst:154
 msgid "Ethical Advertising Policy"
 msgstr ""
 
-#: ../../luminaintro.rst:154
+#: ../../luminaintro.rst:156
 msgid ""
 "For many years, users have wanted to give back to the |lumina| project. "
 "Generally, we encouraged users to donate or actively contribute to the "
@@ -996,7 +979,7 @@ msgid ""
 "wish."
 msgstr ""
 
-#: ../../luminaintro.rst:161
+#: ../../luminaintro.rst:163
 msgid ""
 "The primary consideration for these ads is to avoid detracting from the user"
 " experience as much as possible. To this end, any ads in the Handbook will "
@@ -1008,11 +991,11 @@ msgid ""
 "our user base."
 msgstr ""
 
-#: ../../luminaintro.rst:170
+#: ../../luminaintro.rst:172
 msgid "**Cookie Policy**"
 msgstr ""
 
-#: ../../luminaintro.rst:172
+#: ../../luminaintro.rst:174
 msgid ""
 "Clicking on a Newegg ad directs users through an affiliate link that gives "
 "the |lumina| project a modest commission based on any items purchased within"
@@ -1020,6 +1003,37 @@ msgid ""
 " project is afforded its commission. To ask questions about our Ethical "
 "Advertising policy, please contact joshms@trueos.org for more information."
 msgstr ""
+
+#: ../../luminaintro.rst:41
+msgid "Click :menuselection:`System --> Videos`."
+msgstr ""
+
+#: ../../luminaintro.rst:45
+msgid "Command line sample"
+msgstr ""
+
+#: ../../luminaintro.rst:207
+msgid ""
+"Uses a simple, text-based `configuration file "
+"<https://github.com/trueos/lumina/blob/master/src-qt5/core/lumina-"
+"desktop/defaults/luminaDesktop.conf>`_ for setting system-wide defaults. "
+"|lumina| distributors can use this file to easily preset the |lumina| "
+"defaults and interface for their distribution."
+msgstr ""
+
+#~ msgid ""
+#~ "Uses a simple, `text-based configuration file "
+#~ "<https://github.com/trueos/lumina/blob/master/src-qt5/core/lumina-"
+#~ "desktop/defaults/luminaDesktop.conf>`_ for setting system-wide defaults. "
+#~ "|lumina| distributors can use this file to easily preset the |lumina| "
+#~ "defaults and interface for their distribution."
+#~ msgstr ""
+
+#~ msgid "Click :menuselection:`System --> Information`."
+#~ msgstr ""
+
+#~ msgid "A command line example"
+#~ msgstr ""
 
 #~ msgid "**Preface**"
 #~ msgstr ""

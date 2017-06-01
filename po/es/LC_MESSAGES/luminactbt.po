@@ -167,16 +167,6 @@ msgid ""
 "begin participating in translating Lumina."
 msgstr ""
 
-#: ../../luminactbt.rst:161
-msgid ""
-"An excellent first step is to join the `translations mailing list "
-"<http://lists.pcbsd.org/mailman/listinfo/translations>`_. After joining, "
-"send an introductory email and indicate which language(s) and which type(s) "
-"of translations you can assist with. Participating in the mailing list will "
-"keep you up to date with important changes to |lumina| and help coordinate "
-"with the other volunteers."
-msgstr ""
-
 #: ../../luminactbt.rst:172
 msgid "Interface Translation"
 msgstr ""
@@ -211,7 +201,7 @@ msgid ""
 "translated will display the incomplete menus in English."
 msgstr ""
 
-#: ../../luminactbt.rst:231
+#: ../../luminactbt.rst:232
 msgid ""
 "In this example, the phrase \"Manually set value for selection\" needs to be"
 " reviewed. To edit the translation, type the translated text into the "
@@ -225,57 +215,57 @@ msgid ""
 "additional information:"
 msgstr ""
 
-#: ../../luminactbt.rst:242
+#: ../../luminactbt.rst:243
 msgid ""
 "**Things to check:** Weblate will generate warnings about elements of the "
 "string that may need review. This box will only appear if the automatic "
 "reviewer generates an error."
 msgstr ""
 
-#: ../../luminactbt.rst:246
+#: ../../luminactbt.rst:247
 msgid ""
 "**Glossary:** The glossary box can provide simple lookups to aid in "
 "translating a string, but a glossary will need to be added to the project "
 "first."
 msgstr ""
 
-#: ../../luminactbt.rst:250
+#: ../../luminactbt.rst:251
 msgid ""
 "**Source information:** This box offers background information on the "
 "string: the context, location, its priority, and if it fails any of the "
 "Weblate checks."
 msgstr ""
 
-#: ../../luminactbt.rst:254
+#: ../../luminactbt.rst:255
 msgid ""
 "If help is needed with a translation or general use of the Weblate system, "
 "please ask for help on the translations mailing list or in the `translations"
 " forum <https://forums.pcbsd.org/forum-40.html>`_."
 msgstr ""
 
-#: ../../luminactbt.rst:262
+#: ../../luminactbt.rst:263
 msgid "Documentation Translation"
 msgstr ""
 
-#: ../../luminactbt.rst:264
+#: ../../luminactbt.rst:265
 msgid ""
 "At this time, the |lumina| Handbook has not yet been added to the "
 "translation system. Once it has, instructions for translating the Handbook "
 "will be added here."
 msgstr ""
 
-#: ../../luminactbt.rst:271
+#: ../../luminactbt.rst:272
 msgid "Become a Developer"
 msgstr ""
 
-#: ../../luminactbt.rst:273
+#: ../../luminactbt.rst:274
 msgid ""
 "Developers who want to help improve the |lumina| codebase are always "
 "welcome! To participate in core development, please subscribe to the "
 "`developers mailing list <http://lists.pcbsd.org/mailman/listinfo/dev>`_."
 msgstr ""
 
-#: ../../luminactbt.rst:277
+#: ../../luminactbt.rst:278
 msgid ""
 "All |lumina| utilities are developed with C++ using Qt Libraries, but other "
 "Qt-based languages are used in the project too. For example, the CSS-like "
@@ -283,29 +273,29 @@ msgid ""
 "for theme templates."
 msgstr ""
 
-#: ../../luminactbt.rst:286
+#: ../../luminactbt.rst:288
 msgid "Getting the Source Code"
 msgstr ""
 
-#: ../../luminactbt.rst:288
+#: ../../luminactbt.rst:290
 msgid ""
 "|lumina| uses `github <https://github.com/trueos/lumina>`_ to store its "
 "source code."
 msgstr ""
 
-#: ../../luminactbt.rst:291
+#: ../../luminactbt.rst:293
 msgid ""
 "Be sure :command:`git` in installed on your system prior to downloading the "
 "source code. |trueos| includes :command:`git` as part of the base install."
 msgstr ""
 
-#: ../../luminactbt.rst:295
+#: ../../luminactbt.rst:297
 msgid ""
 "To download the source code, use the command line to navigate to (or create)"
 " the desired storage directory and from within the directory, type:"
 msgstr ""
 
-#: ../../luminactbt.rst:303
+#: ../../luminactbt.rst:305
 msgid ""
 "These commands will create a directory named :file:`lumina/`, which contains"
 " the local copy of the repository. Keep the local copy synchronized with the"
@@ -313,22 +303,13 @@ msgid ""
 ":file:`lumina/` directory."
 msgstr ""
 
-#: ../../luminactbt.rst:308
-msgid ""
-"To compile the source code, start by checking the `list of required software"
-" <https://github.com/trueos/lumina/blob/master/DEPENDENCIES>`_ to install "
-"any needed Qt5 modules. Alternately, :command:`pkg install qt5` will install"
-" all available Qt5 modules, which ensures the system can compile the source "
-"code."
-msgstr ""
-
-#: ../../luminactbt.rst:314
+#: ../../luminactbt.rst:316
 msgid ""
 "The :command:`pkg` system is used by FreeBSD based operating systems; other "
 "OS's will use different packaging systems and command syntax."
 msgstr ""
 
-#: ../../luminactbt.rst:318
+#: ../../luminactbt.rst:320
 msgid ""
 "Once the necessary Qt elements are installed, compile the source by typing "
 ":command:`qmake` to generate a :file:`Makefile`, then run :command:`make`. "
@@ -336,7 +317,7 @@ msgid ""
 "other operating systems:"
 msgstr ""
 
-#: ../../luminactbt.rst:331
+#: ../../luminactbt.rst:333
 msgid ""
 "If you encounter an issue trying to compile the source on a system other "
 "than |trueos|, refer to the \"How to build from source\" section of the "
@@ -344,13 +325,7 @@ msgid ""
 "additional instructions."
 msgstr ""
 
-#: ../../luminactbt.rst:337
-msgid ""
-"To also install the compiled applications, type :command:`sudo make "
-"install`. This command requires superuser privileges."
-msgstr ""
-
-#: ../../luminactbt.rst:340
+#: ../../luminactbt.rst:342
 msgid ""
 "Several Qt integrated development environments (IDE) are available for "
 "development. These IDEs can be installed using |appcafe| on |trueos| or "
@@ -363,23 +338,11 @@ msgid ""
 "functionality."
 msgstr ""
 
-#: ../../luminactbt.rst:350
-msgid ""
-"To submit changes for inclusion in |lumina|, fork the `repository "
-"<https://github.com/trueos/lumina>`_ using the instructions in `fork a repo "
-"<https://help.github.com/articles/fork-a-repo>`_. Make any changes to the "
-"forked repository, them submit them for inclusion in the primary |lumina| "
-"repository via a `git pull request <https://help.github.com/articles/using-"
-"pull-requests>`_. Once the submitted changes have been reviewed, they can "
-"either be committed to the repository or returned to the creator with "
-"additional suggestions for improvement."
-msgstr ""
-
-#: ../../luminactbt.rst:365
+#: ../../luminactbt.rst:367
 msgid "Design Guidelines"
 msgstr ""
 
-#: ../../luminactbt.rst:367
+#: ../../luminactbt.rst:369
 msgid ""
 "|lumina| is a project driven by the support of developers within the "
 "community. Developers have designed and implemented a number of new "
@@ -391,7 +354,7 @@ msgid ""
 "menu bar."
 msgstr ""
 
-#: ../../luminactbt.rst:376
+#: ../../luminactbt.rst:378
 msgid ""
 "The `Developer Guidelines "
 "<https://github.com/trueos/lumina/blob/5beb2730a9e8230d2377ea89e9728504ea88de9c/DeveloperGuidelines.txt>`_"
@@ -400,7 +363,7 @@ msgid ""
 " volunteer developers are encouraged to follow."
 msgstr ""
 
-#: ../../luminactbt.rst:382
+#: ../../luminactbt.rst:384
 msgid ""
 "Any graphical program which is a fully featured utility, such as "
 ":ref:`Insight File Manager`,  needs a \"File\" menu. However, a \"File\" "
@@ -409,7 +372,7 @@ msgid ""
 "or three items in the \"File\" menu."
 msgstr ""
 
-#: ../../luminactbt.rst:388
+#: ../../luminactbt.rst:390
 msgid ""
 "\"Configure\" is the |lumina| standard for the category of settings or "
 "configuration related settings. If additional categories are needed, it is "
@@ -417,73 +380,73 @@ msgid ""
 "conventions."
 msgstr ""
 
-#: ../../luminactbt.rst:393
+#: ../../luminactbt.rst:395
 msgid ""
 "File menu icons are taken from the installed icon theme. :numref:`Table %s "
 "<table_1>` lists some commonly used icons and their default file names."
 msgstr ""
 
-#: ../../luminactbt.rst:402
+#: ../../luminactbt.rst:404
 msgid "Function"
 msgstr ""
 
-#: ../../luminactbt.rst:402
+#: ../../luminactbt.rst:404
 msgid "File Menu Icon"
 msgstr ""
 
-#: ../../luminactbt.rst:402
+#: ../../luminactbt.rst:404
 msgid "File Name"
 msgstr ""
 
-#: ../../luminactbt.rst:404 ../../luminactbt.rst:440 ../../luminactbt.rst:452
+#: ../../luminactbt.rst:406 ../../luminactbt.rst:442 ../../luminactbt.rst:454
 msgid "Quit"
 msgstr ""
 
-#: ../../luminactbt.rst:404
+#: ../../luminactbt.rst:406
 msgid "row 1, cell 2"
 msgstr ""
 
-#: ../../luminactbt.rst:404
+#: ../../luminactbt.rst:406
 msgid "window-close.png"
 msgstr ""
 
-#: ../../luminactbt.rst:406 ../../luminactbt.rst:454
+#: ../../luminactbt.rst:408 ../../luminactbt.rst:456
 msgid "Settings"
 msgstr ""
 
-#: ../../luminactbt.rst:406
+#: ../../luminactbt.rst:408
 msgid "row 2, cell 2"
 msgstr ""
 
-#: ../../luminactbt.rst:406
+#: ../../luminactbt.rst:408
 msgid "configure.png"
 msgstr ""
 
-#: ../../luminactbt.rst:409
+#: ../../luminactbt.rst:411
 msgid "|lumina| utilities uses several buttons:"
 msgstr ""
 
-#: ../../luminactbt.rst:411
+#: ../../luminactbt.rst:413
 msgid "**Apply:** Applies settings and leaves the window open."
 msgstr ""
 
-#: ../../luminactbt.rst:413
+#: ../../luminactbt.rst:415
 msgid "**Close:** Closes a program without applying settings."
 msgstr ""
 
-#: ../../luminactbt.rst:415
+#: ../../luminactbt.rst:417
 msgid "**OK:** Closes the dialogue window and saves settings."
 msgstr ""
 
-#: ../../luminactbt.rst:417
+#: ../../luminactbt.rst:419
 msgid "**Cancel:** Closes the dialog window without applying settings."
 msgstr ""
 
-#: ../../luminactbt.rst:419
+#: ../../luminactbt.rst:421
 msgid "**Save:** Saves settings and can also close the window."
 msgstr ""
 
-#: ../../luminactbt.rst:421
+#: ../../luminactbt.rst:423
 msgid ""
 "Keyboard shortcuts are extremely useful to many users, and |lumina| attempts"
 " to include shortcuts in every utility. Qt simplifies assigning keyboard "
@@ -498,92 +461,88 @@ msgid ""
 "hotkeys."
 msgstr ""
 
-#: ../../luminactbt.rst:438
+#: ../../luminactbt.rst:440
 msgid "Shortcut Key"
 msgstr ""
 
-#: ../../luminactbt.rst:438 ../../luminactbt.rst:450
+#: ../../luminactbt.rst:440 ../../luminactbt.rst:452
 msgid "Action"
 msgstr ""
 
-#: ../../luminactbt.rst:440
+#: ../../luminactbt.rst:442
 msgid "CTRL + Q"
 msgstr ""
 
-#: ../../luminactbt.rst:442
+#: ../../luminactbt.rst:444
 msgid "F1"
 msgstr ""
 
-#: ../../luminactbt.rst:442
+#: ../../luminactbt.rst:444
 msgid "Help"
 msgstr ""
 
-#: ../../luminactbt.rst:450
+#: ../../luminactbt.rst:452
 msgid "Hot Key"
 msgstr ""
 
-#: ../../luminactbt.rst:452
+#: ../../luminactbt.rst:454
 msgid "Alt + Q"
 msgstr ""
 
-#: ../../luminactbt.rst:454
+#: ../../luminactbt.rst:456
 msgid "Alt + S"
 msgstr ""
 
-#: ../../luminactbt.rst:456
+#: ../../luminactbt.rst:458
 msgid "Alt + I"
 msgstr ""
 
-#: ../../luminactbt.rst:456
+#: ../../luminactbt.rst:458
 msgid "Import"
 msgstr ""
 
-#: ../../luminactbt.rst:458
+#: ../../luminactbt.rst:460
 msgid "Alt + E"
 msgstr ""
 
-#: ../../luminactbt.rst:458
+#: ../../luminactbt.rst:460
 msgid "Export"
 msgstr ""
 
-#: ../../luminactbt.rst:460
+#: ../../luminactbt.rst:462
 msgid "ALT + F"
 msgstr ""
 
-#: ../../luminactbt.rst:460
+#: ../../luminactbt.rst:462
 msgid "File Menu"
 msgstr ""
 
-#: ../../luminactbt.rst:462
+#: ../../luminactbt.rst:464
 msgid "ALT + C"
 msgstr ""
 
-#: ../../luminactbt.rst:462
+#: ../../luminactbt.rst:464
 msgid "Configure Menu"
 msgstr ""
 
-#: ../../luminactbt.rst:464
+#: ../../luminactbt.rst:466
 msgid "ALT + H"
 msgstr ""
 
-#: ../../luminactbt.rst:464
+#: ../../luminactbt.rst:466
 msgid "Help Menu"
 msgstr ""
 
-#: ../../luminactbt.rst:467
-msgid "Developers will also find these resources helpful:"
-msgstr ""
-
-#: ../../luminactbt.rst:469
+#: ../../luminactbt.rst:471
 msgid ""
 "`Commits Mailing List <http://lists.pcbsd.org/mailman/listinfo/commits>`_"
 msgstr ""
 
-#: ../../luminactbt.rst:471
+#: ../../luminactbt.rst:473
 msgid "`Qt 5.4 Documentation <http://doc.qt.io/qt-5/index.html>`_"
 msgstr ""
 
-#: ../../luminactbt.rst:473
+#: ../../luminactbt.rst:475
 msgid "`C++ Tutorials <http://www.cplusplus.com/doc/tutorial/>`_"
 msgstr ""
 
@@ -636,19 +595,11 @@ msgstr ""
 msgid ": The |lumina| Project Overview Screen."
 msgstr ""
 
-#: ../../luminactbt.rst:207
-msgid ""
-"Click on a component name to see each available language for translation. "
-":numref:`Figure %s <translate2b>` shows the **lumina-config** component. In "
-"this example, **lumina-config** has almost been completely translated to "
-"Bulgarian (bg), but has just begun translation to Afrikaans (af)."
-msgstr ""
-
-#: ../../luminactbt.rst:217
+#: ../../luminactbt.rst:218
 msgid ": lumina-config Overview screen."
 msgstr ""
 
-#: ../../luminactbt.rst:219
+#: ../../luminactbt.rst:220
 msgid ""
 "A Weblate account is necessary to edit a translation. Log in to Weblate and "
 "navigate to the desired component in need of translation. In :numref:`Figure"
@@ -656,7 +607,7 @@ msgid ""
 ":guilabel:`lumina_CONFIG@af` row."
 msgstr ""
 
-#: ../../luminactbt.rst:229
+#: ../../luminactbt.rst:230
 msgid ": Translation screen for lumina-config, Afrikaans language"
 msgstr ""
 
@@ -679,6 +630,98 @@ msgstr ""
 #: ../../luminactbt.rst:26
 msgid "Communicate"
 msgstr ""
+
+#: ../../luminactbt.rst:161
+msgid ""
+"An excellent first step is to join the translations `mailing list "
+"<http://lists.pcbsd.org/mailman/listinfo/translations>`_. After joining, "
+"send an introductory email and indicate which language(s) and which type(s) "
+"of translations you can assist with. Participating in the mailing list will "
+"keep you up to date with important changes to |lumina| and help coordinate "
+"with the other volunteers."
+msgstr ""
+
+#: ../../luminactbt.rst:207
+msgid ""
+"Click on a component name to see each available language for translation. "
+":numref:`Figure %s <translate2b>` shows the *lumina-config* component. In "
+"this example, **lumina-config** is almost completely translated to Bulgarian"
+" (bg), but has just begun translation to Afrikaans (af)."
+msgstr ""
+
+#: ../../luminactbt.rst:310
+msgid ""
+"To compile the source code, start by checking the list of `required software"
+" <https://github.com/trueos/lumina/blob/master/DEPENDENCIES>`_ to install "
+"any needed Qt5 modules. Alternately, :command:`pkg install qt5` installs all"
+" available Qt5 modules, which ensures the system can compile the source "
+"code."
+msgstr ""
+
+#: ../../luminactbt.rst:339
+msgid ""
+"To also install the compiled applications, type :samp:`% sudo make install`."
+" This command requires superuser privileges."
+msgstr ""
+
+#: ../../luminactbt.rst:352
+msgid ""
+"To submit changes for inclusion in |lumina|, fork the `repository "
+"<https://github.com/trueos/lumina>`_ using the instructions in `fork a repo "
+"<https://help.github.com/articles/fork-a-repo>`_. Make any changes to the "
+"forked repository, them submit them for inclusion in the primary |lumina| "
+"repository via a git `pull request <https://help.github.com/articles/using-"
+"pull-requests>`_. Once the submitted changes are reviewed, they can either "
+"be committed to the repository or returned to the creator with additional "
+"suggestions for improvement."
+msgstr ""
+
+#: ../../luminactbt.rst:469
+msgid "Developers may also find these resources helpful:"
+msgstr ""
+
+#~ msgid ""
+#~ "An excellent first step is to join the `translations mailing list "
+#~ "<http://lists.pcbsd.org/mailman/listinfo/translations>`_. After joining, "
+#~ "send an introductory email and indicate which language(s) and which type(s) "
+#~ "of translations you can assist with. Participating in the mailing list will "
+#~ "keep you up to date with important changes to |lumina| and help coordinate "
+#~ "with the other volunteers."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To compile the source code, start by checking the `list of required software"
+#~ " <https://github.com/trueos/lumina/blob/master/DEPENDENCIES>`_ to install "
+#~ "any needed Qt5 modules. Alternately, :command:`pkg install qt5` will install"
+#~ " all available Qt5 modules, which ensures the system can compile the source "
+#~ "code."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To also install the compiled applications, type :command:`sudo make "
+#~ "install`. This command requires superuser privileges."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To submit changes for inclusion in |lumina|, fork the `repository "
+#~ "<https://github.com/trueos/lumina>`_ using the instructions in `fork a repo "
+#~ "<https://help.github.com/articles/fork-a-repo>`_. Make any changes to the "
+#~ "forked repository, them submit them for inclusion in the primary |lumina| "
+#~ "repository via a `git pull request <https://help.github.com/articles/using-"
+#~ "pull-requests>`_. Once the submitted changes have been reviewed, they can "
+#~ "either be committed to the repository or returned to the creator with "
+#~ "additional suggestions for improvement."
+#~ msgstr ""
+
+#~ msgid "Developers will also find these resources helpful:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on a component name to see each available language for translation. "
+#~ ":numref:`Figure %s <translate2b>` shows the **lumina-config** component. In "
+#~ "this example, **lumina-config** has almost been completely translated to "
+#~ "Bulgarian (bg), but has just begun translation to Afrikaans (af)."
+#~ msgstr ""
 
 #~ msgid "Contributing to |lumina|"
 #~ msgstr ""
