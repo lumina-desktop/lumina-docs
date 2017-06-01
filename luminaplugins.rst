@@ -18,7 +18,7 @@ Menu plugins are the options which appear when the user right-clicks on
 the desktop screen in |lumina|, as seen in
 :numref:`Figure %s <luminamenupluginmenu1>`. Customize these options by
 clicking the :guilabel:`Start Menu`, then
-:menuselection:`Preferences --> Configure Desktop --> Interface Configuration --> Context Menu and Plugins`.
+:menuselection:`Preferences --> Configure Desktop --> Menu`.
 
 .. _luminamenupluginmenu1:
 
@@ -203,7 +203,7 @@ Desktop Plugins
 Desktop plugins adds icons or widgets for display on the main screen of
 the |lumina| Desktop Environment. Click on the default start menu in the
 lower left of the main desktop screen, then click
-:menuselection:`Preferences --> Configure Desktop --> Interface Configuration --> Desktop Icons and Plugins`.
+:menuselection:`Preferences --> Configure Desktop --> Desktop`.
 
 .. _luminadesktoppluginmenu1:
 
@@ -399,7 +399,8 @@ statistics and the read/write speed monitor, shown next.
 
 The :guilabel:`Disk I/O` tab of the System Monitor plugin. Displayed are
 the current read and write speeds of the connected hardware, which in
-:numref:`Figure %s <luminadesktopplugin8>` is a hard drive and cd player.
+:numref:`Figure %s <luminadesktopplugin8>` is a hard drive and cd
+player.
 
 .. index:: float panel plugins
 .. _floating panel plugins:
@@ -412,8 +413,8 @@ default, |lumina| users have one panel stretched across the bottom of
 the primary screen and one smaller pop-up panel in the top middle of the
 primary screen. To adjust the default panels and add plugins, click the
 start menu and navigate
-:menuselection:`Preferences --> Configure Desktop --> Interface Configuration --> Floating Panels and Plugins`.
-For demonstration purposes, a simple panel centered at the top of a
+:menuselection:`Preferences --> Configure Desktop --> Panels`. For
+demonstration purposes, a simple panel centered at the top of a
 secondary screen was utilized to show the various plugins listed below.
 The settings for this panel are pictured in
 :numref:`Figure %s <luminapanelpluginmenu1>`.

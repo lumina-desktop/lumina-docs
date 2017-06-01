@@ -18,30 +18,32 @@ conventions:
 
 .. table:: : Text Formatting Examples
 
-   +-------------------------+------------------------------------------------+
-   | Item                    | Visual Example                                 |
-   +=========================+================================================+
-   | Graphical elements:     | Click the :guilabel:`Import CA` button.        |
-   | buttons, icons, fields, |                                                |
-   | columns and boxes       |                                                |
-   +-------------------------+------------------------------------------------+
-   | Menu selections         | Click :menuselection:`System --> Information`. |
-   +-------------------------+------------------------------------------------+
-   | CLI Command name        | Use :command:`scp`.                            |
-   +-------------------------+------------------------------------------------+
-   | A command line example  | :samp:`[tmoore@example] ls /etc`               |
-   +-------------------------+------------------------------------------------+
-   | Files, volume and       | Locate the :file:`/etc/rc.conf` file.          |
-   | dataset names, and      |                                                |
-   | directories             |                                                |
-   +-------------------------+------------------------------------------------+
-   | Keyboard keys           | Press the :kbd:`Enter` key.                    |
-   +-------------------------+------------------------------------------------+
-   | Important points        | **This is important.**                         |
-   +-------------------------+------------------------------------------------+
-   | Values entered into     | Enter *127.0.0.1* in the address field.        |
-   | fields, or device names |                                                |
-   +-------------------------+------------------------------------------------+
+   +---------------------+-------------------------------------------+
+   | Item                | Visual Example                            |
+   +=====================+===========================================+
+   | Graphical elements: | Click the :guilabel:`Import CA` button.   |
+   | buttons, icons,     |                                           |
+   | fields, columns and |                                           |
+   | boxes               |                                           |
+   +---------------------+-------------------------------------------+
+   | Menu selections     | Click :menuselection:`System --> Videos`. |
+   +---------------------+-------------------------------------------+
+   | CLI Command name    | Use :command:`scp`.                       |
+   +---------------------+-------------------------------------------+
+   | Command line sample | :samp:`[tmoore@example] ls /etc`          |
+   +---------------------+-------------------------------------------+
+   | Files, volume and   | Locate the :file:`/etc/rc.conf` file.     |
+   | dataset names, and  |                                           |
+   | directories         |                                           |
+   +---------------------+-------------------------------------------+
+   | Keyboard keys       | Press the :kbd:`Enter` key.               |
+   +---------------------+-------------------------------------------+
+   | Important points    | **This is important.**                    |
+   +---------------------+-------------------------------------------+
+   | Values entered into | Enter *127.0.0.1* in the address field.   |
+   | fields, or device   |                                           |
+   | names               |                                           |
+   +---------------------+-------------------------------------------+
 
 .. index:: legal
 .. _Legal:
@@ -144,7 +146,7 @@ Generally, we encouraged users to donate or actively contribute to the
 FreeBSD project to ensure FreeBSD continues to be successful in the
 future. Because |lumina| is open source software, we have included a
 minimal number of ads as a simple method for users to give back to the
-project, if they wish. 
+project, if they wish.
 
 The primary consideration for these ads is to avoid detracting from the
 user experience as much as possible. To this end, any ads in the
@@ -153,7 +155,7 @@ predefined space underneath all other navigation options. We are
 resolved to protect user privacy and security, and do not collect user
 information, with the exception of click throughs. Furthermore, we do
 not collect any data for targeted ads, and are committed to only show
-high quality ads pertaining to our user base.  
+high quality ads pertaining to our user base.
 
 **Cookie Policy**
 
@@ -190,8 +192,8 @@ utilities for various tasks, such as :command:`numlockx` and
   email clients, multimedia software, or office suites. Instead, it
   provides utilities for configuring the desktop environment.
 
-* Uses a simple,
-  `text-based configuration file <https://github.com/trueos/lumina/blob/master/src-qt5/core/lumina-desktop/defaults/luminaDesktop.conf>`_
+* Uses a simple, text-based 
+  `configuration file <https://github.com/trueos/lumina/blob/master/src-qt5/core/lumina-desktop/defaults/luminaDesktop.conf>`_
   for setting system-wide defaults. |lumina| distributors can use this
   file to easily preset the |lumina| defaults and interface for their
   distribution.
@@ -308,7 +310,7 @@ start menu is divided into several categories:
   three modes which are changed by clicking the button: category names
   (checked box), no categories (unchecked box), and categories with
   contents (half-checked box).
-  
+
   Click an application's name to start the application. Right-click an
   application's name to view choices for :guilabel:`Pin to Desktop`,
   :guilabel:`Add to Favorites`, or :guilabel:`Add to Quicklaunch`. Using
@@ -342,7 +344,8 @@ start menu is divided into several categories:
       control slider from 10% to 100%.
 
     * **Workspace:** The number of available virtual workspaces are
-      listed. Click the right or left arrow to switch between workspaces.
+      listed. Click the right or left arrow to switch between
+      workspaces.
 
     * **Locale:** This will only appear if the lumina-i18n package is
       installed. The current locale will be displayed as the title of
@@ -381,97 +384,97 @@ derived from *fluxbox* defaults, as noted in the table.
 
 .. table:: : |lumina| keyboard shortcuts
 
-   +----------------+---------------------------------------+------------+
-   | Shortcut       | Function                              | Default    |
-   +================+=======================================+============+
-   | Alt + click    | Move window                           | Fluxbox    |
-   | (open window)  |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Alt + right    | Resize window                         | Fluxbox    |
-   | click (open    |                                       |            |
-   | window)        |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Alt + middle   | Lower window                          | Fluxbox    |
-   | click (open    |                                       |            |
-   | window         |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Ctrl + click   | Attach windows                        | Fluxbox    |
-   | + drag (window |                                       |            |
-   | titlebar)      |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Alt + Tab      | Next window                           | Fluxbox    |                      
-   +----------------+---------------------------------------+------------+
-   | Alt + Shift +  | Previous window                       | Fluxbox    |
-   | Tab            |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Ctrl + Tab     | Next group                            | Fluxbox    |
-   +----------------+---------------------------------------+------------+
-   | Ctrl + Shift + | Previous group                        | Fluxbox    |
-   | Tab            |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Windows Key +  | Next (Fluxbox) Tab                    | Fluxbox    |
-   | Tab            |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Windows Key +  | Previous (Fluxbox) Tab                | Fluxbox    |
-   | Shift + Tab    |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Alt + Left     | Arrange windows in a tiled state. The | Fluxbox    |
-   | Arrow          | active window moves screen left.      |            |
-   +----------------+---------------------------------------+------------+
-   | Alt + Right    | Arrange windows in a tiled state. The | Fluxbox    |
-   | Arrow          | active window moves screen right.     |            |
-   +----------------+---------------------------------------+------------+
-   | Windows Key +  | Move to a specific tab in the current | Fluxbox    |
-   | <1-9>          | window.                               |            |
-   +----------------+---------------------------------------+------------+
-   | Alt + F1       | Opens Lumina default terminal         | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | Alt + F2       | Opens :command:`lumina-search`        | Fluxbox    |
-   +----------------+---------------------------------------+------------+
-   | Alt + F4       | Close open window                     | Fluxbox    |
-   +----------------+---------------------------------------+------------+
-   | Alt + F5       | Kill the open window's process.       | Fluxbox    |
-   +----------------+---------------------------------------+------------+
-   | Alt + F9       | Minimize open window                  | Fluxbox    |
-   +----------------+---------------------------------------+------------+
-   | Alt + F10      | Maximize open window                  | Fluxbox    |
-   +----------------+---------------------------------------+------------+
-   | Alt + F11      | Fullscreen open window                | Fluxbox    |
-   +----------------+---------------------------------------+------------+
-   | Windows Key +  | Send current window to previous/next  | Fluxbox    |
-   | <Left & Right  | workspace.                            |            |
-   | Arrows>        |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Ctrl + Windows | Send current window to previous/next  | Fluxbox    |
-   | Key + <Left &  | workspace and follow the window.      |            |
-   | Right Arrows>  |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Windows Key +  | Change to a specific workspace.       | Fluxbox    |
-   | F1-12          |                                       |            |
-   +----------------+---------------------------------------+------------+
-   | Ctrl + Windows | Change to a specific workspace with   | Fluxbox    |
-   | Key + F1-12    | the active window.                    |            |
-   +----------------+---------------------------------------+------------+
-   | Print          | Open :command:`lumina-screenshot`     | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | Pause          | Lock the system                       | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | Alt + L        | Lock the system (alternate)           | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | Alt + Space    | Open :command:`lumina-search`         | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | Alt + PgUp     | Increase system volume                | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | Alt + PgDn     | Decrease system volume                | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | Alt + Home     | Increase brightness                   | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | Alt + End      | Decrease brightness                   | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | F12            | Open the Lumina default terminal      | Lumina     |
-   +----------------+---------------------------------------+------------+
-   | Windows Key    | Open the default "Start Menu"         | Lumina     |
-   +----------------+---------------------------------------+------------+
+   +----------------+---------------------------------------+---------+
+   | Shortcut       | Function                              | Default |
+   +================+=======================================+=========+
+   | Alt + click    | Move window                           | Fluxbox |
+   | (open window)  |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Alt + right    | Resize window                         | Fluxbox |
+   | click (open    |                                       |         |
+   | window)        |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Alt + middle   | Lower window                          | Fluxbox |
+   | click (open    |                                       |         |
+   | window         |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Ctrl + click   | Attach windows                        | Fluxbox |
+   | + drag (window |                                       |         |
+   | titlebar)      |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Alt + Tab      | Next window                           | Fluxbox |
+   +----------------+---------------------------------------+---------+
+   | Alt + Shift +  | Previous window                       | Fluxbox |
+   | Tab            |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Ctrl + Tab     | Next group                            | Fluxbox |
+   +----------------+---------------------------------------+---------+
+   | Ctrl + Shift + | Previous group                        | Fluxbox |
+   | Tab            |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Windows Key +  | Next (Fluxbox) Tab                    | Fluxbox |
+   | Tab            |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Windows Key +  | Previous (Fluxbox) Tab                | Fluxbox |
+   | Shift + Tab    |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Alt + Left     | Arrange windows in a tiled state. The | Fluxbox |
+   | Arrow          | active window moves screen left.      |         |
+   +----------------+---------------------------------------+---------+
+   | Alt + Right    | Arrange windows in a tiled state. The | Fluxbox |
+   | Arrow          | active window moves screen right.     |         |
+   +----------------+---------------------------------------+---------+
+   | Windows Key +  | Move to a specific tab in the current | Fluxbox |
+   | <1-9>          | window.                               |         |
+   +----------------+---------------------------------------+---------+
+   | Alt + F1       | Opens Lumina default terminal         | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | Alt + F2       | Opens :command:`lumina-search`        | Fluxbox |
+   +----------------+---------------------------------------+---------+
+   | Alt + F4       | Close open window                     | Fluxbox |
+   +----------------+---------------------------------------+---------+
+   | Alt + F5       | Kill the open window's process.       | Fluxbox |
+   +----------------+---------------------------------------+---------+
+   | Alt + F9       | Minimize open window                  | Fluxbox |
+   +----------------+---------------------------------------+---------+
+   | Alt + F10      | Maximize open window                  | Fluxbox |
+   +----------------+---------------------------------------+---------+
+   | Alt + F11      | Fullscreen open window                | Fluxbox |
+   +----------------+---------------------------------------+---------+
+   | Windows Key +  | Send current window to previous/next  | Fluxbox |
+   | <Left & Right  | workspace.                            |         |
+   | Arrows>        |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Ctrl + Windows | Send current window to previous/next  | Fluxbox |
+   | Key + <Left &  | workspace and follow the window.      |         |
+   | Right Arrows>  |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Windows Key +  | Change to a specific workspace.       | Fluxbox |
+   | F1-12          |                                       |         |
+   +----------------+---------------------------------------+---------+
+   | Ctrl + Windows | Change to a specific workspace with   | Fluxbox |
+   | Key + F1-12    | the active window.                    |         |
+   +----------------+---------------------------------------+---------+
+   | Print          | Open :command:`lumina-screenshot`     | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | Pause          | Lock the system                       | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | Alt + L        | Lock the system (alternate)           | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | Alt + Space    | Open :command:`lumina-search`         | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | Alt + PgUp     | Increase system volume                | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | Alt + PgDn     | Decrease system volume                | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | Alt + Home     | Increase brightness                   | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | Alt + End      | Decrease brightness                   | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | F12            | Open the Lumina default terminal      | Lumina  |
+   +----------------+---------------------------------------+---------+
+   | Windows Key    | Open the default "Start Menu"         | Lumina  |
+   +----------------+---------------------------------------+---------+
 
 .. _Panel and System Tray:
 
@@ -495,7 +498,7 @@ including stick, layer/dock, and set transparency, among other options.
 
 The system tray is located in the right portion of the panel. Any
 applications that register a tray icon will appear in this area. For
-example, on a |trueos| system, icons will appear for Life Preserver, 
+example, on a |trueos| system, icons will appear for Life Preserver,
 Mount Tray, and |sysadm|. Refer to :ref:`Interface` for instructions on
 modifying which applications appear in the system tray. Click or
 right-click an icon to interact with an application directly. The
@@ -519,7 +522,7 @@ in :numref:`Figure %s <conmen>`.
 
 .. figure:: images/lconmen.png
    :scale: 100%
-   
+
    : Default Context Menu
 
 This section describes the default menu items. For instructions on how

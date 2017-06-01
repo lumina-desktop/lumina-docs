@@ -23,7 +23,7 @@ within the Configuration utility.
 
 .. figure:: images/lumina3f.png
    :scale: 100%
-   
+
    : |lumina| Desktop Settings
 
 Under the top search bar are options to configure different areas of
@@ -98,7 +98,7 @@ installed Qt5 theme engines to any Qt based applications.
 
 .. figure:: images/lumina35a.png
    :scale: 100%
-   
+
    : Application Themes tab, with :guilabel:`Qt5 Theme Engine` pressed.
 
 Select the :guilabel:`Qt5 Theme Engine` drop down menu to choose between
@@ -124,7 +124,7 @@ specified time interval in minutes to move to the next image.
 
 .. figure:: images/lumina27.png
    :scale: 100%
-   
+
    : Wallpaper Settings
 
 Click the :guilabel:`Layout` drop-down menu to change the default
@@ -241,8 +241,8 @@ This tab can be used to configure default applications.
    : |lumina| Default Applications - Basic
 
 The default *web browser*, *email client*, *file manager*, and *virtual*
-*terminal* are all configurable. Click the desired application, and a new
-window appears, allowing a new default application to be chosen. To
+*terminal* are all configurable. Click the desired application, and a
+new window appears, allowing a new default application to be chosen. To
 return to the default application, click the current application's name,
 then :guilabel:`Restore Defaults`.
 
@@ -300,10 +300,11 @@ action. To free a shortcut for reuse, highlight the shortcut, click
 :guilabel:`Clear Shortcut`, then :guilabel:`Save Changes`. A new
 shortcut can now be created.
 
-Click :guilabel:`Advanced Editor`, seen in :numref:`Figure %s <lumina30>`,
-to manually adjust or create all keyboard shortcuts. By default, syntax
-codes are shown in their own display area, but this can be hidden by
-unchecking :guilabel:`View Syntax Codes`.
+Click :guilabel:`Advanced Editor`, seen in
+:numref:`Figure %s <lumina30>`, to manually adjust or create all
+keyboard shortcuts. By default, syntax codes are shown in their own
+display area, but this can be hidden by unchecking
+:guilabel:`View Syntax Codes`.
 
 .. _lumina30:
 
@@ -374,7 +375,7 @@ appears in the lower right corner.
 
 .. figure:: images/lumina40.png
    :scale: 100%
-   
+
    : Desktop Settings
 
 Use the :guilabel:`Plus` and :guilabel:`Minus` buttons to adjust the
@@ -413,7 +414,7 @@ includes several plugins: :ref:`Terminal`,
 
 .. figure:: images/lumina36.png
    :scale: 100%
-   
+
    : Context menu plugins configuration with an open context menu.
 
 .. note:: :guilabel:`Leave`, with its options to *Logout*, *Restart*,

@@ -34,30 +34,37 @@ Archive Manager:
 
 .. table:: : Archiver operations
 
-   +-------------------+------+-----------------------+----------+---------------------------------+
-   | Command           | Menu | Icon                  | Shortcut | Result                          |
-   +===================+======+=======================+==========+=================================+
-   | New Archive       | File | Page with White Plus  | Ctrl + N | Opens a window to create a new  |
-   |                   |      |                       |          | archive file                    |
-   +-------------------+------+-----------------------+----------+---------------------------------+
-   | Open Archive      | File | Folder with File      | Ctrl + O | Open an existing archive        |
-   +-------------------+------+-----------------------+----------+---------------------------------+
-   | Quit              | File | None                  | Ctrl + Q | Exit the utility                |
-   +-------------------+------+-----------------------+----------+---------------------------------+
-   | Add File(s)       | Edit | Page with Green Plus  | None     | Add a file to an open archive   |
-   +-------------------+------+-----------------------+----------+---------------------------------+
-   | Add Directory     | Edit | Folder with Plus      | None     | Add a full directory to an open |
-   |                   |      |                       |          | archive                         |
-   +-------------------+------+-----------------------+----------+---------------------------------+
-   | Remove File(s)    | Edit | Page with Red X       | None     | Removes the selected file from  |
-   |                   |      |                       |          | the archive                     |
-   +-------------------+------+-----------------------+----------+---------------------------------+
-   | Extract All       | Edit | Page with White Arrow | Ctrl + E | Opens a window to extract the   |
-   |                   |      |                       |          | entire contents of the archive  |
-   +-------------------+------+-----------------------+----------+---------------------------------+
-   | Extract Selection | Edit | Page with White Arrow | None     | Opens a window to extract the   |
-   |                   |      |                       |          | highlighted archive contents    |
-   +-------------------+------+-----------------------+----------+---------------------------------+
+   +-----------+------+-------------+----------+-----------------------+
+   | Command   | Menu | Icon        | Shortcut | Result                |
+   +===========+======+=============+==========+=======================+
+   | New       | File | Page with   | Ctrl + N | Opens a window to     |
+   | Archive   |      | White Plus  |          | create a new archive  |
+   |           |      |             |          | file                  |
+   +-----------+------+-------------+----------+-----------------------+
+   | Open      | File | Folder with | Ctrl + O | Open an existing      |
+   | Archive   |      | File        |          | archive               |
+   +-----------+------+-------------+----------+-----------------------+
+   | Quit      | File | None        | Ctrl + Q | Exit the utility      |
+   +-----------+------+-------------+----------+-----------------------+
+   | Add       | Edit | Page with   | None     | Add a file to an open |
+   | Files     |      | Green Plus  |          | archive               |
+   +-----------+------+-------------+----------+-----------------------+
+   | Add       | Edit | Folder      | None     | Add a directory to an |
+   | Directory |      | with Plus   |          | open archive          |
+   +-----------+------+-------------+----------+-----------------------+
+   | Remove    | Edit | Page with   | None     | Removes the selected  |
+   | Files     |      | Red X       |          | file from the archive |
+   +-----------+------+-------------+----------+-----------------------+
+   | Extract   | Edit | Page with   | Ctrl + E | Opens a window to     |
+   | All       |      | White Arrow |          | extract the entire e  |
+   |           |      |             |          | contents of the       |
+   |           |      |             |          | archive               |
+   +-----------+------+-------------+----------+-----------------------+
+   | Extract   | Edit | Page with   | None     | Opens a window to     |
+   | Selection |      | White Arrow |          | extract the           |
+   |           |      |             |          | highlighted archive   |
+   |           |      |             |          | contents              |
+   +-----------+------+-------------+----------+-----------------------+
 
 The primary window under the icon toolbar displays several elements:
 
@@ -86,7 +93,7 @@ seen in :numref:`Figure %s <lcalc1>`:
 
 .. figure:: images/lcalc1a.png
    :scale: 100%
-   
+
    : |lumina| Calculator
 
 The calculator is configured to use a numpad, if one is available.
@@ -204,33 +211,33 @@ Insight:
 * **View:** Presents options to alter what Insight will display to the
   user. :numref:`Table %s <insightview>` shows the current options in
   the :guilabel:`View` tab:
-  
+
   .. _insightview:
-  
+
   .. table:: : Insight Manager "View" Options
 
-     +-------------+----------+-----------------------------------------+
-     | Name        | Shortcut | Description                             |
-     +=============+==========+=========================================+
-     | Refresh     | F5       | Reloads the current location            |
-     +-------------+----------+-----------------------------------------+
-     | Show Hidden | Ctrl + H | Insight will display all files marked   |
-     | Files       |          | *hidden*                                |
-     +-------------+----------+-----------------------------------------+
-     | View Mode   | None     | Basic: Displays only the names of files |
-     |             |          | an directories.                         |
-     |             |          | Advanced: Displays Name, Size, Type,    |
-     |             |          | Date Modified, and Date Created for     |
-     |             |          | each file or directory.                 |
-     +-------------+----------+-----------------------------------------+
+     +-------------+----------+----------------------------------------+
+     | Name        | Shortcut | Description                            |
+     +=============+==========+========================================+
+     | Refresh     | F5       | Reloads the current location           |
+     +-------------+----------+----------------------------------------+
+     | Show Hidden | Ctrl + H | Insight will display all files marked  |
+     | Files       |          | *hidden*                               |
+     +-------------+----------+----------------------------------------+
+     | View Mode   | None     | Basic: Displays the names of files and |
+     |             |          | directories.                           |
+     |             |          | Advanced: Displays Name, Size, Type,   |
+     |             |          | Date Modified, and Date Created for    |
+     |             |          | each file or directory.                |
+     +-------------+----------+----------------------------------------+
 
 * **Bookmarks:** The :guilabel:`Bookmarks` not only gives options to
   add and manipulate internal links for quick navigation with Insight,
   but will display any created bookmarks in the menu as well.
   :numref:`Table %s <insightbkmrks>` describes all these elements:
-  
+
   .. _insightbkmrks:
-  
+
   .. table:: : Insight Manager "Bookmark" Options
 
      +------------------+----------+--------------------------+
@@ -351,42 +358,42 @@ become available, seen in :numref:`Table %s <insightfileops>`:
 
 .. table:: : Insight Manager Operations
 
-   +------------+--------------+--------------+-------------------------+
-   | Item       | Category     | Shortcut     | Description             |
-   +============+==============+==============+=========================+
-   | Open       | None         | Double-Click | Open the file or        |
-   |            |              |              | directory with the      |
-   |            |              |              | default applications    |
-   +------------+--------------+--------------+-------------------------+
-   | Open With  | None         | None         | Opens the file or       |
-   |            |              |              | directory with a        |
-   |            |              |              | chosen application      |
-   +------------+--------------+--------------+-------------------------+
-   | Cut        | Modify Files | Ctrl + X     | Used with *Paste* to    |
-   | Selection  |              |              | move a file             |
-   +------------+--------------+--------------+-------------------------+
-   | Copy       | Modify Files | Ctrl + C     | Used with *Paste* to    |
-   | Selection  |              |              | create an exact         |
-   |            |              |              | duplicate of the        |
-   |            |              |              | selected file           |
-   +------------+--------------+--------------+-------------------------+
-   | Rename     | Modify Files | F2           | Allows changing the     |
-   |            |              |              | title of the selection  |
-   +------------+--------------+--------------+-------------------------+
-   | Delete     | Modify Files | Del          | Removes the selection   |
-   | Selection  |              |              | from the system         |
-   +------------+--------------+--------------+-------------------------+
-   | Checksums  | View Files   | None         | Displays the file's     |
-   |            |              |              | checksum                |
-   +------------+--------------+--------------+-------------------------+
-   | Properties | View Files   | None         | Displays the file       |
-   |            |              |              | information of the      |
-   |            |              |              | selection               |
-   +------------+--------------+--------------+-------------------------+
-   | Paste      | None         | Ctrl + V     | Used with *Cut* or      |
-   |            |              |              | *Copy* to move or clone |
-   |            |              |              | files and directories   |
-   +------------+--------------+--------------+-------------------------+
+   +------------+----------+--------------+-------------------------+
+   | Item       | Category | Shortcut     | Description             |
+   +============+==========+==============+=========================+
+   | Open       | None     | Double-Click | Open the file or        |
+   |            |          |              | directory with the      |
+   |            |          |              | default applications    |
+   +------------+----------+--------------+-------------------------+
+   | Open With  | None     | None         | Opens the file or       |
+   |            |          |              | directory with a        |
+   |            |          |              | chosen application      |
+   +------------+----------+--------------+-------------------------+
+   | Cut        | Modify   | Ctrl + X     | Used with *Paste* to    |
+   | Selection  | Files    |              | move a file             |
+   +------------+----------+--------------+-------------------------+
+   | Copy       | Modify   | Ctrl + C     | Used with *Paste* to    |
+   | Selection  | Files    |              | create an exact         |
+   |            |          |              | duplicate of the        |
+   |            |          |              | selected file           |
+   +------------+----------+--------------+-------------------------+
+   | Rename     | Modify   | F2           | Allows changing the     |
+   |            | Files    |              | title of the selection  |
+   +------------+----------+--------------+-------------------------+
+   | Delete     | Modify   | Del          | Removes the selection   |
+   | Selection  | Files    |              | from the system         |
+   +------------+----------+--------------+-------------------------+
+   | Checksums  | View     | None         | Displays the file's     |
+   |            | Files    |              | checksum                |
+   +------------+----------+--------------+-------------------------+
+   | Properties | View     | None         | Displays the file       |
+   |            | Files    |              | information of the      |
+   |            |          |              | selection               |
+   +------------+----------+--------------+-------------------------+
+   | Paste      | None     | Ctrl + V     | Used with *Cut* or      |
+   |            |          |              | *Copy* to move or clone |
+   |            |          |              | files and directories   |
+   +------------+----------+--------------+-------------------------+
 
 The final element to the upper Insight menus, if configured, is the ZFS
 snapshot bar, seen as the long blue line in :ref:`Insight <lumina10>`.
@@ -425,7 +432,7 @@ the file information of their :file:`~/Downloads` directory.
 .. _file1:
 
 .. figure:: images/file1a.png
-   :scale: 100%  
+   :scale: 100%
 
    : Sample File Information
 
@@ -467,7 +474,7 @@ The :guilabel:`General` tab contains a variety of information:
   `<https://webchat.freenode.net/?channels=%23lumina-desktop>`_, a
   chat channel dedicated to |lumina| with many friendly and helpful
   users.
-  
+
 * **Source Repository:** Click :guilabel:`Source Repository` to open
   `<https://github.com/trueos/lumina>`_ in the default web browser.
 
@@ -560,22 +567,22 @@ the options in this top menu bar:
 .. _lssmo:
 .. table:: : Lumina Screenshot menu options
 
-   +------------+----------+-----------------------------------------------------+
-   | Option     | Shortcut | Description                                         |
-   +============+==========+=====================================================+
-   | Capture    | Ctrl + N | Take a screenshot.                                  |
-   +------------+----------+-----------------------------------------------------+
-   | Save As    | Ctrl + S | Open the *Save Screenshot* window to designate      |
-   |            |          | and how to save the new screenshot.                 |
-   +------------+----------+-----------------------------------------------------+
-   | Quick Save | None     | Saves the screenshot to :file:`/Pictures` in the    |
-   |            |          | format                                              |
-   |            |          | *Screenshot-year-month-day-hour-minute-second.png*. |
-   |            |          | Then shows the *Open With* window to view the       |
-   |            |          | screenshot.                                         |
-   +------------+----------+-----------------------------------------------------+
-   | Close      | Esc      | Closes **lumina-screenshot**.                       |
-   +------------+----------+-----------------------------------------------------+
+   +---------+----------+----------------------------------------------+
+   | Option  | Shortcut | Description                                  |
+   +=========+==========+==============================================+
+   | Capture | Ctrl + N | Take a screenshot.                           |
+   +---------+----------+----------------------------------------------+
+   | Save As | Ctrl + S | Open the *Save Screenshot* window to name    |
+   |         |          | and save the new screenshot.                 |
+   +---------+----------+----------------------------------------------+
+   | Quick   | None     | Saves the screenshot to :file:`/Pictures` in |
+   | Save    |          | the format                                   |
+   |         |          | *Screenshot-yr-mth-dy-hr-min-sec.png*. An    |
+   |         |          | *Open With* window appears for the user to   |
+   |         |          | view the screenshot.                         |
+   +---------+----------+----------------------------------------------+
+   | Close   | Esc      | Closes **lumina-screenshot**.                |
+   +---------+----------+----------------------------------------------+
 
 Underneath the top menu bar are tabs for viewing and configuring
 screenshots.
@@ -621,7 +628,7 @@ screenshots:
    |                 | border frame.                                   |
    +-----------------+-------------------------------------------------+
    | Delay           | Choose the number of seconds to delay the       |
-   |                 | screen capture after pressing                   | 
+   |                 | screen capture after pressing                   |
    |                 | :guilabel:`Capture`.                            |
    +-----------------+-------------------------------------------------+
    | Show warnings   | Check this box to have the utility provide a    |
@@ -634,7 +641,7 @@ screenshots:
 
 |lumina| Search
 ===============
-  
+
 |lumina| Search provides options to find and launch applications or to
 quickly search for files and directories. The ***** wildcard can be used
 in the search terms and the search will include hidden files if the

@@ -7,7 +7,7 @@ Contribute!
 users and supporters to assist in development, documentation, and
 localization. This section describes how to best assist the |lumina|
 Project.
-  
+
 .. _communicate:
 
 Communicate
@@ -41,7 +41,7 @@ users to collaborate and contribute to the project:
   server are also available for collaborating with other users and the
   developers.
 
-* **Mailing Lists:** Visit http://lists.pcbsd.org/mailman/listinfo to 
+* **Mailing Lists:** Visit http://lists.pcbsd.org/mailman/listinfo to
   view the various mailing list options. Click an option to open a page
   that allows you to subscribe to the list.
 
@@ -65,7 +65,7 @@ think!
 
 Report a Bug
 ============
-  
+
 One of the most effective ways to assist the |lumina| Project is by
 reporting problems or bugs encountered while using |lumina|. Subscribing
 to `Lumina News <https://lumina-desktop.org/news/>`_ is a
@@ -146,8 +146,8 @@ the developers, and very appreciated! There are two primary elements to
 This section describes each of these elements in more detail and how to
 begin participating in translating Lumina.
 
-An excellent first step is to join the
-`translations mailing list <http://lists.pcbsd.org/mailman/listinfo/translations>`_.
+An excellent first step is to join the translations
+`mailing list <http://lists.pcbsd.org/mailman/listinfo/translations>`_.
 After joining, send an introductory email and indicate which language(s)
 and which type(s) of translations you can assist with. Participating in
 the mailing list will keep you up to date with important changes to
@@ -192,10 +192,11 @@ shows good translations, while yellow and red colors in the progress bar
 indicate translations that may need additional review. Any language not
 fully translated will display the incomplete menus in English.
 
-Click on a component name to see each available language for translation.
-:numref:`Figure %s <translate2b>` shows the **lumina-config** component.
-In this example, **lumina-config** has almost been completely translated
-to Bulgarian (bg), but has just begun translation to Afrikaans (af).
+Click on a component name to see each available language for
+translation. :numref:`Figure %s <translate2b>` shows the *lumina-config*
+component. In this example, **lumina-config** is almost completely
+translated to Bulgarian (bg), but has just begun translation to
+Afrikaans (af).
 
 .. _translate2b:
 
@@ -264,8 +265,9 @@ welcome! To participate in core development, please subscribe to the
 
 All |lumina| utilities are developed with C++ using Qt Libraries, but
 other Qt-based languages are used in the project too. For example, the
-CSS-like `Qt Stylesheet language <http://doc.qt.io/qt-4.8/stylesheet.html>`_
-is used for theme templates.
+CSS-like
+`Qt Stylesheet language <http://doc.qt.io/qt-4.8/stylesheet.html>`_ is
+used for theme templates.
 
 .. index:: development
 .. _Getting the Source Code:
@@ -293,10 +295,10 @@ contains the local copy of the repository. Keep the local copy
 synchronized with the official repository by typing :command:`git pull`
 within the :file:`lumina/` directory.
 
-To compile the source code, start by checking the
-`list of required software <https://github.com/trueos/lumina/blob/master/DEPENDENCIES>`_
+To compile the source code, start by checking the list of
+`required software <https://github.com/trueos/lumina/blob/master/DEPENDENCIES>`_
 to install any needed Qt5 modules. Alternately,
-:command:`pkg install qt5` will install all available Qt5 modules, which
+:command:`pkg install qt5` installs all available Qt5 modules, which
 ensures the system can compile the source code.
 
 .. note:: The :command:`pkg` system is used by FreeBSD based operating
@@ -323,7 +325,7 @@ paths may differ on other operating systems:
    for additional instructions.
 
 To also install the compiled applications, type
-:command:`sudo make install`. This command requires superuser privileges.
+:samp:`% sudo make install`. This command requires superuser privileges.
 
 Several Qt integrated development environments (IDE) are available for
 development. These IDEs can be installed using |appcafe| on |trueos| or
@@ -340,11 +342,11 @@ To submit changes for inclusion in |lumina|, fork the
 using the instructions in
 `fork a repo <https://help.github.com/articles/fork-a-repo>`_.
 Make any changes to the forked repository, them submit them for
-inclusion in the primary |lumina| repository via a
-`git pull request <https://help.github.com/articles/using-pull-requests>`_.
-Once the submitted changes have been reviewed, they can either be
-committed to the repository or returned to the creator with additional
-suggestions for improvement.
+inclusion in the primary |lumina| repository via a git
+`pull request <https://help.github.com/articles/using-pull-requests>`_.
+Once the submitted changes are reviewed, they can either be committed to
+the repository or returned to the creator with additional suggestions
+for improvement.
 
 .. index:: development
 .. _Design Guidelines:
@@ -452,7 +454,7 @@ the commonly used shortcut and hotkeys.
    | ALT + H   | Help Menu       |
    +-----------+-----------------+
 
-Developers will also find these resources helpful:
+Developers may also find these resources helpful:
 
 * `Commits Mailing List <http://lists.pcbsd.org/mailman/listinfo/commits>`_
 

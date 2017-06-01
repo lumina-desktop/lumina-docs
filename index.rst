@@ -1,5 +1,5 @@
-Lumina Handbook |release|
-=========================
+Lumina Handbook
+===============
  
 .. toctree::
    :numbered:

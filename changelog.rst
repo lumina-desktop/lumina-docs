@@ -19,7 +19,7 @@ Lumina 1.2.0
 * Disable the internal Lumina Theme engine from all utilities. Now it
   is used only by the desktop while all applications use the global
   Qt5 theme engine.
-* New Panel Plugins: 
+* New Panel Plugins:
 
   * *audioplayer* (panel version of the desktop plugin with the same
     name): Allows the user to load and play audio files directly through
@@ -96,9 +96,9 @@ Lumina 1.2.0
 .. note:: The *message of the day* (motd) can be changed by creating a
    :file:`lumina-motd` file and placing it into :file:`<LOCALBASE>/etc`
    alongside :file:`luminaDesktop.conf`. If the new file is executable,
-   Lumina will run the file and print any text that is output. Otherwise,
-   it will read and display contents of the file as plaintext. For
-   example, a blank file will disable the motd.
+   Lumina will run the file and print any text that is output.
+   Otherwise, it reads and displays the file contents as plaintext. For
+   example, a blank file disables the motd.
 
 * :command:`lumina-fm`:
 
@@ -124,7 +124,7 @@ Lumina 1.2.0
 
 * :command:`lumina-search`:
 
-  * Apply more limits to the background search process handling. 
+  * Apply more limits to the background search process handling.
   * Avoid trawling through the :file:`proc` directory heirarchy at all
     costs.
   * Bump the time to start the live search from 1/3 to 1/2 second.
@@ -171,7 +171,7 @@ Lumina 1.1.0
   a prompt for performing or skipping updates.
 
 * Overhaul the Insight File Manager (:command:`lumina-fm`):
-  
+
   * Add a menu for GIT operations (if the **git** binary is found on the
     system). Currently supported operations: **clone** a repo from
     GitHub onto the local system (graphical wizard) and **view** the
@@ -179,9 +179,9 @@ Lumina 1.1.0
   * Created a completely new directory probing backend. This backend is
     designed around multi-threading, resulting in speeds which are
     orders of magnitude faster than the previous solution.
-    
+
   * Created a completely new directory viewing frontend:
-  
+
     * The tab and column possibilities are now integrated within each
       other, with no more distinct **modes** to toggle. Instead, tabs
       are now **always** available, and can be created or destroyed on
@@ -192,9 +192,9 @@ Lumina 1.1.0
     * The interface has been simplified, more options for interacting
       with a directory and/or files through the use of a smart menu
       system have been added.
-  
+
   * There is a completely new file operations tray notification system:
-  
+
     * All file operations are now performed in the background. A system
       tray icon shows the status of any operations, when needed.
     * This allows for multiple sets of file operations to be performed
@@ -230,7 +230,7 @@ Lumina 1.1.0
 * :command:`lumina-open` will now handle binary names as inputs.
 
 * Fixed up terminal launching abilities:
-  
+
   * Auto-use default terminal for Alt-F1 shortcut.
   * Better support for binary names in addition to :file:`.desktop`
     entries.
@@ -239,20 +239,20 @@ Lumina 1.1.0
 
 * Add a special check/fix for setting a cursor theme called "default"
   (only seems to impact a few various Linux distros).
-  
+
 * Cleanup the application of syntax highlighting rules in
   :command:`lumina-textedit`. Ensures better priority of highlighting
   rules.
-  
+
 * Find and fix some stability issues with :command:`lumina-fileinfo`.
 
 * Adjust the FreeBSD CPU temperature detection a bit, so raw CPU stats
   are preferred over ACPI data.
-  
+
 * Bundle in a single fallback mimetype database file so mimetypes are
   always available within |lumina|, even if the official mimetype
   database is not found.
-  
+
 * Have the |lumina| utilities (**text editor**, **file manager**, etc)
   check or set the :command:`XDG_*` environment variables at start, as
   needed. |lumina| utilities will now be able to detect and use the
@@ -261,23 +261,23 @@ Lumina 1.1.0
 
 * Have the desktop wallpaper randomized *every* time a change is
   requested, rather than just the first time.
-  
+
 * Add support for per-workspace wallpapers (not exposed in the config UI
   yet).
 
 * :command:`lumina-fileinfo` now shows the size of an image file, in
   addition to the thumbnail.
-  
+
 * Make :command:`lumina-screenshot` single instanced for keyboard
   shortcut launching and setup the application registration to always
   open a new instance as needed.
-  
+
 * Add a right-click option to *launch* a desktop item.
 
 * Reduce the number of widgets or items used when generating a
   "desktop" for a monitor. This greatly increases performance of the
   system, particularly when running through a remote X/VNC connection.
-  
+
 * Add an audio warning to the battery monitor plugin when the system
   drops to 5% left, as well as some more *warning* styling for the
   monitor.
@@ -293,7 +293,8 @@ Lumina 1.0.0
     * "Lumina-DE" binary is now "lumina-desktop". Full pathway change:
       /usr/local/share/Lumina-DE/* -> /usr/local/share/lumina-desktop/*
     * Moved the "runtime" directory in the user's home directory to
-      :file:`XDG_CONFIG_HOME/lumina-desktop` (replaced :file:`~/.lumina`).
+      :file:`XDG_CONFIG_HOME/lumina-desktop`
+      (replaced :file:`~/.lumina`).
     * Changed the install directory where Lumina puts all it's files at
       install time (:file:`L_SHAREDIR/lumina-desktop/` instead of
       :file:`L_SHAREDIR/Lumina-DE/`). The required LuminaOS templates
@@ -310,7 +311,8 @@ Lumina 1.0.0
 
 * :file:`luminaDesktop.conf` changes:
 
-    * Quicklaunch apps can now be specified within :file:`luminaDesktop.conf`
+    * Quicklaunch apps can now be specified within
+      :file:`luminaDesktop.conf`
       in a similar manner to the "favorites" options.
     * Convert the :file:`luminaDesktop.conf` parser to allow relative
       paths/filenames for favorite or default applications.
@@ -345,7 +347,7 @@ Lumina 1.0.0
 * The Lumina Desktop binary has been reduced in size.
 
 * New application registrations:
-    
+
     * lumina-fileinfo.desktop
     * lumina-config.desktop
 
@@ -403,7 +405,8 @@ Lumina 1.0.0
   every time the watcher updates (this fixes the detection of KDE apps
   being installed/removed).
 
-* Improved backend search routine for finding .desktop files or binaries.
+* Improved backend search routine for finding :file:`.desktop` files or
+  binaries.
 
 * The calendar plugin will now move to next day if the system remains on
   over 24 hours.
@@ -413,9 +416,9 @@ Lumina 1.0.0
 
 * Load previous screen config on Lumina start.
 
-* Fixed the detection and usage of the "mailto:" option in :command:`lumina-open`.
-  This also changes the default mimetype used for email applications
-  to "application/email".
+* Fixed the detection and usage of the "mailto:" option in
+  :command:`lumina-open`. This also changes the default mimetype used
+  for email applications to "application/email".
 
 * The start menu now hides duplicate "favorite" entries.
 
@@ -425,7 +428,8 @@ Lumina 1.0.0
 * User button - now displays only one entry for applications linked via
   both the desktop and favorites category.
 
-* The nongrouping task manager now uses a uniform size for panel buttons.
+* The nongrouping task manager now uses a uniform size for panel
+  buttons.
 
 * Pressing the :kbd:`Windows button` will open the Start Menu/User
   Button/ Application Menu, whichever is the default system button.
@@ -448,8 +452,8 @@ Lumina 1.0.0
 * A new theme titled "Glass" has been added.
 
 * Added :kbd:`Control+[shift]+Tab` shortcuts for cycling between open
-  windows in grouped order rather than open order (:kbd:`alt+[shift]+tab`
-  will do open order).
+  windows in grouped order rather than open order
+  (:kbd:`alt+[shift]+tab` does open order).
 
 * Non-applauncher desktop plugins now fill in from the bottom-right of
   the screen. This provides easily visible separation between the
@@ -465,9 +469,9 @@ Lumina 1.0.0
 * Fixed the symlink creation routine in :command:`lumina-textedit` to
   work with package systems.
 
-* Setup a recursive :command:`xinit` call within the :command:`start-lumina-desktop`
-  binary as needed. This call detects if an "X" session is already
-  active, and will startup "X" if inactive.
+* Set up a recursive :command:`xinit` call within the
+  :command:`start-lumina-desktop` binary as needed. This call detects if
+  an "X" session is already active, and starts "X" if inactive.
 
 * Added the ability for custom, system-wide environment variable
   settings within :file:`/usr/local/etc/lumina-environment.conf` This
@@ -502,9 +506,10 @@ Lumina 1.0.0
 Lumina 0.9.0
 ============
 
-* Created a "Common Applications" tab in the :menuselection:`Lumina Configuration Utility --> "Applications"`
-  section and moved common applications settings from the "File Defaults"
-  tab.
+* Created a "Common Applications" tab in the
+  :menuselection:`Lumina Configuration Utility --> "Applications"`
+  section and moved common applications settings from the
+  "File Defaults" tab.
 
 * Changed the default wallpapers for Lumina/PC-BSD and added some more
   4K Lumina wallpapers.
@@ -551,8 +556,9 @@ Lumina 0.9.0
   installs was already changed to run this tool, so graphical desktop
   managers should be unaffected by this change. This tool will
   eventually be used to perform the X session setup/configuration
-  (so CLI users will not need to run :command:`xinit` or :command:`startx`
-  directly anymore), but the X integration has not been implemented yet.
+  (so CLI users will not need to run :command:`xinit` or
+  :command:`startx` directly anymore), but the X integration has not
+  been implemented yet.
 
 * Updated the FreeBSD appstore shortcut to point to the new
   appcafe.desktop file from PC-BSD.
@@ -563,13 +569,12 @@ Lumina 0.9.0
 * Streamlined the build procedures slightly.
 
 * Reorganized the source tree. Now all the Lumina tools/utilities are
-  kept separate from the general build scripts/files within a :file:`src-qt5`
-  directory, and additionally organized into categories (core,
-  core-utils, desktop-utils).
-  Automated build systems should not be impacted by this change, as the
-  main project file (lumina.pro) has been left in the same place within
-  the repository and just had all the internal paths adjusted
-  accordingly.
+  kept separate from the general build scripts/files within a
+  :file:`src-qt5` directory, and additionally organized into categories
+  (core, core-utils, desktop-utils). Automated build systems should not
+  be impacted by this change, as the main project file (lumina.pro) has
+  been left in the same place within the repository and just had all the
+  internal paths adjusted accordingly.
 
 * Updated all the installed desktop entries to use relative paths for
   the icons (better cross-OS support).
@@ -638,7 +643,7 @@ Lumina 0.8.8
 * Fix some resize bugs with the custom resizeMenu class which is used by
   the "Start" menu.
 
-* Multiple fixes for resolution detection as well as graphical glitches 
+* Multiple fixes for resolution detection as well as graphical glitches
   that were causing menus to behave unpredictably.
 
 .. index:: changelog
