@@ -6,7 +6,139 @@ Changelog
 This section describes the major features and changes to each version of
 Lumina, with the most recent version of Lumina listed first.
 
-.. index:: changelog
+.. index:: 1.3.0
+.. _Lumina 1.3.0:
+
+Lumina 1.3.0
+============
+
+**Major Changes**
+
+* New Utility: :command:`lumina-mediaplayer`. Lumina Media Player is a
+  graphic interface for the Qt QMediaPlayer Class, with Pandora internet
+  radio streaming integration. Lumina Media Player supports many audio
+  formats, including *.ogg*, *.mp3*, *.mp4*, *.flac*, and *.wmv*. It is
+  also possible to increase the number of playable formats by installing
+  **gstreamer-plugins**. This utility is found in the
+  :menuselection:`Applications --> Utilities` section, or opened by
+  typing :command:`lumina-mediaplayer` in a command line.
+
+* New Utility: :command:`lumina-xdg-entry`. This is another simple
+  utility designed to help users create *.desktop* entries and
+  shortcuts. Find it in the **Utilities** application category, or open
+  it by typing :command:`lumina-xdg-entry` in a command line.
+
+* :command:`lumina-desktop`:
+
+  * Desktop folders are integrated, and can now be manipulated directly
+    from the desktop.
+  * Added the automatic settings migration of a desktop monitor (single
+    monitor only, for now).
+  * Numerous speed and performance improvements with how icons load and
+    the system interacts with the desktop.
+
+* :command:`lumina-fm`:
+
+  * Now fully integrated with :command:`lumina-archiver`.
+  * A "System directory" tree pane is available. Options to enable or
+    disable it are being added later, as it is on by default.
+  * Numerous speed improvements with caching and loading icons.
+
+* :command:`lumina-texteditor`:
+
+  * There is a new json manifest file format for syntax highlighting
+    support. Users can open this file, customize their highlighting
+    options, and immediately see their changes without rebuilding the
+    utility.
+  * The text editor now supports more than 10 different file formats.
+  * Added options for file-wide preferences in syntax files. Options
+    include: word wrap, character per line limits, excess whitespace
+    highlighting, font style restrictions, and tab-width settings.
+  * :command:`lte` supports tabs with detach, drag'n'drop, and location
+    customization with the View menu option.
+  * Add checkable menu option to show the "unsaved changes" dialogue box
+    on close.
+
+* :command:`lumina-screenshot`:
+
+  * Adjustments to the :command:`lumina-screenshot` interface.
+  * Add an adjustable warning to lumina-screenshot when closing with an
+    unsaved image.
+  * Add functionality to select a specific area of the screen for
+    screenshots.
+
+* :command:`lumina-archiver`:
+
+  * Functionality improvements.
+  * Bug fixes.
+  * Interface changes.
+
+**General Improvements**
+
+* Permission checks for settings files (all utilities). When launched
+  with sudo, all tools use or create a root-permissioned copy of the
+  user's settings file. This prevents a settings file being locked by
+  root.
+* Added more general keyboard shortcuts:
+
+  * Quit: Ctrl + Q
+
+* Add *ExternalProcess* class to clean up and hide often unnecessary
+  clutter in the command line when starting an external process.
+* Disable xinput class.
+* Effort to unify button placement and style across the various system
+  utilities.
+* UI text reworks to help re-unify style.
+* Add hooks to update the desktop with icons for the :file:`/media`
+  directory when a system uses USB automounting functionality.
+* :command:`lumina-config` watches for "settings" related applications
+  and updates accordingly.
+* Fix focus issues with the terminal window with multiple tabs.
+* Add themes to Lumina:
+
+  * DarkGlass (desktop theme)
+  * material-design-light (icon theme)
+  * material-design-dark (icon theme)
+
+* Continued work to fix high-DPI tiling issues for monitors.
+* Add Slackware distro.
+* Clean up general compilation warnings.
+* Fix Fluxbox bug with windows workspace assignments.
+* Work on new utility :command:`lumina-notify` (not fully functional
+  yet).
+* Bug fixes for the **notepad** desktop plugin.
+* Bug fix for loading multiple files during the same session.
+* Fix panel reporting error crashing :command:`lumina-config`.
+* Bug fix for dbus-send calls for Gentoo.
+* Adjustments to icons and their categories.
+* Unfinished Lumina utilities are added to an :file:`experimental`
+  directory.
+* Clean up automatic DPI scaling support.
+* Bug fixes for the panel clock.
+* Split up the FreeBSD port files into 12 ports:
+
+  * x11/lumina (meta port for all of them)
+  * x11/lumina-core (core desktop: lumina-open, lumina-desktop,
+    start-lumina-desktop, themes, icons, etc..)
+  * x11/lumina-coreutils (core configuration utilities: lumina-config,
+    lumina-xconfig, lumina-search)
+  * deskutils/lumina-archiver
+  * deskutils/lumina-calculator
+  * deskutils/lumina-fileinfo
+  * deskutils/lumina-fm
+  * deskutils/lumina-mediaplayer
+  * deskutils/lumina-notify
+  * deskutils/lumina-screenshot
+  * deskutils/lumina-textedit
+  * deskutils/lumina-xdg-entry
+
+* Fixes to :file:`mkport.sh`.
+* Compton compositor is now disabled by default (but can be manually
+  enabled).
+* Translation file updates.
+* Documentation updates.
+
+.. index:: 1.2.0
 .. _Lumina 1.2.0:
 
 Lumina 1.2.0
@@ -137,7 +269,7 @@ Lumina 1.2.0
 
 * FreeBSD: Add PulseAudio support for TrueOS PICO sessions.
 
-.. index:: changelog
+.. index:: 1.1.0
 .. _Lumina 1.1.0:
 
 Lumina 1.1.0
@@ -282,7 +414,7 @@ Lumina 1.1.0
   drops to 5% left, as well as some more *warning* styling for the
   monitor.
 
-.. index:: changelog
+.. index:: 1.0.0
 .. _Lumina 1.0.0:
 
 Lumina 1.0.0
@@ -500,7 +632,7 @@ Lumina 1.0.0
 * Allow the "save file as" option within lumina-textedit to always be
   available and not dependent on changes to the file.
 
-.. index:: changelog
+.. index:: 0.9.0
 .. _Lumina 0.9.0:
 
 Lumina 0.9.0
@@ -588,7 +720,7 @@ Lumina 0.9.0
 * Stability fix for the desktop when an invalid desktop plugin is
   set/registered.
 
-.. index:: changelog
+.. index:: 0.8.8
 .. _Lumina 0.8.8:
 
 Lumina 0.8.8
@@ -646,7 +778,7 @@ Lumina 0.8.8
 * Multiple fixes for resolution detection as well as graphical glitches
   that were causing menus to behave unpredictably.
 
-.. index:: changelog
+.. index:: 0.8.7
 .. _Lumina 0.8.7:
 
 Lumina 0.8.7
@@ -803,7 +935,7 @@ Lumina 0.8.7
 * Ensure that on FreeBSD, the disk I/O information uses instantaneous
   values instead of system averages.
 
-.. index:: changelog
+.. index:: 0.8.6
 .. _Lumina 0.8.6:
 
 Lumina 0.8.6
@@ -857,7 +989,7 @@ Lumina 0.8.6
 
 * Fix up the active reloading of icons when the icon theme changes.
 
-.. index:: changelog
+.. index:: 0.8.5
 .. _Lumina 0.8.5:
 
 Lumina 0.8.5
@@ -900,7 +1032,7 @@ Lumina 0.8.5
   Alternatively, you may also remove desktop plugins using the
   :ref:`Configuration` utility.
 
-.. index:: changelog
+.. index:: 0.8.4
 .. _Lumina 0.8.4:
 
 Lumina 0.8.4
@@ -978,7 +1110,7 @@ Lumina 0.8.4
   right-click the titlebar for the unlocked plugin and select close or
   maximize from the menu.
 
-.. index:: changelog
+.. index:: 0.8.3
 .. _Lumina 0.8.3:
 
 Lumina 0.8.3
@@ -1063,7 +1195,7 @@ Lumina 0.8.3
   convert the system tray embed/unembed routines to use the XCB library
   instead of XLib.
 
-.. index:: changelog
+.. index:: 0.8.2
 .. _Lumina 0.8.2:
 
 Lumina 0.8.2
@@ -1096,7 +1228,7 @@ Lumina 0.8.2
   a "Files or Directories" search and to set an alternate start
   directory.
 
-.. index:: changelog
+.. index:: 0.8.1
 .. _Lumina 0.8.1:
 
 Lumina 0.8.1
@@ -1139,7 +1271,7 @@ Lumina 0.8.1
 * The log-out window now opens on the current screen and the log-out
   window is hidden at the start of the log-out procedure.
 
-.. index:: changelog
+.. index:: 0.8.0
 .. _Lumina 0.8.0:
 
 Lumina 0.8.0
@@ -1172,7 +1304,7 @@ Lumina 0.8.0
 * XDG "Exec" field code replacements function better, which fixes KDE
   application shortcuts like Okular.
 
-.. index:: changelog
+.. index:: 0.7.2
 .. _Lumina 0.7.2:
 
 Lumina 0.7.2
@@ -1196,7 +1328,7 @@ Lumina 0.7.2
   browser and email client using the :ref:`Configuration`
   utility.
 
-.. index:: changelog
+.. index:: 0.6.2
 .. _Lumina 0.6.2:
 
 Lumina 0.6.2
