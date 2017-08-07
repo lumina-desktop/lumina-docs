@@ -86,51 +86,7 @@ msgid ""
 "vertical panel or the left side of a horizontal panel."
 msgstr ""
 
-#: ../../luminaconfig.rst:103
-msgid ": Using the Theme Editor"
-msgstr ""
-
-#: ../../luminaconfig.rst:175
-msgid ": Window Effects"
-msgstr ""
-
-#: ../../luminaconfig.rst:197
-msgid ": Session Window Manager"
-msgstr ""
-
-#: ../../luminaconfig.rst:368
-msgid ": |lumina| Interface Configuration"
-msgstr ""
-
-#: ../../luminaconfig.rst:606
-msgid ": |lumina| General Options"
-msgstr ""
-
-#: ../../luminaconfig.rst:644
-msgid ": Session Locale Tab"
-msgstr ""
-
-#: ../../luminaconfig.rst:253
-msgid ": |lumina| Default Applications - Basic"
-msgstr ""
-
-#: ../../luminaconfig.rst:276
-msgid ": |lumina| Default Applications - Advanced"
-msgstr ""
-
-#: ../../luminaconfig.rst:305
-msgid ": |lumina| Keyboard Shortcuts - Basic"
-msgstr ""
-
-#: ../../luminaconfig.rst:326
-msgid ": |lumina| Keyboard Shortcuts - Advanced"
-msgstr ""
-
-#: ../../luminaconfig.rst:471
-msgid ": |lumina| Panel Configuration"
-msgstr ""
-
-#: ../../luminaconfig.rst:163
+#: ../../luminaconfig.rst:163 ../../luminaconfig.rst:175
 msgid "Window Effects"
 msgstr ""
 
@@ -247,10 +203,6 @@ msgid ""
 "|lumina|."
 msgstr ""
 
-#: ../../luminaconfig.rst:343
-msgid ": |lumina| Startup Services Configuration"
-msgstr ""
-
 #: ../../luminaconfig.rst:379
 msgid "Desktop"
 msgstr ""
@@ -266,10 +218,6 @@ msgid ""
 "default, the context menu includes several plugins: :ref:`Terminal`, "
 ":ref:`Browse Files <File Manager>`, :ref:`Menu Applications`, a "
 ":ref:`Separator`, :ref:`Settings`, and **Leave**."
-msgstr ""
-
-#: ../../luminaconfig.rst:450
-msgid ": Context menu plugins configuration with an open context menu."
 msgstr ""
 
 #: ../../luminaconfig.rst:460
@@ -314,10 +262,6 @@ msgid ""
 " locales for each item shown in this screen. If any changes are made in the "
 ":guilabel:`Locale` tab, click :guilabel:`Save Changes` and restart |lumina| "
 "to load the configured locales."
-msgstr ""
-
-#: ../../luminaconfig.rst:114
-msgid ": Application Themes tab, with :guilabel:`Qt5 Theme Engine` pressed."
 msgstr ""
 
 #: ../../luminaconfig.rst:17
@@ -376,10 +320,6 @@ msgid ""
 "**Wallpaper**, and **Display** from within the Configuration utility."
 msgstr ""
 
-#: ../../luminaconfig.rst:39
-msgid ": |lumina| Desktop Settings"
-msgstr ""
-
 #: ../../luminaconfig.rst:41
 msgid ""
 "Under the top search bar are options to configure different areas of the "
@@ -392,10 +332,6 @@ msgstr ""
 msgid ""
 "This category changes the visual appearance and functionality of the desktop"
 " on a per-screen basis."
-msgstr ""
-
-#: ../../luminaconfig.rst:79
-msgid ": Desktop Theme settings"
 msgstr ""
 
 #: ../../luminaconfig.rst:81
@@ -416,14 +352,6 @@ msgid ""
 " theme and closes the editor."
 msgstr ""
 
-#: ../../luminaconfig.rst:140
-msgid ": Wallpaper Settings"
-msgstr ""
-
-#: ../../luminaconfig.rst:157
-msgid ": Custom Wallpaper colors"
-msgstr ""
-
 #: ../../luminaconfig.rst:177
 msgid ""
 "Disable the Compositing Manager by checking its associated box. Restarting "
@@ -437,10 +365,6 @@ msgid ""
 "**Window Theme:** Controls the appearance of the frame around application "
 "windows. The :guilabel:`Window Theme Preview` box previews the selected "
 "theme."
-msgstr ""
-
-#: ../../luminaconfig.rst:224
-msgid ": Window Manager - Advanced Editor"
 msgstr ""
 
 #: ../../luminaconfig.rst:233
@@ -555,14 +479,6 @@ msgid ""
 "length."
 msgstr ""
 
-#: ../../luminaconfig.rst:509
-msgid ": Panel Appearance"
-msgstr ""
-
-#: ../../luminaconfig.rst:525
-msgid ": Panel Plugins"
-msgstr ""
-
 #: ../../luminaconfig.rst:535
 msgid ""
 "By default, |lumina| has one panel stretching across the bottom of the "
@@ -590,7 +506,7 @@ msgid ""
 "panel across the bottom of the primary screen."
 msgstr ""
 
-#: ../../luminaconfig.rst:556
+#: ../../luminaconfig.rst:556 ../../luminaconfig.rst:569
 msgid "System Settings"
 msgstr ""
 
@@ -600,10 +516,6 @@ msgid ""
 "<lumina41>`, displays all configurable system utilities in one convenient "
 "location. |lumina| automatically updates this category as new utilities are "
 "added or removed by the user or other development updates."
-msgstr ""
-
-#: ../../luminaconfig.rst:569
-msgid ": System Settings"
 msgstr ""
 
 #: ../../luminaconfig.rst:571
@@ -777,6 +689,152 @@ msgid ""
 "*Increase Desktop Icon Sizes*, *Decrease Desktop Icon Sizes*, and *Remove "
 "Item*."
 msgstr ""
+
+#: ../../luminaconfig.rst:103
+msgid "Using the Theme Editor"
+msgstr ""
+
+#: ../../luminaconfig.rst:197
+msgid "Session Window Manager"
+msgstr ""
+
+#: ../../luminaconfig.rst:368
+msgid "|lumina| Interface Configuration"
+msgstr ""
+
+#: ../../luminaconfig.rst:606
+msgid "|lumina| General Options"
+msgstr ""
+
+#: ../../luminaconfig.rst:644
+msgid "Session Locale Tab"
+msgstr ""
+
+#: ../../luminaconfig.rst:39
+msgid "|lumina| Desktop Settings"
+msgstr ""
+
+#: ../../luminaconfig.rst:79
+msgid "Desktop Theme settings"
+msgstr ""
+
+#: ../../luminaconfig.rst:114
+msgid "Application Themes tab, with :guilabel:`Qt5 Theme Engine` pressed."
+msgstr ""
+
+#: ../../luminaconfig.rst:140
+msgid "Wallpaper Settings"
+msgstr ""
+
+#: ../../luminaconfig.rst:157
+msgid "Custom Wallpaper colors"
+msgstr ""
+
+#: ../../luminaconfig.rst:224
+msgid "Window Manager - Advanced Editor"
+msgstr ""
+
+#: ../../luminaconfig.rst:253
+msgid "|lumina| Default Applications - Basic"
+msgstr ""
+
+#: ../../luminaconfig.rst:276
+msgid "|lumina| Default Applications - Advanced"
+msgstr ""
+
+#: ../../luminaconfig.rst:305
+msgid "|lumina| Keyboard Shortcuts - Basic"
+msgstr ""
+
+#: ../../luminaconfig.rst:326
+msgid "|lumina| Keyboard Shortcuts - Advanced"
+msgstr ""
+
+#: ../../luminaconfig.rst:343
+msgid "|lumina| Startup Services Configuration"
+msgstr ""
+
+#: ../../luminaconfig.rst:450
+msgid "Context menu plugins configuration with an open context menu."
+msgstr ""
+
+#: ../../luminaconfig.rst:471
+msgid "|lumina| Panel Configuration"
+msgstr ""
+
+#: ../../luminaconfig.rst:509
+msgid "Panel Appearance"
+msgstr ""
+
+#: ../../luminaconfig.rst:525
+msgid "Panel Plugins"
+msgstr ""
+
+#~ msgid ": Using the Theme Editor"
+#~ msgstr ""
+
+#~ msgid ": Window Effects"
+#~ msgstr ""
+
+#~ msgid ": Session Window Manager"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Interface Configuration"
+#~ msgstr ""
+
+#~ msgid ": |lumina| General Options"
+#~ msgstr ""
+
+#~ msgid ": Session Locale Tab"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Default Applications - Basic"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Default Applications - Advanced"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Keyboard Shortcuts - Basic"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Keyboard Shortcuts - Advanced"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Panel Configuration"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Startup Services Configuration"
+#~ msgstr ""
+
+#~ msgid ": Context menu plugins configuration with an open context menu."
+#~ msgstr ""
+
+#~ msgid ": Application Themes tab, with :guilabel:`Qt5 Theme Engine` pressed."
+#~ msgstr ""
+
+#~ msgid ": |lumina| Desktop Settings"
+#~ msgstr ""
+
+#~ msgid ": Desktop Theme settings"
+#~ msgstr ""
+
+#~ msgid ": Wallpaper Settings"
+#~ msgstr ""
+
+#~ msgid ": Custom Wallpaper colors"
+#~ msgstr ""
+
+#~ msgid ": Window Manager - Advanced Editor"
+#~ msgstr ""
+
+#~ msgid ": Panel Appearance"
+#~ msgstr ""
+
+#~ msgid ": Panel Plugins"
+#~ msgstr ""
+
+#~ msgid ": System Settings"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "**Start Moving Item:** Click the icon to lock it in place once it is in the "
@@ -1519,16 +1577,10 @@ msgstr ""
 #~ msgid "Modifying the Theme"
 #~ msgstr ""
 
-#~ msgid "Using the Theme Editor"
-#~ msgstr ""
-
 #~ msgid "|lumina| Wallpaper Settings"
 #~ msgstr ""
 
 #~ msgid "Modifying the Wallpaper"
-#~ msgstr ""
-
-#~ msgid "Session Window Manager"
 #~ msgstr ""
 
 #~ msgid "Window Manager - Advanced"
@@ -1549,9 +1601,6 @@ msgstr ""
 #~ msgid "Lumina Startup Services"
 #~ msgstr ""
 
-#~ msgid "|lumina| Interface Configuration"
-#~ msgstr ""
-
 #~ msgid "Lumina Panel Configuration"
 #~ msgstr ""
 
@@ -1559,12 +1608,6 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Panels Plugins Tab"
-#~ msgstr ""
-
-#~ msgid "|lumina| General Options"
-#~ msgstr ""
-
-#~ msgid "Session Locale Tab"
 #~ msgstr ""
 
 #~ msgid "Lumina Configuration"

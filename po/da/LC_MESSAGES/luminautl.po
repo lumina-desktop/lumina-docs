@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../luminautl.rst:179
+#: ../../luminautl.rst:179 ../../luminautl.rst:197
 msgid "Insight File Manager"
 msgstr ""
 
@@ -153,10 +153,6 @@ msgid ""
 "window of Insight with :kbd:`Ctrl + N` from within Insight."
 msgstr ""
 
-#: ../../luminautl.rst:197
-msgid ": Insight File Manager"
-msgstr ""
-
 #: ../../luminautl.rst:199
 msgid ""
 "The top menu bar offers a wide variety of options for controlling Insight:"
@@ -231,10 +227,6 @@ msgid ""
 ":guilabel:`View` tab:"
 msgstr ""
 
-#: ../../luminautl.rst:0
-msgid ": Insight Manager \"View\" Options"
-msgstr ""
-
 #: ../../luminautl.rst:234
 msgid "Refresh"
 msgstr ""
@@ -273,10 +265,6 @@ msgid ""
 "manipulate internal links for quick navigation with Insight, but will "
 "display any created bookmarks in the menu as well. :numref:`Table %s "
 "<insightbkmrks>` describes all these elements:"
-msgstr ""
-
-#: ../../luminautl.rst:0
-msgid ": Insight Manager \"Bookmark\" Options"
 msgstr ""
 
 #: ../../luminautl.rst:258
@@ -323,10 +311,6 @@ msgid ""
 "seen in :numref:`Figure %s <lumina34>`."
 msgstr ""
 
-#: ../../luminautl.rst:282
-msgid ": Git Clone Repository Wizard"
-msgstr ""
-
 #: ../../luminautl.rst:284
 msgid ""
 ":guilabel:`Clone Repository` will deactivate when Insight navigates inside a"
@@ -337,10 +321,6 @@ msgstr ""
 msgid ""
 "Underneath the top menu bar is a navigation bar with even more options. From"
 " left to right, :numref:`Table %s <insightnav>` describes each icon:"
-msgstr ""
-
-#: ../../luminautl.rst:0
-msgid ": Insight Manager Navigation bar"
 msgstr ""
 
 #: ../../luminautl.rst:297
@@ -399,46 +379,6 @@ msgstr ""
 msgid ""
 "Additional file and directory operations (also available by right-clicking "
 "in the display area)"
-msgstr ""
-
-#: ../../luminautl.rst:324
-msgid ": Insight Columns Display"
-msgstr ""
-
-#: ../../luminautl.rst:0
-msgid ": Insight Manager Operations"
-msgstr ""
-
-#: ../../luminautl.rst:449
-msgid ": Sample File Information"
-msgstr ""
-
-#: ../../luminautl.rst:672
-msgid ": Search for Applications"
-msgstr ""
-
-#: ../../luminautl.rst:688
-msgid ": Search for Files"
-msgstr ""
-
-#: ../../luminautl.rst:705
-msgid ": Search Configuration"
-msgstr ""
-
-#: ../../luminautl.rst:735
-msgid ": |lumina| Text Edit"
-msgstr ""
-
-#: ../../luminautl.rst:753
-msgid ": Customize Colors"
-msgstr ""
-
-#: ../../luminautl.rst:849
-msgid ": Configuring Monitors"
-msgstr ""
-
-#: ../../luminautl.rst:0
-msgid ": Insight Manager Directory Operations"
 msgstr ""
 
 #: ../../luminautl.rst:52 ../../luminautl.rst:56 ../../luminautl.rst:59
@@ -636,20 +576,8 @@ msgid ""
 "object or other relevant information."
 msgstr ""
 
-#: ../../luminautl.rst:470
-msgid ": About |lumina|"
-msgstr ""
-
-#: ../../luminautl.rst:533
-msgid ": |lumina| Open"
-msgstr ""
-
 #: ../../luminautl.rst:655
 msgid "|lumina| Search"
-msgstr ""
-
-#: ../../luminautl.rst:109
-msgid ": |lumina| Calculator"
 msgstr ""
 
 #: ../../luminautl.rst:28
@@ -660,19 +588,11 @@ msgid ""
 ":command:`lumina-archiver` in a CLI."
 msgstr ""
 
-#: ../../luminautl.rst:38
-msgid ": |lumina| Archiver"
-msgstr ""
-
 #: ../../luminautl.rst:40
 msgid ""
 "The :guilabel:`File` and :guilabel:`Edit` categories contain all operations "
 "for the utility, which are also reproduced in the icon toolbar. "
 ":numref:`Table %s <arcmanops>` lists all operations for the Archive Manager:"
-msgstr ""
-
-#: ../../luminautl.rst:0
-msgid ": Archiver operations"
 msgstr ""
 
 #: ../../luminautl.rst:50
@@ -809,10 +729,6 @@ msgstr ""
 msgid ""
 "|lumina| Calculator also supports a variety of advanced operations, seen in "
 ":numref:`Figure %s <lcalc2>`."
-msgstr ""
-
-#: ../../luminautl.rst:127 ../../luminautl.rst:0
-msgid ": |lumina| Calculator Advanced Operations"
 msgstr ""
 
 #: ../../luminautl.rst:129
@@ -993,10 +909,6 @@ msgid ""
 "directory basis. To open Insight, click the start menu and select "
 ":guilabel:`Browse Files`, right-click the desktop and select "
 ":guilabel:`Browse Files`, or type :command:`lumina-fm` from an xterm."
-msgstr ""
-
-#: ../../luminautl.rst:0
-msgid ": Insight Manager *File* Options"
 msgstr ""
 
 #: ../../luminautl.rst:210 ../../luminautl.rst:232 ../../luminautl.rst:256
@@ -1216,10 +1128,6 @@ msgstr ""
 msgid "Esc"
 msgstr ""
 
-#: ../../luminautl.rst:0
-msgid ": Lumina Screenshot UI Options"
-msgstr ""
-
 #: ../../luminautl.rst:583 ../../luminautl.rst:628
 msgid "Option"
 msgstr ""
@@ -1306,19 +1214,11 @@ msgid ""
 ":numref:`Figure %s <lumina25>`."
 msgstr ""
 
-#: ../../luminautl.rst:573
-msgid ": Lumina Screenshot with *View* tab open."
-msgstr ""
-
 #: ../../luminautl.rst:575
 msgid ""
 "The top menu bar contains several common options, while the tabs contain "
 "configuration options for screenshots. :numref:`Table %s <lssmo>` lists the "
 "options in this top menu bar:"
-msgstr ""
-
-#: ../../luminautl.rst:0
-msgid ": Lumina Screenshot menu options"
 msgstr ""
 
 #: ../../luminautl.rst:585
@@ -1359,10 +1259,6 @@ msgid ""
 ":numref:`Figure %s <lumina39>` shows the *Settings* tab, while "
 ":numref:`Table %s <lscrnshtmn>` lists all options for configuring "
 "screenshots:"
-msgstr ""
-
-#: ../../luminautl.rst:621
-msgid ": Lumina Screenshot with *Settings* tab open."
 msgstr ""
 
 #: ../../luminautl.rst:646
@@ -1494,6 +1390,184 @@ msgid ""
 ":guilabel:`Minus` icons to add or remove new radio stations."
 msgstr ""
 
+#: ../../luminautl.rst:533
+msgid "|lumina| Open"
+msgstr ""
+
+#: ../../luminautl.rst:38
+msgid "|lumina| Archiver"
+msgstr ""
+
+#: ../../luminautl.rst:109
+msgid "|lumina| Calculator"
+msgstr ""
+
+#: ../../luminautl.rst:449
+msgid "Sample File Information"
+msgstr ""
+
+#: ../../luminautl.rst:672
+msgid "Search for Applications"
+msgstr ""
+
+#: ../../luminautl.rst:688
+msgid "Search for Files"
+msgstr ""
+
+#: ../../luminautl.rst:705
+msgid "Search Configuration"
+msgstr ""
+
+#: ../../luminautl.rst:753
+msgid "Customize Colors"
+msgstr ""
+
+#: ../../luminautl.rst:849
+msgid "Configuring Monitors"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid "Archiver operations"
+msgstr ""
+
+#: ../../luminautl.rst:127 ../../luminautl.rst:0
+msgid "|lumina| Calculator Advanced Operations"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid "Insight Manager *File* Options"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid "Insight Manager \"View\" Options"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid "Insight Manager \"Bookmark\" Options"
+msgstr ""
+
+#: ../../luminautl.rst:282
+msgid "Git Clone Repository Wizard"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid "Insight Manager Navigation bar"
+msgstr ""
+
+#: ../../luminautl.rst:324
+msgid "Insight Columns Display"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid "Insight Manager Directory Operations"
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid "Insight Manager Operations"
+msgstr ""
+
+#: ../../luminautl.rst:470
+msgid "About |lumina|"
+msgstr ""
+
+#: ../../luminautl.rst:573
+msgid "Lumina Screenshot with *View* tab open."
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid "Lumina Screenshot menu options"
+msgstr ""
+
+#: ../../luminautl.rst:621
+msgid "Lumina Screenshot with *Settings* tab open."
+msgstr ""
+
+#: ../../luminautl.rst:0
+msgid "Lumina Screenshot UI Options"
+msgstr ""
+
+#: ../../luminautl.rst:735
+msgid "|lumina| Text Edit"
+msgstr ""
+
+#~ msgid ": Insight File Manager"
+#~ msgstr ""
+
+#~ msgid ": Insight Manager \"View\" Options"
+#~ msgstr ""
+
+#~ msgid ": Insight Manager \"Bookmark\" Options"
+#~ msgstr ""
+
+#~ msgid ": Git Clone Repository Wizard"
+#~ msgstr ""
+
+#~ msgid ": Insight Manager Navigation bar"
+#~ msgstr ""
+
+#~ msgid ": Insight Columns Display"
+#~ msgstr ""
+
+#~ msgid ": Insight Manager Operations"
+#~ msgstr ""
+
+#~ msgid ": Sample File Information"
+#~ msgstr ""
+
+#~ msgid ": Search for Applications"
+#~ msgstr ""
+
+#~ msgid ": Search for Files"
+#~ msgstr ""
+
+#~ msgid ": Search Configuration"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Text Edit"
+#~ msgstr ""
+
+#~ msgid ": Customize Colors"
+#~ msgstr ""
+
+#~ msgid ": Configuring Monitors"
+#~ msgstr ""
+
+#~ msgid ": Insight Manager Directory Operations"
+#~ msgstr ""
+
+#~ msgid ": About |lumina|"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Open"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Calculator"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Archiver"
+#~ msgstr ""
+
+#~ msgid ": Archiver operations"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Calculator Advanced Operations"
+#~ msgstr ""
+
+#~ msgid ": Insight Manager *File* Options"
+#~ msgstr ""
+
+#~ msgid ": Lumina Screenshot UI Options"
+#~ msgstr ""
+
+#~ msgid ": Lumina Screenshot with *View* tab open."
+#~ msgstr ""
+
+#~ msgid ": Lumina Screenshot menu options"
+#~ msgstr ""
+
+#~ msgid ": Lumina Screenshot with *Settings* tab open."
+#~ msgstr ""
+
 #~ msgid ""
 #~ "Basic: Displays only the names of files an directories. Advanced: Displays "
 #~ "Name, Size, Type, Date Modified, and Date Created for each file or "
@@ -1604,9 +1678,6 @@ msgstr ""
 #~ msgid "|lumina| Information"
 #~ msgstr ""
 
-#~ msgid "|lumina| Open"
-#~ msgstr ""
-
 #~ msgid "|lumina| Screenshot"
 #~ msgstr ""
 
@@ -1614,12 +1685,6 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "|lumina| Xconfig"
-#~ msgstr ""
-
-#~ msgid "|lumina| Archiver"
-#~ msgstr ""
-
-#~ msgid "|lumina| Calculator"
 #~ msgstr ""
 
 #~ msgid "**Entire Session:** Captures the entire screen."
@@ -2090,9 +2155,6 @@ msgstr ""
 #~ "display hidden files."
 #~ msgstr ""
 
-#~ msgid "Sample File Information"
-#~ msgstr ""
-
 #~ msgid "About Lumina"
 #~ msgstr ""
 
@@ -2102,22 +2164,7 @@ msgstr ""
 #~ msgid "View/Edit Tab"
 #~ msgstr ""
 
-#~ msgid "Search for Applications"
-#~ msgstr ""
-
-#~ msgid "Search for Files"
-#~ msgstr ""
-
-#~ msgid "Search Configuration"
-#~ msgstr ""
-
 #~ msgid "Lumina® Text Edit"
-#~ msgstr ""
-
-#~ msgid "Customize Colors"
-#~ msgstr ""
-
-#~ msgid "Configuring Monitors"
 #~ msgstr ""
 
 #~ msgid "Lumina Utilities"

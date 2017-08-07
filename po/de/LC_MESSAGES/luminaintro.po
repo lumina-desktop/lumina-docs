@@ -284,10 +284,6 @@ msgid ""
 " :ref:`Interface` section."
 msgstr ""
 
-#: ../../luminaintro.rst:291
-msgid ": Lumina Desktop"
-msgstr ""
-
 #: ../../luminaintro.rst:78
 msgid ""
 "The |lumina| Handbook is freely available for sharing and redistribution "
@@ -723,10 +719,6 @@ msgid ""
 ":numref:`Figure %s <conmen>`."
 msgstr ""
 
-#: ../../luminaintro.rst:538
-msgid ": Default Context Menu"
-msgstr ""
-
 #: ../../luminaintro.rst:540
 msgid ""
 "This section describes the default menu items. For instructions on how to "
@@ -1021,6 +1013,20 @@ msgid ""
 "defaults and interface for their distribution."
 msgstr ""
 
+#: ../../luminaintro.rst:291
+msgid "Lumina Desktop"
+msgstr ""
+
+#: ../../luminaintro.rst:538
+msgid "Default Context Menu"
+msgstr ""
+
+#~ msgid ": Lumina Desktop"
+#~ msgstr ""
+
+#~ msgid ": Default Context Menu"
+#~ msgstr ""
+
 #~ msgid ""
 #~ "Uses a simple, `text-based configuration file "
 #~ "<https://github.com/trueos/lumina/blob/master/src-qt5/core/lumina-"
@@ -1135,9 +1141,6 @@ msgstr ""
 #~ "utility (:ref:`Lumina Configuration`), display configuration (:ref:`Lumina "
 #~ "Xconfig`), the operating system's control panel, and |lumina| version "
 #~ "information contained within \"About |lumina|\"."
-#~ msgstr ""
-
-#~ msgid "Lumina Desktop"
 #~ msgstr ""
 
 #~ msgid ""

@@ -15,7 +15,7 @@ msgstr ""
 msgid "Context Menu Plugins"
 msgstr ""
 
-#: ../../luminaplugins.rst:67
+#: ../../luminaplugins.rst:67 ../../luminaplugins.rst:74
 msgid "Applications"
 msgstr ""
 
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Custom App"
 msgstr ""
 
-#: ../../luminaplugins.rst:102
+#: ../../luminaplugins.rst:102 ../../luminaplugins.rst:109
 msgid "File Manager"
 msgstr ""
 
@@ -43,7 +43,7 @@ msgstr ""
 msgid "Terminal"
 msgstr ""
 
-#: ../../luminaplugins.rst:195
+#: ../../luminaplugins.rst:195 ../../luminaplugins.rst:202
 msgid "Window List"
 msgstr ""
 
@@ -57,15 +57,15 @@ msgid ""
 "order."
 msgstr ""
 
-#: ../../luminaplugins.rst:252
+#: ../../luminaplugins.rst:252 ../../luminaplugins.rst:259
 msgid "Application Launcher"
 msgstr ""
 
-#: ../../luminaplugins.rst:268
+#: ../../luminaplugins.rst:268 ../../luminaplugins.rst:275
 msgid "Audio Player"
 msgstr ""
 
-#: ../../luminaplugins.rst:293
+#: ../../luminaplugins.rst:293 ../../luminaplugins.rst:300
 msgid "Calendar"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr ""
 msgid "Desktop Icons View"
 msgstr ""
 
-#: ../../luminaplugins.rst:329
+#: ../../luminaplugins.rst:329 ../../luminaplugins.rst:336
 msgid "Note Pad"
 msgstr ""
 
@@ -95,7 +95,7 @@ msgstr ""
 msgid "**Delete Note:** Immediately deletes the displayed note."
 msgstr ""
 
-#: ../../luminaplugins.rst:354
+#: ../../luminaplugins.rst:354 ../../luminaplugins.rst:361
 msgid "RSS Reader"
 msgstr ""
 
@@ -130,11 +130,11 @@ msgstr ""
 msgid "Floating Panel Plugins"
 msgstr ""
 
-#: ../../luminaplugins.rst:463
+#: ../../luminaplugins.rst:463 ../../luminaplugins.rst:470
 msgid "Panel Application Launcher"
 msgstr ""
 
-#: ../../luminaplugins.rst:480
+#: ../../luminaplugins.rst:480 ../../luminaplugins.rst:487
 msgid "Application Menu"
 msgstr ""
 
@@ -158,7 +158,7 @@ msgstr ""
 msgid "Spacer"
 msgstr ""
 
-#: ../../luminaplugins.rst:599
+#: ../../luminaplugins.rst:599 ../../luminaplugins.rst:606
 msgid "Start Menu"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgid ""
 "utilities, as well as the system information window."
 msgstr ""
 
-#: ../../luminaplugins.rst:786
+#: ../../luminaplugins.rst:786 ../../luminaplugins.rst:793
 msgid "Workspace Switcher"
 msgstr ""
 
@@ -404,154 +404,6 @@ msgid ""
 "have asterisks (*) before and after its name."
 msgstr ""
 
-#: ../../luminaplugins.rst:59
-msgid ": Menu Plugin Default Menu"
-msgstr ""
-
-#: ../../luminaplugins.rst:74
-msgid ": Applications"
-msgstr ""
-
-#: ../../luminaplugins.rst:92
-msgid ": Custom Application"
-msgstr ""
-
-#: ../../luminaplugins.rst:109
-msgid ": File Manager"
-msgstr ""
-
-#: ../../luminaplugins.rst:129
-msgid ": JSON Menu Configuration Window"
-msgstr ""
-
-#: ../../luminaplugins.rst:143
-msgid ": JSON Menu Example"
-msgstr ""
-
-#: ../../luminaplugins.rst:171
-msgid ": Preferences Shortcut"
-msgstr ""
-
-#: ../../luminaplugins.rst:187
-msgid ": Terminal Shortcut"
-msgstr ""
-
-#: ../../luminaplugins.rst:202
-msgid ": Window List"
-msgstr ""
-
-#: ../../luminaplugins.rst:225
-msgid ": Desktop Plugin Menu"
-msgstr ""
-
-#: ../../luminaplugins.rst:259
-msgid ": Application Launcher"
-msgstr ""
-
-#: ../../luminaplugins.rst:275
-msgid ": Audio Player"
-msgstr ""
-
-#: ../../luminaplugins.rst:300
-msgid ": Calendar"
-msgstr ""
-
-#: ../../luminaplugins.rst:319
-msgid ": Desktop Icons"
-msgstr ""
-
-#: ../../luminaplugins.rst:336
-msgid ": Note Pad"
-msgstr ""
-
-#: ../../luminaplugins.rst:361
-msgid ": RSS Reader"
-msgstr ""
-
-#: ../../luminaplugins.rst:397
-msgid ": System Monitor Display"
-msgstr ""
-
-#: ../../luminaplugins.rst:410
-msgid ": System Monitor I/O"
-msgstr ""
-
-#: ../../luminaplugins.rst:439
-msgid ": Panel Settings"
-msgstr ""
-
-#: ../../luminaplugins.rst:451
-msgid ": Panel Plugins Menu"
-msgstr ""
-
-#: ../../luminaplugins.rst:470
-msgid ": Panel Application Launcher"
-msgstr ""
-
-#: ../../luminaplugins.rst:487
-msgid ": Application Menu"
-msgstr ""
-
-#: ../../luminaplugins.rst:552
-msgid ": Line - The line is highlighted in red."
-msgstr ""
-
-#: ../../luminaplugins.rst:572
-msgid ": Show Desktop Button"
-msgstr ""
-
-#: ../../luminaplugins.rst:588
-msgid ": Spacer Plugin"
-msgstr ""
-
-#: ../../luminaplugins.rst:606
-msgid ": Start Menu"
-msgstr ""
-
-#: ../../luminaplugins.rst:622
-msgid ": System Dashboard with the button pressed."
-msgstr ""
-
-#: ../../luminaplugins.rst:646
-msgid ": System Tray with several docked applications"
-msgstr ""
-
-#: ../../luminaplugins.rst:669
-msgid ": Task Manager (No Groups)"
-msgstr ""
-
-#: ../../luminaplugins.rst:686
-msgid ": Task Manager"
-msgstr ""
-
-#: ../../luminaplugins.rst:707
-msgid ": Time/Date with the clock selected, opening additional settings."
-msgstr ""
-
-#: ../../luminaplugins.rst:729
-msgid ": User Favorites"
-msgstr ""
-
-#: ../../luminaplugins.rst:747
-msgid ": User Applications"
-msgstr ""
-
-#: ../../luminaplugins.rst:760
-msgid ": Home Directory"
-msgstr ""
-
-#: ../../luminaplugins.rst:778
-msgid ": Desktop Preferences"
-msgstr ""
-
-#: ../../luminaplugins.rst:793
-msgid ": Workspace Switcher"
-msgstr ""
-
-#: ../../luminaplugins.rst:40
-msgid ": |lumina| Menu Plugins"
-msgstr ""
-
 #: ../../luminaplugins.rst:500
 msgid "Audio Player (Panel)"
 msgstr ""
@@ -661,11 +513,6 @@ msgid ""
 " battery. When the charge reaches **15%** or below, the low battery icon "
 "flashes intermittently. At **5%** charge remaining, a low battery icon "
 "displays and a warning noise plays."
-msgstr ""
-
-#: ../../luminaplugins.rst:525
-msgid ""
-": Desktop Bar - :guilabel:`Favorite Applications` (Star icon) is pressed."
 msgstr ""
 
 #: ../../luminaplugins.rst:528
@@ -826,6 +673,226 @@ msgid ""
 "screen was utilized to show the various plugins listed below. The settings "
 "for this panel are pictured in :numref:`Figure %s <luminapanelpluginmenu1>`."
 msgstr ""
+
+#: ../../luminaplugins.rst:59
+msgid "Menu Plugin Default Menu"
+msgstr ""
+
+#: ../../luminaplugins.rst:92
+msgid "Custom Application"
+msgstr ""
+
+#: ../../luminaplugins.rst:129
+msgid "JSON Menu Configuration Window"
+msgstr ""
+
+#: ../../luminaplugins.rst:143
+msgid "JSON Menu Example"
+msgstr ""
+
+#: ../../luminaplugins.rst:225
+msgid "Desktop Plugin Menu"
+msgstr ""
+
+#: ../../luminaplugins.rst:319
+msgid "Desktop Icons"
+msgstr ""
+
+#: ../../luminaplugins.rst:397
+msgid "System Monitor Display"
+msgstr ""
+
+#: ../../luminaplugins.rst:410
+msgid "System Monitor I/O"
+msgstr ""
+
+#: ../../luminaplugins.rst:439
+msgid "Panel Settings"
+msgstr ""
+
+#: ../../luminaplugins.rst:451
+msgid "Panel Plugins Menu"
+msgstr ""
+
+#: ../../luminaplugins.rst:572
+msgid "Show Desktop Button"
+msgstr ""
+
+#: ../../luminaplugins.rst:588
+msgid "Spacer Plugin"
+msgstr ""
+
+#: ../../luminaplugins.rst:622
+msgid "System Dashboard with the button pressed."
+msgstr ""
+
+#: ../../luminaplugins.rst:669
+msgid "Task Manager (No Groups)"
+msgstr ""
+
+#: ../../luminaplugins.rst:686
+msgid "Task Manager"
+msgstr ""
+
+#: ../../luminaplugins.rst:729
+msgid "User Favorites"
+msgstr ""
+
+#: ../../luminaplugins.rst:747
+msgid "User Applications"
+msgstr ""
+
+#: ../../luminaplugins.rst:760
+msgid "Home Directory"
+msgstr ""
+
+#: ../../luminaplugins.rst:778
+msgid "Desktop Preferences"
+msgstr ""
+
+#: ../../luminaplugins.rst:40
+msgid "|lumina| Menu Plugins"
+msgstr ""
+
+#: ../../luminaplugins.rst:171
+msgid "Preferences Shortcut"
+msgstr ""
+
+#: ../../luminaplugins.rst:187
+msgid "Terminal Shortcut"
+msgstr ""
+
+#: ../../luminaplugins.rst:525
+msgid ""
+"Desktop Bar - :guilabel:`Favorite Applications` (Star icon) is pressed."
+msgstr ""
+
+#: ../../luminaplugins.rst:552
+msgid "Line - The line is highlighted in red."
+msgstr ""
+
+#: ../../luminaplugins.rst:646
+msgid "System Tray with several docked applications"
+msgstr ""
+
+#: ../../luminaplugins.rst:707
+msgid "Time/Date with the clock selected, opening additional settings."
+msgstr ""
+
+#~ msgid ": Menu Plugin Default Menu"
+#~ msgstr ""
+
+#~ msgid ": Applications"
+#~ msgstr ""
+
+#~ msgid ": Custom Application"
+#~ msgstr ""
+
+#~ msgid ": File Manager"
+#~ msgstr ""
+
+#~ msgid ": JSON Menu Configuration Window"
+#~ msgstr ""
+
+#~ msgid ": JSON Menu Example"
+#~ msgstr ""
+
+#~ msgid ": Preferences Shortcut"
+#~ msgstr ""
+
+#~ msgid ": Terminal Shortcut"
+#~ msgstr ""
+
+#~ msgid ": Window List"
+#~ msgstr ""
+
+#~ msgid ": Desktop Plugin Menu"
+#~ msgstr ""
+
+#~ msgid ": Application Launcher"
+#~ msgstr ""
+
+#~ msgid ": Audio Player"
+#~ msgstr ""
+
+#~ msgid ": Calendar"
+#~ msgstr ""
+
+#~ msgid ": Desktop Icons"
+#~ msgstr ""
+
+#~ msgid ": Note Pad"
+#~ msgstr ""
+
+#~ msgid ": RSS Reader"
+#~ msgstr ""
+
+#~ msgid ": System Monitor Display"
+#~ msgstr ""
+
+#~ msgid ": System Monitor I/O"
+#~ msgstr ""
+
+#~ msgid ": Panel Settings"
+#~ msgstr ""
+
+#~ msgid ": Panel Plugins Menu"
+#~ msgstr ""
+
+#~ msgid ": Panel Application Launcher"
+#~ msgstr ""
+
+#~ msgid ": Application Menu"
+#~ msgstr ""
+
+#~ msgid ": Line - The line is highlighted in red."
+#~ msgstr ""
+
+#~ msgid ": Show Desktop Button"
+#~ msgstr ""
+
+#~ msgid ": Spacer Plugin"
+#~ msgstr ""
+
+#~ msgid ": Start Menu"
+#~ msgstr ""
+
+#~ msgid ": System Dashboard with the button pressed."
+#~ msgstr ""
+
+#~ msgid ": System Tray with several docked applications"
+#~ msgstr ""
+
+#~ msgid ": Task Manager (No Groups)"
+#~ msgstr ""
+
+#~ msgid ": Task Manager"
+#~ msgstr ""
+
+#~ msgid ": Time/Date with the clock selected, opening additional settings."
+#~ msgstr ""
+
+#~ msgid ": User Favorites"
+#~ msgstr ""
+
+#~ msgid ": User Applications"
+#~ msgstr ""
+
+#~ msgid ": Home Directory"
+#~ msgstr ""
+
+#~ msgid ": Desktop Preferences"
+#~ msgstr ""
+
+#~ msgid ": Workspace Switcher"
+#~ msgstr ""
+
+#~ msgid ": |lumina| Menu Plugins"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ": Desktop Bar - :guilabel:`Favorite Applications` (Star icon) is pressed."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "Menu plugins are the options which appear when the user right-clicks on the "
@@ -1094,36 +1161,6 @@ msgstr ""
 #~ msgid "Lumina Menu Plugins"
 #~ msgstr ""
 
-#~ msgid "Menu Plugin Default Menu"
-#~ msgstr ""
-
-#~ msgid "Custom Application"
-#~ msgstr ""
-
-#~ msgid "JSON Menu Configuration Window"
-#~ msgstr ""
-
-#~ msgid "JSON Menu Example"
-#~ msgstr ""
-
-#~ msgid "Desktop Plugin Menu"
-#~ msgstr ""
-
-#~ msgid "Desktop Icons"
-#~ msgstr ""
-
-#~ msgid "System Monitor Display"
-#~ msgstr ""
-
-#~ msgid "System Monitor I/O"
-#~ msgstr ""
-
-#~ msgid "Panel Settings"
-#~ msgstr ""
-
-#~ msgid "Panel Plugins Menu"
-#~ msgstr ""
-
 #~ msgid "Desktop Bar: :guilabel:`Favorite Applications` (\"Star\" icon) is pressed."
 #~ msgstr ""
 
@@ -1138,40 +1175,13 @@ msgstr ""
 #~ msgid "Line: The line is highlighted in red."
 #~ msgstr ""
 
-#~ msgid "Show Desktop Button"
-#~ msgstr ""
-
-#~ msgid "Spacer Plugin"
-#~ msgstr ""
-
-#~ msgid "System Dashboard with the button pressed."
-#~ msgstr ""
-
 #~ msgid ""
 #~ "System Tray with several docked applications (Quassel IRC, PC Mixer, etc.)."
-#~ msgstr ""
-
-#~ msgid "Task Manager (No Groups)"
-#~ msgstr ""
-
-#~ msgid "Task Manager"
 #~ msgstr ""
 
 #~ msgid ""
 #~ "Time/Date with the clock selected, opening the larger calendar and time zone"
 #~ " settings."
-#~ msgstr ""
-
-#~ msgid "User Favorites"
-#~ msgstr ""
-
-#~ msgid "User Applications"
-#~ msgstr ""
-
-#~ msgid "Home Directory"
-#~ msgstr ""
-
-#~ msgid "Desktop Preferences"
 #~ msgstr ""
 
 #~ msgid "Lumina Plugins"

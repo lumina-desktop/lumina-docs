@@ -569,19 +569,11 @@ msgid ""
 " new github account."
 msgstr ""
 
-#: ../../luminactbt.rst:102
-msgid ": Lumina Issues Tracker"
-msgstr ""
-
 #: ../../luminactbt.rst:117
 msgid ""
 "To create a new bug report, log into the website, then navigate to "
 "`<https://github.com/trueos/lumina/issues>`_. Click :guilabel:`New Issue` to"
 " open the window shown in :numref:`Figure %s <bug1>`."
-msgstr ""
-
-#: ../../luminactbt.rst:127
-msgid ": Creating a Bug Report"
 msgstr ""
 
 #: ../../luminactbt.rst:184
@@ -591,36 +583,12 @@ msgid ""
 ":numref:`Figure %s <translate1b>`."
 msgstr ""
 
-#: ../../luminactbt.rst:193
-msgid ": The |lumina| Project Overview Screen."
-msgstr ""
-
-#: ../../luminactbt.rst:218
-msgid ": lumina-config Overview screen."
-msgstr ""
-
 #: ../../luminactbt.rst:220
 msgid ""
 "A Weblate account is necessary to edit a translation. Log in to Weblate and "
 "navigate to the desired component in need of translation. In :numref:`Figure"
 " %s <translate3b>`, the translator has clicked :guilabel:`Translate` in the "
 ":guilabel:`lumina_CONFIG@af` row."
-msgstr ""
-
-#: ../../luminactbt.rst:230
-msgid ": Translation screen for lumina-config, Afrikaans language"
-msgstr ""
-
-#: ../../luminactbt.rst:0
-msgid ": Commonly Used File Menu Icons"
-msgstr ""
-
-#: ../../luminactbt.rst:0
-msgid ": Shortcut Keys"
-msgstr ""
-
-#: ../../luminactbt.rst:0
-msgid ": Hot Keys"
 msgstr ""
 
 #: ../../luminactbt.rst:16
@@ -679,6 +647,62 @@ msgstr ""
 #: ../../luminactbt.rst:469
 msgid "Developers may also find these resources helpful:"
 msgstr ""
+
+#: ../../luminactbt.rst:193
+msgid "The |lumina| Project Overview Screen."
+msgstr ""
+
+#: ../../luminactbt.rst:218
+msgid "lumina-config Overview screen."
+msgstr ""
+
+#: ../../luminactbt.rst:230
+msgid "Translation screen for lumina-config, Afrikaans language"
+msgstr ""
+
+#: ../../luminactbt.rst:0
+msgid "Commonly Used File Menu Icons"
+msgstr ""
+
+#: ../../luminactbt.rst:0
+msgid "Shortcut Keys"
+msgstr ""
+
+#: ../../luminactbt.rst:0
+msgid "Hot Keys"
+msgstr ""
+
+#: ../../luminactbt.rst:102
+msgid "Lumina Issues Tracker"
+msgstr ""
+
+#: ../../luminactbt.rst:127
+msgid "Creating a Bug Report"
+msgstr ""
+
+#~ msgid ": Lumina Issues Tracker"
+#~ msgstr ""
+
+#~ msgid ": Creating a Bug Report"
+#~ msgstr ""
+
+#~ msgid ": The |lumina| Project Overview Screen."
+#~ msgstr ""
+
+#~ msgid ": lumina-config Overview screen."
+#~ msgstr ""
+
+#~ msgid ": Translation screen for lumina-config, Afrikaans language"
+#~ msgstr ""
+
+#~ msgid ": Commonly Used File Menu Icons"
+#~ msgstr ""
+
+#~ msgid ": Shortcut Keys"
+#~ msgstr ""
+
+#~ msgid ": Hot Keys"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "An excellent first step is to join the `translations mailing list "
@@ -749,9 +773,6 @@ msgstr ""
 #~ ":numref:`Figure %s: The Lumina Weblate Translation System <translate1b>`."
 #~ msgstr ""
 
-#~ msgid "The |lumina| Project Overview Screen."
-#~ msgstr ""
-
 #~ msgid ""
 #~ "Click on a component name to see each available language for translation. "
 #~ ":numref:`Figure %s: Viewing Lumina's Available Components <translate2b>` "
@@ -760,26 +781,11 @@ msgstr ""
 #~ "translation to Afrikaans (af)."
 #~ msgstr ""
 
-#~ msgid "lumina-config Overview screen."
-#~ msgstr ""
-
 #~ msgid ""
 #~ "A Weblate account is necessary to edit a translation. Log in to Weblate and "
 #~ "navigate to the desired component in need of translation. In :numref:`Figure"
 #~ " %s: Using the Weblate Translate Interface <translate3b>`, the translator "
 #~ "has clicked :guilabel:`Translate` in the :guilabel:`lumina_CONFIG@af` row."
-#~ msgstr ""
-
-#~ msgid "Translation screen for lumina-config, Afrikaans language"
-#~ msgstr ""
-
-#~ msgid "Commonly Used File Menu Icons"
-#~ msgstr ""
-
-#~ msgid "Shortcut Keys"
-#~ msgstr ""
-
-#~ msgid "Hot Keys"
 #~ msgstr ""
 
 #~ msgid ""
