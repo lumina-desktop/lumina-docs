@@ -87,7 +87,7 @@ few guidelines to ensure a speedy response:
 .. figure:: images/buga.png
    :scale: 100%
 
-   : Lumina Issues Tracker
+   Lumina Issues Tracker
 
 .. warning:: The GitHub issues tracker uses email to update contributors
    on the status of bugs. Please use a valid and frequently used email
@@ -112,7 +112,7 @@ few guidelines to ensure a speedy response:
 .. figure:: images/bug1.png
    :scale: 100%
 
-   : Creating a Bug Report
+   Creating a Bug Report
 
 * Write a brief but descriptive title that includes the error and
   the version of |lumina|. Ideally, the title is short (8 words or less)
@@ -178,7 +178,7 @@ in a web browser, as seen in :numref:`Figure %s <translate1b>`.
 .. figure:: images/translate1b.png
    :scale: 100%
 
-   : The |lumina| Project Overview Screen.
+   The |lumina| Project Overview Screen.
 
 Requested localizations are listed alphabetically on the left. The right
 columns contain information about the project and any glossaries that
@@ -203,7 +203,7 @@ Afrikaans (af).
 .. figure:: images/translate2b.png
    :scale: 100%
 
-   : lumina-config Overview screen.
+   lumina-config Overview screen.
 
 A Weblate account is necessary to edit a translation. Log in to Weblate
 and navigate to the desired component in need of translation. In
@@ -215,7 +215,7 @@ and navigate to the desired component in need of translation. In
 .. figure:: images/translate3b.png
    :scale: 100%
 
-   : Translation screen for lumina-config, Afrikaans language
+   Translation screen for lumina-config, Afrikaans language
 
 In this example, the phrase "Manually set value for selection" needs to
 be reviewed. To edit the translation, type the translated text into the
@@ -386,7 +386,7 @@ default file names.
 
 .. _table_1:
 
-.. table:: : Commonly Used File Menu Icons
+.. table:: Commonly Used File Menu Icons
 
    +-----------+-----------------+--------------------+
    | Function  | File Menu Icon  | File Name          |
@@ -422,7 +422,7 @@ the commonly used shortcut and hotkeys.
 
 .. _table_2:
 
-.. table:: : Shortcut Keys
+.. table:: Shortcut Keys
 
    +---------------+---------+
    | Shortcut Key  | Action  |
@@ -434,7 +434,7 @@ the commonly used shortcut and hotkeys.
 
 .. _table_3:
 
-.. table:: : Hot Keys
+.. table:: Hot Keys
 
    +-----------+-----------------+
    | Hot Key   | Action          |

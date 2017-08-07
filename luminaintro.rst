@@ -276,7 +276,7 @@ section of the handbook.
 .. figure:: images/lumina1e.png
    :scale: 50%
 
-   : Lumina Desktop
+   Lumina Desktop
 
 :numref:`Figure %s <lumina1>` is a screenshot of Lumina using its
 default settings. The user has clicked the "|lumina|" icon in order to
@@ -523,7 +523,7 @@ in :numref:`Figure %s <conmen>`.
 .. figure:: images/lconmen.png
    :scale: 100%
 
-   : Default Context Menu
+   Default Context Menu
 
 This section describes the default menu items. For instructions on how
 to configure the right-click menu, refer to the :ref:`Interface`

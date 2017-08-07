@@ -23,7 +23,7 @@ with :command:`lumina-archiver` in a CLI.
 .. figure:: images/luminaarc1.png
    :scale: 100%
 
-   : |lumina| Archiver
+   |lumina| Archiver
 
 The :guilabel:`File` and :guilabel:`Edit` categories contain all
 operations for the utility, which are also reproduced in the icon
@@ -32,7 +32,7 @@ Archive Manager:
 
 .. _arcmanops:
 
-.. table:: : Archiver operations
+.. table:: Archiver operations
 
    +-----------+------+-------------+----------+-----------------------+
    | Command   | Menu | Icon        | Shortcut | Result                |
@@ -94,7 +94,7 @@ seen in :numref:`Figure %s <lcalc1>`:
 .. figure:: images/lcalc1a.png
    :scale: 100%
 
-   : |lumina| Calculator
+   |lumina| Calculator
 
 The calculator is configured to use a numpad, if one is available.
 Enter the values and an operation, and the calculator displays the
@@ -112,7 +112,7 @@ in :numref:`Figure %s <lcalc2>`.
 .. figure:: images/lcalc2.png
    :scale: 100%
 
-   : |lumina| Calculator Advanced Operations
+   |lumina| Calculator Advanced Operations
 
 These advanced operations can be selected from the drop down menu, or
 typed manually. The full list of available operations is seen in
@@ -120,7 +120,7 @@ typed manually. The full list of available operations is seen in
 
 .. _lcalcops:
 
-.. table:: : |lumina| Calculator Advanced Operations
+.. table:: |lumina| Calculator Advanced Operations
 
    +---------------------+--------+
    | Operation           | Symbol |
@@ -182,7 +182,7 @@ a per-directory basis. To open Insight, click the start menu and select
 .. figure:: images/lumina10b.png
    :scale: 100%
 
-   : Insight File Manager
+   Insight File Manager
 
 The top menu bar offers a wide variety of options for controlling
 Insight:
@@ -192,7 +192,7 @@ Insight:
 
   .. _insightfile:
 
-  .. table:: : Insight Manager *File* Options
+  .. table:: Insight Manager *File* Options
 
      +------------------+----------+-----------------------------------+
      | Name             | Shortcut | Description                       |
@@ -214,7 +214,7 @@ Insight:
 
   .. _insightview:
 
-  .. table:: : Insight Manager "View" Options
+  .. table:: Insight Manager "View" Options
 
      +-------------+----------+----------------------------------------+
      | Name        | Shortcut | Description                            |
@@ -238,7 +238,7 @@ Insight:
 
   .. _insightbkmrks:
 
-  .. table:: : Insight Manager "Bookmark" Options
+  .. table:: Insight Manager "Bookmark" Options
 
      +------------------+----------+--------------------------+
      | Name             | Shortcut | Description              |
@@ -267,7 +267,7 @@ Insight:
 
   .. figure:: images/lumina34.png
 
-     : Git Clone Repository Wizard
+     Git Clone Repository Wizard
 
   .. tip:: :guilabel:`Clone Repository` will deactivate when Insight
      navigates inside a directory already labeled as a git repository.
@@ -277,7 +277,7 @@ From left to right, :numref:`Table %s <insightnav>` describes each icon:
 
 .. _insightnav:
 
-.. table:: : Insight Manager Navigation bar
+.. table:: Insight Manager Navigation bar
 
    +------------+--------------------------------------------------+
    | Item       | Description                                      |
@@ -309,7 +309,7 @@ instances of the file manager in a side-by-side view, seen in
 
 .. figure:: images/lumina33.png
 
-   : Insight Columns Display
+   Insight Columns Display
 
 In columns mode, the active column has a white background. All the menu
 options and ZFS functions apply to **only** the active column.
@@ -323,7 +323,7 @@ the :guilabel:`Create...` and :guilabel:`Open...` categories:
 
 .. _insdirops:
 
-.. table:: : Insight Manager Directory Operations
+.. table:: Insight Manager Directory Operations
 
    +-------------+----------+-----------+-----------------------+
    | Item        | Category | Shortcut  | Description           |
@@ -356,7 +356,7 @@ become available, seen in :numref:`Table %s <insightfileops>`:
 
 .. _insightfileops:
 
-.. table:: : Insight Manager Operations
+.. table:: Insight Manager Operations
 
    +------------+----------+--------------+-------------------------+
    | Item       | Category | Shortcut     | Description             |
@@ -434,7 +434,7 @@ the file information of their :file:`~/Downloads` directory.
 .. figure:: images/file1a.png
    :scale: 100%
 
-   : Sample File Information
+   Sample File Information
 
 .. index:: Information
 .. _Information:
@@ -455,7 +455,7 @@ window. An example is shown in :numref:`Figure %s <about1>`.
 .. figure:: images/about1c.png
    :scale: 100%
 
-   : About |lumina|
+   About |lumina|
 
 The :guilabel:`General` tab contains a variety of information:
 
@@ -518,7 +518,7 @@ applications into three types:
 .. figure:: images/lumina11b.png
    :scale: 100%
 
-   : |lumina| Open
+   |lumina| Open
 
 * **Preferred:** These applications register their Mime type with the
   system and can open that type of file. Also included are any
@@ -558,14 +558,14 @@ The utility opens with the *View* tab open by default, as seen in
 .. figure:: images/lumina25c.png
    :scale: 100%
 
-   : Lumina Screenshot with *View* tab open.
+   Lumina Screenshot with *View* tab open.
 
 The top menu bar contains several common options, while the tabs contain
 configuration options for screenshots. :numref:`Table %s <lssmo>` lists
 the options in this top menu bar:
 
 .. _lssmo:
-.. table:: : Lumina Screenshot menu options
+.. table:: Lumina Screenshot menu options
 
    +---------+----------+----------------------------------------------+
    | Option  | Shortcut | Description                                  |
@@ -606,11 +606,11 @@ screenshots:
 .. figure:: images/lumina39.png
    :scale: 100%
 
-   : Lumina Screenshot with *Settings* tab open.
+   Lumina Screenshot with *Settings* tab open.
 
 .. _lscrnshtmn:
 
-.. table:: : Lumina Screenshot UI Options
+.. table:: Lumina Screenshot UI Options
 
    +-----------------+-------------------------------------------------+
    | Option          | Description                                     |
@@ -657,7 +657,7 @@ To start this utility, type :command:`lumina-search`, press
 .. figure:: images/lumina13b.png
    :scale: 100%
 
-   : Search for Applications
+   Search for Applications
 
 To open an application, begin to type its name into the search field
 (selected by default). The box below the selected
@@ -673,7 +673,7 @@ as seen in :numref:`Figure %s <lumina26>`.
 .. figure:: images/lumina26.png
    :scale: 100%
 
-   : Search for Files
+   Search for Files
 
 By default, a :guilabel:`Files or Directories` search is limited to the
 user's home directory, as indicated by the :guilabel:`Search: ~` at the
@@ -690,7 +690,7 @@ to see the screen shown in :numref:`Figure %s <lumina14>`.
 .. figure:: images/lumina14a.png
    :scale: 100%
 
-   : Search Configuration
+   Search Configuration
 
 Click the :guilabel:`blue folder` icon to change the starting search
 directory. For example, select :guilabel:`Computer`, then
@@ -720,7 +720,7 @@ shows the editor with no file opened.
 .. figure:: images/lumina23.png
    :scale: 100%
 
-   : |lumina| Text Edit
+   |lumina| Text Edit
 
 Clicking :guilabel:`File` presents options to create *New File*,
 *Open File*, *Close File*, *Save file*, *Save File As*, and *Close*.
@@ -738,7 +738,7 @@ text and highlight colors, as seen in :numref:`Figure %s <lumina32>`.
 .. figure:: images/lumina32.png
    :scale: 100%
 
-   : Customize Colors
+   Customize Colors
 
 .. index:: lumina-mediaplayer
 .. _Lumina Media Player:
@@ -834,7 +834,7 @@ similar to the one shown in :numref:`Figure %s <lumina15>`.
 .. figure:: images/lumina15a.png
    :scale: 100%
 
-   : Configuring Monitors
+   Configuring Monitors
 
 In this example, two display inputs are attached to the system and their
 current screen resolutions are displayed. If the display input supports
