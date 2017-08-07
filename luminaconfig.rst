@@ -367,35 +367,55 @@ Desktop
 -------
 
 Select :guilabel:`Desktop` to modify the appearance of the primary
-desktop and modify any embedded utilities, as seen in
-:numref:`Figure %s <lumina40>`. By default, the :ref:`RSS Reader` plugin
-appears in the lower right corner.
+desktop and modify any embedded utilities. As
+:numref:`Figure %s <lumina40>` shows, the :guilabel:`RSS Reader` is
+currently the only embedded utility.
 
 .. _lumina40:
 
-.. figure:: images/lumina40.png
+.. figure:: images/lumina40a.png
    :scale: 100%
 
-   : Desktop Settings
+   Desktop Settings
 
-Use the :guilabel:`Plus` and :guilabel:`Minus` buttons to adjust the
+Click the :guilabel:`Monitor` drop down menu to select screen to modify.
+se the :guilabel:`Plus` and :guilabel:`Minus` buttons to adjust the
 embedded utilities. The :guilabel:`Display Desktop Folder Contents`
 option automatically populates the Desktop with any item seen in
-:file:`/<username>/Desktop`.
+:file:`/<username>/Desktop`. The
+:guilabel:`Display Removable Media Icons` option toggles if icons for
+mounted media (USB, DVD, etc.) is visible on the Desktop. Be sure to
+click :guilabel:`Save` after customizing these options or any embedded
+utilities.
 
-Right-click an icon on the desktop to view a variety of customization
-options:
+When viewing the deskop itself, right-click an icon on the desktop to
+view a variety of customization options, as seen in
+:numref:`Figure %s <lumina42>`:
 
-* **Launch Item:** Starts the item.
-* **Start Moving Item:** Click the icon to lock it in place once it is
-  in the desired location.
-* **Start Resizing Item:** Move the mouse to resize the icon/widget.
-  Click to save any changes.
-* **Increase Desktop Icon Sizes:** Increases the size of all desktop
-  icons, repeat as necessary.
-* **Decrease Desktop Icon Sizes:** Decreases the size of all desktop
-  icons, repeat as necessary.
-* **Remove Item:** Removes the item from the desktop.
+.. _lumina42:
+
+.. figure:: images/lumina42.png
+   :scale: 100%
+
+   Customize desktop icons
+
+* **Launch or Open:** Depending on what the icon is linked to, there are
+  options to *Open* or *Launch* the item. There may also be an option to
+  *Open With*, which uses Lumina :ref:`Open` to give the user more
+  choices for opening the item with an application or setting a default
+  application for that type of item.
+
+* **View Properties:** Launches a :guilabel:`File Information` window to
+  display more information about the selected item.
+
+* **File Operations:** Standard file operations are available when an
+  icon is selected. These include *Rename*, *Copy*, *Cut*, *Delete*, and
+  *Paste*. Options vary depending on the selected icon.
+
+* **Modify Item:** The icons are also modifiable apart from the linked
+  item itself. There are options to *Start Moving Item*,
+  *Start Resizing Item*, *Increase Desktop Icon Sizes*,
+  *Decrease Desktop Icon Sizes*, and *Remove Item*.
 
 .. index:: right click menu
 .. _rightclick menu:
