@@ -167,19 +167,19 @@ Insight File Manager
 ====================
 
 The Insight file manager, shown in :numref:`Figure %s <lumina10>`,
-allows the user to easily browse and modify files on the local system on
-a per-directory basis. To open Insight, click the start menu and select
+allows the user to easily browse and modify files on the local system.
+To open Insight, click the start menu and select
 :guilabel:`Browse Files`, right-click the desktop and select
 :guilabel:`Browse Files`, or type :command:`lumina-fm` from an xterm.
 
-.. note:: If Insight is already open :command:`lumina-fm` will not open
-   a new window, but instead activate the currently open instance of
-   Insight. Open a new window of Insight with :kbd:`Ctrl + N` from
-   within Insight.
+.. note:: If Insight is already open, :command:`lumina-fm` activates the
+   currently open instance of Insight and adds a new tab. Open a new
+   window of Insight by pressing :kbd:`Ctrl + N` when the current
+   Insight window is active.
 
 .. _lumina10:
 
-.. figure:: images/lumina10b.png
+.. figure:: images/lumina10c.png
    :scale: 100%
 
    Insight File Manager
@@ -208,9 +208,9 @@ Insight:
      | Exit             | Ctrl + Q | Closes Insight                    |
      +------------------+----------+-----------------------------------+
 
-* **View:** Presents options to alter what Insight will display to the
-  user. :numref:`Table %s <insightview>` shows the current options in
-  the :guilabel:`View` tab:
+* **View:** Presents options to alter what Insight displays to the user.
+  :numref:`Table %s <insightview>` shows the current options in the
+  :guilabel:`View` tab:
 
   .. _insightview:
 
@@ -221,8 +221,11 @@ Insight:
      +=============+==========+========================================+
      | Refresh     | F5       | Reloads the current location           |
      +-------------+----------+----------------------------------------+
-     | Show Hidden | Ctrl + H | Insight will display all files marked  |
+     | Show Hidden | Ctrl + H | Insight displays all files marked      |
      | Files       |          | *hidden*                               |
+     +-------------+----------+----------------------------------------+
+     | Show Image  | None     | Displays a small thumbnail of the      |
+     | Previews    |          | image file in the Insight window       |
      +-------------+----------+----------------------------------------+
      | View Mode   | None     | Basic: Displays the names of files and |
      |             |          | directories.                           |
@@ -233,12 +236,12 @@ Insight:
 
 * **Bookmarks:** The :guilabel:`Bookmarks` not only gives options to
   add and manipulate internal links for quick navigation with Insight,
-  but will display any created bookmarks in the menu as well.
+  but also displays any created bookmarks in the drop-down menu.
   :numref:`Table %s <insightbkmrks>` describes all these elements:
 
   .. _insightbkmrks:
 
-  .. table:: Insight Manager "Bookmark" Options
+  .. table:: Insight Manager *Bookmark* Options
 
      +------------------+----------+--------------------------+
      | Name             | Shortcut | Description              |
@@ -253,14 +256,14 @@ Insight:
      |                  |          | as they are created      |
      +------------------+----------+--------------------------+
 
-* **External Devices:** Any attached devices with storage will appear
-  in this menu. Click :guilabel:`Scan for Devices` if an attached device
+* **External Devices:** Any attached devices with storage appears in
+  this menu. Click :guilabel:`Scan for Devices` if an attached device
   does not appear.
 
-* **Git:** GitHub functionality is natively built into Insight.
-  Currently, :guilabel:`Repo Status` will display which branch is
-  active, the update status with the origin repo, and any changes to
-  commit. :guilabel:`Clone Repository` opens a wizard to download a git
+* **Git:** Basic GitHub functionality is natively built into Insight.
+  Currently, :guilabel:`Repo Status` displays the active branch, update
+  status with the origin repository, and any uncommitted changes.
+  :guilabel:`Clone Repository` opens a wizard to download a git
   repository from the internet, seen in :numref:`Figure %s <lumina34>`.
 
   .. _lumina34:
@@ -269,7 +272,7 @@ Insight:
 
      Git Clone Repository Wizard
 
-  .. tip:: :guilabel:`Clone Repository` will deactivate when Insight
+  .. tip:: :guilabel:`Clone Repository` deactivates when Insight
      navigates inside a directory already labeled as a git repository.
 
 Underneath the top menu bar is a navigation bar with even more options.
@@ -290,34 +293,34 @@ From left to right, :numref:`Table %s <insightnav>` describes each icon:
    +------------+--------------------------------------------------+
    | Text Field | Path to current location/Manual navigation field |
    +------------+--------------------------------------------------+
-   | Table with | Single column view                               |
-   | red minus  |                                                  |
+   | Boxes with | Single column view                               |
+   | "x"        |                                                  |
    +------------+--------------------------------------------------+
-   | Table with | Dual column view                                 |
-   | green plus |                                                  |
+   | Boxes with | Dual column view                                 |
+   | plus       |                                                  |
    +------------+--------------------------------------------------+
-   | Horizontal | Additional file and directory operations (also   |
-   | lines icon | available by right-clicking in the display area) |
+   | Vertical   | Additional file and directory operations (also   |
+   | dots icon  | available by right-clicking in the display area) |
    +------------+--------------------------------------------------+
 
-Pressing the :guilabel:`Green Plus Columns` button next to the
-navigation field activates columned browsing, displaying two independent
-instances of the file manager in a side-by-side view, seen in
+Pressing the :guilabel:`Plus Columns` button next to the navigation
+field activates columned browsing, displaying two independent instances
+of the file manager in a side-by-side view, seen in
 :numref:`Figure %s <lumina33>`.
 
 .. _lumina33:
 
-.. figure:: images/lumina33.png
+.. figure:: images/lumina33a.png
 
    Insight Columns Display
 
 In columns mode, the active column has a white background. All the menu
 options and ZFS functions apply to **only** the active column.
 
-The :guilabel:`Horizontal Lines Icon` shows file and directory
-operations, commonly seen in the right click menu when an item is
-selected. The directory operations are always available, and, like the
-name implies, provide options affecting the entire directory.
+The :guilabel:`Vertical Dots Icon` shows file and directory operations,
+commonly seen in the right-click menu when an item is selected. The
+directory operations are always available and as the name implies,
+provide options affecting the entire directory.
 :numref:`Table %s <insdirops>` shows each of these options, split into
 the :guilabel:`Create...` and :guilabel:`Open...` categories:
 
@@ -338,15 +341,15 @@ the :guilabel:`Create...` and :guilabel:`Open...` categories:
    | Launcher    |          |           | create link to        |
    |             |          |           | desired application   |
    +-------------+----------+-----------+-----------------------+
-   | Terminal    | Open     | F1        | Launches the default  |
+   | Terminal    | Launch   | F1        | Launches the default  |
    |             |          |           | terminal set to the   |
    |             |          |           | current directory     |
    +-------------+----------+-----------+-----------------------+
-   | Slideshow   | Open     | F6        | Creates and populates |
+   | Slideshow   | Launch   | F6        | Creates and populates |
    |             |          |           | a slideshow within a  |
    |             |          |           | new Insight tab       |
    +-------------+----------+-----------+-----------------------+
-   | Multimedia  | Open     | F7        | Opens the directory   |
+   | Multimedia  | Launch   | F7        | Opens the directory   |
    | Player      |          |           | with the default      |
    |             |          |           | multimedia player     |
    +-------------+----------+-----------+-----------------------+
@@ -358,42 +361,45 @@ become available, seen in :numref:`Table %s <insightfileops>`:
 
 .. table:: Insight Manager Operations
 
-   +------------+----------+--------------+-------------------------+
-   | Item       | Category | Shortcut     | Description             |
-   +============+==========+==============+=========================+
-   | Open       | None     | Double-Click | Open the file or        |
-   |            |          |              | directory with the      |
-   |            |          |              | default applications    |
-   +------------+----------+--------------+-------------------------+
-   | Open With  | None     | None         | Opens the file or       |
-   |            |          |              | directory with a        |
-   |            |          |              | chosen application      |
-   +------------+----------+--------------+-------------------------+
-   | Cut        | Modify   | Ctrl + X     | Used with *Paste* to    |
-   | Selection  | Files    |              | move a file             |
-   +------------+----------+--------------+-------------------------+
-   | Copy       | Modify   | Ctrl + C     | Used with *Paste* to    |
-   | Selection  | Files    |              | create an exact         |
-   |            |          |              | duplicate of the        |
-   |            |          |              | selected file           |
-   +------------+----------+--------------+-------------------------+
-   | Rename     | Modify   | F2           | Allows changing the     |
-   |            | Files    |              | title of the selection  |
-   +------------+----------+--------------+-------------------------+
-   | Delete     | Modify   | Del          | Removes the selection   |
-   | Selection  | Files    |              | from the system         |
-   +------------+----------+--------------+-------------------------+
-   | Checksums  | View     | None         | Displays the file's     |
-   |            | Files    |              | checksum                |
-   +------------+----------+--------------+-------------------------+
-   | Properties | View     | None         | Displays the file       |
-   |            | Files    |              | information of the      |
-   |            |          |              | selection               |
-   +------------+----------+--------------+-------------------------+
-   | Paste      | None     | Ctrl + V     | Used with *Cut* or      |
-   |            |          |              | *Copy* to move or clone |
-   |            |          |              | files and directories   |
-   +------------+----------+--------------+-------------------------+
+   +------------+------------+--------------+-------------------------+
+   | Item       | Category   | Shortcut     | Description             |
+   +============+============+==============+=========================+
+   | Open       | None       | Double-Click | Open the file or        |
+   |            |            |              | directory with the      |
+   |            |            |              | default applications    |
+   +------------+------------+--------------+-------------------------+
+   | Open With  | None       | None         | Opens the file or       |
+   |            |            |              | directory with a        |
+   |            |            |              | chosen application      |
+   +------------+------------+--------------+-------------------------+
+   | Cut        | File       | Ctrl + X     | Used with *Paste* to    |
+   | Selection  | Operations |              | move a file             |
+   +------------+------------+--------------+-------------------------+
+   | Copy       | File       | Ctrl + C     | Used with *Paste* to    |
+   | Selection  | Operations |              | create an exact         |
+   |            |            |              | duplicate of the        |
+   |            |            |              | selected file           |
+   +------------+------------+--------------+-------------------------+
+   | Rename     | File       | F2           | Allows changing the     |
+   |            | Operations |              | title of the selection  |
+   +------------+------------+--------------+-------------------------+
+   | Delete     | File       | Del          | Removes the selection   |
+   | Selection  | Operations |              | from the system         |
+   +------------+------------+--------------+-------------------------+
+   | Auto       | File       | Ctrl + E     | Uses *lumina-archiver*  |
+   | Extract    | Operations |              | to extract the file     |
+   +------------+------------+--------------+-------------------------+
+   | Checksums  | View       | None         | Displays the file's     |
+   |            | Files      |              | checksum                |
+   +------------+------------+--------------+-------------------------+
+   | Properties | View       | None         | Displays the file       |
+   |            | Files      |              | information of the      |
+   |            |            |              | selection               |
+   +------------+------------+--------------+-------------------------+
+   | Paste      | None       | Ctrl + V     | Used with *Cut* or      |
+   |            |            |              | *Copy* to move or clone |
+   |            |            |              | files and directories   |
+   +------------+------------+--------------+-------------------------+
 
 The final element to the upper Insight menus, if configured, is the ZFS
 snapshot bar, seen as the long blue line in :ref:`Insight <lumina10>`.
@@ -410,6 +416,9 @@ snapshots and choose which snapshots to activate. A slider also exists
 which can be used to move the directory back and forward in time,
 according to the saved snapshots. The left and right arrows can also be
 used for this function.
+
+Insight displays the directory tree in a small window on the left side.
+This display can also be used to navigate to the desired directory.
 
 Underneath the viewing area of Insight are :guilabel:`Magnifying Glass`
 icons, used to increase or decrease the size of the objects to display.
