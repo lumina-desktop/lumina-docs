@@ -815,6 +815,34 @@ songs, prevent a song from playing for a month, *ban* songs, and view
 more *details* about a song. You can also use the :guilabel:`Plus` and
 :guilabel:`Minus` icons to add or remove new radio stations.
 
+.. index:: Notify
+.. _luminanotify:
+
+lumina-notify
+=============
+
+:command:`lumina-notify` is a CLI-only utility designed to create simple
+QT dialog windows to improve user interactivity. When used in a shell
+script, :command:`lumina-notify` launches QDialogs. Here is the syntax:
+:command:`lumina-notify [msgtxt] [accptbtntxt] [rjctbtntxt] [wndwttl]`.
+
+Save this example and run it to see the full output:
+
+.. code-block:: none
+
+ #!/bin/csh
+ set a=`./lumina-notify "Did Jar Jar do anything wrong?" Yes No "Question"`
+ if ($a == 1) then
+ set b=`./lumina-notify "Are you sure?" Yes No "Are you Sure?"`
+ if ($b == 1) then
+ ./lumina-notify "Please stop being a hater." Ok Ok "Haters gunna hate"
+ else
+ set c=`./lumina-notify "Thank you for changing your mind" OK OK "You're Awesome"`
+ endif
+ else
+ ./lumina-notify "High Five for Darth Jar Jar" Sure OK "Respect"
+ endif`
+
 .. index:: Xconfig
 .. _Xconfig:
 
