@@ -19,7 +19,7 @@ msgstr ""
 msgid "Interface Configuration"
 msgstr ""
 
-#: ../../luminaconfig.rst:585
+#: ../../luminaconfig.rst:587
 msgid "User Settings"
 msgstr ""
 
@@ -71,12 +71,12 @@ msgid ""
 "unchecking :guilabel:`View Syntax Codes`."
 msgstr ""
 
-#: ../../luminaconfig.rst:490
+#: ../../luminaconfig.rst:492
 msgid ""
 "The :guilabel:`Location` tab (4 arrow icon) contains a number of items:"
 msgstr ""
 
-#: ../../luminaconfig.rst:527
+#: ../../luminaconfig.rst:529
 msgid ""
 "To add a plugin as an icon to the panel, click :guilabel:`+` below the "
 "listed plugins and select a plugin from the list that appears. To remove a "
@@ -207,11 +207,11 @@ msgstr ""
 msgid "Desktop"
 msgstr ""
 
-#: ../../luminaconfig.rst:436
+#: ../../luminaconfig.rst:438
 msgid "Menu"
 msgstr ""
 
-#: ../../luminaconfig.rst:438
+#: ../../luminaconfig.rst:440
 msgid ""
 "Click :guilabel:`Menu` to adjust the appearance of the menu which appears "
 "when right-clicking the desktop, seen in :numref:`Figure %s <lumina36>`. By "
@@ -220,38 +220,38 @@ msgid ""
 ":ref:`Separator`, :ref:`Settings`, and **Leave**."
 msgstr ""
 
-#: ../../luminaconfig.rst:460
+#: ../../luminaconfig.rst:462
 msgid "Panels"
 msgstr ""
 
-#: ../../luminaconfig.rst:462
+#: ../../luminaconfig.rst:464
 msgid ""
 "The :guilabel:`Panels` option offers the ability to create and/or customize "
 "panels which are attached to the edges of the screen, as seen in "
 ":numref:`Figure %s <lumina5>`."
 msgstr ""
 
-#: ../../luminaconfig.rst:501
+#: ../../luminaconfig.rst:503
 msgid ""
 "The :guilabel:`Appearance` tab (monitor icon) is shown in :numref:`Figure %s"
 " <lumina19>`."
 msgstr ""
 
-#: ../../luminaconfig.rst:517
+#: ../../luminaconfig.rst:519
 msgid ""
 "The :guilabel:`Plugins` tab (puzzle icon) is shown in :numref:`Figure %s "
 "<lumina20>`."
 msgstr ""
 
-#: ../../luminaconfig.rst:596
+#: ../../luminaconfig.rst:598
 msgid "General Options"
 msgstr ""
 
-#: ../../luminaconfig.rst:634
+#: ../../luminaconfig.rst:636
 msgid "Localization"
 msgstr ""
 
-#: ../../luminaconfig.rst:646
+#: ../../luminaconfig.rst:648
 msgid ""
 "The **lumina-i18n** package provides localization files. Once installed, "
 "this allows customization of the locale used for the various items listed in"
@@ -296,7 +296,7 @@ msgid ""
 "when configuring a theme."
 msgstr ""
 
-#: ../../luminaconfig.rst:511
+#: ../../luminaconfig.rst:513
 msgid ""
 "To hide the panel unless the mouse is hovered over it, check :guilabel"
 ":`Auto-hide Panel`. The :guilabel:`Custom Color` option can be used to fine-"
@@ -429,14 +429,14 @@ msgid ""
 "length in the :ref:`Plugins` chapter of this handbook."
 msgstr ""
 
-#: ../../luminaconfig.rst:452
+#: ../../luminaconfig.rst:454
 msgid ""
 ":guilabel:`Leave`, with its options to *Logout*, *Restart*, *Shutdown*, "
 "*Lock*, and *Suspend* the system, is **always** available in the context "
 "menu."
 msgstr ""
 
-#: ../../luminaconfig.rst:473
+#: ../../luminaconfig.rst:475
 msgid ""
 "This screen is used to customize the location, alignment, size, theme, and "
 "plugins for an existing panel. A preconfigured :guilabel:`Profile` is also "
@@ -444,7 +444,7 @@ msgid ""
 "desktops. Click :guilabel:`Import` to add other custom-created profiles."
 msgstr ""
 
-#: ../../luminaconfig.rst:479
+#: ../../luminaconfig.rst:481
 msgid ""
 "The :guilabel:`+ Panel` and :guilabel:`-` icons at the top-left of the "
 "window can add or remove additional panels. Panels must be aligned along a "
@@ -452,7 +452,7 @@ msgid ""
 "have any width, color, or transparency."
 msgstr ""
 
-#: ../../luminaconfig.rst:484
+#: ../../luminaconfig.rst:486
 msgid ""
 "When adding panels, a frame similar to :guilabel:`Panel 1` is created for "
 "each panel, labeled :guilabel:`Panel 2`, :guilabel:`Panel 3`, and so on. "
@@ -461,56 +461,56 @@ msgid ""
 "desired panel."
 msgstr ""
 
-#: ../../luminaconfig.rst:492
+#: ../../luminaconfig.rst:494
 msgid ""
 "**Edge:** This drop-down menu is used to set the general location of the "
 "panel. The options are *Top*, *Bottom*, *Left*, or *Right*."
 msgstr ""
 
-#: ../../luminaconfig.rst:495
+#: ../../luminaconfig.rst:497
 msgid ""
 "**Alignment:** This drop-down menu is used to center the panel or pin it to "
 "a corner of the screen."
 msgstr ""
 
-#: ../../luminaconfig.rst:498
+#: ../../luminaconfig.rst:500
 msgid ""
 "**Size:** Is used to specify the panel width in pixels as well as panel "
 "length."
 msgstr ""
 
-#: ../../luminaconfig.rst:535
+#: ../../luminaconfig.rst:537
 msgid ""
 "By default, |lumina| has one panel stretching across the bottom of the "
 "primary screen and another automatically hiding panel centered at the top of"
 " the screen."
 msgstr ""
 
-#: ../../luminaconfig.rst:539
+#: ../../luminaconfig.rst:541
 msgid ""
 "The bottom panel incorporates the :ref:`Panel Start Menu`, :ref:`Task "
 "Manager Plugin (No Groups)`, a :ref:`Spacer`, :ref:`System Tray`, :ref:`Time"
 " Date`, and :ref:`Battery Monitor` plugins."
 msgstr ""
 
-#: ../../luminaconfig.rst:544
+#: ../../luminaconfig.rst:546
 msgid ""
 "The top panel includes the :ref:`Desktop Bar` between two :ref:`Spacer` "
 "plugins."
 msgstr ""
 
-#: ../../luminaconfig.rst:547
+#: ../../luminaconfig.rst:549
 msgid ""
 "Panel and other Desktop settings may appear differently when using a version"
 " of |lumina| packaged with an OS. For example, |trueos| uses only a single "
 "panel across the bottom of the primary screen."
 msgstr ""
 
-#: ../../luminaconfig.rst:556 ../../luminaconfig.rst:569
+#: ../../luminaconfig.rst:558 ../../luminaconfig.rst:571
 msgid "System Settings"
 msgstr ""
 
-#: ../../luminaconfig.rst:558
+#: ../../luminaconfig.rst:560
 msgid ""
 "The :guilabel:`System Settings` category, seen in :numref:`Figure %s "
 "<lumina41>`, displays all configurable system utilities in one convenient "
@@ -518,97 +518,97 @@ msgid ""
 "added or removed by the user or other development updates."
 msgstr ""
 
-#: ../../luminaconfig.rst:571
+#: ../../luminaconfig.rst:573
 msgid ""
 "The entries in this category are all symlinks. Click an entry to open the "
 "related utility or configuration tool. For example, click :guilabel:`Mouse "
 "Configuration` to open a simple menu for adjusting all mouse settings."
 msgstr ""
 
-#: ../../luminaconfig.rst:579
+#: ../../luminaconfig.rst:581
 msgid "Some utilities prompt for *Root* access before opening."
 msgstr ""
 
-#: ../../luminaconfig.rst:587
+#: ../../luminaconfig.rst:589
 msgid ""
 "The :guilabel:`User Settings` option governs the general settings for the "
 "desktop session. The settings include how the time and date are displayed, "
 "changing user icons, when to play chimes, and all localization options."
 msgstr ""
 
-#: ../../luminaconfig.rst:598
+#: ../../luminaconfig.rst:600
 msgid ""
 ":guilabel:`General Options`, seen in :numref:`Figure %s <lumina12>`, is used"
 " to govern numerous settings for the desktop experience."
 msgstr ""
 
-#: ../../luminaconfig.rst:608
+#: ../../luminaconfig.rst:610
 msgid "Here are the options available in the General Options menu:"
 msgstr ""
 
-#: ../../luminaconfig.rst:610
+#: ../../luminaconfig.rst:612
 msgid "**Enable numlock on startup**"
 msgstr ""
 
-#: ../../luminaconfig.rst:611
+#: ../../luminaconfig.rst:613
 msgid "**Play chimes on startup**"
 msgstr ""
 
-#: ../../luminaconfig.rst:612
+#: ../../luminaconfig.rst:614
 msgid "**Play chimes on exit**"
 msgstr ""
 
-#: ../../luminaconfig.rst:613
+#: ../../luminaconfig.rst:615
 msgid ""
 "**Manage desktop app links:** When checked, |lumina| automatically updates "
 "the available desktop symlinks when applications are installed or removed."
 msgstr ""
 
-#: ../../luminaconfig.rst:616
+#: ../../luminaconfig.rst:618
 msgid "**Show application crash data**"
 msgstr ""
 
-#: ../../luminaconfig.rst:617
+#: ../../luminaconfig.rst:619
 msgid "**Change User Icon**"
 msgstr ""
 
-#: ../../luminaconfig.rst:618
+#: ../../luminaconfig.rst:620
 msgid "**Time Format**"
 msgstr ""
 
-#: ../../luminaconfig.rst:619
+#: ../../luminaconfig.rst:621
 msgid "**Date Format**"
 msgstr ""
 
-#: ../../luminaconfig.rst:621
+#: ../../luminaconfig.rst:623
 msgid ""
 "Click the :guilabel:`blue circle with \"i\" icon` for examples of time and "
 "date formatting."
 msgstr ""
 
-#: ../../luminaconfig.rst:624
+#: ../../luminaconfig.rst:626
 msgid "**Display Format:** Opens a dropdown menu for more format options."
 msgstr ""
 
-#: ../../luminaconfig.rst:625
+#: ../../luminaconfig.rst:627
 msgid ""
 "**Return to system defaults:** All system settings revert to those "
 "configured by the OS."
 msgstr ""
 
-#: ../../luminaconfig.rst:627
+#: ../../luminaconfig.rst:629
 msgid ""
 "**Return to Lumina defaults** All system settings revert to their |lumina| "
 "defaults."
 msgstr ""
 
-#: ../../luminaconfig.rst:636
+#: ../../luminaconfig.rst:638
 msgid ""
 ":guilabel:`Localization` options are shown in :numref:`Figure %s "
 "<lumina21>`."
 msgstr ""
 
-#: ../../luminaconfig.rst:658
+#: ../../luminaconfig.rst:660
 msgid ""
 "Installing the **lumina-i18n** package also adds a drop-down menu to the "
 ":guilabel:`Preferences` area of the start menu. |lumina| must be restarted "
@@ -618,7 +618,7 @@ msgid ""
 "translated menu items without requiring a restart of |lumina|."
 msgstr ""
 
-#: ../../luminaconfig.rst:666
+#: ../../luminaconfig.rst:668
 msgid ""
 "If using |lumina| with a language other than English, any menu items that "
 "continue to be displayed in English have not yet been translated to the "
@@ -702,11 +702,11 @@ msgstr ""
 msgid "|lumina| Interface Configuration"
 msgstr ""
 
-#: ../../luminaconfig.rst:606
+#: ../../luminaconfig.rst:608
 msgid "|lumina| General Options"
 msgstr ""
 
-#: ../../luminaconfig.rst:644
+#: ../../luminaconfig.rst:646
 msgid "Session Locale Tab"
 msgstr ""
 
@@ -754,20 +754,25 @@ msgstr ""
 msgid "|lumina| Startup Services Configuration"
 msgstr ""
 
-#: ../../luminaconfig.rst:450
+#: ../../luminaconfig.rst:452
 msgid "Context menu plugins configuration with an open context menu."
 msgstr ""
 
-#: ../../luminaconfig.rst:471
+#: ../../luminaconfig.rst:473
 msgid "|lumina| Panel Configuration"
 msgstr ""
 
-#: ../../luminaconfig.rst:509
+#: ../../luminaconfig.rst:511
 msgid "Panel Appearance"
 msgstr ""
 
-#: ../../luminaconfig.rst:525
+#: ../../luminaconfig.rst:527
 msgid "Panel Plugins"
+msgstr ""
+
+#: ../../luminaconfig.rst:432
+msgid ""
+"An icon is also movable across the desktop by clicking and dragging it."
 msgstr ""
 
 #~ msgid ": Using the Theme Editor"
