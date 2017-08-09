@@ -34,10 +34,11 @@ or down in the :guilabel:`Quick-Access Menu` field, which alters their
 display order when the desktop is right-clicked. Click :guilabel:`Save`
 to immediately implement any changes to the menu.
 
-Two elements are always displayed in the the right-click menu, the
-current **virtual desktop** and all **shutdown options** (with
-:guilabel:`Leave`). :numref:`Figure %s <luminamenuplugin1>` shows these
-options.
+Three elements are always displayed in the the right-click menu, the
+current **virtual desktop**, all **shutdown options** (with
+:guilabel:`Leave`), and adding or pasting directories and files to the
+desktop with the :guilabel:`Desktop Actions` option.
+:numref:`Figure %s <luminamenuplugin1>` shows these options.
 
 .. _luminamenuplugin1:
 

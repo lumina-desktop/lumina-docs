@@ -845,3 +845,42 @@ If another display input is attached, the :guilabel:`Add Screen` tab is
 activated in order to configure the new input's resolution.
 Additionally, the user can choose to make the new input the system
 default.
+
+.. index:: xdg-entry
+.. _xdgentry:
+
+XDG-Entry
+=========
+
+This Qt5 utility generates :file:`.desktop` files and places them in the
+user's home directory (:file:`/usr/home/[username]`). As
+:numref:`Figure %s <xdgentry1>` shows, there are numerous configurable
+elements:
+
+.. _xdgentry1:
+
+.. figure:: images/xdgentry1.png
+   :scale: 100%
+
+   .Desktop Creator (XDG-Entry)
+
+**Name:** The specific name of the new :file:`.desktop` file.
+
+**Generic Name:** This text in this field displays as a tooltip (when
+enabled).
+
+**Comment:** Adds more descriptive text to the
+:guilabel:`File Information`.
+
+**Keywords:** Simple word associations for the file.
+
+**Executable:** Click :guilabel:`Select` to open the file browser and
+choose an application to associate with this file.
+
+**Icon:** Click :guilabel:`Select` to open the file browser and choose
+an icon file to associate with this file.
+
+**Categories:** Choose the category for this file.
+
+**Run in Terminal:** Select this to open the file with the default
+terminal application.
