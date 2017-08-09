@@ -18,7 +18,7 @@ Menu plugins are the options which appear when the user right-clicks on
 the desktop screen in |lumina|, as seen in
 :numref:`Figure %s <luminamenupluginmenu1>`. Customize these options by
 clicking the :guilabel:`Start Menu`, then
-:menuselection:`Preferences --> Configure Desktop --> Menu`.
+:menuselection:`Preferences --> Configure Desktop --> Interface Configuration/Menu`.
 
 .. _luminamenupluginmenu1:
 
@@ -27,17 +27,17 @@ clicking the :guilabel:`Start Menu`, then
 
    |lumina| Menu Plugins
 
-Add or remove plugins by clicking the :guilabel:`green plus` or
-:guilabel:`red minus` buttons in the bottom left corner of the window.
+Add or remove plugins by clicking the :guilabel:`plus` or
+:guilabel:`minus` buttons in the bottom left corner of the window.
 The arrow buttons in the bottom right allow the user to move plugins up
-or down in the :guilabel:`Quick-Access Menu` field, which will alter
-their display order when the desktop is right-clicked. Click
-:guilabel:`Save` to immediately implement any changes to the menu.
+or down in the :guilabel:`Quick-Access Menu` field, which alters their
+display order when the desktop is right-clicked. Click :guilabel:`Save`
+to immediately implement any changes to the menu.
 
-Two elements the right-click menu will always display are the name of
-the current virtual desktop at the top of the menu and the shutdown
-options on the bottom, as pictured in
-:numref:`Figure %s <luminamenuplugin1>`.
+Two elements are always displayed in the the right-click menu, the
+current **virtual desktop** and all **shutdown options** (with
+:guilabel:`Leave`). :numref:`Figure %s <luminamenuplugin1>` shows these
+options.
 
 .. _luminamenuplugin1:
 
@@ -46,8 +46,8 @@ options on the bottom, as pictured in
 
    Menu Plugin Default Menu
 
-The user can completely customize what appears between these two
-elements of the menu.
+The rest of this section explains every customization option available
+to the user.
 
 .. _Menu Applications:
 
@@ -79,10 +79,11 @@ Custom App
 
    Custom Application
 
-The Custom App option, seen in :numref:`Figure %s <luminamenuplugin3>`,
-adds a specific quickstart icon for a single application to the
-right-click menu. Pictured is the icon for the "About" application,
-which is displaying current |trueos| system information.
+The :guilabel:`Custom App` option, seen in
+:numref:`Figure %s <luminamenuplugin3>`, adds a specific quickstart icon
+for a single application to the right-click menu. Pictured is the icon
+for the "About" application, which is displaying current |trueos| system
+information.
 
 .. _File Manager:
 
@@ -203,7 +204,7 @@ Desktop Plugins
 Desktop plugins adds icons or widgets for display on the main screen of
 the |lumina| Desktop Environment. Click on the default start menu in the
 lower left of the main desktop screen, then click
-:menuselection:`Preferences --> Configure Desktop --> Desktop`.
+:menuselection:`Preferences --> Configure Desktop --> Interface Configuration/Desktop`.
 
 .. _luminadesktoppluginmenu1:
 
@@ -214,22 +215,21 @@ lower left of the main desktop screen, then click
 
 This is the primary menu for configuring desktop plugins, seen in
 :numref:`Figure %s <luminadesktoppluginmenu1>`. Click the
-:guilabel:`green plus` to open a :guilabel:`Select Plugin` window. The
+:guilabel:`plus` to open a :guilabel:`Select Plugin` window. The
 user can choose between the available plugins by opening the drop-down
-menu and clicking the desired plugin. Once a plugin has been selected,
-it will appear in the :guilabel:`Embedded Utilities` window.
+menu and clicking the desired plugin. Once a plugin is chosen, it
+appears in the :guilabel:`Embedded Utilities` window.
 
 The :guilabel:`Display Desktop Folder Contents` option is used to
 display each item stored in :file:`~/Desktop` as an icon on the desktop.
-By default, this option is selected as its box is black. De-select this
-option and click :guilabel:`Save Changes` to remove the icons for the
-contents of :file:`~/Desktop` from the desktop. To define a smaller area
-on the desktop for displaying icons, use the :ref:`Desktop Icons View`
-plugin.
+By default, this option is selected. Click this option then
+:guilabel:`Save` to remove the icons for the contents of
+:file:`~/Desktop` from the desktop. To define a smaller area on the
+desktop for displaying icons, use the :ref:`Desktop Icons View` plugin.
 
-Once all the desired plugins have been added, click :guilabel:`Save`
-in the upper right section. The menu will automatically save and
-implement any changes to the desktop plugins.
+Once all desired plugins are added, click :guilabel:`Save` in the upper
+right section. The menu automatically implements any changes to the
+desktop plugins.
 
 There are numerous plugins in the desktop category, listed in
 alphabetical order.

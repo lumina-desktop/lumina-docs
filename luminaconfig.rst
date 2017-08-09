@@ -417,6 +417,8 @@ view a variety of customization options, as seen in
   *Start Resizing Item*, *Increase Desktop Icon Sizes*,
   *Decrease Desktop Icon Sizes*, and *Remove Item*.
 
+An icon is also movable across the desktop by clicking and dragging it.
+
 .. index:: right click menu
 .. _rightclick menu:
 
