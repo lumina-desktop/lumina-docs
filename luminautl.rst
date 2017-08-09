@@ -853,9 +853,10 @@ XDG-Entry
 =========
 
 This Qt5 utility generates :file:`.desktop` files and places them in the
-user's home directory (:file:`/usr/home/[username]`). As
-:numref:`Figure %s <xdgentry1>` shows, there are numerous configurable
-elements:
+user's home directory (:file:`/usr/home/[username]`). Be sure to copy
+these files to the default location the operating system searches for
+:file:`.desktop` files. As :numref:`Figure %s <xdgentry1>` shows, there
+are numerous configurable elements:
 
 .. _xdgentry1:
 
