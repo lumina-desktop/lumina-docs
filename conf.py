@@ -3,8 +3,11 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys
 import os
+import six
+import string
+import sys
+import time
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -22,6 +25,8 @@ sys.path.insert(0, os.path.abspath('./extensions'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+ 'sphinx.ext.intersphinx',
+ 'sphinx.ext.todo',
 #    'globalindex',
 #    'sphinx.ext.ifconfig',
 #    'sphinxcontrib.httpdomain'
@@ -117,9 +122,9 @@ from sphinx.roles import _amp_re
 def patched_menusel_role(typ, rawtext, text, lineno, inliner, options={}, content=[]):
     text = utils.unescape(text)
     if typ == 'menuselection':
-        text = text.replace('-->', u'\N{RIGHTWARDS ARROW}') # Here is the patch 
+        text = text.replace('-->', u'\N{RIGHTWARDS ARROW}') # Here is the patch
 
-    spans = _amp_re.split(text)  
+    spans = _amp_re.split(text)
 
     node = nodes.literal(rawtext=rawtext)
     for i, span in enumerate(spans):
@@ -231,6 +236,122 @@ htmlhelp_basename = 'Lumina'
 # -- Options for translations
 #locale_dirs = ['_build/locale-po/']
 
+# -- Options for LaTeX output ---------------------------------------------
+
+if six.PY3:
+    texproject = project.replace('®', r'''\textsuperscript{\textregistered}''')
+else:
+    texproject = project.replace(u'®', r'''\textsuperscript{\textregistered}''')
+
+PREAMBLE = r'''\def\docname{''' + texproject + '}'
+
+PREAMBLE = (PREAMBLE
+            + r'''\def\docdate{'''
+            + time.strftime("%B %Y")
+            + ' Edition}')
+
+# define custom title page
+PREAMBLE = PREAMBLE + r'''
+% FreeNAS/TrueNAS LaTeX preamble
+\usepackage[default,scale=0.95]{opensans}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+%for ragged right tables
+\usepackage{array,ragged2e}
+\definecolor{ixblue}{cmyk}{0.85,0.24,0,0}
+\newenvironment{widemargins}{%
+\begin{list}{}{%
+  \setlength{\leftmargin}{-0.5in}%
+  \setlength{\rightmargin}{-0.5in}%
+  }\item}%
+  {\end{list}%
+}
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{titlepage}%
+    \newlength{\thistitlewidth}%
+    \begin{widemargins}%
+      \usefont{T1}{fos}{l}{n}%
+      \vspace*{-6mm}%
+      \fontsize{32}{36}\selectfont%
+      \docname\par%
+      \vspace*{-4.5mm}%
+      \settowidth{\thistitlewidth}{\docname}%
+      {\color{ixblue}\rule{\thistitlewidth}{1.5pt}}\par%
+      \vspace*{4.5mm}%
+      \fontsize{18}{22}\fontseries{sbc}\selectfont%
+      \docdate\par%
+    \end{widemargins}%
+    \begin{tikzpicture}[remember picture,overlay]
+      \fill [ixblue] (current page.south west) rectangle ($(current page.south east) + (0, 2in)$);
+    \end{tikzpicture}
+  \end{titlepage}
+}
+\makeatother
+% a plain page style for front matter
+\fancypagestyle{frontmatter}{%
+  \fancyhf{}
+  \fancyhf[FCO,FCE]{}
+  \fancyhf[FLE,FRO]{\textbf{\thepage}}
+  \fancyhf[FLO,FRE]{}
+}
+'''
+
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+#'papersize': 'letterpaper',
+# The font size ('10pt', '11pt' or '12pt').
+#'pointsize': '10pt',
+
+# Disable Index Generation.
+#'printindex': '',
+
+# Additional stuff for the LaTeX preamble.
+'preamble': PREAMBLE,
+
+# remove blank pages
+'classoptions': ',openany',
+'babel': r'''\usepackage[english]{babel}''',
+
+# strict positioning of figures
+'figure_align': 'H'
+}
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
+latex_documents = [
+    (master_doc, 'LuminaHandbook.tex', u'Lumina Desktop Environment Documentation',
+     u'Lumina Users', 'manual'),
+]
+
+# The name of an image file (relative to this directory) to place at the top of
+# the title page.
+#
+# latex_logo = None
+
+# For "manual" documents, if this is true, then toplevel headings are parts,
+# not chapters.
+#
+# latex_use_parts = False
+
+# If true, show page references after internal links.#
+latex_show_pagerefs = True
+
+# If true, show URL addresses after external links.
+#
+# latex_show_urls = False
+
+# Documents to append as an appendix to all manuals.
+#
+# latex_appendices = []
+
+# If false, no module index is generated.
+#
+# latex_domain_indices = True
+
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
@@ -307,4 +428,3 @@ epub_show_urls = 'no'
 #.. |cop| unicode:: U+000A9 
 #.. |reg| unicode:: U+000AE
 #"""
-
