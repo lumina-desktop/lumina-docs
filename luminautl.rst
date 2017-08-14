@@ -30,6 +30,12 @@ operations for the utility, which are also reproduced in the icon
 toolbar. :numref:`Table %s <arcmanops>` lists all operations for the
 Archive Manager:
 
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.10\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.10\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.40\linewidth-2\tabcolsep}|
+
 .. _arcmanops:
 
 .. table:: Archiver operations
@@ -118,9 +124,13 @@ These advanced operations can be selected from the drop down menu, or
 typed manually. The full list of available operations is seen in
 :numref:`Table %s <lcalcops>`.
 
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.80\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}|
+
 .. _lcalcops:
 
 .. table:: |lumina| Calculator Advanced Operations
+   :class: longtable
 
    +---------------------+--------+
    | Operation           | Symbol |
@@ -190,9 +200,14 @@ Insight:
 * **File:** Contains basic options for manipulating Insight, seen here
   in :numref:`Table %s <insightfile>`.
 
+  .. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.25\linewidth-2\tabcolsep}
+                      |>{\RaggedRight}p{\dimexpr 0.15\linewidth-2\tabcolsep}
+                      |>{\RaggedRight}p{\dimexpr 0.60\linewidth-2\tabcolsep}|
+
   .. _insightfile:
 
   .. table:: Insight Manager *File* Options
+     :class: longtable
 
      +------------------+----------+-----------------------------------+
      | Name             | Shortcut | Description                       |
@@ -212,9 +227,14 @@ Insight:
   :numref:`Table %s <insightview>` shows the current options in the
   :guilabel:`View` tab:
 
+  .. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.25\linewidth-2\tabcolsep}
+                      |>{\RaggedRight}p{\dimexpr 0.15\linewidth-2\tabcolsep}
+                      |>{\RaggedRight}p{\dimexpr 0.60\linewidth-2\tabcolsep}|
+
   .. _insightview:
 
   .. table:: Insight Manager "View" Options
+     :class: longtable
 
      +-------------+----------+----------------------------------------+
      | Name        | Shortcut | Description                            |
@@ -239,9 +259,14 @@ Insight:
   but also displays any created bookmarks in the drop-down menu.
   :numref:`Table %s <insightbkmrks>` describes all these elements:
 
+  .. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.25\linewidth-2\tabcolsep}
+                      |>{\RaggedRight}p{\dimexpr 0.15\linewidth-2\tabcolsep}
+                      |>{\RaggedRight}p{\dimexpr 0.60\linewidth-2\tabcolsep}|
+
   .. _insightbkmrks:
 
   .. table:: Insight Manager *Bookmark* Options
+     :class: longtable
 
      +------------------+----------+--------------------------+
      | Name             | Shortcut | Description              |
@@ -277,6 +302,9 @@ Insight:
 
 Underneath the top menu bar is a navigation bar with even more options.
 From left to right, :numref:`Table %s <insightnav>` describes each icon:
+
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.30\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.70\linewidth-2\tabcolsep}|
 
 .. _insightnav:
 
@@ -324,9 +352,15 @@ provide options affecting the entire directory.
 :numref:`Table %s <insdirops>` shows each of these options, split into
 the :guilabel:`Create...` and :guilabel:`Open...` categories:
 
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.10\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.50\linewidth-2\tabcolsep}|
+
 .. _insdirops:
 
 .. table:: Insight Manager Directory Operations
+   :class: longtable
 
    +-------------+----------+-----------+-----------------------+
    | Item        | Category | Shortcut  | Description           |
@@ -357,9 +391,15 @@ the :guilabel:`Create...` and :guilabel:`Open...` categories:
 Once an item is highlighted in Insight, a number of file operations
 become available, seen in :numref:`Table %s <insightfileops>`:
 
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.10\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.50\linewidth-2\tabcolsep}|
+
 .. _insightfileops:
 
 .. table:: Insight Manager Operations
+   :class: longtable
 
    +------------+------------+--------------+-------------------------+
    | Item       | Category   | Shortcut     | Description             |
@@ -573,8 +613,13 @@ The top menu bar contains several common options, while the tabs contain
 configuration options for screenshots. :numref:`Table %s <lssmo>` lists
 the options in this top menu bar:
 
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.60\linewidth-2\tabcolsep}|
+
 .. _lssmo:
 .. table:: Lumina Screenshot menu options
+   :class: longtable
 
    +---------+----------+----------------------------------------------+
    | Option  | Shortcut | Description                                  |
@@ -617,9 +662,13 @@ screenshots:
 
    Lumina Screenshot with *Settings* tab open.
 
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.30\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.70\linewidth-2\tabcolsep}|
+
 .. _lscrnshtmn:
 
 .. table:: Lumina Screenshot UI Options
+   :class: longtable
 
    +-----------------+-------------------------------------------------+
    | Option          | Description                                     |

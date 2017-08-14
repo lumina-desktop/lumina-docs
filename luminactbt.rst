@@ -381,20 +381,6 @@ is recommended to look through other |lumina| utilities for common
 naming conventions.
 
 File menu icons are taken from the installed icon theme.
-:numref:`Table %s <table_1>` lists some commonly used icons and their
-default file names.
-
-.. _table_1:
-
-.. table:: Commonly Used File Menu Icons
-
-   +-----------+-----------------+--------------------+
-   | Function  | File Menu Icon  | File Name          |
-   +===========+=================+====================+
-   | Quit      | row 1, cell 2   | window-close.png   |
-   +-----------+-----------------+--------------------+
-   | Settings  | row 2, cell 2   | configure.png      |
-   +-----------+-----------------+--------------------+
 
 |lumina| utilities uses several buttons:
 
@@ -417,12 +403,16 @@ has the *&* symbol in front will become the new hotkey. A shortcut key
 can also be made by clicking the menu or submenu entry and assigning a
 shortcut key. Avoid creating duplicate hotkeys or shortcuts. Every entry
 in a menu or submenu should have a key assigned for accessibility.
-:numref:`Table %s <table_2>` and :numref:`Table %s <table_3>` summarize
+:numref:`Table %s <shkeys>` and :numref:`Table %s <hokeys>` summarize
 the commonly used shortcut and hotkeys.
 
-.. _table_2:
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.60\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.40\linewidth-2\tabcolsep}|
+
+.. _shkeys:
 
 .. table:: Shortcut Keys
+   :class: longtable
 
    +---------------+---------+
    | Shortcut Key  | Action  |
@@ -432,9 +422,13 @@ the commonly used shortcut and hotkeys.
    | F1            | Help    |
    +---------------+---------+
 
-.. _table_3:
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.50\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.50\linewidth-2\tabcolsep}|
+
+.. _hokeys:
 
 .. table:: Hot Keys
+   :class: longtable
 
    +-----------+-----------------+
    | Hot Key   | Action          |

@@ -14,9 +14,13 @@ The |lumina| Handbook uses several typographic conventions.
 :numref:`Table %s <typconv>` provides a simple reference for these
 conventions:
 
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.40\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.60\linewidth-2\tabcolsep}|
+
 .. _typconv:
 
-.. table:: : Text Formatting Examples
+.. table:: Text Formatting Examples
+   :class: longtable
 
    +---------------------+-------------------------------------------+
    | Item                | Visual Example                            |
@@ -192,7 +196,7 @@ utilities for various tasks, such as :command:`numlockx` and
   email clients, multimedia software, or office suites. Instead, it
   provides utilities for configuring the desktop environment.
 
-* Uses a simple, text-based 
+* Uses a simple, text-based
   `configuration file <https://github.com/trueos/lumina/blob/master/src-qt5/core/lumina-desktop/defaults/luminaDesktop.conf>`_
   for setting system-wide defaults. |lumina| distributors can use this
   file to easily preset the |lumina| defaults and interface for their
@@ -378,11 +382,14 @@ By default, |lumina| utilizes a large number of keyboard shortcuts, as
 seen in :numref:`Table %s <lumdefkbd>`. Many of these shortcuts are
 derived from *fluxbox* defaults, as noted in the table.
 
-.. TODO Update table when rework goes live (est. v1.30 release)
+.. tabularcolumns:: |>{\RaggedRight}p{\dimexpr 0.35\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.45\linewidth-2\tabcolsep}
+                    |>{\RaggedRight}p{\dimexpr 0.20\linewidth-2\tabcolsep}|
 
 .. _lumdefkbd:
 
-.. table:: : |lumina| keyboard shortcuts
+.. table:: |lumina| keyboard shortcuts
+   :class: longtable
 
    +----------------+---------------------------------------+---------+
    | Shortcut       | Function                              | Default |
