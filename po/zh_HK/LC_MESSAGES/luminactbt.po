@@ -380,169 +380,120 @@ msgid ""
 "conventions."
 msgstr ""
 
-#: ../../luminactbt.rst:395
-msgid ""
-"File menu icons are taken from the installed icon theme. :numref:`Table %s "
-"<table_1>` lists some commonly used icons and their default file names."
-msgstr ""
-
-#: ../../luminactbt.rst:404
-msgid "Function"
-msgstr ""
-
-#: ../../luminactbt.rst:404
-msgid "File Menu Icon"
-msgstr ""
-
-#: ../../luminactbt.rst:404
-msgid "File Name"
-msgstr ""
-
-#: ../../luminactbt.rst:406 ../../luminactbt.rst:442 ../../luminactbt.rst:454
+#: ../../luminactbt.rst:432 ../../luminactbt.rst:448
 msgid "Quit"
 msgstr ""
 
-#: ../../luminactbt.rst:406
-msgid "row 1, cell 2"
-msgstr ""
-
-#: ../../luminactbt.rst:406
-msgid "window-close.png"
-msgstr ""
-
-#: ../../luminactbt.rst:408 ../../luminactbt.rst:456
+#: ../../luminactbt.rst:450
 msgid "Settings"
 msgstr ""
 
-#: ../../luminactbt.rst:408
-msgid "row 2, cell 2"
-msgstr ""
-
-#: ../../luminactbt.rst:408
-msgid "configure.png"
-msgstr ""
-
-#: ../../luminactbt.rst:411
+#: ../../luminactbt.rst:397
 msgid "|lumina| utilities uses several buttons:"
 msgstr ""
 
-#: ../../luminactbt.rst:413
+#: ../../luminactbt.rst:399
 msgid "**Apply:** Applies settings and leaves the window open."
 msgstr ""
 
-#: ../../luminactbt.rst:415
+#: ../../luminactbt.rst:401
 msgid "**Close:** Closes a program without applying settings."
 msgstr ""
 
-#: ../../luminactbt.rst:417
+#: ../../luminactbt.rst:403
 msgid "**OK:** Closes the dialogue window and saves settings."
 msgstr ""
 
-#: ../../luminactbt.rst:419
+#: ../../luminactbt.rst:405
 msgid "**Cancel:** Closes the dialog window without applying settings."
 msgstr ""
 
-#: ../../luminactbt.rst:421
+#: ../../luminactbt.rst:407
 msgid "**Save:** Saves settings and can also close the window."
 msgstr ""
 
-#: ../../luminactbt.rst:423
-msgid ""
-"Keyboard shortcuts are extremely useful to many users, and |lumina| attempts"
-" to include shortcuts in every utility. Qt simplifies assigning keyboard "
-"shortcuts. For example, configuring keyboard shortcuts to browse the "
-"\"File\" menu is as simple as adding :command:`&File` to the menu entry's "
-"text field during application creation. Whichever letter has the *&* symbol "
-"in front will become the new hotkey. A shortcut key can also be made by "
-"clicking the menu or submenu entry and assigning a shortcut key. Avoid "
-"creating duplicate hotkeys or shortcuts. Every entry in a menu or submenu "
-"should have a key assigned for accessibility. :numref:`Table %s <table_2>` "
-"and :numref:`Table %s <table_3>` summarize the commonly used shortcut and "
-"hotkeys."
-msgstr ""
-
-#: ../../luminactbt.rst:440
+#: ../../luminactbt.rst:430
 msgid "Shortcut Key"
 msgstr ""
 
-#: ../../luminactbt.rst:440 ../../luminactbt.rst:452
+#: ../../luminactbt.rst:430 ../../luminactbt.rst:446
 msgid "Action"
 msgstr ""
 
-#: ../../luminactbt.rst:442
+#: ../../luminactbt.rst:432
 msgid "CTRL + Q"
 msgstr ""
 
-#: ../../luminactbt.rst:444
+#: ../../luminactbt.rst:434
 msgid "F1"
 msgstr ""
 
-#: ../../luminactbt.rst:444
+#: ../../luminactbt.rst:434
 msgid "Help"
 msgstr ""
 
-#: ../../luminactbt.rst:452
+#: ../../luminactbt.rst:446
 msgid "Hot Key"
 msgstr ""
 
-#: ../../luminactbt.rst:454
+#: ../../luminactbt.rst:448
 msgid "Alt + Q"
 msgstr ""
 
-#: ../../luminactbt.rst:456
+#: ../../luminactbt.rst:450
 msgid "Alt + S"
 msgstr ""
 
-#: ../../luminactbt.rst:458
+#: ../../luminactbt.rst:452
 msgid "Alt + I"
 msgstr ""
 
-#: ../../luminactbt.rst:458
+#: ../../luminactbt.rst:452
 msgid "Import"
 msgstr ""
 
-#: ../../luminactbt.rst:460
+#: ../../luminactbt.rst:454
 msgid "Alt + E"
 msgstr ""
 
-#: ../../luminactbt.rst:460
+#: ../../luminactbt.rst:454
 msgid "Export"
 msgstr ""
 
-#: ../../luminactbt.rst:462
+#: ../../luminactbt.rst:456
 msgid "ALT + F"
 msgstr ""
 
-#: ../../luminactbt.rst:462
+#: ../../luminactbt.rst:456
 msgid "File Menu"
 msgstr ""
 
-#: ../../luminactbt.rst:464
+#: ../../luminactbt.rst:458
 msgid "ALT + C"
 msgstr ""
 
-#: ../../luminactbt.rst:464
+#: ../../luminactbt.rst:458
 msgid "Configure Menu"
 msgstr ""
 
-#: ../../luminactbt.rst:466
+#: ../../luminactbt.rst:460
 msgid "ALT + H"
 msgstr ""
 
-#: ../../luminactbt.rst:466
+#: ../../luminactbt.rst:460
 msgid "Help Menu"
 msgstr ""
 
-#: ../../luminactbt.rst:471
+#: ../../luminactbt.rst:465
 msgid ""
 "`Commits Mailing List <http://lists.pcbsd.org/mailman/listinfo/commits>`_"
 msgstr ""
 
-#: ../../luminactbt.rst:473
+#: ../../luminactbt.rst:467
 msgid "`Qt 5.4 Documentation <http://doc.qt.io/qt-5/index.html>`_"
 msgstr ""
 
-#: ../../luminactbt.rst:475
+#: ../../luminactbt.rst:469
 msgid "`C++ Tutorials <http://www.cplusplus.com/doc/tutorial/>`_"
 msgstr ""
 
@@ -644,7 +595,7 @@ msgid ""
 "suggestions for improvement."
 msgstr ""
 
-#: ../../luminactbt.rst:469
+#: ../../luminactbt.rst:463
 msgid "Developers may also find these resources helpful:"
 msgstr ""
 
@@ -658,10 +609,6 @@ msgstr ""
 
 #: ../../luminactbt.rst:230
 msgid "Translation screen for lumina-config, Afrikaans language"
-msgstr ""
-
-#: ../../luminactbt.rst:0
-msgid "Commonly Used File Menu Icons"
 msgstr ""
 
 #: ../../luminactbt.rst:0
@@ -679,6 +626,68 @@ msgstr ""
 #: ../../luminactbt.rst:127
 msgid "Creating a Bug Report"
 msgstr ""
+
+#: ../../luminactbt.rst:395
+msgid "File menu icons are taken from the installed icon theme."
+msgstr ""
+
+#: ../../luminactbt.rst:409
+msgid ""
+"Keyboard shortcuts are extremely useful to many users, and |lumina| attempts"
+" to include shortcuts in every utility. Qt simplifies assigning keyboard "
+"shortcuts. For example, configuring keyboard shortcuts to browse the "
+"\"File\" menu is as simple as adding :command:`&File` to the menu entry's "
+"text field during application creation. Whichever letter has the *&* symbol "
+"in front will become the new hotkey. A shortcut key can also be made by "
+"clicking the menu or submenu entry and assigning a shortcut key. Avoid "
+"creating duplicate hotkeys or shortcuts. Every entry in a menu or submenu "
+"should have a key assigned for accessibility. :numref:`Table %s <shkeys>` "
+"and :numref:`Table %s <hokeys>` summarize the commonly used shortcut and "
+"hotkeys."
+msgstr ""
+
+#~ msgid ""
+#~ "File menu icons are taken from the installed icon theme. :numref:`Table %s "
+#~ "<table_1>` lists some commonly used icons and their default file names."
+#~ msgstr ""
+
+#~ msgid "Function"
+#~ msgstr ""
+
+#~ msgid "File Menu Icon"
+#~ msgstr ""
+
+#~ msgid "File Name"
+#~ msgstr ""
+
+#~ msgid "row 1, cell 2"
+#~ msgstr ""
+
+#~ msgid "window-close.png"
+#~ msgstr ""
+
+#~ msgid "row 2, cell 2"
+#~ msgstr ""
+
+#~ msgid "configure.png"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Keyboard shortcuts are extremely useful to many users, and |lumina| attempts"
+#~ " to include shortcuts in every utility. Qt simplifies assigning keyboard "
+#~ "shortcuts. For example, configuring keyboard shortcuts to browse the "
+#~ "\"File\" menu is as simple as adding :command:`&File` to the menu entry's "
+#~ "text field during application creation. Whichever letter has the *&* symbol "
+#~ "in front will become the new hotkey. A shortcut key can also be made by "
+#~ "clicking the menu or submenu entry and assigning a shortcut key. Avoid "
+#~ "creating duplicate hotkeys or shortcuts. Every entry in a menu or submenu "
+#~ "should have a key assigned for accessibility. :numref:`Table %s <table_2>` "
+#~ "and :numref:`Table %s <table_3>` summarize the commonly used shortcut and "
+#~ "hotkeys."
+#~ msgstr ""
+
+#~ msgid "Commonly Used File Menu Icons"
+#~ msgstr ""
 
 #~ msgid ": Lumina Issues Tracker"
 #~ msgstr ""
