@@ -937,9 +937,9 @@ If another display is attached, the :guilabel:`Add Screen` tab is
 activated. On this tab the user can configure the new input resolution
 as well as make it the new system default.
 
-Within the area that the inputs are listed the user is able to click and
-drag those that are attached. The arragement of the displays affect the
-borders to switch between monitors.
+Within the area the displays are listed, the user is able to drag each
+display. The arragement of the displays affect which borders switch
+between monitors.
 
 Located in the top right of the window are two buttons. The top
 button refreshs the connected displays. The button below it
