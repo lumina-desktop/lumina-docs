@@ -937,13 +937,17 @@ If another display is attached, the :guilabel:`Add Screen` tab is
 activated. On this tab the user can configure the new input resolution
 as well as make it the new system default.
 
-Located in the top right of the window are two buttons. The refresh
-button will refresh the connected displays. The disable button will
-disable the selected input.
+Within the area the displays are listed, the user is able to drag each
+display. The arragement of the displays affect which borders switch
+between monitors.
+
+Located in the top right of the window are two buttons. The top
+button refreshs the connected displays. The button below it
+disables the selected input.
 
 The user is able to create several profiles. To create profiles, apply
 the appropriate settings and select "New Profile" from the
-:guilabel:`Save` drop-down menu. It will then prompt the user to enter a
+:guilabel:`Save` drop-down menu. It then prompts the user to enter a
 name for the profile.
 
 .. index:: xdg-entry
