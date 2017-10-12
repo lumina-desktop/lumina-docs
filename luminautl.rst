@@ -917,20 +917,34 @@ similar to the one shown in :numref:`Figure %s <lumina15>`.
 
 .. _lumina15:
 
-.. figure:: images/lumina15a.png
+.. figure:: images/lumina15b.png
    :scale: 100%
 
    Configuring Monitors
 
-In this example, two display inputs are attached to the system and their
-current screen resolutions are displayed. If the display input supports
-multiple resolutions, these all appear in the :guilabel:`Resolution`
-drop-down menu to select a different resolution.
+In this example, two display inputs are attached to the system and the
+resolution for the selected input is displayed. If the display
+input supports multiple resolutions, these all appear in the
+:guilabel:`Resolution` drop-down menu to select a different resolution.
 
-If another display input is attached, the :guilabel:`Add Screen` tab is
-activated in order to configure the new input's resolution.
-Additionally, the user can choose to make the new input the system
-default.
+Underneath the :guilabel:`Resolution` drop-down menu the user is able
+choose the orientation of their screen. This may prove useful if the
+user orients their monitor vertically or upside down. Also, the user can
+make the selected input the primary screen by checking the Primary
+Screen box.
+
+If another display is attached, the :guilabel:`Add Screen` tab is
+activated. On this tab the user can configure the new input resolution
+as well as make it the new system default.
+
+Located in the top right of the window are two buttons. The refresh
+button will refresh the connected displays. The disable button will
+disable the selected input.
+
+The user is able to create several profiles. To create profiles, apply
+the appropriate settings and select "New Profile" from the
+:guilabel:`Save` drop-down menu. It will then prompt the user to enter a
+name for the profile.
 
 .. index:: xdg-entry
 .. _xdgentry:
