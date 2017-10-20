@@ -1,0 +1,64 @@
+.Dd January 13, 2017 <Date>
+.Dt PC-UPDATEMANAGER 1<name and manpage section #>
+.Os 1.0 <version #>
+
+.Sh NAME <section header>
+.Nm pc-updatemanager <name>
+.Nd Updater utility for TrueOS <description>
+
+.Sh SYNOPSIS
+.Nm
+.Op Fl <argument; new .Op Fl entry for each argument>
+.Br <next line>
+<repeat .Nm, .Op Fl, .Br as necessary>
+<ALTERNATE METHOD>
+.Nm
+[-ex][-x name][-P][-c | -m]
+
+.Sh DESCRIPTION
+The
+.Nm
+utility <verbose description>
+.Pp <blank line, position holder>
+Here are the options:
+.Bl -tag -width indent <indent all that follows>
+.It Fl <d> <Adds a dash and bolds them both>
+<Argument description>
+.It Fl <h> <adds the dash and bolds them both>
+<argument description>
+.El <end the indent section>
+
+. Pp <blank line>
+The available action commands available to you are
+.It \fB<command>\fR
+This does X with Y on Z.
+
+.Sh <ALL USER CREATED SECTIONS>
+
+.Sh FILES
+pc-updatemanager
+.Br <next line>
+/usr/local/shar/trueos/pc-updatemanager
+.Br <next line>
+pc-updatemanger-201701060022-b219e928fb.txz
+.Br <next line>
+pc-updatemanager-201701060022.txz
+.Br <next line>
+/usr/local/share/licenses/pc-updatemanager-201701060022
+.Br <next line>
+/usr/local/share/trueos/pc-updatemanager
+.Br <next line>
+/var/db/pc-updatemanager
+.Br <next line>
+pc-updatemanager-auto.log
+.Br <next line>
+pc-updatemanager.log
+.Br <next line>
+pc-updatemanager.log.prev
+
+.Sh SEE ALSO
+.Xr <manpage #>
+
+.Sh AUTHORS
+.An Tim Moore
+.Aq timmoore88@gmail.com

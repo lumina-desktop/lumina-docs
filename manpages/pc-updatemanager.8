@@ -1,0 +1,65 @@
+.Dd January 13, 2017
+.Dt PC-UPDATEMANAGER 8
+.Os TrueOS Rolling Release
+.\"----------------------------------------------------------------
+.Sh NAME
+.Nm pc-updatemanager
+.Nd System update utility for TrueOS.
+.\"----------------------------------------------------------------
+.Sh SYNOPSIS
+.Nm
+.Op <command> <args>
+.\"----------------------------------------------------------------
+.Sh DESCRIPTION
+The
+.Nm
+utility finds and installs updates to TrueOS.
+There are numerous commands used with
+.Nm
+that install updates and manage system branches.
+.Pp
+.\" Here are the options:
+All commands automatically boot-strap the updater to its latest verion.
+.Pp
+Here are the available commands:
+.Bl -tag -width indent
+.It Ic branches
+List available system branches.
+.It Ic chbranch Ar branchname
+Change to a new system branch.
+.It Ic check
+Checks for system updates.
+.It Ic showeol
+Show end of life (support) date for this release.
+.It Ic install Ar update1, update2, ...
+Install specified update(s).
+.It Ic pkgcheck
+Check for updates to packages.
+.It Ic pkgupdate Ar -f
+Installs package updates. Invoking the
+.Fl f
+flag forces package updates, restoring all packages to a pristine working condition.
+.It Ic syncconf
+Update TrueOS pkg configuration.
+.It Ic confcheck
+Check TrueOS pkg configuration
+.It Ic cron
+Perform delayed check for system and pkg updates.
+.\"----------------------------------------------------------------
+.Sh EXAMPLES
+.Bl -tag -width indent
+.It pc-updatemanager pkgupdate -f
+Force an update to all installed packages.
+.\"----------------------------------------------------------------
+.Sh FILES
+.Bl -tag -width indent
+.It Pa /usr/local/share/trueos/pc-updatemanager/conf/sysupdate.conf
+Configuration settings for TrueOS Updater Service
+.\"----------------------------------------------------------------
+.Sh SEE ALSO
+.Xr beadm(1),
+.Xr pkg(8)
+.\"----------------------------------------------------------------
+.Sh AUTHORS
+.An Tim Moore
+.Aq timmoore88@gmail.com

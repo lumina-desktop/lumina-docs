@@ -1,0 +1,10 @@
+Ok: command to run to compress/install the man page:
+
+gzip -c pc-updatemanager.8 > /usr/local/man/man8/pc-updatemanager.8.gz
+
+I just added this into the pc-updatemanager install routine here: trueos/pc-updatemanager@ac3c3f3
+
+This one was a bit awkward because it is basically a shell script to do the install
+
+For Qt5 projects, you just need something like this instead:
+ https://github.com/trueos/pc-mounttray/blob/master/src-qt5/pc-sysconfig/pc-sysconfig.pro (Look at the MANPAGES lines: 24-28)
