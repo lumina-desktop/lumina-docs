@@ -7,7 +7,8 @@
   {%- set titlesuffix = "" %}
 {%- endif %}
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
@@ -16,31 +17,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% block htmltitle %}
   <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+	<script type="text/javascript" src="{{ pathto('_static/js/rotateads.js', 1) }}"></script>
   {% endblock %}
 
   {# FAVICON #}
   {% if favicon %}
     <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1) }}"/>
   {% endif %}
-  {# CANONICAL URL #}
-  {% if theme_canonical_url %}
-    <link rel="canonical" href="{{ theme_canonical_url }}{{ pagename }}.html"/>
-  {% endif %}
 
   {# CSS #}
 
   {# OPENSEARCH #}
-  {% if not embedded %}
     {% if use_opensearch %}
       <link rel="search" type="application/opensearchdescription+xml" title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}" href="{{ pathto('_static/opensearch.xml', 1) }}"/>
     {% endif %}
 
-  {% endif %}
-
-  {# RTD hosts this file, so just load on non RTD builds #}
-  {% if not READTHEDOCS %}
     <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
-  {% endif %}
 
   {% for cssfile in css_files %}
     <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
@@ -85,72 +77,72 @@
 
 <body class="wy-body-for-nav" role="document">
 
-  {% block extrabody %} {% endblock %}
   <div class="wy-grid-for-nav">
 
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
-          {% block sidebartitle %}
+      <div class="wy-side-nav-search">
+        {% block sidebartitle %}
 
-          {% if logo and theme_logo_only %}
-            <a href="{{ pathto(master_doc) }}">
+        {% if logo and theme_logo_only %}
+          <a href="{{ pathto(master_doc) }}">
+        {% else %}
+          <a href="{{ pathto(master_doc) }}" class="icon icon-home"> {{ project }}
+        {% endif %}
+
+        {% if logo %}
+          {# Not strictly valid HTML, but it's the only way to display/scale it properly, without weird scripting or heaps of work #}
+          <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" />
+        {% endif %}
+        </a>
+
+        {% include "searchbox.html" %}
+
+        {% endblock %}
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        {% block menu %}
+          {% set toctree = toctree(maxdepth=4, collapse=theme_collapse_navigation, includehidden=True) %}
+          {% if toctree %}
+              {{ toctree }}
           {% else %}
-            <a href="{{ pathto(master_doc) }}" class="icon icon-home"> {{ project }}
-          {% endif %}
-
-          {% if logo %}
-            {# Not strictly valid HTML, but it's the only way to display/scale it properly, without weird scripting or heaps of work #}
-            <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" />
-          {% endif %}
-          </a>
-
-          {% if theme_display_version %}
-            {%- set nav_version = version %}
-            {% if READTHEDOCS and current_version %}
-              {%- set nav_version = current_version %}
-            {% endif %}
-            {% if nav_version %}
-              <div class="version">
-                {{ nav_version }}
-              </div>
-            {% endif %}
-          {% endif %}
-
-          {% include "searchbox.html" %}
-
-          {% endblock %}
-        </div>
-
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          {% block menu %}
-            {#
-              The singlehtml builder doesn't handle this toctree call when the
-              toctree is empty. Skip building this for now.
-            #}
-            {% if 'singlehtml' not in builder %}
-              {% set global_toc = toctree(maxdepth=theme_navigation_depth|int, collapse=theme_collapse_navigation, includehidden=True) %}
-            {% endif %}
-            {% if global_toc %}
-              {{ global_toc }}
-            {% else %}
               <!-- Local TOC -->
               <div class="local-toc">{{ toc }}</div>
-            {% endif %}
-          {% endblock %}
-        </div>
+          {% endif %}
+        {% endblock %}
       </div>
+      <div id="wy-menu rst-imagebox2" style=width:190px;height:205px; data-spy="affix" role="navigation" aria-label="main navigation" <p>Advertising &nbsp<a href="introducing.html#ethical-advertising-policy"><img src="{{pathto("_static/information-icon.png", 1) }}" border="0" style=width:14px;height:14px; alt="image"/></a></p>
+	{% block imagecontainer  %}
+		
+		 <script type="text/javascript">
+		function randomImg(){
+		var myImages = new Array();		
+		myImages[1] = "_static/newegg.jpg";
+		myImages[2] = "_static/freenas2.png";
+		
+		var myLinks = new Array();
+	
+		myLinks[1] = "https://track.flexlinkspro.com/a.ashx?foid=1095806.1187656&foc=1&fot=9999&fos=1";
+		myLinks[2] = "https://www.ixsystems.com/freenas-mini/";
+		
+		var rnd = Math.floor((Math.random() * 2) +1);
+		
+		document.write('<a href="'+myLinks[rnd]+'"><img src="'+myImages[rnd]+'" border="0"></a>');
+		}
+		randomImg();
+		</script>
+	{% endblock %}	
+       </div>
+	&nbsp;
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
-      {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
+      {# MOBILE NAV, TRIGGERS SIDE NAV ON TOGGLE #}
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        {% block mobile_nav %}
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="{{ pathto(master_doc) }}">{{ project }}</a>
-        {% endblock %}
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="{{ pathto(master_doc) }}">{{ project }}</a>
       </nav>
 
 
@@ -162,9 +154,6 @@
            <div itemprop="articleBody">
             {% block body %}{% endblock %}
            </div>
-           <div class="articleComments">
-            {% block comments %}{% endblock %}
-           </div>
           </div>
           {% include "footer.html" %}
         </div>
@@ -175,35 +164,29 @@
   </div>
   {% include "versions.html" %}
 
-  {% if not embedded %}
-
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'{{ url_root }}',
             VERSION:'{{ release|e }}',
-            LANGUAGE:'{{ language }}',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'{{ '' if no_search_suffix else file_suffix }}',
-            HAS_SOURCE:  {{ has_source|lower }},
-            SOURCELINK_SUFFIX: '{{ sourcelink_suffix }}'
+            HAS_SOURCE:  {{ has_source|lower }}
         };
     </script>
     {%- for scriptfile in script_files %}
-      <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
+	<script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
     {%- endfor %}
 
-  {% endif %}
-
-  {# RTD hosts this file, so just load on non RTD builds #}
-  {% if not READTHEDOCS %}
     <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
-  {% endif %}
 
   {# STICKY NAVIGATION #}
   {% if theme_sticky_navigation %}
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.StickyNav.enable();
+      });
+      jQuery(window).load(function(){
+          jQuery("#gsc-i-id1").attr("placeholder", "Search the Docs...");
       });
   </script>
   {% endif %}
