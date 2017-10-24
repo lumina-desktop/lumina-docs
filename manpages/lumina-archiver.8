@@ -1,0 +1,38 @@
+.Dd October 24, 2017
+.Dt LUMINA-ARCHIVER 8
+.Os 1.3.3
+
+.Sh NAME
+.Nm lumina-archiver
+.Nd is a graphical front-end to tar and is used to manage and/or create archives.
+
+.Sh SYNOPSIS
+.Nm
+.Op <argument> 
+.Op <file>
+
+.Sh DESCRIPTION
+.Nm
+is a graphical archive manager based around the tar utility, which also provides
+limited support to copying USB images to a USB device via the dd utility.
+.Nm
+requires two runtime utilities: tar and dd. The tar utility is used for the
+backend archive control system, and the dd utility is used to copy an image file
+("*.img") to a USB device.
+.Pp
+There are a couple of arguments for
+.Nm
+and can be found below:
+.Bl -tag -width indent
+.It Ic --burn-img
+This launches the burn dialog as soon as lumina-archiver loads.
+.It Ic --ax
+This performs auto-extraction on a file into a new directory created with the same
+name as the given file.
+
+.Sh EXAMPLES
+.Bl -tag -width indent
+.It lumina-archiver --burn-img ./TrueOS-2017-07-05-x64-USB.img
+Opens the burn dialog for TrueOS-2017-07-05-x64-USB.img.
+.It lumina-archiver --ax ./lumina-master.zip
+Auto-extracts lumina-master.zip into a directory called lumina-master.
