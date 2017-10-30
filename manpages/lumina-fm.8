@@ -1,4 +1,4 @@
-.Dd October 24, 2017
+.Dd October 27, 2017
 .Dt LUMINA-FM 8
 .Os 1.3.3
 
@@ -13,27 +13,25 @@
 
 .Sh DESCRIPTION
 .Nm
-is the CLI command to open Insight File Manager. From the file manager interface, you can
-maintain the files stored on the system. The utility command can take an optional argument and
-file path. If no argument or file path is specified, the command will open the Insight File Manager
-in the home directory. A specified file path while the interface is already open will simply open a
-new tab in the existing window.
+is the CLI command to open Insight File Manager. The file manager interface can
+maintain the files stored on the system.
+.Nm
+can take an optional argument and file path. If no argument or file path is
+specified, the command will open the Insight File Manager in the home
+directory. Specifying a file path while the interface is open creates a new
+tab in the existing window.
 .Pp
 .Bl -tag -width indent
 .It Ic -new-instance
-This argument opens the Insight File Manager in a new window.
+Opens Insight File Manager in a new window.
 
 .Sh EXAMPLES
 .Bl -tag -width indent
-.It lumina-fm -new-instance
-Opens the Insight File Manager in a new window.
 .It lumina-fm -new-instance /usr/bin/etc
-Opens the file manager in a new window with the specified directory.
+Opens Insight in a new window pointed to the specified directory.
 .It lumina-fm /usr/etc/bin
-Opens the file manager in the specificed directory. 
-If an existing file manager window is open, it will open a second
-tab in the specified directory.
-
+Opens the specified directory with the file manager. If Insight is
+already open, a second tab is created.
 .Sh AUTHORS
 .An Aaron St. John
 .Aq aaron@ixsystems.com
