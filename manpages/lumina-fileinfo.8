@@ -1,26 +1,31 @@
-.Dd October 27, 2017
+.Dd October 30, 2017
 .Dt LUMINA-FILEINFO 8
 .Os 1.3.3
 
 .Sh NAME
 .Nm lumina-fileinfo
-.Nd views properties of files. Includes creator for XDG application registrations.
+.Nd views properties of files. Includes creator for XDG application
+registrations.
 
 .Sh SYNOPSIS
 .Nm
-.Op file
+.Op Fl application | link
+.Op Ar FILE
+./"Ken plans to rework -application and -link.
+./"These flags only work with a .desktop filetype, but are buggy.
 
 .Sh DESCRIPTION
 .Nm
-displays a graphical utility to view and change file properties. It shows
-file details including type, mimetype, file size, owner, group, permissions,
-date created, and date of last modification.
+displays a graphical utility to view and change file properties.
+It shows file details including type, mimetype, file size, owner, group,
+permissions, date created, and date of last modification.
 
 .Sh EXAMPLES
 .Bl -tag -width indent
 .It lumina-fileinfo /usr/home/aaron/Downloads/Testing.png
- Opens the utility which shows more information about Testing.png
+Opens the utility and shows detailed information about Testing.png
+.El
 
 .Sh AUTHORS
-.An Aaron St. John
+.An Aaron St. John and Tim Moore
 .Aq aaron@ixsystems.com
