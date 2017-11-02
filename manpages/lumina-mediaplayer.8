@@ -1,4 +1,4 @@
-.Dd October 31, 2017
+.Dd November 2, 2017
 .Dt LUMINA-MEDIAPLAYER 8
 .Os 1.3.3
 
@@ -15,16 +15,13 @@ services.
 
 .Sh DESCRIPTION
 .Nm
-opens up the graphical interface for the media player.
+opens the graphical interface for the media player.
 The user can sync a Pandora account and stream music.
-The user can also create and manage a playlist of media files from their
-system.
+The user can also create and manage a playlist of media files.
 .Pp
-The command can take multiple file names at a time and add them into a
-playlist.
+Listing multiple files opens them in a playlist.
 It can open .mp3, .mp4, .flac, .acc, .mpeg2, and mpeg4 files.
-Other than using the gui, the user is able to add a song by specifying
-a file name or multiple file names.
+The user can use the command line to add songs by listing media file names.
 .Pp
 .Nm
 has one optional argument:
@@ -47,9 +44,8 @@ playlist.
 .El
 
 .Sh OPTIONAL RUNTIME DEPENDENCIES
-If other lumina utilities are installed more options are available.
-The following are optional for
-.Nm
+Installing other utilities can make more options available.
+These extra utilities are supported:
 .Pp
 .Bl -tag -width indent
 .It Ic pianobar
@@ -57,5 +53,5 @@ This provides streaming from the Pandora online radio service.
 .El
 
 .Sh AUTHORS
-.An Aaron St. John
+.An Aaron St. John and Tim Moore
 .Aq aaron@ixsystems.com
