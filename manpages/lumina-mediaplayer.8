@@ -1,44 +1,57 @@
-.Dd October 27, 2017
+.Dd November 2, 2017
 .Dt LUMINA-MEDIAPLAYER 8
 .Os 1.3.3
 
 .Sh NAME
 .Nm lumina-mediaplayer
-.Nd is a graphical utility to play media files and stream online radio services.
+.Nd a graphical utility to play media files and stream online radio
+services.
 
 .Sh SYNOPSIS
 .Nm
-.Op <FileName1 FileName2  ... >
-.Nm
-.Op <argument>
+.Op Fl -pandora
+.Op Ar FILES
+
 
 .Sh DESCRIPTION
 .Nm
-opens up the graphical interface for the media player. The user can sync a Pandora account
-and stream music. The user can also create and manage a playlist of media files from their system.
+opens the graphical interface for the media player.
+The user can sync a Pandora account and stream music.
+The user can also create and manage a playlist of media files.
 .Pp
-The command can take multiple file names at a time and add them into a playlist. It can
-open .mp3, .mp4, .flac, .acc, .mpeg2, and mpeg4 files.
-Other than using the gui, the user is able to add a song by specifying a file name
-or multiple file names.
+Listing multiple files opens them in a playlist.
+It can open .mp3, .mp4, .flac, .acc, .mpeg2, and mpeg4 files.
+The user can use the command line to add songs by listing media file names.
 .Pp
 .Nm
-has one optional argument, and it simply opens up the interface on the Pandora account page.
+has one optional argument:
 .Bl -tag -width indent
 .It Ic --pandora
 Opens the interface on the Pandora account page.
+.El
 
 .Sh EXAMPLES
-
-.Bl -tag -width indent
-.It lumina-mediaplayer Downloads/Testing.mp3
+.Pp
+.Dl % lumina-mediaplayer Downloads/Testing.mp3
 Opens the interface and adds Testing.mp3 into the playlist.
-.It lumina-mediaplayer Downloads/Testing.mp3 Testing2.mp4 Testing 3.mp3
-Opens the interface and adds Testing.mp3, Testing2.mp4, and
-Testing 3.mp3 into the playlist.
-.It lumina-mediaplayer --pandora
-Opens the interface on the Pandora account page.
+.Dl % lumina-mediaplayer Downloads/Testing.mp3 Testing2.mp4
+Opens the interface and adds Testing.mp3 and Testing2.mp4 into the
+playlist.
+
+.Sh OPTIONAL RUNTIME DEPENDENCIES
+Installing other utilities can make more options available.
+These extra utilities are supported:
+.Pp
+.Bl -tag -width indent
+.It Ic pianobar
+This provides streaming from the Pandora online radio service.
+.El
+
+.Sh FILES
+.Bl -tag -width indent
+.It Pa /usr/local/bin/lumina-mediaplayer
+.El
 
 .Sh AUTHORS
-.An Aaron St. John
+.An Aaron St. John and Tim Moore
 .Aq aaron@ixsystems.com
