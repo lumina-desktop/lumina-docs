@@ -1,4 +1,4 @@
-.Dd November 2, 2017
+.Dd November 3, 2017
 .Dt LUMINA-SEARCH 8
 .Os  1.3.3
 
@@ -27,11 +27,12 @@ The following are optional commands for
 .It Ic -no-excludes
 Do not exclude anything from the search.
 .It Ic -dir
-Opens the utility pointed at the current working directory.
+Opens the utility pointed at the working directory.
 .It Ic -dir Ar DIRECTORY
 Opens the utility pointed at the specified directory.
 .It Ic -search Ar term
 Opens the utility and searchs the specified term.
+Include double quotes if searching multiple terms.
 .El
 
 .Sh EXAMPLES
@@ -39,8 +40,13 @@ Opens the utility and searchs the specified term.
 .Dl % lumina-search -dir /home/aaron/Downloads/
 Opens search utility pointing to Downloads.
 .Pp
-.Dl % lumina-archiver --ax ./lumina-master.zip
-Auto-extracts lumina-master.zip into a directory called lumina-master.
+.Dl % lumina-search -search testing
+Searches applications for things relavent to the term "testing".
+
+.Sh FILES
+.Bl -tag -width indent
+.It Pa /usr/local/bin/lumina-search
+.El
 
 .Sh AUTHORS
 .An Aaron St. John
