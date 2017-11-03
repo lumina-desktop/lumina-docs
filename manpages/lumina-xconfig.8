@@ -1,1 +1,33 @@
-Dummy file
+.Dd November 3, 2017
+.Dt LUMINA-XCONFIG 8
+.Os 1.3.3
+
+.Sh NAME
+.Nm lumina-xconfig
+.Nd a graphical front-end to xrandr. It is used to manage monitor
+configurations.
+
+.Sh SYNOPSIS
+.Nm
+.Op Fl -reset-monitors
+
+.Sh DESCRIPTION
+.Nm
+opens the graphical utility for managing monitor configurations.
+It also requires the runtime utility xrandr.
+The xrandr utility provides options such as rotate, primary screen,
+resolution, and more.
+.Nm
+is able to take one optional argument.
+.Bl -tag -width indent
+.It Ic --reset-monitors
+Resets the configuration to default.
+.El
+
+.Sh FILES
+.Bl -tag -width indent
+.It Pa /usr/local/bin/lumina-xconfig
+.El
+
+.Sh SEE ALSO
+.Xr xrandr(1)
