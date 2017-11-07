@@ -1,10 +1,10 @@
-.Dd November 3, 2017
+.Dd November 7, 2017
 .Dt LUMINA-SEARCH 8
 .Os  1.3.3
 
 .Sh NAME
 .Nm lumina-search
-.Nd a simple graphical utility to search for files and applications.
+.Nd searches for files and applications.
 
 .Sh SYNOPSIS
 .Nm
@@ -15,24 +15,22 @@
 .Sh DESCRIPTION
 .Nm
 brings up the graphical utility to search the system.
-There are two search filters to chose from: "Applications" and
-"Files or Directories".
-The utility will search the system depending on the selected filter.
+There are two search filters: "Applications" and "Files or Directories".
+The utility searches the system according to the selected filter.
 Search results populate a list with the most relevant options first.
 .Pp
-The following are optional commands for
 .Nm
-:
+optional commands:
 .Bl -tag -width indent
 .It Ic -no-excludes
-Do not exclude anything from the search.
+Excludea nothing from the search.
 .It Ic -dir
 Opens the utility pointed at the working directory.
 .It Ic -dir Ar DIRECTORY
 Opens the utility pointed at the specified directory.
 .It Ic -search Ar term
-Opens the utility and searchs the specified term.
-Include double quotes if searching multiple terms.
+Opens the utility and searchs for the specified term.
+Include double quotes if searching for multiple terms.
 .El
 
 .Sh EXAMPLES
@@ -41,7 +39,7 @@ Include double quotes if searching multiple terms.
 Opens search utility pointing to Downloads.
 .Pp
 .Dl % lumina-search -search testing
-Searches applications for things relavent to the term "testing".
+Searches applications for things relevant to the term "testing".
 
 .Sh FILES
 .Bl -tag -width indent
