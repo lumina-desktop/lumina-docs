@@ -1,0 +1,36 @@
+.Dd December 18, 2017
+.Dt LUMIMA-PDF 8
+.Os 1.4.1
+
+.Sh NAME
+.Nm lumina-pdf
+.Nd a utility to open and view .pdf files.
+
+.Sh SYNOPSIS
+.Nm
+.Op Ar FILE
+
+.Sh DESCRIPTION
+.Nm
+is used to open and view .pdf files.
+There are no flags.
+However, the command takes an optional file name or file path that
+points to a .pdf file.
+The lumina-pdf viewer will launch, but will not display anything if the
+specified path or file does not exist.
+Also, the lumina-pdf viewer will not display anything if the specified
+path or file does not have a .pdf extension.
+
+.Sh EXAMPLES
+.Pp
+.Dl % lumina-pdf /usr/home/test/Documents/helloworld.pdf
+Displays the .pdf file "helloworld" in the lumina-pdf viewer.
+
+.Sh FILES
+.Bl -tag -width indent
+.It Pa /usr/local/bin/lumina-pdf
+.El
+
+.Sh AUTHORS
+.An Aaron St. John
+.Aq aaron@ixsystems.com
