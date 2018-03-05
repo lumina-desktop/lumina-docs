@@ -32,10 +32,10 @@ users to collaborate and contribute to the project:
   If requesting a feature, be sure the title of the issue begins with
   **Feature Request:**.
 
-* **Gitter:** `Gitter <https://gitter.im/trueos/lumina>`_ is a chat
-  option with GitHub integration. Users can use their GitHub account to
-  sign into Gitter, and activity in an integrated repository will be
-  displayed in a column next to the chat window.
+* **Telegram:** `Telegram <https://telegram.org/>`_ is a messaging
+  application the TrueOS project uses to communicate. Discussions or
+  questions about |lumina| are welcome in the :literal:`TrueOS Community`
+  channel.
 
 * **IRC:** The #pcbsd or #lumina-desktop channels on the Freenode IRC
   server are also available for collaborating with other users and the

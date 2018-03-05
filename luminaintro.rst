@@ -65,7 +65,7 @@ including the Copyright notice, Trademarks used in the document, and the
 Copyright & Trademarks
 ----------------------
 
-Copyright © 2005-2017, iXsystems
+Copyright © 2005-2018, iXsystems
 
 The |lumina| Handbook is freely available for sharing and redistribution
 under the terms of the
