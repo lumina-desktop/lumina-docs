@@ -992,21 +992,6 @@ msgid ""
 "similar to the one shown in :numref:`Figure %s <lumina15>`."
 msgstr ""
 
-#: ../../luminautl.rst:937
-msgid ""
-"In this example, two display inputs are attached to the system and their "
-"current screen resolutions are displayed. If the display input supports "
-"multiple resolutions, these all appear in the :guilabel:`Resolution` drop-"
-"down menu to select a different resolution."
-msgstr ""
-
-#: ../../luminautl.rst:942
-msgid ""
-"If another display input is attached, the :guilabel:`Add Screen` tab is "
-"activated in order to configure the new input's resolution. Additionally, "
-"the user can choose to make the new input the system default."
-msgstr ""
-
 #: ../../luminautl.rst:76 ../../luminautl.rst:441
 msgid "Ctrl + E"
 msgstr ""
@@ -1333,19 +1318,19 @@ msgstr ""
 msgid "Configuring Monitors"
 msgstr ""
 
-#: ../../luminautl.rst:0
+#: ../../luminautl.rst:53
 msgid "Archiver operations"
 msgstr ""
 
-#: ../../luminautl.rst:133 ../../luminautl.rst:0
+#: ../../luminautl.rst:133 ../../luminautl.rst:144
 msgid "|lumina| Calculator Advanced Operations"
 msgstr ""
 
-#: ../../luminautl.rst:0
+#: ../../luminautl.rst:221
 msgid "Insight Manager *File* Options"
 msgstr ""
 
-#: ../../luminautl.rst:0
+#: ../../luminautl.rst:248
 msgid "Insight Manager \"View\" Options"
 msgstr ""
 
@@ -1353,7 +1338,7 @@ msgstr ""
 msgid "Git Clone Repository Wizard"
 msgstr ""
 
-#: ../../luminautl.rst:0
+#: ../../luminautl.rst:323
 msgid "Insight Manager Navigation bar"
 msgstr ""
 
@@ -1361,11 +1346,11 @@ msgstr ""
 msgid "Insight Columns Display"
 msgstr ""
 
-#: ../../luminautl.rst:0
+#: ../../luminautl.rst:374
 msgid "Insight Manager Directory Operations"
 msgstr ""
 
-#: ../../luminautl.rst:0
+#: ../../luminautl.rst:413
 msgid "Insight Manager Operations"
 msgstr ""
 
@@ -1377,7 +1362,7 @@ msgstr ""
 msgid "Lumina Screenshot with *View* tab open."
 msgstr ""
 
-#: ../../luminautl.rst:0
+#: ../../luminautl.rst:633
 msgid "Lumina Screenshot menu options"
 msgstr ""
 
@@ -1385,7 +1370,7 @@ msgstr ""
 msgid "Lumina Screenshot with *Settings* tab open."
 msgstr ""
 
-#: ../../luminautl.rst:0
+#: ../../luminautl.rst:682
 msgid "Lumina Screenshot UI Options"
 msgstr ""
 
@@ -1436,7 +1421,7 @@ msgid ""
 "<insightbkmrks>` describes all these elements:"
 msgstr ""
 
-#: ../../luminautl.rst:0
+#: ../../luminautl.rst:280
 msgid "Insight Manager *Bookmark* Options"
 msgstr ""
 
@@ -1530,11 +1515,11 @@ msgstr ""
 msgid "Save this example and run it to see the full output:"
 msgstr ""
 
-#: ../../luminautl.rst:951
+#: ../../luminautl.rst:969
 msgid "XDG-Entry"
 msgstr ""
 
-#: ../../luminautl.rst:953
+#: ../../luminautl.rst:971
 msgid ""
 "This Qt5 utility generates :file:`.desktop` files and places them in the "
 "user's home directory (:file:`/usr/home/[username]`). Be sure to copy these "
@@ -1543,50 +1528,107 @@ msgid ""
 "numerous configurable elements:"
 msgstr ""
 
-#: ../../luminautl.rst:964
+#: ../../luminautl.rst:982
 msgid ".Desktop Creator (XDG-Entry)"
 msgstr ""
 
-#: ../../luminautl.rst:966
+#: ../../luminautl.rst:984
 msgid "**Name:** The specific name of the new :file:`.desktop` file."
 msgstr ""
 
-#: ../../luminautl.rst:968
+#: ../../luminautl.rst:986
 msgid ""
 "**Generic Name:** This text in this field displays as a tooltip (when "
 "enabled)."
 msgstr ""
 
-#: ../../luminautl.rst:971
+#: ../../luminautl.rst:989
 msgid ""
 "**Comment:** Adds more descriptive text to the :guilabel:`File Information`."
 msgstr ""
 
-#: ../../luminautl.rst:974
+#: ../../luminautl.rst:992
 msgid "**Keywords:** Simple word associations for the file."
 msgstr ""
 
-#: ../../luminautl.rst:976
+#: ../../luminautl.rst:994
 msgid ""
 "**Executable:** Click :guilabel:`Select` to open the file browser and choose"
 " an application to associate with this file."
 msgstr ""
 
-#: ../../luminautl.rst:979
+#: ../../luminautl.rst:997
 msgid ""
 "**Icon:** Click :guilabel:`Select` to open the file browser and choose an "
 "icon file to associate with this file."
 msgstr ""
 
-#: ../../luminautl.rst:982
+#: ../../luminautl.rst:1000
 msgid "**Categories:** Choose the category for this file."
 msgstr ""
 
-#: ../../luminautl.rst:984
+#: ../../luminautl.rst:1002
 msgid ""
 "**Run in Terminal:** Select this to open the file with the default terminal "
 "application."
 msgstr ""
+
+#: ../../luminautl.rst:937
+msgid ""
+"In this example, two display inputs are attached to the system and the "
+"resolution for the selected input is displayed. If the display input "
+"supports multiple resolutions, these all appear in the "
+":guilabel:`Resolution` drop-down menu to select a different resolution."
+msgstr ""
+
+#: ../../luminautl.rst:942
+msgid ""
+"Underneath the :guilabel:`Resolution` drop-down menu the user is able choose"
+" the orientation of their screen. This may prove useful if the user orients "
+"their monitor vertically or upside down. Also, the user can make the "
+"selected input the primary screen by checking the Primary Screen box."
+msgstr ""
+
+#: ../../luminautl.rst:948
+msgid ""
+"If another display is attached, the :guilabel:`Add Screen` tab is activated."
+" On this tab the user can configure the new input resolution as well as make"
+" it the new system default."
+msgstr ""
+
+#: ../../luminautl.rst:952
+msgid ""
+"Within the area the displays are listed, the user is able to drag each "
+"display. The arragement of the displays affect which borders switch between "
+"monitors."
+msgstr ""
+
+#: ../../luminautl.rst:956
+msgid ""
+"Located in the top right of the window are two buttons. The top button "
+"refreshs the connected displays. The button below it disables the selected "
+"input."
+msgstr ""
+
+#: ../../luminautl.rst:960
+msgid ""
+"The user is able to create several profiles. To create profiles, apply the "
+"appropriate settings and select \"New Profile\" from the :guilabel:`Save` "
+"drop-down menu. It then prompts the user to enter a name for the profile."
+msgstr ""
+
+#~ msgid ""
+#~ "In this example, two display inputs are attached to the system and their "
+#~ "current screen resolutions are displayed. If the display input supports "
+#~ "multiple resolutions, these all appear in the :guilabel:`Resolution` drop-"
+#~ "down menu to select a different resolution."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If another display input is attached, the :guilabel:`Add Screen` tab is "
+#~ "activated in order to configure the new input's resolution. Additionally, "
+#~ "the user can choose to make the new input the system default."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "If Insight is already open :command:`lumina-fm` will not open a new window, "

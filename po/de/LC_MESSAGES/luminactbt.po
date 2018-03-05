@@ -49,14 +49,6 @@ msgid ""
 " the title of the issue begins with **Feature Request:**."
 msgstr ""
 
-#: ../../luminactbt.rst:47
-msgid ""
-"**Gitter:** `Gitter <https://gitter.im/trueos/lumina>`_ is a chat option "
-"with GitHub integration. Users can use their GitHub account to sign into "
-"Gitter, and activity in an integrated repository will be displayed in a "
-"column next to the chat window."
-msgstr ""
-
 #: ../../luminactbt.rst:52
 msgid ""
 "**IRC:** The #pcbsd or #lumina-desktop channels on the Freenode IRC server "
@@ -611,11 +603,11 @@ msgstr ""
 msgid "Translation screen for lumina-config, Afrikaans language"
 msgstr ""
 
-#: ../../luminactbt.rst:0
+#: ../../luminactbt.rst:426
 msgid "Shortcut Keys"
 msgstr ""
 
-#: ../../luminactbt.rst:0
+#: ../../luminactbt.rst:442
 msgid "Hot Keys"
 msgstr ""
 
@@ -645,6 +637,20 @@ msgid ""
 "and :numref:`Table %s <hokeys>` summarize the commonly used shortcut and "
 "hotkeys."
 msgstr ""
+
+#: ../../luminactbt.rst:47
+msgid ""
+"**Telegram:** `Telegram <https://telegram.org/>`_ is a messaging application"
+" the TrueOS project uses to communicate. Discussions or questions about "
+"|lumina| are welcome in the :literal:`TrueOS Community` channel."
+msgstr ""
+
+#~ msgid ""
+#~ "**Gitter:** `Gitter <https://gitter.im/trueos/lumina>`_ is a chat option "
+#~ "with GitHub integration. Users can use their GitHub account to sign into "
+#~ "Gitter, and activity in an integrated repository will be displayed in a "
+#~ "column next to the chat window."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "File menu icons are taken from the installed icon theme. :numref:`Table %s "

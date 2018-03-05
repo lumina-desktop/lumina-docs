@@ -821,10 +821,6 @@ msgstr ""
 msgid "Copyright & Trademarks"
 msgstr ""
 
-#: ../../luminaintro.rst:80
-msgid "Copyright © 2005-2017, iXsystems"
-msgstr ""
-
 #: ../../luminaintro.rst:89
 msgid ""
 "|trueos| and the |trueos| logo are registered trademarks of `iXsystems "
@@ -1013,13 +1009,20 @@ msgstr ""
 msgid "Default Context Menu"
 msgstr ""
 
-#: ../../luminaintro.rst:0
+#: ../../luminaintro.rst:34
 msgid "Text Formatting Examples"
 msgstr ""
 
-#: ../../luminaintro.rst:0
+#: ../../luminaintro.rst:403
 msgid "|lumina| keyboard shortcuts"
 msgstr ""
+
+#: ../../luminaintro.rst:80
+msgid "Copyright © 2005-2018, iXsystems"
+msgstr ""
+
+#~ msgid "Copyright © 2005-2017, iXsystems"
+#~ msgstr ""
 
 #~ msgid ": |lumina| keyboard shortcuts"
 #~ msgstr ""
