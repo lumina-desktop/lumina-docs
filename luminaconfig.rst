@@ -21,7 +21,7 @@ within the Configuration utility.
 
 .. _lumina3:
 
-.. figure:: images/lumina3f.png
+.. figure:: images/lumina3g.png
    :scale: 100%
 
    |lumina| Desktop Settings

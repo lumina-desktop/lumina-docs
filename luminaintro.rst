@@ -277,7 +277,7 @@ section of the handbook.
 
 .. _lumina1:
 
-.. figure:: images/lumina1e.png
+.. figure:: images/lumina1f.png
    :scale: 50%
 
    Lumina Desktop
